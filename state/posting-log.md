@@ -6,6 +6,43 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-04T11:30:00Z
+
+### gemma-4-12b-local-multimodal | X | LIVE (customScheduled)
+
+**Text (tweet 1):** Google shipped Gemma 4 12B yesterday. Text, images, audio natively in a 12B model. Apache 2.0. Runs on a 16GB laptop. HN noticed before most did (885 upvotes this morning). For anyone building agents off-cloud or on a tight API budget, this is worth knowing about.
+
+**Thread tweet 2:** source: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/
+
+**Image style:** blueprint / schematic
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/gemma-4-12b-local-multimodal.png
+**Buffer post id:** 6a21734c46810dc859683eee
+**dueAt:** 2026-06-04T18:47:00Z
+
+---
+
+### deepseek-7b-first-raise | LinkedIn | LIVE (customScheduled)
+
+**Caption:** DeepSeek is raising $7 billion. First external round ever.
+
+The lab that built its entire reputation on efficiency with less is now on the same capital escalator as OpenAI and Anthropic.
+
+The round isn't closed yet. Term sheets being signed as of yesterday.
+
+A few thoughts on what this means for open-source AI. Swipe through.
+
+Once institutional money is in, do the open weights stay open?
+
+#AI #OpenSource #DeepSeek #Founders #AIBuilders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/deepseek-7b-first-raise.pdf
+**First comment (source):** https://technode.com/2026/06/04/deepseek-in-talks-to-raise-7-billion-from-tencent-catl-and-other-investors/
+**Buffer post id:** 6a21734dd0444b5c34df689f
+**dueAt:** 2026-06-04T17:23:00Z
+
+---
+
 ## 2026-06-04T10:19:38Z
 
 ### uber-ai-budget-cap | X | DRAFT (addToQueue + saveToDraft)

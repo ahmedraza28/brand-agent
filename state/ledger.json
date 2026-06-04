@@ -1,6 +1,20 @@
 {
   "covered": [
     {
+      "topic_key": "gemma-4-12b-local-multimodal",
+      "title": "Google releases Gemma 4 12B: open multimodal model (text, image, audio) runs on 16GB laptop under Apache 2.0",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "platform": ["x"],
+      "posted_at": "2026-06-04T11:30:00Z"
+    },
+    {
+      "topic_key": "deepseek-7b-first-raise",
+      "title": "DeepSeek in talks to raise $7B in first-ever external funding round led by Tencent at $52-59B valuation",
+      "url": "https://technode.com/2026/06/04/deepseek-in-talks-to-raise-7-billion-from-tencent-catl-and-other-investors/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-04T11:30:00Z"
+    },
+    {
       "topic_key": "uber-ai-budget-cap",
       "title": "Uber caps AI coding tools (Cursor, Claude Code) at $1,500/month after burning entire 2026 AI budget in 4 months",
       "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
