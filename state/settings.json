@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "mode": "live",
+  "_comment": "enabled:false = kill switch (compose but publish nothing). mode:draft = push to Buffer as drafts for review; mode:live = schedule for real. Edit + commit to change behavior with no routine edit."
+}
