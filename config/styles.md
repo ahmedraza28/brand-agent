@@ -6,9 +6,10 @@ The explicit requirement: **images must NOT follow the same visual pattern.** Th
 1. Read `state/recent-styles.json` (`{"recent": [...]}`). **Pick a style NOT in the last 6 used.** Append your pick to the front of `recent` and trim to 6 before committing.
 2. Beyond the named style, **diverge in composition, palette, and central metaphor every time.** Two "isometric 3D" images months apart should still look unrelated.
 3. **Not every post gets an image.** For a pure one-line hot-take, text-only is often stronger. Aim for an image on ~70% of posts, text-only on the rest — and vary *that* too. Variety includes presence/absence.
-4. **No text in the image** unless a short hand-lettered word genuinely belongs to the style. Image models render text badly; a misspelled word in your cover is an instant "AI made this." Default to no text.
-5. **No real logos, no real faces, no real people's likenesses.** Abstract, conceptual, or stylized only.
-6. Generate for clean cropping to 16:9 (X/LinkedIn landscape) or 1:1. Keep key content centered / high-in-frame.
+4. **REQUIRED: feature the subject company's / brand's actual logo or wordmark + brand colors**, rendered cleanly and prominently, integrated into the chosen art style — e.g. the Anthropic radial-sunburst mark, the Uber wordmark, the OpenAI / Nvidia / Google / Microsoft / Tesla / Meta logo. A clearly-correct logo makes the post instantly legible. If a post is about several companies, feature the main one (or both if it composes well). Get the logo right.
+5. **Short, accurate on-brand text is OK** — a 2-5 word headline (e.g. "NEARS $1 TRILLION") renders fine on the current model and reads like a real editorial cover. Keep it short and only if you're confident it spells correctly; the logo + the idea are the priority. **No real human faces or likenesses.** Avoid the robot / brain / glowing-orb clichés.
+6. The logo requirement (4) and the on-brand text (5) layer **on top of** the rotating art-direction — every post still picks a *different, non-recent* style (rule 1) and just renders the subject's logo within it. Logos + style variety coexist.
+7. Generate for clean cropping to 16:9 (X/LinkedIn landscape) or 1:1. Keep key content centered / high-in-frame.
 
 ## The palette (pick one NOT recently used; combine with a fresh subject metaphor)
 1. **Swiss / International typographic** — bold grid, flat color blocks, one accent, lots of negative space.
