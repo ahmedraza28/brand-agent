@@ -1,3 +1,18 @@
 {
-  "covered": []
+  "covered": [
+    {
+      "topic_key": "uber-ai-budget-cap",
+      "title": "Uber caps AI coding tools (Cursor, Claude Code) at $1,500/month after burning entire 2026 AI budget in 4 months",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "platform": ["x"],
+      "posted_at": "2026-06-04T10:19:38Z"
+    },
+    {
+      "topic_key": "anthropic-965b-ipo",
+      "title": "Anthropic files confidentially for IPO at $965B valuation after $65B Series H; revenue run-rate $9B to $47B in 5 months",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-04T10:19:38Z"
+    }
+  ]
 }
