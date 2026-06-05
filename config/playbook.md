@@ -17,7 +17,7 @@ Source: deep-research run `wk8u6rt4l` — 107 agents, 25 sources, 17/25 claims c
 
 - **Hook before the fold:** only the first ~140 characters (≈ 2 lines) show before "…see more". Front-load the hook. No throat-clearing.
 - **Length ~1,000-1,900 characters** for a text post (1.18× reach at 1,000+; under 300 underperforms). Short paragraphs, generous whitespace for skimmability — but do not overdo one-line-per-paragraph "broetry."
-- **Format leverage:** document/**carousel** posts are the single top format (+39% reach, +30% engagement, used by < 5% of creators). v1 ships text + a single image; a carousel-PDF path is a high-ROI later upgrade for framework/breakdown posts. **Avoid native video** (reach down 36% YoY).
+- **Format leverage:** document/**carousel** posts are the single top format (+39% reach, +30% engagement, used by < 5% of creators) — so they are now the **default LinkedIn format**, not just for framework/breakdown posts. The exact format rule lives in `config/carousel.md` and is driven by `state/settings.json` → `linkedin_format` (currently `"carousel"` = every LinkedIn post is a carousel deck; one per research topic). **Avoid native video** (reach down 36% YoY).
 - **Links suppress reach in the body** → put any link in the **first comment**, not the post. If the publishing path can't auto-add a first comment, **omit the link** from the body rather than embed it.
 - **Golden hour:** comments in the first 60 minutes drive distribution → **end with a question** that invites comments.
 - **Hashtags: 3-5** relevant ones, at the end.

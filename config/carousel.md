@@ -1,11 +1,13 @@
 # LinkedIn carousels (document posts) — the high-leverage format
 
-Research: document/carousel posts are LinkedIn's **top format (+39% reach, +30% engagement) and <5% of creators use them.** When a LinkedIn take is a **framework / breakdown / "here's what's actually going on"** with 3-5 discrete points, ship it as a **carousel** instead of a single image. For quick reactions / narrative posts, a single image (or text) is still right. Vary it — not every LinkedIn post is a carousel.
+Research: document/carousel posts are LinkedIn's **top format (+39% reach, +30% engagement) and <5% of creators use them.** This is the highest-ROI LinkedIn format, so it is now the **default** for every LinkedIn post.
 
-## When to use a carousel
-- The story breaks cleanly into **3-5 distinct points** (what changed / why it matters / what to do).
-- It's a "let me break this down" post, not a one-thought reaction.
-- LinkedIn only. (X has no native carousel via this path.)
+## When to use a carousel — read `state/settings.json` → `linkedin_format`
+**This setting governs the format decision (the routine's Step 6 defers the LinkedIn-format choice to this file).**
+
+- **`linkedin_format: "carousel"` (current policy):** EVERY LinkedIn post ships as a carousel — **no exceptions, even for one-thought reactions.** The daily target is **one carousel per research topic**, so with `research_per_day: 2` you publish a **guaranteed 2 LinkedIn carousels per day.** This means every research topic must reach LinkedIn — honor Step 5's cross-post rule (each topic → ALL channels); do not split topics one-per-channel. X always uses a single image (X has no native carousel); only the LinkedIn version becomes a carousel.
+  - **Thin / reaction topic?** Don't skip the carousel — structure it into the standard **3-5 slide scaffold**: what changed → why it matters → the nuance / counterpoint → what to do or watch → the open question. Every slide stays grounded (verified facts only; double-check $ figures). A real reaction still has 3-5 honest angles; find them rather than padding.
+- **`linkedin_format: "auto"` (legacy conditional):** carousel only when the take is a genuine **framework / breakdown** with 3-5 discrete points; quick reactions use a single image. Use this only if the setting is flipped back.
 
 ## How (the routine runs the generator in the repo)
 1. Write a spec JSON (see schema) capturing the cover title, 3-5 slides, and an outro. **All text is real and rendered cleanly — get the facts right** (same grounding rules; double-check $ figures).
