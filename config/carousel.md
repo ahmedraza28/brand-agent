@@ -41,6 +41,7 @@ Research: document/carousel posts are LinkedIn's **top format (+39% reach, +30% 
     {"heading": "...", "body": "..."}
   ],
   "outro": {"heading": "the question / takeaway", "body": "a closing line", "cta": "Follow Ahmed Raza for builder takes on AI"}
+  // NOTE: do NOT set "theme" — leave it out so the generator auto-rotates the look (see Themes below).
 }
 ```
 - 3-5 content slides (the deck is cover + slides + outro = 5-7 pages total).
@@ -50,5 +51,13 @@ Research: document/carousel posts are LinkedIn's **top format (+39% reach, +30% 
 ## Caption (the LinkedIn post text for a carousel)
 Short, NOT the full essay — the deck carries the substance. Hook line + one line of context + **end with a question** (golden-hour comments). The source link goes in `firstComment`. 1-3 hashtags. Still obey persona/guardrails (no em-dashes, human voice, verified facts).
 
-## Anti-repeat
-The carousel template is intentionally consistent *within* a deck. Variety across posts comes from the per-company **accent + logo**, and from alternating carousel vs single-image vs text. Don't make every LinkedIn post a carousel.
+## Themes — visual variety (auto-rotated, 2026-06-05)
+The deck is no longer a single fixed black look. `tools/make_carousel.py` carries **8 themes**, each a distinct **palette + layout** (cover composition, number style, footer style):
+
+`midnight` (near-black) · `paper` (warm cream) · `blueprint` (deep navy) · `brandwash` (a dark tint of the brand color) · `slate` (warm charcoal) · `ivory` (bright white) · `sand` (warm beige) · `carbon` (dark gradient).
+
+- **The generator picks the theme by anti-repeat ROTATION** — it reads/writes `state/recent-carousel-themes.json` and never reuses a theme from the last 4 decks, so consecutive decks (incl. the 2/day) never match. This is automatic: **just omit `theme` from the spec.** `git add -A` in Step 10 commits the updated state file so the rotation persists across runs.
+- The **per-company brand accent is preserved in every theme** (NVIDIA green, Anthropic rust, …); the theme only controls background / text / layout. Keep passing the right `accent`.
+- *Within* a single deck the look stays consistent (one theme per deck) — that's intentional; variety is **across** decks.
+- To pin a specific look for a one-off, set `"theme": "<name>"` in the spec (or `CAROUSEL_THEME=<name>` env). A forced theme is **not** recorded in the rotation history. Omit it in normal runs.
+- Carousel-vs-single-image: with `linkedin_format: "carousel"` every LinkedIn post is a carousel (see top of this file); X still uses a rotating single image (`config/styles.md`).
