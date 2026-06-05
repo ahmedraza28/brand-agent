@@ -1,6 +1,20 @@
 {
   "covered": [
     {
+      "topic_key": "anthropic-ai-builds-itself",
+      "title": "Anthropic: Claude wrote 80%+ of their production code in May 2026; task horizons doubling every 4 months",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "platform": ["x"],
+      "posted_at": "2026-06-05T10:00:00Z"
+    },
+    {
+      "topic_key": "github-copilot-token-billing",
+      "title": "GitHub Copilot switches to token-based billing June 1; some developer bills jump from $29 to $750",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-05T10:00:00Z"
+    },
+    {
       "topic_key": "gemma-4-12b-local-multimodal",
       "title": "Google releases Gemma 4 12B: open multimodal model (text, image, audio) runs on 16GB laptop under Apache 2.0",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",

@@ -6,6 +6,51 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-05T10:00:00Z
+
+### anthropic-ai-builds-itself | X | LIVE (customScheduled)
+
+**Text (tweet 1):** Claude wrote more than 80% of Anthropic's production code last month.
+
+That number will probably have some asterisk I'm not seeing. But even half of it is wild.
+
+Task horizons doubling every four months. At what point does the lab stop directing the work and start reviewing it?
+
+**Thread tweet 2:** source: https://www.anthropic.com/institute/recursive-self-improvement
+
+**Image style:** surrealist
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/anthropic-ai-builds-itself.png
+**Buffer post id:** 6a221c9ac6e450c20fcd6c9b
+**dueAt:** 2026-06-05T18:23:00Z
+
+---
+
+### github-copilot-token-billing | LinkedIn | LIVE (customScheduled)
+
+**Text:** One developer reported their GitHub Copilot bill jumping from $29 to $750 last month. Same tools. New billing model.
+
+GitHub switched from flat subscriptions to usage-based AI Credits on June 1. The logic makes sense from their side: agentic sessions and code review burn far more tokens than autocomplete. A fixed $19/month plan can't sustain that indefinitely.
+
+The problem is the transition. Token consumption was invisible during flat-rate billing. Engineers optimized for heavy usage because the pricing rewarded it. Now the meter is suddenly visible, the baselines don't exist, and the bill can be genuinely surprising.
+
+Autocomplete and Next Edit Suggestions are still free. AI Credits only kick in for chat, agent mode, and code review.
+
+I use AI coding tools every day building Ployo. My read: if your workflow is mostly autocomplete, your bill doesn't move. If you're running multi-file agent tasks regularly, the math looks different. Worth checking your June statement.
+
+What I'm watching longer term: whether metered pricing changes behavior, not just costs. Metering makes engineers think before they prompt. Could go either way.
+
+What does your Copilot bill look like since June 1?
+
+#GitHub #AITooling #Founders #AIBuilders #DeveloperExperience
+
+**Image style:** 80s retro-futurism poster
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/github-copilot-token-billing.png
+**First comment (source):** https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/
+**Buffer post id:** 6a221c9c73651bfe9d4add3e
+**dueAt:** 2026-06-05T17:41:00Z
+
+---
+
 ## 2026-06-04T11:30:00Z
 
 ### gemma-4-12b-local-multimodal | X | LIVE (customScheduled)
