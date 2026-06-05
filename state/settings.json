@@ -3,5 +3,6 @@
   "mode": "live",
   "research_per_day": 2,
   "channels": ["x", "linkedin"],
-  "_comment": "enabled:false = kill switch (compose, publish nothing). mode:draft = Buffer drafts for review / live = schedule for real. research_per_day = target AI-trend posts per day, EACH cross-posted to every channel in `channels` (raise this digit to scale up; the quality gate still applies). The Ployo diary routine separately posts 1 diary/day to these same channels."
+  "skip_days": ["sun"],
+  "_comment": "enabled:false = kill switch (compose, publish nothing). mode:draft = Buffer drafts for review / live = schedule for real. research_per_day = target AI-trend posts per day, EACH cross-posted to every channel in `channels` (raise this digit to scale up; the quality gate still applies). skip_days = weekday abbrevs (UTC) to NOT post on (mon,tue,wed,thu,fri,sat,sun). The Ployo diary routine separately posts 1 diary/day to these same channels."
 }
