@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "nvidia-nemotron-3-ultra",
+      "title": "NVIDIA open-sources Nemotron 3 Ultra: 550B MoE model, 1M token context, commercial license, best US open-weight model at Artificial Analysis Intelligence Index 48",
+      "url": "https://davarion.com/en/blog/nvidia-nemotron-3-ultra-550b-open-weight-model-computex-2026/",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-05T14:22:00Z"
+    },
+    {
       "topic_key": "anthropic-ai-builds-itself",
       "title": "Anthropic: Claude wrote 80%+ of their production code in May 2026; task horizons doubling every 4 months",
       "url": "https://www.anthropic.com/institute/recursive-self-improvement",

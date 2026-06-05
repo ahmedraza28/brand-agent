@@ -6,6 +6,46 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-05T14:22:00Z
+
+### nvidia-nemotron-3-ultra | X | DRAFT (addToQueue + saveToDraft)
+
+**Text (tweet 1):** Nvidia shipped a 550B open-weight model yesterday. 1M token context, commercial license, 300+ tokens/sec.
+
+For agents running over entire codebases, this isn't a press release thing.
+
+Buried: Kimi K2.6 still scores higher. Best US open model. Not world's best.
+
+**Thread tweet 2:** weights + full breakdown: https://davarion.com/en/blog/nvidia-nemotron-3-ultra-550b-open-weight-model-computex-2026/
+
+**Image style:** isometric 3D render
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/nvidia-nemotron-3-ultra.png
+**Buffer post id:** 6a231391bf58022d6075cc1b
+**dueAt:** draft
+
+---
+
+### nvidia-nemotron-3-ultra | LinkedIn | DRAFT (addToQueue + saveToDraft)
+
+**Caption:** Nvidia open-sourced a 550B model on June 4. Commercial license. 1 million token context window.
+
+For agents doing multi-step reasoning over large codebases or documents, the context story here is real.
+
+The performance gap with China's best open model is real too. Deck covers both sides.
+
+What changes if a US frontier model is actually self-hostable?
+
+#AI #Agents #Nvidia
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/nvidia-nemotron-3-ultra.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/nvidia-nemotron-3-ultra.png
+**First comment (source):** https://davarion.com/en/blog/nvidia-nemotron-3-ultra-550b-open-weight-model-computex-2026/
+**Buffer post id:** 6a231392bfc6cf5ee1e3e52d
+**dueAt:** draft
+
+---
+
 ## 2026-06-05T10:15:00Z
 
 target-met: research_per_day=2 already reached this UTC day (topics: anthropic-ai-builds-itself [X], github-copilot-token-billing [LinkedIn]). No new posts this run.
