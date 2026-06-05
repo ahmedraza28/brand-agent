@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "mode": "live",
-  "research_per_day": 2,
+  "mode": "draft",
+  "research_per_day": 3,
   "linkedin_format": "carousel",
   "channels": ["x", "linkedin"],
   "skip_days": ["sun"],
