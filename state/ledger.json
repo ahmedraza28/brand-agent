@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "microsoft-mai-code",
+      "title": "Microsoft launches MAI-Code-1-Flash in-house coding model: SWE-Bench Pro 51.2% vs Claude Haiku 4.5's 35.2%, 60% fewer tokens, rolling out in GitHub Copilot, trained without OpenAI",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-06T12:40:00Z"
+    },
+    {
       "topic_key": "chatgpt-dreaming-v3",
       "title": "OpenAI launches Dreaming V3: background memory synthesis for ChatGPT, factual recall from 41.5% to 82.8%, privacy catch that deleting conversations doesn't erase derived memories",
       "url": "https://openai.com/index/chatgpt-memory-dreaming/",

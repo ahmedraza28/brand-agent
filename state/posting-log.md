@@ -6,6 +6,47 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-06T12:40:00Z
+
+### microsoft-mai-code | X | LIVE (customScheduled)
+
+**Text (tweet 1):** Microsoft shipped a coding model this week. Built entirely in-house. Not on OpenAI.
+
+In GitHub Copilot now. SWE-Bench Pro: 51.2% vs Claude Haiku 4.5's 35.2%.
+
+They've put $13B into OpenAI and still built their own. Not sure what to make of the partnership after this.
+
+**Thread tweet 2:** Announced at Microsoft Build on June 2. Full breakdown + model card: https://microsoft.ai/news/introducingmai-code-1-flash/
+
+**Format:** text-only (OpenAI key returned 401 — image generation skipped; ~30% text-only variance intended)
+**Buffer post id:** 6a2415ba8490187966a09692
+**dueAt:** 2026-06-06T19:23:00Z
+
+---
+
+### microsoft-mai-code | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Microsoft shipped its own AI coding model this week.
+
+MAI-Code-1-Flash. In GitHub Copilot now. SWE-Bench Pro: 51.2% vs Claude Haiku 4.5's 35.2%.
+
+They built it end-to-end, without OpenAI. The same OpenAI they've put $13B into.
+
+Deck covers what this actually changes for builders using Copilot or running agents.
+
+Does a Microsoft-native model change which coding tool you reach for?
+
+#AI #GitHub #Developers
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/microsoft-mai-code.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/microsoft-mai-code.png
+**First comment (source):** https://microsoft.ai/news/introducingmai-code-1-flash/
+**Buffer post id:** 6a2415baa1f61c27dba07c69
+**dueAt:** 2026-06-06T16:47:00Z
+
+---
+
 ## 2026-06-06T00:36:57Z
 
 ### chatgpt-dreaming-v3 | X | LIVE (customScheduled)
