@@ -6,6 +6,42 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-06T00:36:57Z
+
+### chatgpt-dreaming-v3 | X | LIVE (customScheduled)
+
+**Text (tweet 1):** 'Dreaming.' OpenAI's new ChatGPT memory system. Background synthesis from years of conversations, auto-updated. Factual recall up from 41% to 82% on their internal eval.
+
+Catch: deleting a conversation doesn't erase what ChatGPT learned from it. What does that mean for trust?
+
+**Thread tweet 2:** More on the architecture, the privacy controls, and the EU AI Act deadline: https://openai.com/index/chatgpt-memory-dreaming/
+
+**Image style:** Swiss / International typographic
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/chatgpt-dreaming-v3.png
+**Buffer post id:** 6a236c68556e567c77b9d9fd
+**dueAt:** 2026-06-06T18:37:00Z
+
+---
+
+### chatgpt-dreaming-v3 | LinkedIn | LIVE (customScheduled)
+
+**Caption:** OpenAI shipped a new memory architecture. They called it 'Dreaming.' Factual recall went from 41% to 82% on their internal eval.
+
+There's a privacy catch buried in the docs most people skipped. The deck covers what changed and what it means if you're building on or with these systems.
+
+Should 'smarter memory' and 'delete and it's gone' be the same toggle?
+
+#AI #OpenAI #AIBuilders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/chatgpt-dreaming-v3.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/chatgpt-dreaming-v3.png
+**First comment (source):** https://openai.com/index/chatgpt-memory-dreaming/
+**Buffer post id:** 6a236c69a0f5aeb6f4d841fc
+**dueAt:** 2026-06-06T18:05:00Z
+
+---
+
 ## 2026-06-05T14:22:00Z
 
 ### nvidia-nemotron-3-ultra | X | DRAFT (addToQueue + saveToDraft)
