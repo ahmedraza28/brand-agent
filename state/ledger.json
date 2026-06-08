@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "spacex-ipo-ai-orbit",
+      "title": "SpaceX IPO: $135/share, $1.77T valuation, $75B raise, Nasdaq June 12 as SPCX. Goldman models $322B AI revenue by 2030 vs $3.2B today; S&P 500 rejected fast-track (net loss $4.94B, 5% float).",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948674-spacex-ipo-roadshow-wall-street-hypes-100x-ai-growth-sp-no-fast-track-tradingkey",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-08T12:42:00Z"
+    },
+    {
       "topic_key": "apple-siri-gemini-wwdc26",
       "title": "Apple unveils Gemini-powered Siri at WWDC 2026: ~$1B/year Google deal, ChatGPT exclusivity ended, three-way toggle (ChatGPT/Gemini/Claude) inside iOS 27",
       "url": "https://letsdatascience.com/news/apple-unveils-gemini-powered-siri-and-ios-27-at-wwdc-2026-b757953c",

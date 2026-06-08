@@ -6,6 +6,50 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-08T12:42:00Z
+
+### spacex-ipo-ai-orbit | X | LIVE (customScheduled)
+
+**Text (tweet 1):** SpaceX prices June 11. $75B raise. Biggest IPO ever.
+
+Goldman Sachs is modeling $322B in AI revenue by 2030. The AI business made $3.2B last year.
+
+S&P 500 rejected their fast-track. They lost $4.94B in 2025, only 5% float.
+
+What exactly are public investors buying?
+
+**Thread tweet 2:** Roadshow wrapping up this week. Pricing June 11, trading June 12 on Nasdaq as SPCX.
+
+Full S-1 breakdown: https://www.tradingkey.com/analysis/stocks/us-stocks/261948674-spacex-ipo-roadshow-wall-street-hypes-100x-ai-growth-sp-no-fast-track-tradingkey
+
+**Image style:** neon cyberpunk
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/spacex-ipo-ai-orbit.png
+**Buffer post id:** 6a26b8cd54756c91d062e87b
+**dueAt:** 2026-06-08T15:43:00Z
+
+---
+
+### spacex-ipo-ai-orbit | LinkedIn | LIVE (customScheduled)
+
+**Caption:** SpaceX prices its IPO June 11. $75 billion raise. Largest in history.
+
+Goldman Sachs is modeling $322 billion in AI revenue for them by 2030. The AI business made $3.2 billion last year.
+
+The deck looks at what the actual numbers say and what they don't.
+
+If markets are pricing AI infrastructure at this multiple, what does that mean for everyone else building it?
+
+#AI #SpaceX #AIInfrastructure
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/spacex-ipo-ai-orbit.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/spacex-ipo-ai-orbit.png
+**First comment (source):** https://www.tradingkey.com/analysis/stocks/us-stocks/261948674-spacex-ipo-roadshow-wall-street-hypes-100x-ai-growth-sp-no-fast-track-tradingkey
+**Buffer post id:** 6a26b8ced095490942f2126c
+**dueAt:** 2026-06-08T16:28:00Z
+
+---
+
 ## 2026-06-08T00:42:04Z
 
 ### apple-siri-gemini-wwdc26 | X | LIVE (customScheduled)
