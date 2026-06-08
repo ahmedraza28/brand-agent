@@ -24,6 +24,8 @@ Source: deep-research run `wk8u6rt4l` — 107 agents, 25 sources, 17/25 claims c
 
 ## Posting windows (verified — defaults; tune to real analytics later)
 
+> **⚠ OPERATIVE schedule = `state/settings.json` → `posting_windows_utc`** (read by the runbook's Step 8). Currently `["04:00-05:00","15:00-17:00"]` UTC = **9-10am & 8-10pm Pakistan time** (one post per window: 00:30 UTC run → morning, 12:30 UTC run → evening). To retime, edit that array — no routine-prompt change. The ET windows below are the original engagement research and are kept for reference only; they are NOT what the routine schedules into right now.
+
 Audience timezone default = **US Eastern (ET)** (where AI-Twitter/LinkedIn peaks). Change here if the audience shifts.
 
 - **X:** Tue-Thu, 12:00-18:00 ET. Mon-Thu acceptable. **Never Saturday.**
