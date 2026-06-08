@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "apple-siri-gemini-wwdc26",
+      "title": "Apple unveils Gemini-powered Siri at WWDC 2026: ~$1B/year Google deal, ChatGPT exclusivity ended, three-way toggle (ChatGPT/Gemini/Claude) inside iOS 27",
+      "url": "https://letsdatascience.com/news/apple-unveils-gemini-powered-siri-and-ios-27-at-wwdc-2026-b757953c",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-08T00:42:04Z"
+    },
+    {
       "topic_key": "microsoft-mai-code",
       "title": "Microsoft launches MAI-Code-1-Flash in-house coding model: SWE-Bench Pro 51.2% vs Claude Haiku 4.5's 35.2%, 60% fewer tokens, rolling out in GitHub Copilot, trained without OpenAI",
       "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",

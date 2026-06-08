@@ -6,6 +6,50 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-08T00:42:04Z
+
+### apple-siri-gemini-wwdc26 | X | LIVE (customScheduled)
+
+**Text (tweet 1):** Apple just put Google inside 1.4B iPhones.
+
+Siri now runs on Gemini. Reported ~$1B/year deal. ChatGPT exclusivity: over.
+
+Users can now pick ChatGPT, Gemini, or Claude as their Apple AI. Three labs. One OS.
+
+What does this do to OpenAI's distribution story?
+
+**Thread tweet 2:** Happening at WWDC today. Bloomberg first reported the Gemini deal; Apple confirmed the partnership on stage.
+
+Full details: https://letsdatascience.com/news/apple-unveils-gemini-powered-siri-and-ios-27-at-wwdc-2026-b757953c
+
+**Image style:** claymation / soft 3D clay
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/apple-siri-gemini-wwdc26.png
+**Buffer post id:** 6a26100874031f4964d3420d
+**dueAt:** 2026-06-08T19:54:36Z
+
+---
+
+### apple-siri-gemini-wwdc26 | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Apple's keynote is today. Siri now runs on Google Gemini.
+
+The deal: Bloomberg reports ~$1B/year for a custom model. ChatGPT exclusivity is gone. Users can now choose between ChatGPT, Gemini, or Claude as their Apple AI.
+
+Three competing labs inside one OS. The deck breaks down what changed and what it means.
+
+Does this shift how you think about Google's AI position?
+
+#AI #WWDC #Builders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/apple-siri-gemini-wwdc26.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/apple-siri-gemini-wwdc26.png
+**First comment (source):** https://letsdatascience.com/news/apple-unveils-gemini-powered-siri-and-ios-27-at-wwdc-2026-b757953c
+**Buffer post id:** 6a2610085205cc790d362d0a
+**dueAt:** 2026-06-08T17:07:36Z
+
+---
+
 ## 2026-06-07T12:35:15Z
 
 skip-day: sun
