@@ -8,6 +8,13 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-09T12:35:35Z
+
+target-met: research_per_day=1 already reached (2 research posts today: xai-landlord-compute, openai-s1-ipo). No new research posts this run.
+spotlight: skipped (daily guard — ps-kimi-work already posted today at 2026-06-09T08:15:01Z; max one spotlight per UTC day).
+
+---
+
 ## 2026-06-09T08:15:01Z
 
 target-met: research_per_day=2 already reached this UTC day (topics: xai-landlord-compute, openai-s1-ipo). No new research posts this run.
