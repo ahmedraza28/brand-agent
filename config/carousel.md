@@ -61,3 +61,4 @@ The deck is no longer a single fixed black look. `tools/make_carousel.py` carrie
 - *Within* a single deck the look stays consistent (one theme per deck) — that's intentional; variety is **across** decks.
 - To pin a specific look for a one-off, set `"theme": "<name>"` in the spec (or `CAROUSEL_THEME=<name>` env). A forced theme is **not** recorded in the rotation history. Omit it in normal runs.
 - Carousel-vs-single-image: with `linkedin_format: "carousel"` every LinkedIn post is a carousel (see top of this file); X still uses a rotating single image (`config/styles.md`).
+- The **product-spotlight** stream (`config/product-spotlight.md`) reuses this exact generator + theme rotation for its occasional LinkedIn decks — same spec schema, same `make_carousel.py`, same auto-rotated themes.

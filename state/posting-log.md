@@ -4,6 +4,8 @@ Append-only. One entry per run. Newest at the top. A run that posts nothing stil
 
 Format per published post: date, platform, topic_key, the EXACT text published, image style (or `none`), Buffer post id (or 'FAILED: <reason>'), dueAt (or 'draft').
 
+Product-spotlight posts (the second stream, per config/product-spotlight.md) are slugged `ps-<slug>` and carry a `**Kind:** product_spotlight` line under the heading, so the weekly LinkedIn cap (settings.product_spotlight.linkedin_max_per_week) can be counted by grepping this file for the current ISO week.
+
 ---
 
 ## 2026-06-09T00:40:00Z

@@ -33,6 +33,9 @@ Audience timezone default = **US Eastern (ET)** (where AI-Twitter/LinkedIn peaks
 - Pick a **random** time inside the day's window, **independent per channel** (X and LinkedIn get different times — anti-pattern, anti-bot). Floor every `dueAt` at now + 10 min.
 - **Stagger around the diary**, which already posts to these same channels in the ~12:45-15:00 UTC window. Don't schedule within 90 min of a same-day diary post on the same channel.
 
+## Product spotlight — the second content stream
+Separate from the AI-trend posts above, there is a near-daily **X** post (and an occasional LinkedIn carousel) reacting to a notable **new product launch** (Product Hunt / Show HN) with a builder's lens. It's governed by `state/settings.json` → `product_spotlight` and the full ruleset in **`config/product-spotlight.md`** (quality gate, the builder's-lens framing — never a thumbs-up/down verdict, never a dunk on the makers — grounding, X format, and the LinkedIn-only-when-deck-worthy weekly cap). It does NOT count against `research_per_day`. All the persona + guardrail rules here still apply to it.
+
 ## Hard formatting limits to encode
 - X: 280 chars/tweet (URL = 23). Thread max a few tweets; keep it tight.
 - LinkedIn: 3,000 char limit; "see more" fold at ~140 chars (front-load).
