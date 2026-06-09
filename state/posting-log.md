@@ -6,6 +6,52 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 ---
 
+## 2026-06-09T00:40:00Z
+
+### xai-landlord-compute | X | LIVE (customScheduled)
+
+**Text (tweet 1):** xAI built a data center in 122 days. Anthropic signed a $1.25B/month lease. Google signed for $920M/month.
+
+The companies racing to beat Grok are paying $2.17 billion a month to the guy who makes Grok.
+
+What exactly is the AI arms race?
+
+**Thread tweet 2:** Both deals came from SpaceX's S-1 filing. Anthropic gets 220,000 Nvidia GPUs through May 2029. Google gets 110,000 through June 2029.
+
+At those rates: $26B a year to xAI/SpaceX. Not from AI product users. From the labs they compete with.
+
+https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/
+
+**Image style:** blueprint / schematic
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/xai-landlord-compute.png
+**Buffer post id:** 6a2761363f52a51b3e9e6d47
+**dueAt:** 2026-06-09T04:14:00Z
+
+---
+
+### xai-landlord-compute | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Anthropic and Google are paying Elon Musk $2.17 billion a month. Combined.
+
+Not for Grok. For GPU time.
+
+The SpaceX S-1 revealed it: Anthropic locked in $1.25B/month for 220,000 GPUs. Google signed for $920M/month. Both deals run through 2029. xAI built Colossus 1 in 122 days to get here first.
+
+The company supposed to fall behind is now collecting infrastructure rent from everyone racing ahead.
+
+What happens to the AI race when the fastest data center builder wins regardless of whose model scores best?
+
+#AI #Infrastructure #AIRace
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/xai-landlord-compute.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/xai-landlord-compute.png
+**First comment (source):** https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/
+**Buffer post id:** 6a2761361c07fa41dbc6562d
+**dueAt:** 2026-06-09T04:27:00Z
+
+---
+
 ## 2026-06-08T12:42:00Z
 
 ### spacex-ipo-ai-orbit | X | LIVE (customScheduled)

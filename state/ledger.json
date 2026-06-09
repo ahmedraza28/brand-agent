@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "xai-landlord-compute",
+      "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) — both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-09T00:40:00Z"
+    },
+    {
       "topic_key": "spacex-ipo-ai-orbit",
       "title": "SpaceX IPO: $135/share, $1.77T valuation, $75B raise, Nasdaq June 12 as SPCX. Goldman models $322B AI revenue by 2030 vs $3.2B today; S&P 500 rejected fast-track (net loss $4.94B, 5% float).",
       "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948674-spacex-ipo-roadshow-wall-street-hypes-100x-ai-growth-sp-no-fast-track-tradingkey",
