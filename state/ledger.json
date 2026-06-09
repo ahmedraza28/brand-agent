@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ps-kimi-work",
+      "title": "Kimi Work: Moonshot AI desktop app for knowledge work — up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
+      "url": "https://www.producthunt.com/products/kimi-ai-assistant",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-09T08:15:01Z"
+    },
+    {
       "topic_key": "openai-s1-ipo",
       "title": "OpenAI files confidential S-1 on June 8, 2026 at $852B valuation; ChatGPT 900M weekly users, $13.1B prior-year revenue, filed one week after Anthropic's $965B S-1",
       "url": "https://openai.com/index/openai-submits-confidential-s-1/",

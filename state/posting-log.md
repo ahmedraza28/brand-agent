@@ -8,6 +8,52 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-09T08:15:01Z
+
+target-met: research_per_day=2 already reached this UTC day (topics: xai-landlord-compute, openai-s1-ipo). No new research posts this run.
+
+### ps-kimi-work | X | LIVE (customScheduled)
+**Kind:** product_spotlight
+
+**Text (tweet 1):** Moonshot AI shipped a desktop app. 300 parallel agents, local files, browser automation.
+
+The lab that made Kimi K2.6 isn't competing on the model score anymore. They're going after the workflow.
+
+I'm curious whether that's the right move or just the obvious next one.
+
+**Thread tweet 2:** Kimi Work: desktop app for knowledge work from Moonshot AI. Up to 300 agents in parallel, WebBridge for browser automation, PPT/Excel/Word/PDF outputs. Free tier.
+
+https://www.producthunt.com/products/kimi-ai-assistant
+
+**Image style:** Bauhaus geometric
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/ps-kimi-work.png
+**Buffer post id:** 6a27cdfa93b160251cc1fdc8
+**dueAt:** 2026-06-09T16:18:00Z
+
+---
+
+### ps-kimi-work | LinkedIn | LIVE (customScheduled)
+**Kind:** product_spotlight
+
+**Caption:** Moonshot AI launched a desktop app this week. Up to 300 agents running in parallel, local files, browser automation.
+
+The lab that made Kimi K2.6 isn't just competing on benchmarks anymore.
+
+The deck looks at the bet they're making and what it might mean for AI tools broadly.
+
+What would you actually use an AI desktop for vs. just a chat interface?
+
+#AI #AIAgents #Builders #ProductHunt
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/ps-kimi-work.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/ps-kimi-work.png
+**First comment (source):** https://www.producthunt.com/products/kimi-ai-assistant
+**Buffer post id:** 6a27cdfb30a07571f11480cb
+**dueAt:** 2026-06-09T16:52:00Z
+
+---
+
 ## 2026-06-09T07:55:49Z
 
 ### openai-s1-ipo | X | LIVE (customScheduled)
