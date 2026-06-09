@@ -8,6 +8,50 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-09T07:55:49Z
+
+### openai-s1-ipo | X | LIVE (customScheduled)
+
+**Text (tweet 1):** OpenAI yesterday: 'We expect it to leak, so we're just announcing it.'
+
+Fair enough. $852B valuation. 900M weekly users.
+
+Filed one week after Anthropic's $965B filing.
+
+Both labs, both IPO-bound. When public markets are watching API pricing, what changes for builders?
+
+**Thread tweet 2:** Filed June 8. $122B raised in March at this valuation. $13.1B revenue last year, running at ~$2B/month now. Still not profitable. Goldman + Morgan Stanley as underwriters. No confirmed listing date.
+
+Full details: https://openai.com/index/openai-submits-confidential-s-1/
+
+**Image style:** newspaper editorial cartoon
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/openai-s1-ipo.png
+**Buffer post id:** 6a27c8d730a07571f1146672
+**dueAt:** 2026-06-09T15:23:00Z
+
+---
+
+### openai-s1-ipo | LinkedIn | LIVE (customScheduled)
+
+**Caption:** OpenAI filed for IPO yesterday. $852B. 900M weekly users.
+
+One week after Anthropic filed at $965B.
+
+Both labs, same week. The deck covers what that actually means if you're building on their APIs.
+
+When your infrastructure provider answers to public markets, what changes?
+
+#AI #OpenAI #Builders #AIBuilders #Founders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/openai-s1-ipo.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/openai-s1-ipo.png
+**First comment (source):** https://openai.com/index/openai-submits-confidential-s-1/
+**Buffer post id:** 6a27c8d703edf46f70c75679
+**dueAt:** 2026-06-09T15:47:00Z
+
+---
+
 ## 2026-06-09T00:40:00Z
 
 ### xai-landlord-compute | X | LIVE (customScheduled)

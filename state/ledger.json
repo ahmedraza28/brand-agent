@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "openai-s1-ipo",
+      "title": "OpenAI files confidential S-1 on June 8, 2026 at $852B valuation; ChatGPT 900M weekly users, $13.1B prior-year revenue, filed one week after Anthropic's $965B S-1",
+      "url": "https://openai.com/index/openai-submits-confidential-s-1/",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-09T07:55:49Z"
+    },
+    {
       "topic_key": "xai-landlord-compute",
       "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) — both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
       "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
