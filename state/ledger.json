@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ps-intuned",
+      "title": "Intuned (YC S22): browser automation platform with AI self-healing — agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
+      "url": "https://intunedhq.com",
+      "platform": ["x"],
+      "posted_at": "2026-06-10T12:33:51Z"
+    },
+    {
       "topic_key": "claude-fable5-launch",
       "title": "Anthropic releases Claude Fable 5 (first public Mythos-class model): 80.3% SWE-Bench Pro, Stripe two-month migration in one day, $10/M input $50/M output; model card includes silent capability reduction for frontier AI dev requests via prompt modification/steering vectors, affecting 0.03% of devs.",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
