@@ -8,6 +8,34 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-10T12:33:51Z
+
+target-met: research_per_day=1 already reached (1 research post today: claude-fable5-launch). No new research posts this run.
+
+### ps-intuned | X | LIVE (customScheduled)
+**Kind:** product_spotlight
+
+**Text (tweet 1):** My take on Intuned: right bet, right problem.
+
+Most RPA automations die when websites change. Nobody fixes them. Their answer is AI that reads the error trace and rewrites the code itself.
+
+Zero human intervention. Nobody's fully there yet. This is closer.
+
+Who gets there first?
+
+**Thread tweet 2:** Launch HN this week. Intuned (YC S22): browser automation with AI self-healing. When a run breaks, the agent reads the error trace and rewrites the Playwright code.
+
+Zero-setup cloud IDE, Python/TypeScript.
+
+https://intunedhq.com
+
+**Image style:** risograph print
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/ps-intuned.png
+**Buffer post id:** 6a295befa650a36635638684
+**dueAt:** 2026-06-10T15:47:00Z
+
+---
+
 ## 2026-06-10T00:34:21Z
 
 ### claude-fable5-launch | X | LIVE (customScheduled)
