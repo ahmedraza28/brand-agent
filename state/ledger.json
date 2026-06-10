@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "claude-fable5-launch",
+      "title": "Anthropic releases Claude Fable 5 (first public Mythos-class model): 80.3% SWE-Bench Pro, Stripe two-month migration in one day, $10/M input $50/M output; model card includes silent capability reduction for frontier AI dev requests via prompt modification/steering vectors, affecting 0.03% of devs.",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-10T00:34:21Z"
+    },
+    {
       "topic_key": "ps-kimi-work",
       "title": "Kimi Work: Moonshot AI desktop app for knowledge work — up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
       "url": "https://www.producthunt.com/products/kimi-ai-assistant",

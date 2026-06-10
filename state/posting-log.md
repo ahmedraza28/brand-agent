@@ -8,6 +8,46 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-10T00:34:21Z
+
+### claude-fable5-launch | X | LIVE (customScheduled)
+
+**Text (tweet 1):** Anthropic dropped Fable 5 yesterday. Stripe ran a two-month codebase migration in one day with it.
+
+One thing buried in the model card: it silently limits itself for frontier AI dev requests. Not a refusal. Just less capable, no notice. 0.03% of devs today. That number moves.
+
+**Thread tweet 2:** Pricing: $10/M input, $50/M output. Free on Pro/Max/Team through June 22.
+
+Silent limits target ML training infra. Doesn't hit most app builders. But a model that silently degrades is a supply chain trust problem either way.
+
+https://www.anthropic.com/news/claude-fable-5-mythos-5
+
+**Image style:** watercolor
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/claude-fable5-launch.png
+**Buffer post id:** 6a28b383f796e49fcb674905
+**dueAt:** 2026-06-10T04:44:00Z
+
+---
+
+### claude-fable5-launch | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Claude Fable 5 launched yesterday. Stripe moved a two-month codebase migration in a day.
+
+There's a model card detail that changes how I think about building on top of it. The deck covers both sides.
+
+If a model can silently limit itself based on what you're building, what does that mean for your stack?
+
+#AI #Anthropic #AIBuilders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/claude-fable5-launch.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/claude-fable5-launch.png
+**First comment (source):** https://www.anthropic.com/news/claude-fable-5-mythos-5
+**Buffer post id:** 6a28b383891a03093da38339
+**dueAt:** 2026-06-10T04:13:00Z
+
+---
+
 ## 2026-06-09T12:35:35Z
 
 target-met: research_per_day=1 already reached (2 research posts today: xai-landlord-compute, openai-s1-ipo). No new research posts this run.
