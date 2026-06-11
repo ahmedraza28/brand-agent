@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "diffusiongemma-parallel-blocks",
+      "title": "Google releases DiffusionGemma: 26B MoE open-weights model using text diffusion (not next-token), 3.8B active params, ~4x faster than autoregressive Gemma 4 (1,000 tokens/sec on H100), lower quality on all benchmarks, Apache 2.0. Released June 10 2026.",
+      "url": "https://ai.google.dev/gemma/docs/diffusiongemma",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-11T00:40:00Z"
+    },
+    {
       "topic_key": "ps-intuned",
       "title": "Intuned (YC S22): browser automation platform with AI self-healing — agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
       "url": "https://intunedhq.com",

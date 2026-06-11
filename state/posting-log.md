@@ -8,6 +8,50 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-11T00:40:00Z
+
+### diffusiongemma-parallel-blocks | X | LIVE (customScheduled)
+
+**Text (tweet 1):** Google shipped an open model yesterday that doesn't write word by word.
+
+DiffusionGemma starts from noise and refines a full block at once. 1,000 tokens/sec on an H100, 4x faster.
+
+Catch: lower on every benchmark than standard Gemma. Faster, dumber. What's the actual use case?
+
+**Thread tweet 2:** 26B params, 3.8B active at runtime. Apache 2.0. 18GB VRAM when quantized.
+
+Good for code infilling, text insertion, structured data. Not a reasoning replacement.
+
+Google's docs: use standard Gemma 4 when quality matters.
+
+https://ai.google.dev/gemma/docs/diffusiongemma
+
+**Image style:** isometric 3D render
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/diffusiongemma-parallel-blocks.png
+**Buffer post id:** 6a2a04d7d94814c03b56f47c
+**dueAt:** 2026-06-11T04:59:00Z
+
+---
+
+### diffusiongemma-parallel-blocks | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Google released a model that generates text from noise, not word by word. 4x faster on local GPU. Quality trade-off is real.
+
+The architecture is genuinely different from anything in production. The deck covers where it fits and where it doesn't.
+
+Is there a version of this that becomes the default in two years?
+
+#AI #MachineLearning #AIBuilders #Builders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/diffusiongemma-parallel-blocks.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/diffusiongemma-parallel-blocks.png
+**First comment (source):** https://ai.google.dev/gemma/docs/diffusiongemma
+**Buffer post id:** 6a2a04b3009bddec5de3451d
+**dueAt:** 2026-06-11T04:10:00Z
+
+---
+
 ## 2026-06-10T12:33:51Z
 
 target-met: research_per_day=1 already reached (1 research post today: claude-fable5-launch). No new research posts this run.
