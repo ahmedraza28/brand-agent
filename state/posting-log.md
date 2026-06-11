@@ -8,6 +8,25 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-11T10:32:35Z
+
+target-met: research_per_day=1 already reached (1 research post today: diffusiongemma-parallel-blocks). No new research posts this run.
+spotlight: skipped (daily guard — ps-spotlight-backplanes already posted today 2026-06-11T09:42:00Z; max one spotlight per UTC day).
+
+### tk-ai-is-labor | X | LIVE (customScheduled)
+**Kind:** take
+
+**Text:** Most AI pilots stall at 10% because the framing is "how can AI help here". That's the ceiling.
+
+AI is labor. Spin it up, point it at a task, stop paying when done. The better question: "why is anyone still doing this at all". That one doesn't land at 10%.
+
+**Note:** Buffer rejected 543-char long-form (third-party 280-char cap); posted as sub-280 banger per playbook occasional-banger provision; no thread per takes.md rules.
+**Format:** text-only (no image per takes.md)
+**Buffer post id:** 6a2a8f4132af275efa87c3da
+**dueAt:** 2026-06-11T16:17:00Z
+
+---
+
 ## 2026-06-11T09:42:00Z
 
 target-met: research_per_day=1 already reached (1 research post today: diffusiongemma-parallel-blocks). No new research posts this run.

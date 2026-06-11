@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "tk-ai-is-labor",
+      "title": "Take: AI is labor, not software — the real question is why humans are doing tasks at all",
+      "url": "",
+      "platform": ["x"],
+      "posted_at": "2026-06-11T10:32:35Z"
+    },
+    {
       "topic_key": "ps-spotlight-backplanes",
       "title": "Spotlight by Backplanes: post-session analyzer for Claude Code and Codex - flags credential leaks, risky commands, scope drift in session transcripts. Free. Team from Google security, Valimail, Twilio, Algolia. #3 Product Hunt June 10 2026.",
       "url": "https://www.backplanes.com",
