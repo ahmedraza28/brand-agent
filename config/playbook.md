@@ -4,10 +4,10 @@ Source: deep-research run `wk8u6rt4l` — 107 agents, 25 sources, 17/25 claims c
 
 ## X / Twitter — what wins
 
-- **Replies are the #1 reach signal** (reply-that-gets-an-author-reply ≫ reply ≫ repost ≫ like). So **draft to provoke replies**: end on a sharp take, a real question, or a mild-contrarian claim that invites pushback. A post nobody wants to reply to is a dead post.
+- **Replies are the #1 reach signal** (reply-that-gets-an-author-reply ≫ reply ≫ repost ≫ like). So **draft to provoke replies**: end on a sharp take, a real question, or a mild-contrarian claim that invites pushback. A post nobody wants to reply to is a dead post. Pushback comes from conviction at least as much as from questions — the closer-rotation rule in `persona.md` → "X voice — verdict first" (max 1 in 3 question-closers, checked against the last 5 X entries in the posting log) governs which closer this post gets.
 - **Bookmarks ≈ 10× a like**, and dwell time boosts reach → "save-worthy" posts win (a crisp framework, a tight breakdown, a genuinely useful observation).
 - **Body links KILL reach** (~0% engagement for non-Premium accounts). **Never put a link in the main tweet.** Options, in order: (1) no link at all — let the take + image stand (default for hot-takes); (2) if a source link genuinely adds credibility, put it in a **self-reply** (tweet 2), never tweet 1.
-- **Length:** punchy. Hook in the first line. ≤ 280 chars/tweet (URLs count as 23). Thread (2-5 tweets) only for a story that genuinely deserves depth — threads boost dwell + bookmarks. Single sharp tweet for quick reactions.
+- **Length (updated 2026-06-11 — the account has X Premium):** the main post should usually run LONGER than a classic tweet: target **~400-700 characters of full sentences** (Premium long-form). The feed folds at ~280 chars behind "Show more", so the first ~280 must stand alone and earn the tap; long posts that earn the tap win on dwell time. Mix in an occasional (~1 in 4) short sub-280 banger so the feed doesn't become uniform. Thread (2-3 tweets) only when there's a genuine second act; the source link still lives in the self-reply, never the main post. **Fallback:** if Buffer rejects a long X post for length, split it into a 2-tweet thread at the most natural seam and note it in the posting log.
 - **Hashtags: 0-2, usually none.**
 - **Hard reach-killers (also reputation hits): ALL-CAPS, toxicity, spamming @-mentions.** Avoid all three.
 - **Velocity + ~6h decay** → posts must be scheduled into live-audience windows, never dead hours.
@@ -37,7 +37,7 @@ Audience timezone default = **US Eastern (ET)** (where AI-Twitter/LinkedIn peaks
 Separate from the AI-trend posts above, there is a near-daily **X** post (and an occasional LinkedIn carousel) reacting to a notable **new product launch** (Product Hunt / Show HN) with a builder's lens. It's governed by `state/settings.json` → `product_spotlight` and the full ruleset in **`config/product-spotlight.md`** (quality gate, the builder's-lens framing — never a thumbs-up/down verdict, never a dunk on the makers — grounding, X format, and the LinkedIn-only-when-deck-worthy weekly cap). It does NOT count against `research_per_day`. All the persona + guardrail rules here still apply to it.
 
 ## Hard formatting limits to encode
-- X: 280 chars/tweet (URL = 23). Thread max a few tweets; keep it tight.
+- X: main post target ~400-700 chars (Premium long-form; fold at ~280 — front-load). Self-reply / thread tweets stay ≤280 (URL = 23). Thread max a few tweets; keep it tight.
 - LinkedIn: 3,000 char limit; "see more" fold at ~140 chars (front-load).
 - Image: X 16:9 (1200×675) or 1:1 (1080×1080); LinkedIn 1.91:1 (1200×627) or 1:1 (1200×1200). Generate at a size that crops cleanly to these.
 

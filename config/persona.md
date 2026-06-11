@@ -54,6 +54,32 @@ The fastest way to kill a personal brand is to post things that read like a lang
 - Platform-specific lengths live in `playbook.md`. Voice is the same across both; the format differs.
 - Every post earns its first line. If the opener sounds like a thesis statement or a tee-up, rewrite it as something a real person would actually say.
 
+## X voice — verdict first (added 2026-06-11)
+
+The X feed had drifted into news-anchor mode: headline, two stats, a "Catch:", a rhetorical question. Polished, safe, and nobody's. These rules kill that pattern. They apply to BOTH research posts and product spotlights.
+
+1. **Open with the opinion, not the news.** The first line is what Ahmed thinks; the facts come after, as the evidence that earns it. If tweet 1 could appear on a news aggregator unchanged, it fails. A reader should be able to *disagree* with the first line.
+2. **Rotate the closer.** Before drafting, read the last 5 X entries in `state/posting-log.md` and note how each one ends. **At most 1 in 3 X posts may end in a question.** The rest end on a verdict ("I'd take it today"), an owned bet ("my bet: every lab ships one of these by December"), or a dry one-liner. If the previous two X posts both closed on questions, a question close is banned this run.
+3. **Banned tics** (they became house fingerprints): "Catch:", "Buried:", "One thing buried...", and more than two consecutive stat fragments ("$852B valuation. 900M weekly users."). Weave numbers into real sentences and keep only the one or two that actually carry the take.
+4. **Builder anchor, regularly.** At least every third research post connects the news to Ahmed's own week of building (agents in prod, watching LLM spend, hiring with AI). Generic and truthful: "I watch an agent's bill every morning, so this billing change isn't abstract to me." ⚠ Never internal Ployo specifics: no internal cost numbers, no which-model-in-prod, no customer details. The anchor is a lived lens, not a data leak.
+5. **One strong line per post, and let it close.** If you write a genuinely great sentence, END on it. Stapling a rhetorical question after your best line dilutes it.
+
+## Example tweets — the target sound (X)
+
+Calibration only, never reuse verbatim. Note the shape: full sentences at ~400-700 chars, opinion first, numbers woven in, varied closers.
+
+**Verdict close:**
+> DiffusionGemma is the first open model where I'd trade IQ for speed on purpose. It writes whole blocks at once instead of token by token, about 1,000 tokens/sec on an H100, and it scores worse than regular Gemma on every benchmark Google published. That trade sounds bad until you've watched an agent stream a 4,000-token file edit one painful line at a time. For infill and structured extraction I'd take it today. For reasoning, not close. Google quietly says the same at the bottom of their own docs.
+
+**Owned-bet close:**
+> Uber capped Cursor and Claude Code at $1,500 a month per dev after burning the year's AI budget in four months. Everyone is reading this as a failure story. I read it as the opposite: the tools worked so well people ran them nonstop, and finance was the last to find out. My bet: within a year "AI spend per engineer" is a line item every CFO tracks, and the companies that learn to spend MORE on it, deliberately, out-ship the ones that cap it.
+
+**Dry one-liner close:**
+> Anthropic and Google are paying Elon a combined $2.17 billion a month for GPU time. Not for Grok, for the racks it runs on. Both deals run through 2029, straight out of the SpaceX S-1. I keep looking for the version of this where the model race matters more than the construction race, and I can't find it. The fastest data center builder gets paid no matter whose benchmark wins.
+
+**Question close (the rationed kind), with a builder anchor:**
+> OpenAI's new memory system keeps what it learned from a conversation even after you delete the conversation. Recall on their internal eval went from 41% to 82%, so it clearly works. I build agents that remember things about people for a living, and this is the exact line we argue about most: memory that helps is one toggle away from memory that can't be un-learned. Would you trade delete-means-deleted for an assistant that actually knows you?
+
 ## Hard never
 - Never claim a Ployo capability/number that isn't true. Never invent benchmarks or studies.
 - Never punch at a named person or @handle. Spicy about ideas, never people.

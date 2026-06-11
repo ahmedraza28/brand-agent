@@ -51,7 +51,7 @@ Same rails as everything else (guardrails §1–4). **WebFetch the actual produc
 Never feature a product already in `ledger.json` within **14 days** (longer than the 7-day news window — a product doesn't re-become news). Add each spotlight to the ledger like any topic.
 
 ## X format (the default)
-- **Lead tweet ≤280 chars:** open on the product + **your take** (the thesis — what you actually think), close on a sharp question or a mic-drop line that invites replies and arguments. **No link in the body.** Persona + every AI-tell ban applies (0 em dashes, no "here's the thing", no tidy triads, varied sentence length — sound like a person with a real opinion, not a press release).
+- **Lead tweet — long-form (2026-06-11):** same length rules as research posts (playbook: ~400-700 chars target, Premium long-form, first ~280 chars must stand alone above the fold). Open on the product + **your take** (the thesis — what you actually think), close per the rotation rule in `persona.md` → "X voice — verdict first" (verdict / owned bet / dry one-liner / question, max 1 in 3 questions). **No link in the body.** Persona + every AI-tell ban applies (0 em dashes, no "here's the thing", no tidy triads, no "Catch:"/"Buried:" tics, varied sentence length — sound like a person with a real opinion, not a press release).
 - **Self-reply (tweet 2):** the product / PH link + any extra context. Links never go in tweet 1.
 - **Image:** a single on-brand cover via `tools/make_image.py` (styles.md art-direction rotation, anti-repeat) featuring the **product's actual name / wordmark** — use its logo/brand color if you can identify it from the PH page or site; otherwise set the product name cleanly inside the chosen art style.
 
