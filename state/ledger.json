@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ps-spotlight-backplanes",
+      "title": "Spotlight by Backplanes: post-session analyzer for Claude Code and Codex - flags credential leaks, risky commands, scope drift in session transcripts. Free. Team from Google security, Valimail, Twilio, Algolia. #3 Product Hunt June 10 2026.",
+      "url": "https://www.backplanes.com",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-11T09:42:00Z"
+    },
+    {
       "topic_key": "diffusiongemma-parallel-blocks",
       "title": "Google releases DiffusionGemma: 26B MoE open-weights model using text diffusion (not next-token), 3.8B active params, ~4x faster than autoregressive Gemma 4 (1,000 tokens/sec on H100), lower quality on all benchmarks, Apache 2.0. Released June 10 2026.",
       "url": "https://ai.google.dev/gemma/docs/diffusiongemma",

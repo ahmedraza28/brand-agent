@@ -8,6 +8,56 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-11T09:42:00Z
+
+target-met: research_per_day=1 already reached (1 research post today: diffusiongemma-parallel-blocks). No new research posts this run.
+
+### ps-spotlight-backplanes | X | LIVE (customScheduled)
+**Kind:** product_spotlight
+
+**Text (tweet 1):** I've been pasting API keys into AI context windows for months. Turns out the transcripts don't forget.
+
+Spotlight reads your Claude Code session logs when they end and surfaces what was in them - what files were touched, what credentials landed in context. PII strips locally before anything leaves your machine. Free.
+
+Team from Google security and Valimail. The gap they're filling is real: most teams running agents in prod have zero visibility into what the agent actually did during the session.
+
+My bet: session visibility becomes standard for every team pushing AI-generated code to prod by end of year. Backplanes either builds that baseline or gets acquired.
+
+**Thread tweet 2:** Product Hunt #3 yesterday. Claude Code session analyzer that runs post-session - shows what your agent actually touched, flags credentials that landed in context. macOS, Linux, WSL 2. Free.
+
+https://www.backplanes.com
+
+**Image style:** low-poly
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/ps-spotlight-backplanes.png
+**Buffer post id:** 6a2a85330055aa8225f370c1
+**dueAt:** 2026-06-11T15:28:00Z
+
+---
+
+### ps-spotlight-backplanes | LinkedIn | LIVE (customScheduled)
+**Kind:** product_spotlight
+
+**Caption:** Your AI coding sessions leave a transcript. Most teams never look at it.
+
+Spotlight reads your Claude Code logs after each session - surfaces what files were touched, what credentials appeared in context - and strips PII locally before anything leaves your machine.
+
+The team came out of Google security, Valimail, and Algolia. Free.
+
+The deck covers the actual risk and what this signals for any team running agents in production.
+
+If you run Claude Code or Codex at work, what does your session visibility look like right now?
+
+#AI #ClaudeCode #Security #AIBuilders #Developers
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/ps-spotlight-backplanes.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/ps-spotlight-backplanes.png
+**First comment (source):** https://www.producthunt.com/posts/spotlight-by-backplanes
+**Buffer post id:** 6a2a8533e30f108b7cd76760
+**dueAt:** 2026-06-11T16:31:00Z
+
+---
+
 ## 2026-06-11T00:40:00Z
 
 ### diffusiongemma-parallel-blocks | X | LIVE (customScheduled)
