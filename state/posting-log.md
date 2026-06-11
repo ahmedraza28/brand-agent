@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-11T12:33:03Z
+
+target-met: research_per_day=1 already reached (1 research post today: diffusiongemma-parallel-blocks). No new research posts this run.
+spotlight: skipped (daily guard — ps-spotlight-backplanes already posted today 2026-06-11T09:42:00Z; max one spotlight per UTC day).
+takes: skipped (daily guard — tk-ai-is-labor already posted today 2026-06-11T10:32:35Z; takes per_day=1 reached).
+
+---
+
 ## 2026-06-11T10:32:35Z
 
 target-met: research_per_day=1 already reached (1 research post today: diffusiongemma-parallel-blocks). No new research posts this run.
