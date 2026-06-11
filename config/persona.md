@@ -66,7 +66,7 @@ The X feed had drifted into news-anchor mode: headline, two stats, a "Catch:", a
 
 ## Example tweets — the target sound (X)
 
-Calibration only, never reuse verbatim. Note the shape: full sentences at ~400-700 chars, opinion first, numbers woven in, varied closers.
+Calibration only, never reuse verbatim. Note the shape: full sentences, opinion first, numbers woven in, varied closers. These read as single long posts, but per playbook (2026-06-11b) depth ships as a **2-3 tweet thread**: when splitting this voice across a thread, tweet 1 carries the opening verdict + the one fact that earns it (standing alone in ≤280), tweet 2 carries the evidence sentences, and the closer line ends whichever tweet comes last. Takes are the exception: one tight ≤280 post, see config/takes.md.
 
 **Verdict close:**
 > DiffusionGemma is the first open model where I'd trade IQ for speed on purpose. It writes whole blocks at once instead of token by token, about 1,000 tokens/sec on an H100, and it scores worse than regular Gemma on every benchmark Google published. That trade sounds bad until you've watched an agent stream a 4,000-token file edit one painful line at a time. For infill and structured extraction I'd take it today. For reasoning, not close. Google quietly says the same at the bottom of their own docs.

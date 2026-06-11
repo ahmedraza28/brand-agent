@@ -17,7 +17,8 @@ Every take starts from a real, pre-approved belief of Ahmed's stored in the bank
 
 ## Drafting
 
-- The bank entry is a **thesis, not copy**. Develop it: pick one angle, make the argument, land it. The persona's "X voice — verdict first" section applies in full (opinion-first opener a reader can disagree with, closer rotation against the posting log, banned tics, long-form ~400-700 chars per playbook, occasional short banger).
+- The bank entry is a **thesis, not copy**. Develop it: pick one angle, make the argument, land it. The persona's "X voice — verdict first" section applies in full (opinion-first opener a reader can disagree with, closer rotation against the posting log, banned tics).
+- **Length: a single tight post, 180-280 chars. Never a thread, never long-form.** A take is one punch; pagination dilutes it, and the banger format is what gets screenshotted and quoted. If the draft runs long, the angle is too broad: cut to the sharpest claim. (Decided 2026-06-11 after the first take's 280-char fallback version beat its 543-char draft.)
 - **TEXT-ONLY, X-ONLY.** No image (skip Step 7 for this post), no carousel, no link, no thread, never LinkedIn. The words carry it.
 - A take is opinion, owned in Ahmed's voice. Guardrails still bind every FACT: if the post cites a number, study, company, or event, verify it this run or cut it. An unverifiable supporting fact never survives; a good opinion doesn't need it.
 - Anchors must be **honest-generic** ("I build agents for a living", "I review an agent's output before my first coffee"), never fabricated specifics: no invented client stories, fake numbers, or made-up incidents.
