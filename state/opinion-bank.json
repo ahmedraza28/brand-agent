@@ -1,0 +1,173 @@
+{
+  "_comment": "Ahmed's pre-approved opinion bank for the takes stream (config/takes.md). Each entry's `take` is the BELIEF (thesis), not post copy: the routine develops a fresh angle every time. `note` = optional angle hints. Edited by Ahmed by hand; the routine only updates last_used/times_used. PUBLIC REPO: every entry must already be public-safe.",
+  "opinions": [
+    {
+      "id": "ai-is-labor",
+      "take": "AI is labor, not software. The question is never 'how can AI help with this task', it's 'why is a human doing this task at all'.",
+      "note": "Most AI pilots die because they aim at a 10% improvement of an existing workflow instead of replacing it.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "agents-over-chatbots",
+      "take": "A chatbot improves a workflow. An agent replaces it. That gap is the whole difference between an AI feature and an AI business.",
+      "note": "Inputs, process, feedback loop, scale: think in systems, not features.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "cost-per-task",
+      "take": "Pick models like an electrician picks wire gauge: by cost-per-task math, not leaderboards or brand loyalty. Most teams are overpaying for intelligence their task doesn't need.",
+      "note": "Treat LLMs as plumbing. Benchmark worship is the new framework worship.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "verification-is-the-skill",
+      "take": "The skill of the decade isn't prompting, it's verification. Don't trust any output, including your own agents', without checking it.",
+      "note": "The people who get burned by AI are the ones who stopped auditing.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "ai-like-an-employee",
+      "take": "Most people use AI like Google. The unfair advantage goes to those who use it like an employee: brief it, delegate, review its work, fire the approach that underperforms.",
+      "note": "Search engine vs workforce. Subtle difference, completely different outcomes.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "agi-debates-are-entertainment",
+      "take": "AGI debates are entertainment. The operative questions are: can it cut cost, save labor, or make revenue this quarter. AI is an economic event before it's a philosophical one.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "leverage-amplifies-aim",
+      "take": "AI gives you leverage, and leverage amplifies whatever you point it at. Pointing it at eight things gets you eight mediocre outcomes. Focus got MORE important when the tools got powerful, not less.",
+      "note": "Honest self-critique angle works: the challenge is never lack of ideas, it's choosing the one that deserves 12 months.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "founder-led-selling",
+      "take": "Automation can scale a sales motion that already works. It cannot find product-market fit for you. Early on, founder-led selling beats any outreach machine you can build.",
+      "note": "Credible because Ahmed builds outreach machines and still says this.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "ai-sparring-vs-customers",
+      "take": "AI is a great sparring partner for big decisions, but AI pushback is not customer pushback. One real user trying your product teaches you things no model conversation will.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "build-from-anywhere",
+      "take": "Building from Pakistan for global markets is an advantage, not an apology. Geography gives you a cost base and a hunger most competitors don't have.",
+      "note": "Arbitrage is a lens, not a limitation. Aim up, never self-deprecating.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "hiring-is-a-pipeline",
+      "take": "Hiring is the most automatable white-collar workflow that still mostly runs on vibes. Resumes, screens, interviews, scoring: it's a pipeline, and pipelines can be instrumented.",
+      "note": "Earned territory (Ahmed builds in hiring). Never cite internal Ployo specifics.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "moat-is-workflow",
+      "take": "The model is not the moat. Whoever owns the workflow owns the customer; the model underneath gets swapped like a part.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "ship-the-ugly-version",
+      "take": "Ship the ugly version this week. A broken demo in front of a real user teaches more than a month of planning. Iteration speed is the only durable advantage small teams have.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "saying-no",
+      "take": "Everything finally looks buildable, which makes saying no the scarcest founder skill of the AI era. The constraint moved from 'can we build it' to 'should this consume the next 12 months'.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "first-principles",
+      "take": "Memorizing facts without the mechanism behind them is renting knowledge. Understand why something happened once and you stop needing to memorize ten things that happened.",
+      "note": "Applies to learning AI tools too: mechanisms over recipes.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "tasks-not-jobs",
+      "take": "AI doesn't take jobs, it takes tasks. Jobs are bundles of tasks, and the rebundling is where the next decade of companies gets built.",
+      "note": "Future-of-work is earned territory.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "agents-are-plumbing",
+      "take": "Agents in production are 10% intelligence and 90% plumbing: retries, logging, guardrails, kill switches, audit trails. The hard part was never the model.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "constraints-as-parameters",
+      "take": "Treat constraints as design parameters, not obstacles. A hard limit you respect early produces a better system than freedom you have to clean up later.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "small-team-agent-workforce",
+      "take": "The 10-person company running a 100-agent workforce is coming, and it will out-execute the 200-person company holding meetings about AI adoption.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "audit-your-agents",
+      "take": "Never give an agent a capability you can't audit. Autonomy without a kill switch and a log isn't leverage, it's liability with good marketing.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "dialectical-ai",
+      "take": "The highest-value prompt is 'tell me why I'm wrong'. People who ask AI for answers get average answers. People who ask it for pushback get better thinking.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "optionality-costs-focus",
+      "take": "Optionality feels like safety and bills you in focus. Every hedge you keep open costs you compounding on the main bet. Hedging is a tax: sometimes worth paying, never free.",
+      "note": "Keep generic; never reference Ahmed's actual personal hedges.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "systems-not-tasks",
+      "take": "Stop doing tasks; build the machine that does them. If something takes 10 hours by hand, the move isn't doing it faster, it's making it a 1-hour system.",
+      "note": "Leverage hates linear effort.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "operationalize-frontier",
+      "take": "Playing with new AI tools is a hobby. Folding them into production the week they ship is a career. Being 12 months ahead in HOW you use AI compounds harder than any single product you build.",
+      "note": "",
+      "last_used": null,
+      "times_used": 0
+    }
+  ]
+}
