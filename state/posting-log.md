@@ -8,6 +8,61 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-12T00:32:27Z
+
+### mimo-code-open-source | X | LIVE (customScheduled)
+
+**Text (tweet 1):** Hardware companies building dev tools used to be a dead end. Now it's a power move.
+
+Xiaomi open-sourced a terminal coding agent yesterday. MIT, free model, single command. SWE-Bench Pro: 62% vs Claude Code's 57%.
+
+My bet: this is the beginning of a wave, not an outlier.
+
+**Thread tweet 2:** Persistent memory subagent runs in the background. Tracks context, keeps continuity over 200+ steps. Most agents lose the thread by step 50.
+
+576 devs, 474 repos A/B: ~50% win rate short tasks, 65%+ on long multi-turn.
+
+https://mimo.xiaomi.com/mimocode
+
+**Image style:** 80s retro-futurism poster
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/mimo-code-open-source.png
+**Buffer post id:** 6a2b55cc919955cfca02c4f1
+**dueAt:** 2026-06-12T04:18:00Z
+
+---
+
+### mimo-code-open-source | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Xiaomi just shipped a free coding agent. It benchmarks 5 points higher than Claude Code.
+
+MiMo Code: open source, MIT, single terminal command, built-in MiMo-V2.5 model. On SWE-Bench Pro: 62% vs 57%. Real-world testing across 576 developers pulled the gap even wider on long, complex tasks.
+
+The deck goes deeper on the memory architecture and what Xiaomi is actually betting on here.
+
+A hardware company shipping free dev tools to win developer loyalty. Is that a distraction or a strategy?
+
+#AIBuilders #OpenSource #CodingAgents #AITools #Builders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/mimo-code-open-source.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/mimo-code-open-source.png
+**First comment (source):** https://mimo.xiaomi.com/mimocode
+**Buffer post id:** 6a2b55cc919955cfca02c518
+**dueAt:** 2026-06-12T04:41:00Z
+
+---
+
+### tk-agents-over-chatbots | X | LIVE (customScheduled)
+**Kind:** take
+
+**Text:** Most AI pilots die because they build a chatbot and call it an agent. A chatbot helps with a task. An agent owns the task, runs to completion without you. I build agents for a living. The two are not the same product, and most boards don't know which they have yet.
+
+**Format:** text-only (no image per takes.md)
+**Buffer post id:** 6a2b55cdcb54d2647c4c2994
+**dueAt:** 2026-06-12T04:53:00Z
+
+---
+
 ## 2026-06-11T12:33:03Z
 
 target-met: research_per_day=1 already reached (1 research post today: diffusiongemma-parallel-blocks). No new research posts this run.

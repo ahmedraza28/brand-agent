@@ -1,6 +1,20 @@
 {
   "covered": [
     {
+      "topic_key": "mimo-code-open-source",
+      "title": "Xiaomi releases MiMo Code: open-source terminal AI coding agent, MIT license, SWE-Bench Pro 62% vs Claude Code 57%, persistent memory subagent, built-in MiMo-V2.5-Pro model. Released June 11 2026.",
+      "url": "https://mimo.xiaomi.com/mimocode",
+      "platform": ["x", "linkedin"],
+      "posted_at": "2026-06-12T00:32:27Z"
+    },
+    {
+      "topic_key": "tk-agents-over-chatbots",
+      "title": "Take: A chatbot improves a workflow. An agent replaces it. That gap is the whole difference between an AI feature and an AI business.",
+      "url": "",
+      "platform": ["x"],
+      "posted_at": "2026-06-12T00:32:27Z"
+    },
+    {
       "topic_key": "tk-ai-is-labor",
       "title": "Take: AI is labor, not software — the real question is why humans are doing tasks at all",
       "url": "",
