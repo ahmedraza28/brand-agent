@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ps-terminal-mode",
+      "title": "Terminal Mode by Even Realities: ambient agent-status monitor for developers on Even G2 smart glasses — shows Claude Code agent state (running, blocked, waiting, needs approval) in peripheral vision, ~1s latency, voice + tap controls. PH #4 June 11 2026, 394 upvotes.",
+      "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities",
+      "platform": ["x"],
+      "posted_at": "2026-06-12T12:32:20Z"
+    },
+    {
       "topic_key": "mimo-code-open-source",
       "title": "Xiaomi releases MiMo Code: open-source terminal AI coding agent, MIT license, SWE-Bench Pro 62% vs Claude Code 57%, persistent memory subagent, built-in MiMo-V2.5-Pro model. Released June 11 2026.",
       "url": "https://mimo.xiaomi.com/mimocode",

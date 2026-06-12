@@ -8,6 +8,30 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-12T12:32:20Z
+
+target-met: research_per_day=1 already reached (1 research post today: mimo-code-open-source). No new research posts this run.
+takes: daily guard — tk-agents-over-chatbots already posted today 2026-06-12T00:32:27Z; takes per_day=1 reached. Skipping takes.
+spotlight: LinkedIn-cap=2/2 for ISO week 2026-W24 (ps-spotlight-backplanes 2026-06-11 + ps-kimi-work 2026-06-09). X-only spotlight.
+
+### ps-terminal-mode | X | LIVE (customScheduled)
+**Kind:** product_spotlight
+
+**Text (tweet 1):** Agent oversight is the gap nobody ships tools for. Terminal Mode: Claude Code agent status on Even G2 glasses, peripheral, ~1s latency, tap to approve. Right idea. Works when the agents get good enough at saying when they need you.
+
+**Thread tweet 2:** PH this week, #4 of day, 394 upvotes. Even Realities G2 smart glasses.
+
+I build agents in prod daily. The interface problem is real. Whether today's agents signal state clearly enough is the actual test.
+
+https://www.producthunt.com/products/terminal-mode-by-even-realities
+
+**Image style:** Swiss / International typographic
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/ps-terminal-mode.png
+**Buffer post id:** 6a2bfed77965c57aa3009544
+**dueAt:** 2026-06-12T15:37:00Z
+
+---
+
 ## 2026-06-12T00:32:27Z
 
 ### mimo-code-open-source | X | LIVE (customScheduled)
