@@ -8,6 +8,30 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-13T12:35:00Z
+
+target-met: research_per_day=1 already reached (1 research post today: amodei-policy-ai-exponential). No new research posts this run.
+takes: daily guard — tk-agi-debates already posted today 2026-06-13T04:52:00Z; takes per_day=1 reached. Skipping takes.
+spotlight: LinkedIn-cap=2/2 for ISO week 2026-W24 (ps-spotlight-backplanes 2026-06-11 + ps-kimi-work 2026-06-09). X-only spotlight.
+
+### ps-prometheus-firecrawl | X | LIVE (customScheduled)
+**Kind:** product_spotlight
+
+**Text (tweet 1):** The hard part of web scraping isn't writing the code. It's writing code that still works three months later.
+
+Firecrawl shipped Prometheus. Plain English in, TypeScript out. It maintains itself when sites change. The last bit is where every pipeline I've built eventually died.
+
+**Thread tweet 2:** Launched yesterday. #4 on Product Hunt, 112 upvotes. Available via MCP protocol so agents can call it directly. Free trial through Sunday.
+
+https://www.producthunt.com/posts/prometheus-by-firecrawl
+
+**Image style:** Ukiyo-e woodblock
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/ps-prometheus-firecrawl.png
+**Buffer post id:** 6a2d4f8de1196234c34094ef
+**dueAt:** 2026-06-13T16:37:00Z
+
+---
+
 ## 2026-06-13T00:31:00Z
 
 spotlight: skipped (first run, hour < 6; product_spotlight.run = "second" only).

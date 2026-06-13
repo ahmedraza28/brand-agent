@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ps-prometheus-firecrawl",
+      "title": "Prometheus by Firecrawl: natural-language-to-TypeScript web data agent with self-healing maintenance. Launched June 12 2026, #4 Product Hunt with 112 upvotes. Available via MCP protocol.",
+      "url": "https://www.producthunt.com/posts/prometheus-by-firecrawl",
+      "platform": ["x"],
+      "posted_at": "2026-06-13T12:35:00Z"
+    },
+    {
       "topic_key": "amodei-policy-ai-exponential",
       "title": "Dario Amodei publishes 'Policy on the AI Exponential' (June 10, 2026): binding FAA-style regulation for frontier AI, mandatory third-party testing in 4 risk areas, government authority to block or reverse deployments. Published day after Fable 5 launch.",
       "url": "https://decrypt.co/370704/anthropic-ceo-ai-too-powerful-regulation-cant-wait",
