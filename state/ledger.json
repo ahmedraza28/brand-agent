@@ -1,157 +1,232 @@
 {
   "covered": [
     {
+      "topic_key": "amodei-policy-ai-exponential",
+      "title": "Dario Amodei publishes 'Policy on the AI Exponential' (June 10, 2026): binding FAA-style regulation for frontier AI, mandatory third-party testing in 4 risk areas, government authority to block or reverse deployments. Published day after Fable 5 launch.",
+      "url": "https://decrypt.co/370704/anthropic-ceo-ai-too-powerful-regulation-cant-wait",
+      "platform": [
+        "x",
+        "linkedin"
+      ],
+      "posted_at": "2026-06-13T00:31:00Z"
+    },
+    {
+      "topic_key": "tk-agi-debates",
+      "title": "Take: AGI debates are entertainment. The operative questions are economic: cut cost, save labor, make revenue.",
+      "url": "",
+      "platform": [
+        "x"
+      ],
+      "posted_at": "2026-06-13T00:31:00Z"
+    },
+    {
       "topic_key": "ps-terminal-mode",
-      "title": "Terminal Mode by Even Realities: ambient agent-status monitor for developers on Even G2 smart glasses — shows Claude Code agent state (running, blocked, waiting, needs approval) in peripheral vision, ~1s latency, voice + tap controls. PH #4 June 11 2026, 394 upvotes.",
+      "title": "Terminal Mode by Even Realities: ambient agent-status monitor for developers on Even G2 smart glasses \u2014 shows Claude Code agent state (running, blocked, waiting, needs approval) in peripheral vision, ~1s latency, voice + tap controls. PH #4 June 11 2026, 394 upvotes.",
       "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-12T12:32:20Z"
     },
     {
       "topic_key": "mimo-code-open-source",
       "title": "Xiaomi releases MiMo Code: open-source terminal AI coding agent, MIT license, SWE-Bench Pro 62% vs Claude Code 57%, persistent memory subagent, built-in MiMo-V2.5-Pro model. Released June 11 2026.",
       "url": "https://mimo.xiaomi.com/mimocode",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-12T00:32:27Z"
     },
     {
       "topic_key": "tk-agents-over-chatbots",
       "title": "Take: A chatbot improves a workflow. An agent replaces it. That gap is the whole difference between an AI feature and an AI business.",
       "url": "",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-12T00:32:27Z"
     },
     {
       "topic_key": "tk-ai-is-labor",
-      "title": "Take: AI is labor, not software — the real question is why humans are doing tasks at all",
+      "title": "Take: AI is labor, not software \u2014 the real question is why humans are doing tasks at all",
       "url": "",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-11T10:32:35Z"
     },
     {
       "topic_key": "ps-spotlight-backplanes",
       "title": "Spotlight by Backplanes: post-session analyzer for Claude Code and Codex - flags credential leaks, risky commands, scope drift in session transcripts. Free. Team from Google security, Valimail, Twilio, Algolia. #3 Product Hunt June 10 2026.",
       "url": "https://www.backplanes.com",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-11T09:42:00Z"
     },
     {
       "topic_key": "diffusiongemma-parallel-blocks",
       "title": "Google releases DiffusionGemma: 26B MoE open-weights model using text diffusion (not next-token), 3.8B active params, ~4x faster than autoregressive Gemma 4 (1,000 tokens/sec on H100), lower quality on all benchmarks, Apache 2.0. Released June 10 2026.",
       "url": "https://ai.google.dev/gemma/docs/diffusiongemma",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-11T00:40:00Z"
     },
     {
       "topic_key": "ps-intuned",
-      "title": "Intuned (YC S22): browser automation platform with AI self-healing — agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
+      "title": "Intuned (YC S22): browser automation platform with AI self-healing \u2014 agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
       "url": "https://intunedhq.com",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-10T12:33:51Z"
     },
     {
       "topic_key": "claude-fable5-launch",
       "title": "Anthropic releases Claude Fable 5 (first public Mythos-class model): 80.3% SWE-Bench Pro, Stripe two-month migration in one day, $10/M input $50/M output; model card includes silent capability reduction for frontier AI dev requests via prompt modification/steering vectors, affecting 0.03% of devs.",
       "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-10T00:34:21Z"
     },
     {
       "topic_key": "ps-kimi-work",
-      "title": "Kimi Work: Moonshot AI desktop app for knowledge work — up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
+      "title": "Kimi Work: Moonshot AI desktop app for knowledge work \u2014 up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
       "url": "https://www.producthunt.com/products/kimi-ai-assistant",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-09T08:15:01Z"
     },
     {
       "topic_key": "openai-s1-ipo",
       "title": "OpenAI files confidential S-1 on June 8, 2026 at $852B valuation; ChatGPT 900M weekly users, $13.1B prior-year revenue, filed one week after Anthropic's $965B S-1",
       "url": "https://openai.com/index/openai-submits-confidential-s-1/",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-09T07:55:49Z"
     },
     {
       "topic_key": "xai-landlord-compute",
-      "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) — both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
+      "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) \u2014 both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
       "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-09T00:40:00Z"
     },
     {
       "topic_key": "spacex-ipo-ai-orbit",
       "title": "SpaceX IPO: $135/share, $1.77T valuation, $75B raise, Nasdaq June 12 as SPCX. Goldman models $322B AI revenue by 2030 vs $3.2B today; S&P 500 rejected fast-track (net loss $4.94B, 5% float).",
       "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/261948674-spacex-ipo-roadshow-wall-street-hypes-100x-ai-growth-sp-no-fast-track-tradingkey",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-08T12:42:00Z"
     },
     {
       "topic_key": "apple-siri-gemini-wwdc26",
       "title": "Apple unveils Gemini-powered Siri at WWDC 2026: ~$1B/year Google deal, ChatGPT exclusivity ended, three-way toggle (ChatGPT/Gemini/Claude) inside iOS 27",
       "url": "https://letsdatascience.com/news/apple-unveils-gemini-powered-siri-and-ios-27-at-wwdc-2026-b757953c",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-08T00:42:04Z"
     },
     {
       "topic_key": "microsoft-mai-code",
       "title": "Microsoft launches MAI-Code-1-Flash in-house coding model: SWE-Bench Pro 51.2% vs Claude Haiku 4.5's 35.2%, 60% fewer tokens, rolling out in GitHub Copilot, trained without OpenAI",
       "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-06T12:40:00Z"
     },
     {
       "topic_key": "chatgpt-dreaming-v3",
       "title": "OpenAI launches Dreaming V3: background memory synthesis for ChatGPT, factual recall from 41.5% to 82.8%, privacy catch that deleting conversations doesn't erase derived memories",
       "url": "https://openai.com/index/chatgpt-memory-dreaming/",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-06T00:37:00Z"
     },
     {
       "topic_key": "nvidia-nemotron-3-ultra",
       "title": "NVIDIA open-sources Nemotron 3 Ultra: 550B MoE model, 1M token context, commercial license, best US open-weight model at Artificial Analysis Intelligence Index 48",
       "url": "https://davarion.com/en/blog/nvidia-nemotron-3-ultra-550b-open-weight-model-computex-2026/",
-      "platform": ["x", "linkedin"],
+      "platform": [
+        "x",
+        "linkedin"
+      ],
       "posted_at": "2026-06-05T14:22:00Z"
     },
     {
       "topic_key": "anthropic-ai-builds-itself",
       "title": "Anthropic: Claude wrote 80%+ of their production code in May 2026; task horizons doubling every 4 months",
       "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-05T10:00:00Z"
     },
     {
       "topic_key": "github-copilot-token-billing",
       "title": "GitHub Copilot switches to token-based billing June 1; some developer bills jump from $29 to $750",
       "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-05T10:00:00Z"
     },
     {
       "topic_key": "gemma-4-12b-local-multimodal",
       "title": "Google releases Gemma 4 12B: open multimodal model (text, image, audio) runs on 16GB laptop under Apache 2.0",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-04T11:30:00Z"
     },
     {
       "topic_key": "deepseek-7b-first-raise",
       "title": "DeepSeek in talks to raise $7B in first-ever external funding round led by Tencent at $52-59B valuation",
       "url": "https://technode.com/2026/06/04/deepseek-in-talks-to-raise-7-billion-from-tencent-catl-and-other-investors/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-04T11:30:00Z"
     },
     {
       "topic_key": "uber-ai-budget-cap",
       "title": "Uber caps AI coding tools (Cursor, Claude Code) at $1,500/month after burning entire 2026 AI budget in 4 months",
       "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-04T10:19:38Z"
     },
     {
       "topic_key": "anthropic-965b-ipo",
       "title": "Anthropic files confidentially for IPO at $965B valuation after $65B Series H; revenue run-rate $9B to $47B in 5 months",
       "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-04T10:19:38Z"
     }
   ]

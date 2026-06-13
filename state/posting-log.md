@@ -8,6 +8,57 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-13T00:31:00Z
+
+spotlight: skipped (first run, hour < 6; product_spotlight.run = "second" only).
+
+### amodei-policy-ai-exponential | X | LIVE (customScheduled)
+
+**Text (tweet 1):** The CEO asking governments for authority to block his own AI is not a contradiction. It's a bet on being the one who shapes those rules.
+
+Dario's essay dropped June 10. Fable 5 launched the day before.
+
+**Thread tweet 2:** Mandatory testing in 4 risk areas before deployment. Government authority to block or reverse.
+
+I build on Claude. My bet: the lab writing the testing framework shapes the bar. Anthropic just volunteered.
+
+**Thread tweet 3:** https://decrypt.co/370704/anthropic-ceo-ai-too-powerful-regulation-cant-wait
+
+**Image style:** newspaper editorial cartoon
+**Image URL:** https://ahmedraza28.github.io/brand-agent/images/amodei-policy-ai-exponential.png
+**Buffer post id:** 6a2ca80d3b82df546ce012ad
+**dueAt:** 2026-06-13T04:08:00Z
+
+---
+
+### amodei-policy-ai-exponential | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Dario Amodei published a major policy essay June 10, one day after launching Fable 5. Aviation-style regulation, mandatory testing, government kill switches over AI deployments. The deck covers what it says and what it means if you build on these models.
+
+Does the CEO writing the safety rules get to set the bar?
+
+#AI #Anthropic #AIBuilders #Regulation #Founders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/amodei-policy-ai-exponential.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/amodei-policy-ai-exponential.png
+**First comment (source):** https://decrypt.co/370704/anthropic-ceo-ai-too-powerful-regulation-cant-wait
+**Buffer post id:** 6a2ca7a928ce56702c112824
+**dueAt:** 2026-06-13T04:24:00Z
+
+---
+
+### tk-agi-debates | X | LIVE (customScheduled)
+**Kind:** take
+
+**Text:** AGI debates are appointment TV right now. Every quarter brings a new 'we are close' and a new 'we are not close'. The companies running AI in production don't care. Their question: cut cost, save labor, or make revenue? AI is an economic event before it's a philosophical one.
+
+**Format:** text-only (no image per takes.md)
+**Buffer post id:** 6a2ca7a99017a527dd605eeb
+**dueAt:** 2026-06-13T04:52:00Z
+
+---
+
 ## 2026-06-12T12:32:20Z
 
 target-met: research_per_day=1 already reached (1 research post today: mimo-code-open-source). No new research posts this run.
