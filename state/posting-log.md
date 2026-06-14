@@ -8,6 +8,12 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-14T12:32:03Z
+
+skip-day: sun
+
+---
+
 ## 2026-06-14T00:32:01Z
 
 skip-day: sun
