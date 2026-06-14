@@ -8,6 +8,12 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-14T00:32:01Z
+
+skip-day: sun
+
+---
+
 ## 2026-06-13T12:35:00Z
 
 target-met: research_per_day=1 already reached (1 research post today: amodei-policy-ai-exponential). No new research posts this run.
