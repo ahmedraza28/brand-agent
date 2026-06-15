@@ -8,6 +8,32 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-15T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### anthropic-access-ban | LinkedIn | LIVE (customScheduled)
+
+**Caption:** The US government shut off Anthropic's two most capable models Friday night. Not a glitch. A directive.
+
+Amazon CEO Andy Jassy reportedly flagged a Fable 5 jailbreak to the Treasury Secretary. The administration acted. Anthropic disabled global access within hours.
+
+I build on Claude. The deck covers what happened, the conflict at the center of it, and what this means for your architecture.
+
+Is your stack built to survive a supplier going dark overnight?
+
+#AI #Anthropic #AIBuilders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/anthropic-access-ban.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/anthropic-access-ban.png
+**First comment (source):** https://www.anthropic.com/news/fable-mythos-access
+**Buffer post id:** 6a2f494661b0aab8c16a350c
+**dueAt:** 2026-06-15T04:23:00Z
+
+---
+
 ## 2026-06-14T12:32:03Z
 
 skip-day: sun
