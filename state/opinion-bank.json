@@ -168,6 +168,118 @@
       "note": "",
       "last_used": null,
       "times_used": 0
+    },
+    {
+      "id": "time-to-no",
+      "take": "Time-to-hire is the wrong number to chase. The metric that actually bleeds you is time-to-no: how long a candidate waits to find out they're a dead end. Most pipelines optimize the offer and ignore the 90% who get strung along.",
+      "note": "Contrarian against the time-to-hire orthodoxy. The fast rejection is a feature, not a failure. Builder-in-the-arena framing.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "ats-doing-its-job",
+      "take": "The ATS isn't broken. It's doing exactly what we asked: filter on keywords, not capability. We built a machine to count nouns and then act surprised it can't read a human being.",
+      "note": "Reframe-the-villain. Critique the system design, never a named vendor. The problem is what we optimized it for, not the software.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "resume-is-a-bad-sensor",
+      "take": "A resume is a self-reported, retro-edited marketing document, and we've built the entire top of the funnel on it. It's the worst sensor in the whole pipeline and somehow the one we trust most.",
+      "note": "First-principles: the resume as a low-fidelity signal. The interesting question is what replaces it as the primary signal, not how to parse it better.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "interview-theater",
+      "take": "Most interviews don't measure whether someone can do the job. They measure whether someone is good at interviews. Those are different skills, and we keep hiring for the second one.",
+      "note": "Interview theater. Unstructured charisma-detection vs structured signal. Earned to say from the interview-builder seat.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "structure-beats-vibes",
+      "take": "Structured interviews predict performance roughly twice as well as the freewheeling chat most managers prefer, and rubrics cut bias hard. Yet we keep defending gut feel because it flatters the interviewer. Structure beats vibes, and the data has said so for decades.",
+      "note": "Structure-beats-vibes with receipts (the validity gap is well-documented research, not a fabricated stat). The reason it isn't adopted is ego, not evidence. Pair with: this is why we built AI to enforce structure.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "ghosting-is-a-system-output",
+      "take": "Ghosting candidates isn't rudeness, it's a capacity problem dressed up as one. A recruiter drowning in 800 applicants physically cannot reply to 780 of them. Either you automate the close-out or you keep blaming individuals for a math problem.",
+      "note": "Reframes candidate ghosting as a systems failure, not a character flaw. Honest middle ground: automation's most defensible job is the rejection nobody has time to send. Candidate-experience lane WITH a mechanism, not a platitude.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "where-ai-screening-fails",
+      "take": "I build AI screening and I'll say what my own category won't: it's genuinely good at consistency and genuinely bad at the exceptional outlier. The career-switcher, the unconventional path, the person whose best signal isn't on paper. If your AI screen has no human override for the weird-but-brilliant, you've automated mediocrity.",
+      "note": "The honest-vendor confessional. Owns the 'I'll tell you what my own category hides' seat. Human-in-the-loop spine. Specific-but-unverifiable builder candor.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "build-cheat-proof-not-cheat-detection",
+      "take": "Chasing candidates who use AI mid-interview is a losing arms race. The smarter move is to design interviews where using AI in the moment doesn't help: probing follow-ups, reasoning under pressure, 'why did you do it that way'. If a co-pilot can ace your interview, the problem is your interview.",
+      "note": "Designing-for-AI-vs-AI whitespace. Direct from the interview-builder seat. Contrarian against the 'detect the cheater' crowd. The fix is interview design, not surveillance.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "explainability-as-stance",
+      "take": "If your hiring AI can't tell a candidate why they were rejected in plain language, you don't have a product, you have a black box that happens to make decisions about people's livelihoods. Explainability isn't a compliance checkbox. It's the difference between a tool and a verdict machine.",
+      "note": "Transparency-as-a-product-stance whitespace. The trust high-ground the black-box vendors can't take. Explainable + bias-aware spine. Stake a flag without naming a competitor.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "ai-scales-the-bias-you-feed-it",
+      "take": "AI doesn't remove hiring bias, it scales whatever bias is in the data you trained it on. Feed it ten years of biased human decisions and you get a faster, cheaper, more confident version of the same discrimination. The honest claim isn't 'unbiased AI', it's 'AI we actively audit for bias'.",
+      "note": "Bias-aware spine, the responsible-builder line. Directly counters the lazy 'AI is objective' pitch. The cautionary-tale framing (models learning from biased human decisions) is the credible flag to plant.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "human-in-the-loop-becoming-law",
+      "take": "Human-in-the-loop is quietly going from best practice to legal requirement. Regulators are converging on the same idea: a machine can assist a hiring decision, but a human has to own it. Founders treating that as red tape are about to get a very expensive lesson; the ones who built it in are about to get a moat.",
+      "note": "Regulation-for-operators whitespace (EU AI Act high-risk classification, NYC LL144, state disclosure laws, converging without naming a fabricated deadline). Operator-facing, not legalese. Compliance as moat, not chore.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "volume-roles-are-the-real-frontier",
+      "take": "The AI-hiring discourse obsesses over engineering roles while ignoring where the volume actually is: care, health, frontline, hourly. One office job gets 40 applicants and a careful human read. One frontline role gets 800 and a coin flip. That's where screening is most broken and most worth fixing, and almost nobody serious is building for it.",
+      "note": "Volume-screening-done-right whitespace. AU aged-care/health is a proof point, NEVER the boundary, frame as an underserved global segment. Contrarian against the white-collar-obsessed discourse.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "recruiter-becomes-the-closer",
+      "take": "When AI eats sourcing and first-round screening, the recruiter job doesn't shrink, it moves up the stack. The work that's left is the work that always mattered: judgment on the close calls, selling the role to a great candidate, advising the hiring manager who's wrong. The admin was never the job. We just confused being busy with being valuable.",
+      "note": "Tasks-not-jobs applied specifically to the recruiter role, sharper than the saturated version. The recruiter becomes the closer/advisor, not unemployed. Respectful to the audience while still contrarian.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "ai-fluency-is-the-new-signal",
+      "take": "Every CEO now wants 'AI-fluent' hires and almost no one can define what that means or test for it. It isn't knowing prompt tricks. It's whether someone can delegate to a model, catch where it's confidently wrong, and verify the output. Until TA can measure that, 'AI fluency' on a job ad is a wish, not a screen.",
+      "note": "Measuring-AI-fluency whitespace, the field has the demand and no validated method. Builder who scores candidates can credibly propose what the real signal is (delegate, catch errors, verify). Ties to verification-is-the-skill.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "first-rung-rebuild",
+      "take": "AI is eating the exact entry-level tasks that juniors used to learn the job on. Screening, drafting, first-pass research, the grunt work that was secretly an apprenticeship. If we automate the bottom rung, we have to consciously rebuild how people get their first shot, or we run out of seniors in a decade. This is a design problem, not a thing to mourn.",
+      "note": "First-rung-crisis from the hiring-mechanics angle, NOT 'AI kills jobs' doom. Founder-of-hiring-tech is placed to own the rebuild question. Forward-looking, names a real second-order risk without fabricating numbers.",
+      "last_used": null,
+      "times_used": 0
+    },
+    {
+      "id": "candidates-screen-you-back",
+      "take": "Hiring teams still act like they're the only ones evaluating. The candidate is screening your company the whole time: your reply speed, your interview competence, whether a human ever showed up. In a market where good people have options, a sloppy hiring process isn't just inefficient, it's a public referendum on how you'll treat them once they're inside.",
+      "note": "Candidate-experience lane reframed as a two-way evaluation with stakes for the employer. The process IS the employer brand. Avoids the bare 'be human' platitude by tying it to a concrete consequence (losing the people you most want).",
+      "last_used": null,
+      "times_used": 0
     }
   ]
 }

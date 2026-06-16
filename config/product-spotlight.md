@@ -1,5 +1,11 @@
 # Product spotlight — the builder's-lens second stream
 
+## ⚠ DORMANT — product spotlight stream (X suspended 2026-06-14, revivable if X returns)
+
+The product spotlight stream is **OFF** (`state/settings.json` → `product_spotlight.enabled=false`). This stream was X-primary (a near-daily X post, occasional LinkedIn carousel); with X suspended it has no live primary channel. **Do not produce product spotlight posts while X is dormant.** Keep this file intact: the stream revives as-is if the X account is reinstated and `product_spotlight.enabled` is set back to `true`.
+
+---
+
 A second, lighter content stream alongside the AI-trend posts: a near-daily **X** post (and an occasional LinkedIn carousel) where Ahmed reacts to a genuinely notable **new product launch** with a builder's eye. The goal is to make Ahmed read as someone with a sharp product sense who's paying attention to what's actually shipping — *not* a reviewer handing out scores.
 
 Governed by `state/settings.json` → `product_spotlight`:
