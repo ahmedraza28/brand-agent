@@ -8,6 +8,34 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-16T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### salesforce-fin-agents | LinkedIn | LIVE (customScheduled)
+
+**Caption:** Salesforce paid $3.6 billion yesterday for an AI agent that closes 76% of support tickets with no human involved.
+
+Fin started as Intercom, a chat widget. They rebuilt around an agent that owns outcomes. That reframe was worth $3.6B to Salesforce.
+
+I build agents for a living. This deal is the clearest proof yet of where the acquisition logic is heading.
+
+The deck covers the numbers and what every B2B workflow that still runs on human hours is worth today.
+
+Which function gets bought next?
+
+#AI #AIAgents #Salesforce #B2BSaaS #Founders
+
+**Format:** carousel (PDF)
+**Carousel PDF:** https://ahmedraza28.github.io/brand-agent/carousels/salesforce-fin-agents.pdf
+**Carousel thumbnail:** https://ahmedraza28.github.io/brand-agent/carousels/salesforce-fin-agents.png
+**First comment (source):** https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/
+**Buffer post id:** 6a309b100cf8c4f5e834fca7
+**dueAt:** 2026-06-16T04:27:00Z
+
+---
+
 ## 2026-06-15T12:32:00Z
 
 target-met: research_per_day=1 already reached (1 research post today: anthropic-access-ban). No new research posts this run.
