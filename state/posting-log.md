@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-17T00:35:28Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ghost-jobs-ny-law | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Making ghost jobs illegal is the right call.
+
+New York passed a bill on June 2 that would fine companies $2,500 per posting for roles they have no immediate intent to fill. Still waiting on the governor's signature, but the direction is clear.
+
+I just don't think the fine will work the way people expect.
+
+I've talked to enough TA teams to understand why ghost jobs exist. Some companies are genuinely building pipeline for roles they expect to open. Some are benchmarking salary data. Some leave a req live because shutting it down and reopening it three months later costs more in admin overhead than just leaving it up. None of that is fraud. All of it makes sense given what this system currently costs.
+
+Right now, posting a job you might never fill costs the company nothing. It costs the candidate forty minutes. That gap is where the problem lives.
+
+The April JOLTS data: 7.6 million open roles, 5.1 million hires. The mismatch has a lot of explanations. Ghost jobs are one of them, and nobody really tracks how many.
+
+A $2,500 fine targets the posting. It doesn't touch the incentive that created the posting.
+
+The fix that actually moves this: making the cost of bad job data visible inside the organization. Not a fine from Albany. A number the CHRO can see. How many open reqs went stale. How long. What it cost the recruiting team to chase pipelines that never closed.
+
+Until the internal cost is visible, the ghost job survives any external fine.
+
+#Hiring #TalentAcquisition #HR #Recruiting #GhostJobs
+
+**Format:** none (text-only)
+**First comment (source):** https://www.hrdive.com/news/new-york-passed-bill-aimed-at-halting-ghost-jobs/822620/
+**Buffer post id:** 6a31ec1855329f74ab6af10b
+**dueAt:** 2026-06-17T16:51:00Z
+
+---
+
 ## 2026-06-16T12:33:01Z
 
 target-met: research_per_day=1 already reached (1 research post today: salesforce-fin-agents). No new research posts this run.

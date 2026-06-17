@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ghost-jobs-ny-law",
+      "title": "New York passes bill S8877 requiring employers with 100+ employees to disclose hiring timelines for job postings; $2,500 fine per noncompliant posting. Awaiting Gov. Hochul signature as of June 17, 2026. JOLTS April 2026: 7.6M openings, 5.1M hires.",
+      "url": "https://www.hrdive.com/news/new-york-passed-bill-aimed-at-halting-ghost-jobs/822620/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-17T00:35:28Z"
+    },
+    {
       "topic_key": "salesforce-fin-agents",
       "title": "Salesforce acquires Fin (formerly Intercom) for $3.6 billion — largest agentic customer service acquisition to date. Fin's AI agent (Apex model) resolves 76% of support volume end-to-end across chat, email, WhatsApp, SMS, phone, Slack. 30,000+ customers. Agentforce ARR $1.2B, up 205% YoY. Announced June 15, 2026.",
       "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
