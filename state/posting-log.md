@@ -8,6 +8,43 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-18T00:37:09Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ai-vs-ai-interview-arms-race | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The companies building better AI detection for interview fraud are solving the wrong problem.
+
+Fraudulent or AI-assisted candidates are now the #1 anticipated hiring challenge in 2026, ahead of the talent shortage that had held that spot for years. A survey of 500+ US talent acquisition leaders found that 90% of companies missed their hiring goals. Sixty percent said time-to-hire got worse, not better. And 99.8% of those same teams are using or deploying AI agents to help.
+
+The industry response: more detection. Deepfake scanners. Eye-movement proctoring. Flags when a second device is suspected.
+
+I build AI interviewers. My read, from watching this from inside the category: detection lags adoption. It always has.
+
+A cheat tool ships. The open-source clones follow within months. A Reddit thread documents the workaround before the next update. The gap between new fraud capability and new fraud detection isn't closing. It's widening.
+
+What actually holds up is interview design.
+
+If your interview can be aced by an AI whispering answers in real time, it was never measuring what you thought. It was measuring how well someone performs in a familiar structure. That's a rehearsal for the hiring process, not a signal about the job.
+
+The questions that survive the arms race are the ones where AI doesn't actually help: specific follow-ups to a candidate's own answer, reasoning under a scenario they've never seen, "walk me through exactly why you made that call." An AI can generate a polished opening answer. It gets exposed under "why did you phrase it that way?"
+
+You can't audit your way out of this. But you can design an interview that doesn't need to be audited.
+
+If a co-pilot can ace your process, the problem was the process.
+
+#Hiring #TalentAcquisition #AI #Recruiting #InterviewDesign
+
+**Format:** none (text-only)
+**First comment (source):** https://goodtime.io/news-press/2026-hiring-insights/
+**Buffer post id:** 6a333df359d8b77577c6db8b
+**dueAt:** 2026-06-18T16:17:00Z
+
+---
+
 ## 2026-06-17T12:30:00Z
 
 target-met: research_per_day=1 already reached (1 research post today: ghost-jobs-ny-law). No new research posts this run.
