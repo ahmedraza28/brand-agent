@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-19T00:32:22Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### hiring-freeze-low-fire | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Hiring rates are at 2013 lows. Not because companies stopped needing people. Because barely anyone is leaving.
+
+The April numbers from Indeed Hiring Lab: hiring rate 3.2%, separation rate 3.1%. Employment is technically growing because the gap is positive. That gap is 0.1 percentage points. That is the cushion holding up a 160-million-job labor market.
+
+iCIMS tracked applications in May. Openings up 9% year over year. Hiring up just 1%. Application volume down 11%. For frontline roles, applications fell 18%.
+
+More jobs posted. Fewer candidates applying. The pipeline is thinner than the headlines suggest.
+
+Most AI recruiting tools were designed for the opposite problem. The pitch is almost always volume management: too many applicants, not enough time, you need to screen faster. That framing still fits some markets. But in a lot of frontline and mid-market hiring right now, the bottleneck has moved. There's no flood to filter.
+
+I build AI interviewers. A head of talent I spoke with last week told me her frontline application numbers are down more than a third from two years ago while her open reqs haven't changed. She wasn't looking for a smarter screener. She needed applicants.
+
+A frozen labor market and a volume crunch look similar from the outside. They're different problems. An AI screener helps when the pipeline is full. When the pipeline is thin, you need a different answer.
+
+Most of the tooling on the market is still optimized for the flood. The May data suggests the flood has moved.
+
+#Hiring #TalentAcquisition #Recruiting #LaborMarket #HRData
+
+**Format:** none (text-only)
+**First comment (source):** https://hiringlab.org/2026/06/18/strong-job-gains-weak-hiring/
+**Buffer post id:** 6a348f8f70997684b4703ad0
+**dueAt:** 2026-06-19T15:57:00Z
+
+---
+
 ## 2026-06-18T12:31:50Z
 
 target-met: research_per_day=1 already reached (1 research post today: ai-vs-ai-interview-arms-race). No new research posts this run.
