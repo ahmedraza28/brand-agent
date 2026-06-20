@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-20T00:35:29Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### eu-aiact-deferral-hiring | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The EU just gave companies an extra 16 months on AI hiring compliance. Most will waste it.
+
+The European Parliament voted June 16 to provisionally agree to push the AI Act's high-risk employment deadline from August 2, 2026, to December 2, 2027. The Council still has to formally adopt it, and the original August date is technically still live until they do. A lot of teams just exhaled anyway.
+
+I build AI interviewers. My read from inside this category: the companies treating this as permission to pause were never going to be ready by August regardless.
+
+What the law requires isn't that complicated. An AI system used to screen or score candidates has to log its reasoning, allow human override, and be testable for bias. Those requirements didn't originate in the AI Act. The AI Act just wrote them down and attached a fine.
+
+Every team I've watched that built explainable outputs and human-review workflows did it because the product demanded it, not because a regulator asked. The candidate who got rejected could understand why. The recruiter could push back on a score. The system got fixed faster because the failure mode was visible.
+
+What regulators are calling mandatory, good product teams were already calling obvious.
+
+Sixteen months is enough runway to build it right if you start treating it like a design problem. It is not enough time if you're still waiting to see whether the Council formally adopts the deferral before August.
+
+The law was always going to require this. The companies that used that signal early are already ahead.
+
+#Hiring #AI #HRTech #TalentAcquisition #EUAIAct
+
+**Format:** none (text-only)
+**First comment (source):** https://ogletree.com/insights-resources/blog-posts/eu-nears-approval-of-agreement-to-delay-rules-for-ai-use-in-employment-decisions/
+**Buffer post id:** 6a35e07e9513262b4d283548
+**dueAt:** 2026-06-20T17:14:00Z
+
+---
+
 ## 2026-06-19T12:31:43Z
 
 target-met: research_per_day=1 already reached (1 research post today: hiring-freeze-low-fire). No new research posts this run.

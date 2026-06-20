@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "eu-aiact-deferral-hiring",
+      "title": "EU AI Act Digital Omnibus: European Parliament voted June 16, 2026 to provisionally approve deferral of high-risk employment AI deadline from August 2, 2026 to December 2, 2027. Council formal adoption pending. Original deadline still technically live. Covers AI used in recruitment, candidate screening/scoring, performance evaluation. Builder take: explainability and human-in-the-loop were already table stakes before regulation named them.",
+      "url": "https://ogletree.com/insights-resources/blog-posts/eu-nears-approval-of-agreement-to-delay-rules-for-ai-use-in-employment-decisions/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-20T00:35:29Z"
+    },
+    {
       "topic_key": "hiring-freeze-low-fire",
       "title": "Indeed Hiring Lab June 18 2026: hiring rate 3.2% and separation rate 3.1% at 2013 lows — 'low-hire, low-fire' freeze. iCIMS May 2026: job openings +9% YoY, hiring +1% YoY, application volume -11% YoY, frontline applications -18% YoY. Labor market grows on thin 0.1-point margin; AI recruiting tools optimized for volume, not the application shortage.",
       "url": "https://hiringlab.org/2026/06/18/strong-job-gains-weak-hiring/",
