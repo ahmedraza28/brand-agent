@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "entry-level-ai-pipeline",
+      "title": "ResumeTemplates survey June 3 2026 (1,000 US hiring managers): 48% prefer investing in AI tools over hiring entry-level grads; 55% already shifted entry-level budgets to AI; 45% restructured so one senior+AI replaces multiple junior hires; 35% won't hire Class of 2026 at same volume. Builder take: entry-level roles were an apprenticeship pipeline in disguise — automating them defers a talent-supply problem by 3-5 years.",
+      "url": "https://www.prnewswire.com/news-releases/resumetemplatescom-survey-nearly-half-of-hiring-managers-will-train-ai-instead-of-hiring-2026-college-grads-302790839.html",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-22T00:31:00Z"
+    },
+    {
       "topic_key": "eu-aiact-deferral-hiring",
       "title": "EU AI Act Digital Omnibus: European Parliament voted June 16, 2026 to provisionally approve deferral of high-risk employment AI deadline from August 2, 2026 to December 2, 2027. Council formal adoption pending. Original deadline still technically live. Covers AI used in recruitment, candidate screening/scoring, performance evaluation. Builder take: explainability and human-in-the-loop were already table stakes before regulation named them.",
       "url": "https://ogletree.com/insights-resources/blog-posts/eu-nears-approval-of-agreement-to-delay-rules-for-ai-use-in-employment-decisions/",

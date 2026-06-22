@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-22T00:31:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### entry-level-ai-pipeline | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The companies cutting entry-level headcount for AI right now are going to have a talent problem in 2028. They just won't recognize it as the same decision.
+
+A ResumeTemplates survey of 1,000 US hiring managers, published June 3, found that 48% would rather invest in AI tools than hire and train a 2026 grad. 55% have already shifted their entry-level budgets to AI tools. 45% restructured so one senior person plus AI replaces what used to be multiple junior hires.
+
+I understand the math. The short-term ROI is real.
+
+The part nobody's modeling: the work AI does better than a junior hire was never just cheap labor. It was an apprenticeship we didn't call an apprenticeship. Someone did the first-pass research, the initial drafts, and while they did it, they learned how to do the job above it. The boring work was the training program.
+
+Pull that rung and you don't get a leaner team. You get a leaner team for three years and then a shortage of people who need to know how to do the thing that matters.
+
+I build AI interviewers. The category is genuinely useful. I still think most teams buying their way out of entry-level hiring right now are pricing in the gain and ignoring the deferred cost.
+
+The gap shows up when the cohort that never got the first two years becomes the people you need to promote.
+
+#Hiring #TalentAcquisition #AI #HRTech #FutureOfWork
+
+**Format:** none (text-only)
+**First comment (source):** https://www.prnewswire.com/news-releases/resumetemplatescom-survey-nearly-half-of-hiring-managers-will-train-ai-instead-of-hiring-2026-college-grads-302790839.html
+**Buffer post id:** 6a38840c1cbe0c9c0663a611
+**dueAt:** 2026-06-22T16:14:00Z
+
+---
+
 ## 2026-06-21T12:31:00Z
 
 skip-day: sun
