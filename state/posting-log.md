@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-23T00:34:59Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### workday-vendor-liability | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+AI hiring vendors have been treating legal liability like it's the employer's problem. A California federal court just said it isn't.
+
+In May, a judge certified a class action against Workday, the HR software used by 60% of the Fortune 500, covering applicants over 40 screened out by its AI since September 2020. Yesterday, a court allowed the California discrimination claims to proceed as well.
+
+The lead plaintiff, Derek Mobley, a Black man in his 40s, applied to more than 80 positions at companies running Workday's software. Rejected every time. His claim: the AI discriminated on age, race, and disability.
+
+I build AI interviewers. The shift in this case is what I keep coming back to.
+
+For years, legal exposure in AI hiring sat almost entirely with the employer. You bought a tool, used a tool, owned what it decided. Vendors sold the algorithm and accepted limited liability for what it did downstream.
+
+Workday is testing that theory in federal court. Early signals aren't good for vendors.
+
+If vendor liability sticks here, every company building AI hiring tools just inherited something: prove your model doesn't discriminate. Not your customer's deployment. Yours.
+
+I think that's the right outcome. The tool builder knows what the model was trained on. They know where bias enters the pipeline. Holding them accountable creates the incentive to build auditable, explainable systems from the start. That work pays off in court.
+
+Bias in AI screening isn't the live debate anymore. Who pays for it is.
+
+#Hiring #AIBias #TalentAcquisition #HRTech #AI
+
+**Format:** none (text-only)
+**First comment (source):** https://hrexecutive.com/landmark-workday-case-signals-new-ai-hiring-risk/
+**Buffer post id:** 6a39d57b151950f020d8fe1c
+**dueAt:** 2026-06-23T16:15:00Z
+
+---
+
 ## 2026-06-22T12:31:00Z
 
 target-met: research_per_day=1 already reached (1 research post today: entry-level-ai-pipeline). No new research posts this run.

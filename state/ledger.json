@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "workday-vendor-liability",
+      "title": "Mobley v. Workday class action: in May 2026 a California federal court certified a class of 40+ applicants screened out by Workday's AI since September 2020; on June 22 the court allowed California FEHA discrimination claims to proceed. First major AI hiring lawsuit holding a vendor (not just the employer) liable. Builder take: vendor liability shifts the compliance incentive to build auditable, explainable AI hiring systems.",
+      "url": "https://hrexecutive.com/landmark-workday-case-signals-new-ai-hiring-risk/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-23T00:34:59Z"
+    },
+    {
       "topic_key": "entry-level-ai-pipeline",
       "title": "ResumeTemplates survey June 3 2026 (1,000 US hiring managers): 48% prefer investing in AI tools over hiring entry-level grads; 55% already shifted entry-level budgets to AI; 45% restructured so one senior+AI replaces multiple junior hires; 35% won't hire Class of 2026 at same volume. Builder take: entry-level roles were an apprenticeship pipeline in disguise — automating them defers a talent-supply problem by 3-5 years.",
       "url": "https://www.prnewswire.com/news-releases/resumetemplatescom-survey-nearly-half-of-hiring-managers-will-train-ai-instead-of-hiring-2026-college-grads-302790839.html",
