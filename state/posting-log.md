@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-23T12:31:00Z
+
+target-met: research_per_day=1 already reached (1 research post today: workday-vendor-liability). No new research posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-06-23T00:34:59Z
 
 spotlight: skipped (product_spotlight.enabled = false).
