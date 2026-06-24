@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-24T00:37:56Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### colorado-ai-act-gutted | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Colorado was six days from the most demanding AI hiring compliance law in the US. The legislature just gutted it.
+
+The original law, passed in 2024 with a June 30, 2026 effective date, required algorithmic impact assessments, risk management programs, annual reviews of every AI hiring tool, and mandatory reporting of discriminatory outcomes to the attorney general.
+
+Last month, the governor signed an amendment that removed nearly all of it. What's left: notify candidates you're using AI, give them a written explanation and 30 days to request human review if you reject them, keep records for three years. The June 30 deadline is now January 1, 2027.
+
+I build AI interview tools. When the original law passed, I read it carefully. Not because the compliance burden scared me. Because the impact assessment requirement was going to force the question every AI hiring vendor needs to answer: does this thing discriminate, against who, and how do you know?
+
+The amendment let every vendor skip that.
+
+The Workday class action is still running. So is the California FEHA ruling that let it move forward as vendor liability, not just employer liability. Those cases came from discrimination law that's been on the books for decades. No state amendment touched them.
+
+Legislative accountability retreats. Judicial accountability doesn't.
+
+The TA teams waiting on regulation to tell them what to ask their AI vendors just got six more months of runway. The teams that built explainable, auditable systems anyway are still ahead. That gap doesn't narrow when the law retreats.
+
+Build above the floor. When the law catches up, you're ready. When it retreats, you've lost nothing.
+
+#Hiring #AI #HRTech #TalentAcquisition #AIHiring
+
+**Format:** none (text-only)
+**First comment (source):** https://www.littler.com/news-analysis/asap/colorado-amends-its-artificial-intelligence-law-substantially-reducing
+**Buffer post id:** 6a3b274a3f66e9632349788d
+**dueAt:** 2026-06-24T16:51:00Z
+
+---
+
 ## 2026-06-23T12:31:00Z
 
 target-met: research_per_day=1 already reached (1 research post today: workday-vendor-liability). No new research posts this run.
