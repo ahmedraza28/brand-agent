@@ -1,66 +1,93 @@
 {
   "covered": [
     {
+      "topic_key": "colorado-ai-act-gutted",
+      "title": "Colorado AI Act (SB 24-205) gutted by amendment SB 26-189 signed ~May 2026: original June 30 2026 effective date pushed to Jan 1 2027; mandatory impact assessments, AG reporting, annual reviews, anti-discrimination obligations all removed; only notice + adverse action process (30 days, written explanation, 'commercially reasonable' human review) + 3-year record retention remain. Builder take: legislative accountability retreats; judicial accountability (Workday class action, California FEHA) does not.",
+      "url": "https://www.littler.com/news-analysis/asap/colorado-amends-its-artificial-intelligence-law-substantially-reducing",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-06-24T00:37:56Z"
+    },
+    {
       "topic_key": "workday-vendor-liability",
       "title": "Mobley v. Workday class action: in May 2026 a California federal court certified a class of 40+ applicants screened out by Workday's AI since September 2020; on June 22 the court allowed California FEHA discrimination claims to proceed. First major AI hiring lawsuit holding a vendor (not just the employer) liable. Builder take: vendor liability shifts the compliance incentive to build auditable, explainable AI hiring systems.",
       "url": "https://hrexecutive.com/landmark-workday-case-signals-new-ai-hiring-risk/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-23T00:34:59Z"
     },
     {
       "topic_key": "entry-level-ai-pipeline",
       "title": "ResumeTemplates survey June 3 2026 (1,000 US hiring managers): 48% prefer investing in AI tools over hiring entry-level grads; 55% already shifted entry-level budgets to AI; 45% restructured so one senior+AI replaces multiple junior hires; 35% won't hire Class of 2026 at same volume. Builder take: entry-level roles were an apprenticeship pipeline in disguise — automating them defers a talent-supply problem by 3-5 years.",
       "url": "https://www.prnewswire.com/news-releases/resumetemplatescom-survey-nearly-half-of-hiring-managers-will-train-ai-instead-of-hiring-2026-college-grads-302790839.html",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-22T00:31:00Z"
     },
     {
       "topic_key": "eu-aiact-deferral-hiring",
       "title": "EU AI Act Digital Omnibus: European Parliament voted June 16, 2026 to provisionally approve deferral of high-risk employment AI deadline from August 2, 2026 to December 2, 2027. Council formal adoption pending. Original deadline still technically live. Covers AI used in recruitment, candidate screening/scoring, performance evaluation. Builder take: explainability and human-in-the-loop were already table stakes before regulation named them.",
       "url": "https://ogletree.com/insights-resources/blog-posts/eu-nears-approval-of-agreement-to-delay-rules-for-ai-use-in-employment-decisions/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-20T00:35:29Z"
     },
     {
       "topic_key": "hiring-freeze-low-fire",
       "title": "Indeed Hiring Lab June 18 2026: hiring rate 3.2% and separation rate 3.1% at 2013 lows — 'low-hire, low-fire' freeze. iCIMS May 2026: job openings +9% YoY, hiring +1% YoY, application volume -11% YoY, frontline applications -18% YoY. Labor market grows on thin 0.1-point margin; AI recruiting tools optimized for volume, not the application shortage.",
       "url": "https://hiringlab.org/2026/06/18/strong-job-gains-weak-hiring/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-19T00:32:22Z"
     },
     {
       "topic_key": "ai-vs-ai-interview-arms-race",
       "title": "GoodTime 2026 Hiring Insights Report (500+ US TA leaders): fake/AI-assisted candidates are the #1 anticipated hiring challenge in 2026, surpassing talent scarcity. 90% of companies missed hiring goals; 60% saw time-to-hire worsen; only 1 in 9 hired faster; 99.8% using or deploying AI agents. AI interview arms race: design beats detection.",
       "url": "https://goodtime.io/news-press/2026-hiring-insights/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-18T00:37:09Z"
     },
     {
       "topic_key": "ghost-jobs-ny-law",
       "title": "New York passes bill S8877 requiring employers with 100+ employees to disclose hiring timelines for job postings; $2,500 fine per noncompliant posting. Awaiting Gov. Hochul signature as of June 17, 2026. JOLTS April 2026: 7.6M openings, 5.1M hires.",
       "url": "https://www.hrdive.com/news/new-york-passed-bill-aimed-at-halting-ghost-jobs/822620/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-17T00:35:28Z"
     },
     {
       "topic_key": "salesforce-fin-agents",
       "title": "Salesforce acquires Fin (formerly Intercom) for $3.6 billion — largest agentic customer service acquisition to date. Fin's AI agent (Apex model) resolves 76% of support volume end-to-end across chat, email, WhatsApp, SMS, phone, Slack. 30,000+ customers. Agentforce ARR $1.2B, up 205% YoY. Announced June 15, 2026.",
       "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-16T00:37:00Z"
     },
     {
       "topic_key": "anthropic-access-ban",
       "title": "US government ordered Anthropic to suspend all access to Fable 5 and Mythos 5 on June 13, 2026. Amazon CEO Andy Jassy reportedly flagged jailbreaks to Treasury Secretary Bessent. Anthropic disabled both models globally to comply.",
       "url": "https://www.anthropic.com/news/fable-mythos-access",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-15T00:37:00Z"
     },
     {
       "topic_key": "ps-prometheus-firecrawl",
       "title": "Prometheus by Firecrawl: natural-language-to-TypeScript web data agent with self-healing maintenance. Launched June 12 2026, #4 Product Hunt with 112 upvotes. Available via MCP protocol.",
       "url": "https://www.producthunt.com/posts/prometheus-by-firecrawl",
-      "platform": ["x"],
+      "platform": [
+        "x"
+      ],
       "posted_at": "2026-06-13T12:35:00Z"
     },
     {
@@ -84,7 +111,7 @@
     },
     {
       "topic_key": "ps-terminal-mode",
-      "title": "Terminal Mode by Even Realities: ambient agent-status monitor for developers on Even G2 smart glasses \u2014 shows Claude Code agent state (running, blocked, waiting, needs approval) in peripheral vision, ~1s latency, voice + tap controls. PH #4 June 11 2026, 394 upvotes.",
+      "title": "Terminal Mode by Even Realities: ambient agent-status monitor for developers on Even G2 smart glasses — shows Claude Code agent state (running, blocked, waiting, needs approval) in peripheral vision, ~1s latency, voice + tap controls. PH #4 June 11 2026, 394 upvotes.",
       "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities",
       "platform": [
         "x"
@@ -112,7 +139,7 @@
     },
     {
       "topic_key": "tk-ai-is-labor",
-      "title": "Take: AI is labor, not software \u2014 the real question is why humans are doing tasks at all",
+      "title": "Take: AI is labor, not software — the real question is why humans are doing tasks at all",
       "url": "",
       "platform": [
         "x"
@@ -141,7 +168,7 @@
     },
     {
       "topic_key": "ps-intuned",
-      "title": "Intuned (YC S22): browser automation platform with AI self-healing \u2014 agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
+      "title": "Intuned (YC S22): browser automation platform with AI self-healing — agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
       "url": "https://intunedhq.com",
       "platform": [
         "x"
@@ -160,7 +187,7 @@
     },
     {
       "topic_key": "ps-kimi-work",
-      "title": "Kimi Work: Moonshot AI desktop app for knowledge work \u2014 up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
+      "title": "Kimi Work: Moonshot AI desktop app for knowledge work — up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
       "url": "https://www.producthunt.com/products/kimi-ai-assistant",
       "platform": [
         "x",
@@ -180,7 +207,7 @@
     },
     {
       "topic_key": "xai-landlord-compute",
-      "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) \u2014 both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
+      "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) — both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
       "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
       "platform": [
         "x",
