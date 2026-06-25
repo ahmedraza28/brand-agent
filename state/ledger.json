@@ -1,6 +1,15 @@
 {
   "covered": [
     {
+      "topic_key": "manpowergroup-ai-hiring-gap",
+      "title": "ManpowerGroup/Everest Group 'New Talent Equation' report (June 23, 2026, 80 C-suite/CHRO/senior TA leaders, US+UK): 90%+ of organizations deploy AI in TA; fewer than 5% report transformational outcomes; 39% see significant impact (operational efficiency only); 54% say AI-assisted candidate behavior makes assessing true capability harder. Builder take: the adoption-transformation gap is a process-design failure, not an AI failure.",
+      "url": "https://www.prnewswire.com/news-releases/90-of-companies-use-ai-in-hiring-fewer-than-5-are-seeing-it-work-302808083.html",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-06-25T00:37:20Z"
+    },
+    {
       "topic_key": "colorado-ai-act-gutted",
       "title": "Colorado AI Act (SB 24-205) gutted by amendment SB 26-189 signed ~May 2026: original June 30 2026 effective date pushed to Jan 1 2027; mandatory impact assessments, AG reporting, annual reviews, anti-discrimination obligations all removed; only notice + adverse action process (30 days, written explanation, 'commercially reasonable' human review) + 3-year record retention remain. Builder take: legislative accountability retreats; judicial accountability (Workday class action, California FEHA) does not.",
       "url": "https://www.littler.com/news-analysis/asap/colorado-amends-its-artificial-intelligence-law-substantially-reducing",
