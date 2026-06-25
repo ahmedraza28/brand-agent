@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-25T00:37:20Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### manpowergroup-ai-hiring-gap | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+90% of companies use AI in their hiring now. Fewer than 5% call the results transformational.
+
+ManpowerGroup and Everest Group published a study this week based on 80 CHROs, C-suite leaders, and senior TA heads across the US and UK. That gap is the central finding.
+
+The best outcome they measured: 39% of organizations reported significant impact on operational efficiency. Screening faster. Moving candidates through the funnel quicker.
+
+And then it stalls.
+
+I've watched this inside companies I've sold to. They added AI to their hiring stack and didn't touch the process underneath. Same intake criteria. Same scoring assumptions. The AI was faster at doing the thing they'd always done without asking whether the thing was right.
+
+The finding that stayed with me: 54% of organizations say AI-assisted candidate behavior, generated resumes and coached interview answers, is making it harder to assess true capability. We deployed AI on the evaluation side. Candidates responded with AI on the presentation side. The signal got worse, not better, and most teams now have more process between them and a real read on a candidate than before.
+
+The 5% who found transformation didn't start by buying AI. They started by figuring out what their process was actually measuring versus what it should be.
+
+I build AI interviewers. That question comes up constantly. Which signals matter. What the interview is actually supposed to learn. Most teams haven't worked it out. And no tool, however good, can answer it for them.
+
+That gap closes when the question does.
+
+#Hiring #AI #TalentAcquisition #HRTech #Recruiting
+
+**Format:** none (text-only)
+**First comment (source):** https://www.prnewswire.com/news-releases/90-of-companies-use-ai-in-hiring-fewer-than-5-are-seeing-it-work-302808083.html
+**Buffer post id:** 6a3c7868336a6b98e71f3a85
+**dueAt:** 2026-06-25T16:51:00Z
+
+---
+
 ## 2026-06-24T12:34:07Z
 
 target-met: research_per_day=1 already reached (1 research post today: colorado-ai-act-gutted). No new research posts this run.
