@@ -8,6 +8,16 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-25T12:33:11Z
+
+target-met: research_per_day=1 already reached (1 research post today: manpowergroup-ai-hiring-gap). No new research posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
+---
+
 ## 2026-06-25T00:37:20Z
 
 spotlight: skipped (product_spotlight.enabled = false).
