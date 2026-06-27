@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-27T00:36:59Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ai-slopification-hiring-telephone | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The AI hiring pipeline is a telephone game. I build one of the phones.
+
+Harvard Business Review ran a piece this week putting Oxford and Babson research behind what I've watched happen inside these systems for two years. They call it "knowledge decay." An AI produces polished but lower-quality output, the next person in the chain stops checking as carefully, and by the end, the content has drifted far from what was originally true about the candidate.
+
+The chain in practice: AI-generated resume into an AI screener. Screener produces a summary. Summary goes into an AI-assisted shortlist. The hiring manager reads a two-line brief. Four layers. By layer four, they're reading the output of a machine summarizing the output of another machine. The original candidate is in there somewhere.
+
+I build the interview layer in that stack. What I can tell you is that the signal you're trying to preserve, whether this person can do the job, is fragile at every hand-off. Stacking AI on top of a process already optimized for the wrong things doesn't fix the wrong things. It moves them faster.
+
+The Oxford team recommends replacing open CVs with structured questionnaires: projects led, budgets managed, team sizes. Verifiable inputs instead of self-reported prose. That's the right direction. Structured assessment has beaten unstructured on predicting job performance for decades.
+
+The part the paper doesn't say: the telephone game only works if there's something real to distort. If your process was already measuring polish and format instead of capability, AI didn't break it. It just got the wrong answers faster.
+
+We built better phones for a conversation that was already broken.
+
+#Hiring #AI #TalentAcquisition #HRTech #Recruiting
+
+**Format:** none (text-only)
+**First comment (source):** https://hrexecutive.com/ai-in-hiring-a-risky-game-of-telephone/
+**Buffer post id:** 6a3f1b5137c4dee3e0bc6c8c
+**dueAt:** 2026-06-27T15:53:00Z
+
+---
+
 ## 2026-06-25T12:33:11Z
 
 target-met: research_per_day=1 already reached (1 research post today: manpowergroup-ai-hiring-gap). No new research posts this run.
