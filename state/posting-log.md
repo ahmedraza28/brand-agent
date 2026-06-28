@@ -8,6 +8,12 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-28T00:36:00Z
+
+skip-day: sun
+
+---
+
 ## 2026-06-27T12:30:00Z
 
 target-met: research_per_day=1 already reached (1 research post today: ai-slopification-hiring-telephone). No new research posts this run.
