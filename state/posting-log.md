@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-29T00:32:12Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### linkedin-apply-assistant | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The application was already the worst filter in hiring. LinkedIn just automated it.
+
+Last week, LinkedIn launched a Premium feature that pre-fills job applications and drafts cover letters for candidates. Recruiters see a polished, well-matched submission. They have no way of knowing a tool wrote it.
+
+I build the interview layer that sits downstream of all this. So I notice when the floor moves.
+
+Applications were already a low-fidelity signal. Keywords mirrored back from the job ad. Cover letters optimized to sound right rather than be right. A recruiter I spoke with recently gives each application 90 seconds on her first pass, 400 applications, one sitting. She knows she's pattern-matching to surface. She also has no other choice at that volume.
+
+Now the surface is being written for the candidate.
+
+The direction this pushes is predictable. Real signal moves further down the funnel, into the live conversation, the structured question, the thing someone has to answer in their own words without a tool doing it for them.
+
+LinkedIn made a sensible product decision for their subscribers.
+
+It also just finished off the top of the hiring funnel as a signal source.
+
+#Hiring #AI #TalentAcquisition #Recruiting #HRTech
+
+**Format:** none (text-only)
+**First comment (source):** https://www.hrdive.com/news/sociable-linkedin-automates-job-application-process-for-premium-users/823876/
+**Buffer post id:** 6a41be6016f1757f0f37329b
+**dueAt:** 2026-06-29T15:47:00Z
+
+---
+
 ## 2026-06-28T00:36:00Z
 
 skip-day: sun
