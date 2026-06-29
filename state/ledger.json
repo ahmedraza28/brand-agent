@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "linkedin-apply-assistant",
+      "title": "LinkedIn launches Premium Apply Assistant (announced June 26, 2026): AI tool for Premium subscribers that pre-fills job applications, drafts cover letters, and highlights high-match roles. Recruiters cannot see AI involvement. Works for external applications beyond LinkedIn. Builder take: automates the surface of job applications at scale, making the application an even weaker hiring signal and pushing real assessment further down the funnel.",
+      "url": "https://www.hrdive.com/news/sociable-linkedin-automates-job-application-process-for-premium-users/823876/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-06-29T00:32:12Z"
+    },
+    {
       "topic_key": "ai-slopification-hiring-telephone",
       "title": "Holweg (Oxford) and Davenport (Babson) research published in HBR June 2026: AI creates 'knowledge decay' in hiring pipelines through 'slopification' — AI-produced polished but lower-quality output at each step causes downstream users to stop verifying, creating a 'risky game of telephone' that moves hiring content further from truth. Recommendation: structured questionnaires with verifiable inputs over open CVs.",
       "url": "https://hrexecutive.com/ai-in-hiring-a-risky-game-of-telephone/",
