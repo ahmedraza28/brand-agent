@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-06-30T06:45:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### connecticut-cart-act | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Connecticut just passed an AI hiring law with something no other state has tried. The rejected candidate gets to see the data that scored them out. And correct it if it's wrong.
+
+Governor Lamont signed the CART Act in late May. Starting October 2027, employers using AI as a "substantial factor" in a hiring decision must give the rejected applicant three things: the principal reasons for the outcome, the type and source of data the AI used, and the right to examine that data and dispute any errors.
+
+Not just "we used AI" in the disclosure footer. The actual reasons, tied to the actual data, in a form the person can read and argue with.
+
+I build AI interviewers. The first thing I noticed reading this law: most hiring tools don't have that output path. The model scores the candidate. A number hits a dashboard. The layer that translates that back into something a human can understand and dispute, most teams haven't built it. Partly because nobody asked them to. Partly because it's harder than the scoring.
+
+The other provision landing sooner: starting October 1 this year, Connecticut employers filing WARN Act notices must disclose to the state labor department whether AI caused the layoffs. Ninety-three days from now, not 2027.
+
+The law also removes the "AI made the decision" defense. Discrimination complaint, AI was a factor, you can't point at the algorithm. The decision is yours, full stop.
+
+Colorado gutted its AI hiring law last month. Connecticut signed one with more teeth.
+
+The regulatory patchwork is fragmenting, and most teams are tracking it as one coherent thing when it's not.
+
+#Hiring #AI #HRTech #TalentAcquisition #AICompliance
+
+**Format:** none (text-only)
+**First comment (source):** https://ogletree.com/insights-resources/blog-posts/new-connecticut-law-restricts-employer-ai-use-mandates-notice-for-ai-caused-rifs/
+**Buffer post id:** 6a430fe95383c03473b6dedd
+**dueAt:** 2026-06-30T16:14:00Z
+
+---
+
 ## 2026-06-29T12:31:20Z
 
 target-met: research_per_day=1 already reached (1 research post today: linkedin-apply-assistant). No new posts this run.
