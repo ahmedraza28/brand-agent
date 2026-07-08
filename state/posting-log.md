@@ -8,6 +8,42 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-08T00:36:00Z
+
+note: repo had an 8-day gap since the last logged run (2026-06-30). Proceeding with today's normal cycle; no backfill attempted for the missed days.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ll144-bias-audit-theater | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+New York wrote the first law requiring bias audits for hiring AI. Nobody is checking whether the audits are real.
+
+A Comptroller's office audit released in December reviewed how DCWP, the agency enforcing Local Law 144, was doing its job. DCWP looked at the bias-audit disclosures of 32 employers and vendors. It found one instance of likely non-compliance.
+
+The Comptroller's own auditors reviewed the same 32 companies. They found 17.
+
+Same public documents. A seventeen-times gap in what counted as a red flag.
+
+The complaint side isn't better. Twelve test calls to file a complaint through the city's 311 line. Three reached the agency that actually handles it. Eight got routed to the state labor department instead. One got sent straight back to the employer being complained about.
+
+I build the interview layer these audits are supposed to check. I've sat in enough vendor calls to know what a bias audit usually is in practice. A PDF, an impact ratio, a line in the sales deck that says "LL144 compliant" and moves the conversation along. Almost nobody in the room asks who actually read it, or against what standard.
+
+The law assumed the paperwork would get scrutinized. That assumption was always the fragile part, not the requirement to produce it.
+
+An audit nobody checks isn't oversight. It's a receipt.
+
+If your vendor handed you their bias audit today, would you know what a bad one looks like, or just that one exists?
+
+#Hiring #AI #TalentAcquisition #HRTech #AICompliance
+
+**Format:** none (text-only)
+**First comment (source):** https://www.osc.ny.gov/press/releases/2025/12/dinapoli-new-yorkers-deserve-transparent-hiring-process-when-artificial-intelligence-used-vet-their
+**Buffer post id:** 6a4d9c6e881105a051c12516
+**dueAt:** 2026-07-08T16:42:00Z
+
+---
+
 ## 2026-06-30T06:45:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
