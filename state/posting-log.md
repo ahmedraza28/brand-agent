@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-08T (scheduled run check)
+
+target-met: research_per_day=1 already reached (1 research post today: ll144-bias-audit-theater, dueAt 2026-07-08T16:42:00Z). No new posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-07-08T00:36:00Z
 
 note: repo had an 8-day gap since the last logged run (2026-06-30). Proceeding with today's normal cycle; no backfill attempted for the missed days.
