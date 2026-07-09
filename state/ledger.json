@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "stanford-pymetrics-bias-study",
+      "title": "Stanford, Chapman, and Northeastern researchers (published May 26, 2026) analyzed 4 million job applications from 3 million applicants across 156 large employers (mostly $5B+ revenue) using the Pymetrics AI screening platform (game-based assessment, owned by Harver). Using the EEOC four-fifths rule, ~25.87% of Black applicants' submissions and ~14.74% of Asian applicants' submissions targeted positions with discriminatory algorithmic outcomes; ~10.62% of roles showed adverse impact against Black applicants, ~5% against Asian applicants; 30% of Black applicants applied to at least one flagged position. Mechanism: the platform trains its scoring model on each employer's current team in that exact role, so a non-diverse existing team becomes the model's target profile. Builder take: the model didn't invent bias, it mirrored the room it was handed; bias-aware auditing of the training population (not just outcome scores) is the actual fix.",
+      "url": "https://fortune.com/2026/05/26/ai-hiring-algorithm-racial-disparities-pymetrics-stanford-study/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-09T15:33:00Z"
+    },
+    {
       "topic_key": "ll144-bias-audit-theater",
       "title": "NY State Comptroller audit (released Dec 2025, covering DCWP activity July 2023-June 2025) of NYC Local Law 144 enforcement: DCWP reviewed bias-audit disclosures of 32 employers/vendors and found 1 likely non-compliance instance; the Comptroller's own auditors reviewing the same 32 found 17 potential non-compliance instances. Separately, 12 test calls to NYC's 311 line to file an AEDT complaint: only 3 (25%) correctly routed to DCWP, 8 misrouted to NYS Dept of Labor, 1 routed back to the employer being complained about. 13 recommendations issued. Builder take: a bias-audit mandate nobody actually double-checks is compliance theater, not oversight.",
       "url": "https://www.osc.ny.gov/press/releases/2025/12/dinapoli-new-yorkers-deserve-transparent-hiring-process-when-artificial-intelligence-used-vet-their",

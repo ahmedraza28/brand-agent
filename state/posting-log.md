@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-09T00:39:24Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### stanford-pymetrics-bias-study | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The new Stanford hiring-bias study buries its scariest detail in the methodology section, not the topline numbers.
+
+Researchers from Stanford, Chapman, and Northeastern tracked 4 million applications from 3 million people across 156 large employers, most doing $5 billion or more in revenue, all running the same AI screening platform. Using the EEOC's four-fifths rule, they found close to 26% of Black applicants and 15% of Asian applicants had applied to positions where the tool's outcomes counted as adverse impact under federal standards. One in ten roles showed adverse impact against Black candidates specifically.
+
+The platform scores new applicants by training a model on each employer's current team in that exact role. Five people already doing the job, four of them the same profile, and the model learns that mix as the target. Every new applicant gets graded against it.
+
+Nobody coded prejudice into that system on purpose. The model learned the room it was handed and treated the room as the answer key.
+
+I build AI screening tools. The question I ask before anything ships is which population the model is actually learning from, and whether I'd defend that population in front of a regulator.
+
+Bias-aware means auditing what the model actually learned from, not just its outcome scores. Skip that audit, and the screen becomes a mirror pointed at whoever already has the job.
+
+#Hiring #AI #TalentAcquisition #HRTech #AIBias
+
+**Format:** none (text-only)
+**First comment (source):** https://fortune.com/2026/05/26/ai-hiring-algorithm-racial-disparities-pymetrics-stanford-study/
+**Buffer post id:** 6a4eedf255b75a1caca78e1c
+**dueAt:** 2026-07-09T15:33:00Z
+
+---
+
 ## 2026-07-08T (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ll144-bias-audit-theater, dueAt 2026-07-08T16:42:00Z). No new posts this run.
