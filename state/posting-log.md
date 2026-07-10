@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-10T00:43:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### indeed-ai-titles-nontech-shift | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Everyone building AI hiring tools is still optimizing for software engineers. The actual jobs already moved somewhere else.
+
+Indeed's Hiring Lab published new data this week on US job postings. In 2022, 264 titles had "AI" somewhere in them. That number dropped to 159 in 2023. This year it's 822. Roughly one in every twelve titles posted now has AI in it somewhere.
+
+63% of those titles sit outside tech. Truck driver. Physical therapist. HR manager. Salesperson. Corporate trainer. Indeed grouped the growth into three clusters: AI enablement and consulting, AI training and content creation, AI instruction. None of those are engineering roles.
+
+I build screening tools for a living. Almost every AI-fluency rubric I've come across assumes a technical candidate: a coding exercise, a systems question, something with a clean right answer a machine can grade. A TA lead I spoke with last month was trying to write an AI-fluency screen for a warehouse operations role. She gave up halfway through and just wrote "comfortable with AI tools" on the job ad instead.
+
+Europe shows the same shift. Non-tech AI titles are already the majority in Germany, the Netherlands, France, and the UK. Spain is the one market still skewed toward tech.
+
+Two years of AI-screening playbooks got built for the roles that talked about AI the loudest. The actual demand moved into the roles that just started quietly using it.
+
+Nobody wrote the rubric for that yet.
+
+#Hiring #AI #TalentAcquisition #FutureOfWork #HRTech
+
+**Format:** none (text-only)
+**First comment (source):** https://www.hiringlab.org/2026/07/08/ai-is-no-longer-just-a-tech-occupation-story/
+**Buffer post id:** 6a504058f50a99bddccc1f01
+**dueAt:** 2026-07-10T17:13:00Z
+
+---
+
 ## 2026-07-09T (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: stanford-pymetrics-bias-study, dueAt 2026-07-09T15:33:00Z). No new posts this run.

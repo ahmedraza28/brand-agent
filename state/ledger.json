@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "indeed-ai-titles-nontech-shift",
+      "title": "Indeed Hiring Lab (published July 8, 2026): US job postings with 'AI' in the title grew from 264 (Q1 2022) to 822 (Q1 2026), about 8.3% (1 in 12) of all titles, after dipping to 159 in 2023. 63% of AI-touched titles are now outside tech occupations (truck driver, physical therapist, HR manager, salesperson, corporate trainer among examples). Three emerging clusters: AI enablement/consulting, AI training/content creation, AI instruction. Europe mirrors this: non-tech AI titles are the majority in Germany (59%), Netherlands (58%), France (54%), UK (54%); Spain remains tech-heavy (64%). Builder take: AI-screening playbooks and rubrics were built for technical candidates, but the actual demand for 'AI skills' has moved into non-technical, non-engineering roles that TA teams have no assessment playbook for yet.",
+      "url": "https://www.hiringlab.org/2026/07/08/ai-is-no-longer-just-a-tech-occupation-story/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-10T17:13:00Z"
+    },
+    {
       "topic_key": "stanford-pymetrics-bias-study",
       "title": "Stanford, Chapman, and Northeastern researchers (published May 26, 2026) analyzed 4 million job applications from 3 million applicants across 156 large employers (mostly $5B+ revenue) using the Pymetrics AI screening platform (game-based assessment, owned by Harver). Using the EEOC four-fifths rule, ~25.87% of Black applicants' submissions and ~14.74% of Asian applicants' submissions targeted positions with discriminatory algorithmic outcomes; ~10.62% of roles showed adverse impact against Black applicants, ~5% against Asian applicants; 30% of Black applicants applied to at least one flagged position. Mechanism: the platform trains its scoring model on each employer's current team in that exact role, so a non-diverse existing team becomes the model's target profile. Builder take: the model didn't invent bias, it mirrored the room it was handed; bias-aware auditing of the training population (not just outcome scores) is the actual fix.",
       "url": "https://fortune.com/2026/05/26/ai-hiring-algorithm-racial-disparities-pymetrics-stanford-study/",
