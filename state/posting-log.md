@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-13T00:39:13Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### stlfed-entry-level-ai-bar | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Everyone's blaming AI for wrecking the entry-level job market. The St. Louis Fed just ran the numbers, and AI turns out to be the smaller half of the story.
+
+Researchers there tracked 18 to 24 year olds from April 2023 through December last year. Unemployment in that group rose 3.51 percentage points. Employment-to-population fell 2.24 points. Neither move showed up for workers 25 and older.
+
+Most of that decline traces back to something boring: fewer job openings, full stop. AI-related skill demand explains roughly a third of the unemployment increase, and about 45% of the drop in employment-to-population. Real, but not the main event.
+
+That third isn't spread evenly across the economy though. It's concentrated exactly where someone tries to get their first foothold, which is the part that should worry hiring teams. The researchers called the effect "narrow, early and age-specific." AI raising the bar right at the door, not clearing out the building.
+
+I build screening tools, so I spend a lot of time looking at entry-level rubrics up close. Most of them still ask the same three questions they asked in 2023. Can you do the task. Do you have experience. Will you show up.
+
+None of them ask whether someone can actually work alongside the AI tools that now sit inside the job.
+
+The bar moved first. Almost nobody rewrote the screen to match it.
+
+#Hiring #AI #TalentAcquisition #FutureOfWork #HRTech
+
+**Format:** none (text-only)
+**First comment (source):** https://www.stlouisfed.org/on-the-economy/2026/jun/how-shifts-labor-supply-demand-shape-outcomes-young-workers
+**Buffer post id:** 6a5433cf9372accfada90354
+**dueAt:** 2026-07-13T17:28:00Z
+
+---
+
 ## 2026-07-10T00:43:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).

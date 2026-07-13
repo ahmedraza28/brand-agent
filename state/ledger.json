@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "stlfed-entry-level-ai-bar",
+      "title": "St. Louis Fed research (Rodgers & Kassens, published June 30, 2026) tracked 18-24 year olds April 2023-December 2025: unemployment rate +3.51 percentage points, employment-to-population ratio -2.24 points, neither move seen in workers 25+. Decline in job openings is the primary driver across all three metrics. AI-related skill demand explains ~45% of the employment-to-population decline and ~1/3 of the unemployment increase (nearly 50% in Eighth District states). Recent grads still had relatively high employment-to-population ratios (79% national, 82% Eighth District, Q1 2026) but their concentration in entry-level roles exposes them as the bar for those roles shifts toward AI tasks. Researchers' framing: AI's effect is 'narrow, early and age-specific,' raising the bar at labor-market entry points rather than eliminating jobs broadly. Builder take: entry-level screening rubrics haven't caught up to where the bar actually moved.",
+      "url": "https://www.stlouisfed.org/on-the-economy/2026/jun/how-shifts-labor-supply-demand-shape-outcomes-young-workers",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-13T17:28:00Z"
+    },
+    {
       "topic_key": "indeed-ai-titles-nontech-shift",
       "title": "Indeed Hiring Lab (published July 8, 2026): US job postings with 'AI' in the title grew from 264 (Q1 2022) to 822 (Q1 2026), about 8.3% (1 in 12) of all titles, after dipping to 159 in 2023. 63% of AI-touched titles are now outside tech occupations (truck driver, physical therapist, HR manager, salesperson, corporate trainer among examples). Three emerging clusters: AI enablement/consulting, AI training/content creation, AI instruction. Europe mirrors this: non-tech AI titles are the majority in Germany (59%), Netherlands (58%), France (54%), UK (54%); Spain remains tech-heavy (64%). Builder take: AI-screening playbooks and rubrics were built for technical candidates, but the actual demand for 'AI skills' has moved into non-technical, non-engineering roles that TA teams have no assessment playbook for yet.",
       "url": "https://www.hiringlab.org/2026/07/08/ai-is-no-longer-just-a-tech-occupation-story/",
