@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-14T00:40:30Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ai-adoption-headcount-growth | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Everyone's bracing for AI to shrink hiring. The best data out this week says the opposite is happening, and the catch is worse news for half of you than the doom headlines ever were.
+
+Ramp and Revelio Labs tracked 21,559 US firms from January 2021 through this February, matching AI spending against actual headcount. Companies spending seriously on it, about $33.67 per employee per month, grew headcount 10.2% over two years. Entry-level roles grew 12%, not shrank. Companies barely touching AI, $2.78 per employee per month, saw no real movement either way. Not down. Just flat.
+
+PwC found the same shape at global scale. Over a billion job postings across 27 countries: AI-exposed companies grew headcount 52% since 2018 versus 36% for the least exposed. Wages up 24% versus 17%. The most AI-exposed firms saw productivity climb 163%.
+
+Apollo's chief economist Torsten Slok has the line for why. When steam engines made coal more efficient, Britain didn't burn less coal. It burned more. Cheaper capability doesn't shrink demand for the work. It usually grows it.
+
+I've sat through plenty of vendor conversations where "we use AI in hiring" means a chatbot answering FAQs on the careers page. That is not the category this data is measuring.
+
+Half-committed AI adoption in a hiring function doesn't cost you jobs. It costs you the upside, quietly, while the team down the street that went all in pulls further ahead every quarter.
+
+If your AI hiring spend looks closer to $2.78 than $33.67 per employee, what do you think you're actually getting for it?
+
+#Hiring #AI #TalentAcquisition #FutureOfWork #HRTech
+
+**Format:** none (text-only)
+**First comment (source):** https://www.pymnts.com/news/artificial-intelligence/2026/ai-adoption-fuels-hiring-not-layoffs-new-data-shows/
+**Buffer post id:** 6a5585ab0a91bd784c7cac74
+**dueAt:** 2026-07-14T16:12:00Z
+
+---
+
 ## 2026-07-13T12:36:43Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: stlfed-entry-level-ai-bar, dueAt 2026-07-13T17:28:00Z). No new posts this run.
