@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-14T12:36:52Z (scheduled run check)
+
+target-met: research_per_day=1 already reached (1 research post today: ai-adoption-headcount-growth, dueAt 2026-07-14T16:12:00Z). No new posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-07-14T00:40:30Z
 
 spotlight: skipped (product_spotlight.enabled = false).
