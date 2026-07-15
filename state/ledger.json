@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "randstad-ai-role-screening-gap",
+      "title": "Randstad Digital (press release, 2026) analyzed 35M+ global job postings 2021-2026 (8.7M US, 4.07M India): AI trainer postings up 281%, AI solutions lead roles up 226%, process automation specialists up 196%, AI architects up 152%. Vacancy rates: AI solutions lead 27% (US)/18% (UK)/10.3% (India); AI engineers 46.8% (Japan). Time-to-fill: 53-54 days for advanced AI infrastructure roles (US/UK) vs 38 days for a standard IT role; Process Automation Specialist 90 days (Italy). Quote: Michael Morris, Global Head of Platform and Talent, Randstad Digital, 'Enterprise AI is no longer a future investment; it is today's operational reality.' Corroborated independently by itbrief.com.au (same Randstad data set, additional figures: AI-augmented developer roles +597% since 2021 vs +28% traditional). Builder take: the AI hiring shortage is an assessment-methodology gap (no validated way to test 'can run AI in production'), not a sourcing/applicant-volume problem.",
+      "url": "https://www.randstaddigital.com/insights/newsroom/press-releases/top-10-high-demand-ai-tech-jobs-integration-gap/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-15T16:47:00Z"
+    },
+    {
       "topic_key": "ai-adoption-headcount-growth",
       "title": "PYMNTS (published July 13, 2026) synthesized two studies: Ramp & Revelio Labs tracked 21,559 US firms Jan 2021-Feb 2026, correlating AI spending with headcount. High-intensity AI adopters ($33.67/employee/month) grew headcount 10.2% over two years, entry-level roles +12%; low-intensity adopters ($2.78/employee/month) saw no statistically significant employment change. PwC's 2026 Global AI Jobs Barometer (1B+ job ads, 27 countries): AI-exposed companies grew headcount 52% since 2018 vs 36% for least-exposed; wage growth 24% vs 17%; top 20% AI-exposed firms saw 163% labor productivity growth. Quotes: Torsten Slok (Apollo chief economist) on Jevons-paradox mechanism ('Britain didn't burn less coal, it burned more'); Aaron Chatterji (OpenAI chief economist) on elastic demand. Builder take: AI adoption intensity, not AI itself, is the variable; half-committed adoption (vendor chatbot bolted onto an ATS) doesn't cost jobs, it just costs the upside that full commitment captures.",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-adoption-fuels-hiring-not-layoffs-new-data-shows/",

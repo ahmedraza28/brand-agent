@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-15T00:41:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### randstad-ai-role-screening-gap | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Everyone assumed AI would flood recruiters with too many candidates. For the roles that run the technology itself, the opposite is true.
+
+Randstad tracked 35 million job postings worldwide from 2021 through this year and found the roles that make AI work inside a company are the ones exploding: AI trainer postings up 281%, solutions-lead roles up 226%, process automation specialists up 196%.
+
+Now the number that matters more. The vacancy rate for AI solutions lead roles sits at 27% in the US. Average time to fill one runs 53 to 54 days, against 38 days for a standard IT hire. These companies aren't short on applicants. They're short on a way to tell which applicant can do the job.
+
+I build screening tools, so I've sat in on plenty of these debriefs. A coding test can tell you if someone can write a working function. Nobody has agreed on what "can run AI in production" looks like as a gradable skill yet. So the interview quietly reverts to a resume with the right buzzwords and two people arguing about vibes afterward.
+
+I'll go further. Most of these interviews aren't testing the skill at all. They're testing whether someone can talk about the skill convincingly, which is a much easier thing to fake than the skill itself.
+
+Report this as a sourcing crisis and you'll keep throwing job ads at it. It's an assessment problem wearing a sourcing problem's clothes.
+
+#Hiring #AI #TalentAcquisition #FutureOfWork #HRTech
+
+**Format:** none (text-only)
+**First comment (source):** https://www.randstaddigital.com/insights/newsroom/press-releases/top-10-high-demand-ai-tech-jobs-integration-gap/
+**Buffer post id:** 6a56d726cbfbd9dc13352a3a
+**dueAt:** 2026-07-15T16:47:00Z
+
+---
+
 ## 2026-07-14T12:36:52Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ai-adoption-headcount-growth, dueAt 2026-07-14T16:12:00Z). No new posts this run.
