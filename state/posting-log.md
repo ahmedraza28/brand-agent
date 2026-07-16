@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-16T00:39:38Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ai-interview-cheating-fails-onboard | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The embarrassing part of the AI-interview-cheating story isn't the cheating. It's how low a bar the interview was clearing to begin with.
+
+Bloomberg reported this week on a hiring manager in New York who admitted, in his own words, that he got "duped by artificial intelligence." His nonprofit hired a grant writer. The interview went well, polished answers, sharp under pressure, the kind of candidate you stop taking notes on because you're already sold. A month into the job he couldn't make a basic call on the actual project. The manager suspects the guy was quietly running the questions through a chatbot the whole time.
+
+Resume Genius surveyed 1,000 US job seekers this year. 22% say they've used AI live, during the interview itself. 78% used it somewhere in the search. One HR consultant summarized the real failure better than I could: if your interview can be passed by ChatGPT in real time, you weren't interviewing effectively in the first place.
+
+I build interview tools, so I spend my days thinking about what a question actually tests. Most interview questions have one predictable shape: walk me through a time you did X. A model generates that shape on command. It proves nothing about whether the person can do the job when nobody's watching.
+
+Chasing the cheater is a losing habit. Redesigning the question isn't. Ask what they'd change mid-answer. Push on the reasoning, live, not the story they rehearsed.
+
+A script doesn't survive a follow-up it didn't prepare for.
+
+#Hiring #AI #TalentAcquisition #InterviewDesign #HRTech
+
+**Format:** none (text-only)
+**First comment (source):** https://www.bloomberg.com/news/articles/2026-07-14/ai-tools-can-help-job-hunters-cheat-on-interviews-and-coding-tests
+**Buffer post id:** 6a58287a4ebd80b204e6f373
+**dueAt:** 2026-07-16T16:21:00Z
+
+---
+
 ## 2026-07-15T12:37:19Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: randstad-ai-role-screening-gap, dueAt 2026-07-15T16:47:00Z). No new posts this run.
