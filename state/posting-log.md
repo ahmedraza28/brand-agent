@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-17T00:39:05Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### meta-ai-layoff-scoring-suit | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A layoff algorithm doesn't need to be biased to produce a discriminatory outcome. It just needs to measure the wrong thing, consistently.
+
+26 current and former Meta employees sued the company this week in federal court in Oakland. The claim: internal AI systems and performance scores helped decide who made the list for the roughly 8,000 people Meta cut this spring, about 10% of its workforce. Eight plaintiffs were on pregnancy or maternity leave. Four were on parental leave. Several had disability accommodations on file.
+
+One detail in the filing stopped me mid-scroll. The lawsuit says the scoring, by design, can't accumulate for someone on protected leave. Not a bug that slipped past QA. A structural consequence of how the number gets calculated. Stop producing output for eight weeks, for any reason, and the score drops. A new baby and a slump look identical to a system that only counts activity.
+
+Meta's response: workforce decisions were made by people, not AI. Maybe. But a human signing off on a score isn't the same as a human asking why the score fell. That gap is the entire point of human-in-the-loop review, and it's disturbingly easy to build a review step that never asks the real question.
+
+I've watched a smaller version of this same bug in screening systems. A gap in someone's history reads as a red flag to a model that was never told the gap was protected, whether it's screening a resume or ranking a layoff list. Design intent doesn't matter much to the person it flags.
+
+A model that can't tell a medical leave from a slump has no business ranking people.
+
+#Hiring #AI #TalentAcquisition #HRTech #AIBias
+
+**Format:** none (text-only)
+**First comment (source):** https://www.cbsnews.com/news/26-meta-workers-sue-ai-aided-layoffs-medical-family-leave/
+**Buffer post id:** 6a5979e3a4472b889474825c
+**dueAt:** 2026-07-17T16:53:00Z
+
+---
+
 ## 2026-07-16T12:36:47Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ai-interview-cheating-fails-onboard, dueAt 2026-07-16T16:21:00Z). No new posts this run.

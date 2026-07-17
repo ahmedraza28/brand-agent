@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "meta-ai-layoff-scoring-suit",
+      "title": "26 current/former Meta employees sued Meta (filed week of July 14, 2026, federal court, Oakland, CA), alleging internal AI systems (Metamate LLM assistant, activity/keystroke monitoring, algorithmically-assisted performance rankings) helped select targets for the ~8,000-person layoff (~10% of workforce) beginning May 20, 2026. 8 plaintiffs were on pregnancy/maternity leave, 4 on parental leave, others had disability accommodations or took caregiver/bereavement leave. Central allegation (corroborated by Fortune and CBS News): the scoring systems, by design, cannot accumulate for someone on protected medical/family leave, so any absence reads as reduced output. Claims invoke FMLA, ADA, PDA, Pregnant Workers Fairness Act, and Title VII disparate-impact doctrine. Meta's on-record response: 'These claims lack merit and are not based on facts. Workforce management and organizational decisions were and are made by people, not AI.' Builder take: a scoring system that can't distinguish protected leave from reduced output isn't a bias-audit problem after the fact, it's a design flaw that needed a human-in-the-loop check before the score was ever trusted.",
+      "url": "https://www.cbsnews.com/news/26-meta-workers-sue-ai-aided-layoffs-medical-family-leave/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-17T16:53:00Z"
+    },
+    {
       "topic_key": "ai-interview-cheating-fails-onboard",
       "title": "Bloomberg (Jo Constantz, published July 14, 2026): a NYC nonprofit hired a grant writer whose virtual-interview answers were polished and sharp; within a month he couldn't make basic calls on the actual project, and the hiring manager suspected he'd covertly used a chatbot during the interview, saying on record it was 'embarrassing to admit you got duped by artificial intelligence.' Corroborating data: Resume Genius's 2026 Job Seeker Insights Report (1,000 US job seekers, covered by Newsweek) found 22% used AI live during real-time interviews, 78% used AI somewhere in their job search; HR consultant Bryan Driscoll quoted: 'If your interview can be passed by ChatGPT in real time, you're not interviewing effectively.' Builder take: the interview format itself (predictable STAR-shaped questions) is script-able by design; the fix is redesigning questions to require live reasoning and follow-ups a script can't survive, not chasing detection.",
       "url": "https://www.bloomberg.com/news/articles/2026-07-14/ai-tools-can-help-job-hunters-cheat-on-interviews-and-coding-tests",
