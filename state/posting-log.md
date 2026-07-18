@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-18T00:39:02Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### employer-ghosting-three-year-high | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Ghosting isn't rudeness. It's the sound of a signal that stopped working.
+
+Criteria Corp's new candidate experience report puts employer ghosting at 53% this year. Up from 48% last year. Up from 38% the year before that. Three years, a straight climb, no sign of leveling off.
+
+The company's CEO, Josh Millet, named the mechanism plainly: AI tools now make it trivial to apply and tailor a resume at scale, so application volume surged. Hiring teams spend more time reviewing and get less usable signal out of each one. His framing stuck with me. Ghosting is less about intent and more about a process that never caught up to how people apply now.
+
+I build the screening layer this problem actually lives in, so I recognize the shape immediately. When every application looks equally polished and equally hollow, a recruiter facing hundreds of them a week isn't being cruel. She has a queue that grew faster than her hours did. Silence becomes the default because a reply costs time she doesn't have, and none is left over once the queue wins.
+
+Blame the recruiter and you're aiming at the wrong layer. The real failure sits one step earlier, wherever a system is supposed to separate a genuine signal from AI-polished noise before it hits a human's inbox. Fix that layer and the silence has less reason to happen. Leave it broken, and no "just be more responsive" memo survives contact with a queue already stacked five deep.
+
+Three years of climbing ghosting numbers isn't a manners problem. It's a capacity problem wearing one.
+
+#Hiring #TalentAcquisition #Recruiting #HRTech #CandidateExperience
+
+**Format:** none (text-only)
+**First comment (source):** https://fortune.com/2026/03/20/job-seekers-arent-imagining-things-candidates-ghosted-by-employers-hit-three-year-high/
+**Buffer post id:** 6a5acb595291d8a34f706c6d
+**dueAt:** 2026-07-18T16:42:00Z
+
+---
+
 ## 2026-07-17T12:37:05Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: meta-ai-layoff-scoring-suit, dueAt 2026-07-17T16:53:00Z). No new posts this run.

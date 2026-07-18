@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "employer-ghosting-three-year-high",
+      "title": "Criteria Corp's 2026 Candidate Experience Report (covered by Fortune, published March 20, 2026): employer ghosting of candidates hit 53% this year, up from 48% in 2025 and 38% in 2024, a three-year high. Criteria CEO/cofounder Josh Millet attributes the rise to AI tools making mass-application and resume-tailoring trivial, which surged application volume and left hiring teams with weaker signal per application despite reviewing more of them; his framing: ghosting is less about intent and more about a hiring process that hasn't caught up to how candidates apply now. Builder take: ghosting is a downstream symptom of screening-signal collapse (recruiters facing hundreds of similarly AI-polished applications default to silence as a capacity response), not a manners failure, so the fix sits at the layer meant to separate real signal from AI-polished noise before it reaches a human queue.",
+      "url": "https://fortune.com/2026/03/20/job-seekers-arent-imagining-things-candidates-ghosted-by-employers-hit-three-year-high/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-18T16:42:00Z"
+    },
+    {
       "topic_key": "meta-ai-layoff-scoring-suit",
       "title": "26 current/former Meta employees sued Meta (filed week of July 14, 2026, federal court, Oakland, CA), alleging internal AI systems (Metamate LLM assistant, activity/keystroke monitoring, algorithmically-assisted performance rankings) helped select targets for the ~8,000-person layoff (~10% of workforce) beginning May 20, 2026. 8 plaintiffs were on pregnancy/maternity leave, 4 on parental leave, others had disability accommodations or took caregiver/bereavement leave. Central allegation (corroborated by Fortune and CBS News): the scoring systems, by design, cannot accumulate for someone on protected medical/family leave, so any absence reads as reduced output. Claims invoke FMLA, ADA, PDA, Pregnant Workers Fairness Act, and Title VII disparate-impact doctrine. Meta's on-record response: 'These claims lack merit and are not based on facts. Workforce management and organizational decisions were and are made by people, not AI.' Builder take: a scoring system that can't distinguish protected leave from reduced output isn't a bias-audit problem after the fact, it's a design flaw that needed a human-in-the-loop check before the score was ever trusted.",
       "url": "https://www.cbsnews.com/news/26-meta-workers-sue-ai-aided-layoffs-medical-family-leave/",
