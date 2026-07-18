@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-18T12:36:24Z (scheduled run check)
+
+target-met: research_per_day=1 already reached (1 research post today: employer-ghosting-three-year-high, dueAt 2026-07-18T16:42:00Z). No new posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-07-18T00:39:02Z
 
 spotlight: skipped (product_spotlight.enabled = false).
