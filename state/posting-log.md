@@ -8,6 +8,12 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-19T00:36:18Z (scheduled run check)
+
+skip-day: sun
+
+---
+
 ## 2026-07-18T12:36:24Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: employer-ghosting-three-year-high, dueAt 2026-07-18T16:42:00Z). No new posts this run.
