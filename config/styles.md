@@ -1,35 +1,74 @@
-# Image styles — rotate hard, never repeat
+# Image style — ONE locked Ployo template, rotate the LAYOUT
 
-The explicit requirement: **images must NOT follow the same visual pattern.** The diary's covers all look alike and Ahmed dislikes it. So:
+**Philosophy change (2026-07-20):** the old "rotate 18 random art-directions, never repeat" system is retired. Ahmed wants a **consistent, recognizable branded look** — the same visual system on every post, the way strong operator accounts do it (one editorial template you learn to recognize in the feed). Variety now comes from the **layout archetype** and the **content**, NOT from a different art style each time.
 
-## Rules
-1. Read `state/recent-styles.json` (`{"recent": [...]}`). **Pick a style NOT in the last 6 used.** Append your pick to the front of `recent` and trim to 6 before committing.
-2. Beyond the named style, **diverge in composition, palette, and central metaphor every time.** Two "isometric 3D" images months apart should still look unrelated.
-3. **Not every post gets an image.** For a pure one-line hot-take, text-only is often stronger. Aim for an image on ~70% of posts, text-only on the rest — and vary *that* too. Variety includes presence/absence.
-4. **REQUIRED: feature the subject company's / brand's actual logo or wordmark + brand colors**, rendered cleanly and prominently, integrated into the chosen art style — e.g. the Anthropic radial-sunburst mark, the Uber wordmark, the OpenAI / Nvidia / Google / Microsoft / Tesla / Meta logo. A clearly-correct logo makes the post instantly legible. If a post is about several companies, feature the main one (or both if it composes well). Get the logo right.
-5. **Short, accurate on-brand text is OK** — a 2-5 word headline (e.g. "NEARS $1 TRILLION") renders fine on the current model and reads like a real editorial cover. Keep it short and only if you're confident it spells correctly; the logo + the idea are the priority. **No real human faces or likenesses.** Avoid the robot / brain / glowing-orb clichés.
-6. The logo requirement (4) and the on-brand text (5) layer **on top of** the rotating art-direction — every post still picks a *different, non-recent* style (rule 1) and just renders the subject's logo within it. Logos + style variety coexist.
-7. Generate for clean cropping to 16:9 (X/LinkedIn landscape) or 1:1. Keep key content centered / high-in-frame.
+The look is Ployo's **signature editorial** aesthetic: warm cream paper, dark teal-black serif headline, one teal accent, a dark punchline strip, an "Ahmed Raza" footer. Think a sharp business-magazine cover, not an AI art piece.
 
-## The palette (pick one NOT recently used; combine with a fresh subject metaphor)
-1. **Swiss / International typographic** — bold grid, flat color blocks, one accent, lots of negative space.
-2. **80s retro-futurism poster** — chrome, sunset gradients, gridlines to the horizon, airbrushed.
-3. **Hand-drawn marker sketch** — loose ink + marker, whiteboard-explainer energy, imperfect lines.
-4. **Isometric 3D render** — clean isometric scene, soft studio lighting, pastel-but-saturated.
-5. **Editorial photo-collage** — torn-paper cutouts, mixed media, magazine art-desk feel.
-6. **Blueprint / schematic** — cyan lines on dark navy, technical-drawing annotations (shapes, not real text).
-7. **Claymation / soft 3D clay** — matte clay textures, tactile, playful, fingerprints-in-the-clay charm.
-8. **Newspaper editorial cartoon** — single-panel ink wash, witty, crosshatching, old-print texture.
-9. **Neon cyberpunk** — wet-street reflections, magenta/cyan neon, volumetric haze, night.
-10. **Watercolor** — soft bleeds, paper texture, restrained palette, calm and human.
-11. **Bauhaus geometric** — primary colors, circles/triangles/bars, constructivist composition.
-12. **Low-poly** — faceted geometry, flat shading, early-3D-render nostalgia.
-13. **Pixel art** — 16-bit scene, limited palette, dithering, retro-game framing.
-14. **Surrealist** — dreamlike juxtaposition, Magritte/Dalí logic, uncanny scale.
-15. **Risograph print** — 2-3 spot inks, halftone grain, slight misregistration, zine aesthetic.
-16. **Brutalist / concrete** — raw concrete, hard shadows, monolithic forms, stark.
-17. **Vaporwave** — pastel grids, classical busts, glitch, Y2K-adjacent.
-18. **Ukiyo-e woodblock** — Japanese woodblock style applied to a modern-tech subject.
+Render with `tools/make_image.py` (gpt-image-2, portrait **1088x1360**, opaque). gpt-image-2 spells short text correctly — lean on that, but keep small-text density LOW (a few short rows, never paragraphs).
 
-## Subject metaphor (fresh each time — examples, don't reuse)
-Tie the image to the post's *idea*, abstractly: a model "waking up", a chip as a city, a benchmark as a race, agents as a swarm, an IPO as a rocket on a launchpad, a new tool as a key/door, "everyone posting about it" as a crowd/wave. Invent a new metaphor per post; never default to "robot" or "brain" or "glowing AI orb" (the most overused AI-image clichés — avoid them).
+## The locked template (every image, no exceptions)
+
+- **Canvas:** 4:5 portrait, warm cream paper background `#faf6ec` with a very subtle paper texture. Flat vector, generous negative space. NO photographs, NO real human faces/likenesses, NO robots, NO brains, NO glowing orbs.
+- **Headline (top):** a bold, high-contrast **serif** headline in dark teal-black ink `#0c2422`, left-aligned, 2–4 short lines. Underline ONE key phrase with a hand-drawn **teal** stroke `#0D9488`. This is the post's core claim, compressed.
+- **Body (middle):** the chosen **layout archetype** (see list) rendered in flat line icons + short text. Positives use teal `#0D9488` check icons; negatives use a soft red `#D83E3A` x icon. Keep rows short (2–5 words each), evenly spaced, tidy alignment.
+- **Punchline strip (lower):** a full-width rounded pill filled dark teal-black `#0c2422` with centered cream text — one sharp line, with 2–4 words emphasized in teal `#0D9488`.
+- **Footer (bottom):** a thin hairline divider, then the lowercase wordmark **"ployo"** set bold in teal `#0D9488` with tight letter-spacing, then muted dark-gray text **"Ahmed Raza  ·  Co-Founder & CTO"**. Always this exact footer.
+- **Palette — use ONLY these:** cream `#faf6ec`, dark teal-ink `#0c2422`, brand teal `#0D9488`, soft red `#D83E3A` (negatives only), muted gray for secondary text. No other colors.
+- **Typography feel:** serif display headline, clean sans for body/rows. Perfectly spelled, print-quality, clear hierarchy.
+
+## Layout archetype — rotate this (anti-repeat)
+
+1. Read `state/recent-styles.json` (`{"recent":[...]}`). **Pick an archetype NOT in the last 4.** Prepend your pick, trim to 4, commit.
+2. The archetypes (pick by what the post's idea actually is — don't force it):
+   - **`vs-comparison`** — two columns split by a small teal "VS" badge: a red-tagged wrong way vs a teal-tagged right way, 3 short rows each. (Best for "X isn't the problem, Y is" takes.)
+   - **`numbered-list`** — a teal kicker label + 3 stacked rows, each an icon-in-circle + a short bold sub-head + one muted line. (Best for "3 things / 3 signs / 3 people" takes.)
+   - **`funnel`** — a filter/funnel splitting inputs into kept vs dropped, showing what a bad filter silently loses. (Best for ATS / screening-volume takes.)
+   - **`single-stat`** — one oversized number or ratio as the hero, a one-line frame under it, the punchline strip below. (Best for a data-shock take; only with a VERIFIED number from Step 4.)
+   - **`before-after`** — two stacked panels, "what it looks like" vs "what's actually true". (Best for reframe-the-villain takes.)
+   - **`quadrant`** — a 2x2 with one highlighted cell in teal. (Best for a framework take; use sparingly.)
+3. Whatever the archetype, the template above (cream, serif headline, teal accent, dark punchline pill, ployo/Ahmed footer) stays identical. Two `vs-comparison` posts weeks apart should look like the SAME brand — that is the point now.
+
+## Building the gpt-image-2 prompt (skeleton — fill with THIS post's content)
+
+Compose the prompt in this order; keep it concrete and specify the hexes:
+
+```
+A premium editorial infographic poster for LinkedIn, 4:5 portrait, calm magazine-cover
+style. Warm cream paper background (hex #faf6ec), subtle paper texture. Flat vector, lots
+of negative space, no photographs, no real human faces, no robots, no glowing orbs.
+
+TOP — a bold high-contrast SERIF headline in dark teal-black ink (hex #0c2422), left
+aligned, on <N> lines: "<line 1>" / "<line 2>" / "<line 3>". Underline "<key phrase>"
+with a hand-drawn teal stroke (hex #0D9488).
+
+MIDDLE — <the chosen archetype, described concretely: columns / rows / funnel, each row's
+short text, teal check icons for positives (#0D9488) and soft-red x icons for negatives
+(#D83E3A), even spacing, tidy alignment>.
+
+LOWER — a full-width rounded pill strip filled dark teal-black (hex #0c2422) with centered
+cream text: "<one sharp punchline>". Emphasize "<2-4 words>" in teal (hex #0D9488).
+
+FOOTER — a thin hairline divider, then the lowercase wordmark "ployo" bold in teal (hex
+#0D9488) with tight letter spacing, followed by smaller muted dark-gray text
+"Ahmed Raza  ·  Co-Founder & CTO".
+
+Overall mood: sophisticated, editorial, trustworthy, tech-forward. Restrained palette of
+cream, dark teal ink, teal accent<, and one soft red>. Crisp, perfectly spelled,
+print-quality typography with clear hierarchy.
+```
+
+Render: `python3 tools/make_image.py "$IMAGE_PROMPT" "$SLUG" docs/images` (portrait default). Image URL = `https://ahmedraza28.github.io/brand-agent/images/<SLUG>.png`.
+
+## Rules that keep it on-brand
+
+1. **The headline = the post's hook, compressed.** The image must carry the SAME single claim as the text post — never a second unrelated idea. One post, one claim, echoed in the image.
+2. **Short text only.** A 2–4 line headline, ≤5 rows of ≤5 words, one punchline. No paragraphs on the image — dense small text is the one thing gpt-image-2 still fumbles.
+3. **Perfect spelling.** Re-read every word in the prompt; if a word is easy to mis-render, simplify it.
+4. **Honor the guardrails on the image too** (`config/guardrails.md`): no internal Ployo specifics, no unverified number (a `single-stat` needs a Step-4-verified figure), hold the explainable / human-in-the-loop / bias-aware line, never name/dunk a competitor.
+5. **No em dashes anywhere on the image** (use a middot ·, comma, or period).
+6. **Footer is fixed:** the ployo wordmark + "Ahmed Raza · Co-Founder & CTO", every time.
+
+## Proven examples (the look to match)
+
+- `vs-comparison`: headline "AI can screen 1,000 resumes a minute. It still can't tell you who can do the job." → left "RESUME KEYWORD MATCH" (3 red x rows) vs right "STRUCTURED EVIDENCE" (3 teal check rows) → strip "Screening at volume isn't the problem. Screening for the wrong signal is."
+- `numbered-list`: headline "Your ATS rejected your best candidate. It just doesn't know it." → kicker "3 PEOPLE YOUR KEYWORD FILTER SILENTLY DROPS" → 3 rows (the career-changer / the self-taught builder / the returner) → strip "Hiring for keywords is how you miss the person who would have been great."

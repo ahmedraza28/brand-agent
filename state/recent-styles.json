@@ -1,10 +1,4 @@
 {
-  "recent": [
-    "Ukiyo-e woodblock",
-    "newspaper editorial cartoon",
-    "Swiss / International typographic",
-    "80s retro-futurism poster",
-    "low-poly",
-    "isometric 3D render"
-  ]
+  "_comment": "Anti-repeat memory for the LAYOUT ARCHETYPE (config/styles.md), NOT art styles anymore. Values are archetype ids: vs-comparison | numbered-list | funnel | single-stat | before-after | quadrant. Prepend each run's pick, trim to 4.",
+  "recent": []
 }

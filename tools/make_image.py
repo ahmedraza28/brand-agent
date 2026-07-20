@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """
-make_image.py — generate a single post image with gpt-image-1, GUARANTEED opaque.
+make_image.py — generate a single post image with gpt-image-2, GUARANTEED opaque.
 
-Usage:  OPENAI_API_KEY=... python3 tools/make_image.py "<image prompt>" <slug> <out_dir>
+Usage:  OPENAI_API_KEY=... python3 tools/make_image.py "<image prompt>" <slug> <out_dir> [size]
 Writes: <out_dir>/<slug>.png  (RGB, no alpha)
 
-Why this exists: gpt-image-1 defaults to background:"auto" and sometimes returns a
-TRANSPARENT PNG, which renders black/checkered on X's dark UI. We force
-background:"opaque" AND flatten any alpha onto white as a belt-and-suspenders.
+Size defaults to 1088x1360 (4:5 portrait — LinkedIn shows portrait in-feed without
+cropping, so a designed infographic gets maximum vertical real estate and stays fully
+legible). gpt-image-2 requires each edge to be a multiple of 16. Pass a 5th CLI arg
+(e.g. "1200x1200" for square, "1536x1024" for landscape) to override.
+
+Why the opaque handling exists: image models can return a TRANSPARENT PNG, which
+renders black/checkered on dark feed UIs. gpt-image-2 does not support transparent
+backgrounds (background:"opaque" only), and we ALSO flatten any alpha onto white as a
+belt-and-suspenders. The images endpoint returns b64_json by default for gpt-image-2
+(the response_format param is NOT accepted — passing it 400s).
 """
 import os, sys, io, json, base64, urllib.request
 from PIL import Image
@@ -16,15 +23,16 @@ def main():
     prompt = sys.argv[1]
     slug = sys.argv[2]
     out_dir = sys.argv[3] if len(sys.argv) > 3 else "."
+    size = sys.argv[4] if len(sys.argv) > 4 else "1088x1360"  # 4:5 portrait, edges %16==0
     os.makedirs(out_dir, exist_ok=True)
     key = os.environ["OPENAI_API_KEY"]
 
     body = json.dumps({
-        "model": "gpt-image-1",
+        "model": "gpt-image-2",
         "prompt": prompt,
-        "size": "1536x1024",
+        "size": size,
         "quality": "high",
-        "background": "opaque",   # never transparent
+        "background": "opaque",   # gpt-image-2: opaque or auto only (no transparent)
         "n": 1,
     }).encode()
     req = urllib.request.Request(

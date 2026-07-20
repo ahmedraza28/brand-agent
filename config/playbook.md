@@ -38,7 +38,7 @@ Ahmed Raza, Co-Founder & CTO of **Ployo** (`ployo.ai` = a full AI-interview plat
 - **Golden hour:** comments in the first 60 minutes drive distribution → close on a sharp verdict OR one specific, answerable question (not generic "thoughts?"). Rotate the closer; do not end every post on a question (max ~1 in 3, checked against the last entries in the posting log).
 - **Hashtags: 3-5** relevant ones, at the end.
 - **No engagement bait** ("comment YES if you agree", reaction polls) — detected and penalized in 2026, and it reads junior to a senior audience.
-- **Image dims:** LinkedIn 1.91:1 (1200×627) or 1:1 (1200×1200). Generate at a size that crops cleanly to these.
+- **Image = the branded Ployo template (config/styles.md), on MOST posts.** Portrait 4:5 (1088×1360) — LinkedIn shows portrait in-feed uncropped, so a designed infographic gets maximum real estate. The image carries the SAME single claim as the post. Skip the image only for a pure one-line hot-take that lands harder as text alone.
 
 ### LinkedIn pitfalls (auto-fail tells for this audience)
 - Reads as a disguised ad / feature pitch. Lead with an industry problem and a point of view, never a capability.
@@ -84,7 +84,7 @@ Separate from the hiring stream above, there was a near-daily **X** post (and an
 ## Hard formatting limits to encode
 - **LinkedIn (LIVE): 3,000 char limit; "see more" fold at ~140 chars (front-load).** Target ~1,000-1,900 chars / ~150-300 words. Default text post; carousel only for a genuine framework/data deck ~1x/week (config/carousel.md).
 - X (DORMANT): every tweet ≤280 chars (URL = 23) — Buffer can't be trusted past 280. Depth = a 2-3 tweet thread (tweet 1 stands alone); takes = single tight post (config/takes.md). Long-form singles opportunistic only, with thread fallback.
-- Image: LinkedIn 1.91:1 (1200×627) or 1:1 (1200×1200); X 16:9 (1200×675) or 1:1 (1080×1080). Generate at a size that crops cleanly to these.
+- Image: LinkedIn = branded Ployo template, portrait 4:5 (1088×1360), on most posts (config/styles.md). X (DORMANT) 16:9 (1200×675) or 1:1 (1080×1080).
 
 ## DO NOT encode — these sounded right but were REFUTED in verification
 - "LinkedIn never penalizes over-posting / post unlimited" ✗ (keep 2-5/week).
