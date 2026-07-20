@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-20T00:36:37Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ai-learning-debt-explainability-gap | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+29% of employees handed in work last month they couldn't fully explain if you'd asked them how they got there. Hiring has spent two years terrified of exactly this problem showing up on the candidate's side of the desk. Turns out it never stayed there.
+
+TalentLMS surveyed 1,200 US workers in June. 41% said their role changed faster than the company ever retrained them for it. Almost 60% use AI on tasks nobody formally taught them how to do. 62% build quiet workarounds instead of asking for help. 47% stay silent about the gap entirely, because admitting it feels like admitting they don't belong in the seat.
+
+TalentLMS's CEO, Dimitris Tsignos, put the whole report in one line: AI is blurring the line between learning and doing.
+
+I spend my days building the part of hiring meant to catch exactly this before an offer goes out. Can this person actually reason through the thing they claim to know, live, under a follow-up question, or did a tool carry them past it. I always assumed that failure mode lived at the interview stage and stopped there.
+
+It doesn't stop there. Someone can clear a screen, take the job, and still be shipping work six months in that they can't walk you through if you ask twice. Same blind spot. It just moved past the point where anyone's still checking for it.
+
+We built explainability requirements for the one hour of the interview. Almost nobody built one for the six months after.
+
+#Hiring #AI #FutureOfWork #TalentAcquisition #HRTech
+
+**Format:** none (text-only)
+**First comment (source):** https://www.hrdive.com/news/ai-may-conceal-growing-learning-debt-for-fast-changing-roles/825396/
+**Buffer post id:** 6a5d6e370424e7e331e49c90
+**dueAt:** 2026-07-20T16:29:00Z
+
+---
+
 ## 2026-07-19T12:36:02Z (scheduled run check)
 
 skip-day: sun

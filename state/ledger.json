@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ai-learning-debt-explainability-gap",
+      "title": "TalentLMS/Epignosis 'Learning Debt' Report (published July 15, 2026, covered by HR Dive July 16, 2026): survey of 1,200 US employees (ages 25-64, surveyed June 2026). 41% said their role evolved faster than company training capacity; nearly 60% use AI tools at least sometimes for tasks they were never formally trained on; 29% delivered work they couldn't fully explain if asked; 47% keep quiet about skill gaps; 62% use workarounds to compensate. CEO Dimitris Tsignos: 'AI is blurring the line between learning and doing.' Builder take: the explainability gap hiring teams worry about at the interview stage (can this person defend their own reasoning) doesn't close once someone is hired, it just stops being checked; AI-assisted work quietly increases the population of employees who can't walk through their own output on demand.",
+      "url": "https://www.hrdive.com/news/ai-may-conceal-growing-learning-debt-for-fast-changing-roles/825396/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-20T16:29:00Z"
+    },
+    {
       "topic_key": "employer-ghosting-three-year-high",
       "title": "Criteria Corp's 2026 Candidate Experience Report (covered by Fortune, published March 20, 2026): employer ghosting of candidates hit 53% this year, up from 48% in 2025 and 38% in 2024, a three-year high. Criteria CEO/cofounder Josh Millet attributes the rise to AI tools making mass-application and resume-tailoring trivial, which surged application volume and left hiring teams with weaker signal per application despite reviewing more of them; his framing: ghosting is less about intent and more about a hiring process that hasn't caught up to how candidates apply now. Builder take: ghosting is a downstream symptom of screening-signal collapse (recruiters facing hundreds of similarly AI-polished applications default to silence as a capacity response), not a manners failure, so the fix sits at the layer meant to separate real signal from AI-polished noise before it reaches a human queue.",
       "url": "https://fortune.com/2026/03/20/job-seekers-arent-imagining-things-candidates-ghosted-by-employers-hit-three-year-high/",
