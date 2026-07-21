@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-21T00:42:51Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### llm-hiring-stereotype-study | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The scariest AI bias study I've read this year isn't about a model copying your company's bad habits. It's about one inventing new bad habits nobody taught it.
+
+Princeton and University of Chicago researchers built a simulated hiring game and ran it through ChatGPT, Claude, Gemini, and OpenAI's o3. Twenty fictional jobs, forty rounds, four made-up ethnic groups with names like Tufa and Aima. Every group had the exact same success rate at every job. No real signal, no real difference, nothing to learn.
+
+The models found a pattern anyway. On a segregation scale where 0 is even distribution and 2 is total lockstep, human participants in the original psychology study scored 0.84. The AI models scored roughly 65% higher on average. o3 hit 1.83, a hair under the ceiling. Tell it one Aima failed as a doctor and it doesn't shrug that off as noise. It starts routing every Aima toward jobs it decided need less warmth and competence.
+
+One researcher's explanation stuck with me. These models are eager to create generalizations from limited data, because that's a lot of what they're built to do.
+
+I build screening systems, and this is the exact failure mode that should worry anyone running an AI that learns from outcomes. It doesn't need biased training data to end up discriminatory. Give it a feedback loop and a small sample, and it will manufacture a correlation where none exists, then act on it with total confidence.
+
+An AI that updates on outcomes without a human checking the group-level pattern isn't learning. It's guessing, loudly, about people's lives.
+
+What's actually auditing your hiring AI for a stereotype it invented on its own, not just one it inherited?
+
+#Hiring #AI #HRTech #TalentAcquisition #AIBias
+
+**Format:** image (single-stat archetype)
+**First comment (source):** https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/
+**Buffer post id:** 6a5ec0a5cf581292a89b925f
+**dueAt:** 2026-07-21T17:14:00Z
+
+---
+
 ## 2026-07-20T12:36:50Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ai-learning-debt-explainability-gap, dueAt 2026-07-20T16:29:00Z). No new posts this run.

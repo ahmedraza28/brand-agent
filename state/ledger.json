@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "llm-hiring-stereotype-study",
+      "title": "MIT Technology Review (July 20, 2026, corroborated by Gizmodo same day): Princeton and University of Chicago researchers ran ChatGPT, Claude, Gemini, o3, and DeepSeek R1 through a simulated hiring game adapted from a psychology stereotype-formation study (coauthor Ryan Liu, Princeton PhD student). 40 rounds, 20 job types, 4 fictional ethnic groups (Tufa, Aima, Reku, Weki) with identical success rates across all jobs, so there was no real signal to learn. On a 0-2 segregation scale, human participants in the original study scored 0.84; the LLMs scored roughly 65% higher on average, with OpenAI's o3 hitting 1.83, near the ceiling. Mechanism per Liu: models are 'eager to create generalizations from limited data' because that's core to their optimization. Cornell's Angelina Wang noted models 'over-index' on prior conversation patterns. Caveat: real hiring lacks the study's instant feedback loop, which may amplify bias formation vs. real deployments. Builder take: this is bias invented from a feedback loop, not inherited from biased training data, which is the failure mode that should worry anyone running an AI that updates on outcomes without a human checking group-level patterns.",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-21T17:14:00Z"
+    },
+    {
       "topic_key": "ai-learning-debt-explainability-gap",
       "title": "TalentLMS/Epignosis 'Learning Debt' Report (published July 15, 2026, covered by HR Dive July 16, 2026): survey of 1,200 US employees (ages 25-64, surveyed June 2026). 41% said their role evolved faster than company training capacity; nearly 60% use AI tools at least sometimes for tasks they were never formally trained on; 29% delivered work they couldn't fully explain if asked; 47% keep quiet about skill gaps; 62% use workarounds to compensate. CEO Dimitris Tsignos: 'AI is blurring the line between learning and doing.' Builder take: the explainability gap hiring teams worry about at the interview stage (can this person defend their own reasoning) doesn't close once someone is hired, it just stops being checked; AI-assisted work quietly increases the population of employees who can't walk through their own output on demand.",
       "url": "https://www.hrdive.com/news/ai-may-conceal-growing-learning-debt-for-fast-changing-roles/825396/",
