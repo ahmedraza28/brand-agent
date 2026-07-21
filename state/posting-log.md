@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-21T12:36:42Z (scheduled run check)
+
+target-met: research_per_day=1 already reached (1 research post today: llm-hiring-stereotype-study, dueAt 2026-07-21T17:14:00Z). No new posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-07-21T00:42:51Z
 
 spotlight: skipped (product_spotlight.enabled = false).
