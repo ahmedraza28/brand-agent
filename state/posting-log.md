@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-22T00:42:33Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ai-adoption-walkout-gap | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Every AI-adoption stat HR is celebrating this year hides a walkout it never counts.
+
+SHRM surveyed 1,722 HR professionals in December and found 39% of HR functions already have AI adopted, with 62% of organizations using it somewhere. Framed as an unqualified win. Nobody in that number is asking what happens on the other side of the interview.
+
+Greenhouse asked almost 3,000 active job seekers this spring and got an answer. 63% had already sat through an AI interview, up 13 points in six months. 38% walked away from a hiring process specifically because AI was running it. Another 12% say they would, given the chance. Seventy percent were never clearly told, going in, that a model would be scoring them. One in five only found out once the interview had already started.
+
+I build the screening layer this number actually lives in, and the part that keeps getting missed is this. A 38% walkout on a volume role isn't a footnote. It's a velocity problem with a name nobody wants to say out loud. You can't shortlist candidates who quit before the shortlist.
+
+Greenhouse's own CEO said it straight: "most AI in hiring today is making a bad system worse: more applications, less signal, and less transparency."
+
+Fix the disclosure and the walkout rate moves. Fix nothing, and the adoption chart keeps climbing while your best applicants keep leaving mid-interview, uncounted, in a number nobody's reporting to the board.
+
+#Hiring #AIinHR #TalentAcquisition #Recruiting #HRTech
+
+**Format:** image (before-after archetype)
+**First comment (source):** https://www.prnewswire.com/news-releases/63-of-job-seekers-have-faced-an-ai-interview-most-havent-had-a-good-one-yet-302760120.html
+**Buffer post id:** 6a60121724f2657e75bbb5ad
+**dueAt:** 2026-07-22T17:06:00Z
+
+---
+
 ## 2026-07-21T12:36:42Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: llm-hiring-stereotype-study, dueAt 2026-07-21T17:14:00Z). No new posts this run.

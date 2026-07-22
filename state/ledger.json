@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ai-adoption-walkout-gap",
+      "title": "SHRM 'State of AI in HR 2026' report (surveyed 1,722 HR professionals Dec 5-23, 2025): 39% of HR functions have AI adopted, 62% of orgs use AI somewhere. Greenhouse '2026 Candidate AI Interview Report' (press release May 1, 2026, surveyed 2,950 active job seekers, 1,200 US-based + UK/Germany/Australia/Ireland, corroborated by Fast Company): 63% have experienced an AI interview (up 13pts in 6 months), 38% walked away from a hiring process specifically because of an AI interview (12% more say they would), 70% were never clearly told upfront AI would evaluate them, 21% found out only after the interview started, 57% believe AI disclosure should be legally required. Greenhouse CEO Daniel Chait quote: 'Most AI in hiring today is making a bad system worse: more applications, less signal, and less transparency.' Builder take: adoption-side stats and candidate-side walkout stats are never read together; a rising adoption chart hides a rising walkout rate nobody is putting in the same report.",
+      "url": "https://www.prnewswire.com/news-releases/63-of-job-seekers-have-faced-an-ai-interview-most-havent-had-a-good-one-yet-302760120.html",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-22T17:06:00Z"
+    },
+    {
       "topic_key": "llm-hiring-stereotype-study",
       "title": "MIT Technology Review (July 20, 2026, corroborated by Gizmodo same day): Princeton and University of Chicago researchers ran ChatGPT, Claude, Gemini, o3, and DeepSeek R1 through a simulated hiring game adapted from a psychology stereotype-formation study (coauthor Ryan Liu, Princeton PhD student). 40 rounds, 20 job types, 4 fictional ethnic groups (Tufa, Aima, Reku, Weki) with identical success rates across all jobs, so there was no real signal to learn. On a 0-2 segregation scale, human participants in the original study scored 0.84; the LLMs scored roughly 65% higher on average, with OpenAI's o3 hitting 1.83, near the ceiling. Mechanism per Liu: models are 'eager to create generalizations from limited data' because that's core to their optimization. Cornell's Angelina Wang noted models 'over-index' on prior conversation patterns. Caveat: real hiring lacks the study's instant feedback loop, which may amplify bias formation vs. real deployments. Builder take: this is bias invented from a feedback loop, not inherited from biased training data, which is the failure mode that should worry anyone running an AI that updates on outcomes without a human checking group-level patterns.",
       "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
