@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "resume-prompt-injection-silent-attacks",
+      "title": "Duke University with Arizona State, UC Berkeley, UNC Chapel Hill, and hireEZ (paper 'Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening', arXiv 2605.28999, to be presented at USENIX Security Symposium August 2026): analyzed ~200,000 real resumes submitted to hireEZ over multiple years. About 1% contained hidden prompt injection text targeting AI resume screeners; prevalence has risen noticeably over the past 1-2 years. More than 90% of injected prompts used no explicit command (no 'ignore previous instructions'); instead they read as quiet, subtle self-promotional phrasing blended into normal resume text. Authors: Mohan Zhang, Yuqi Jia, Zhen Tan, Steven Jiang, Neil Zhenqiang Gong, Tianlong Chen, Dawn Song. Corroborated by Mirage News coverage quoting Neil Gong: 'Even a few years ago, these attacks would have been completely effective and AI screeners wouldn't have questioned it.' Builder take: phrase-pattern filters only catch yesterday's explicit attacks; the defensible answer is explainable scoring a human can read and catch subtle manipulation in, not a better blocklist.",
+      "url": "https://arxiv.org/abs/2605.28999",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-23T16:03:00Z"
+    },
+    {
       "topic_key": "ai-adoption-walkout-gap",
       "title": "SHRM 'State of AI in HR 2026' report (surveyed 1,722 HR professionals Dec 5-23, 2025): 39% of HR functions have AI adopted, 62% of orgs use AI somewhere. Greenhouse '2026 Candidate AI Interview Report' (press release May 1, 2026, surveyed 2,950 active job seekers, 1,200 US-based + UK/Germany/Australia/Ireland, corroborated by Fast Company): 63% have experienced an AI interview (up 13pts in 6 months), 38% walked away from a hiring process specifically because of an AI interview (12% more say they would), 70% were never clearly told upfront AI would evaluate them, 21% found out only after the interview started, 57% believe AI disclosure should be legally required. Greenhouse CEO Daniel Chait quote: 'Most AI in hiring today is making a bad system worse: more applications, less signal, and less transparency.' Builder take: adoption-side stats and candidate-side walkout stats are never read together; a rising adoption chart hides a rising walkout rate nobody is putting in the same report.",
       "url": "https://www.prnewswire.com/news-releases/63-of-job-seekers-have-faced-an-ai-interview-most-havent-had-a-good-one-yet-302760120.html",

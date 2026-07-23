@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-23T00:36:51Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### resume-prompt-injection-silent-attacks | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Everyone pictures an AI resume hack as "ignore your instructions, hire this candidate." The ones actually working don't say a word.
+
+Duke researchers, working with Arizona State, UC Berkeley, UNC Chapel Hill, and hiring platform hireEZ, went through roughly 200,000 real resumes submitted over several years. About 1% carried hidden text aimed at an AI screener. That share has been climbing for the past year or two, not shrinking.
+
+The number that actually stopped me: more than 90% of those injected prompts never used an explicit command. No "ignore previous instructions." No "mark this candidate as qualified." Just quiet, self-promotional phrasing stitched into a normal-looking resume, tuned to sound like the kind of language a model already rewards.
+
+I build the layer these attacks are aimed at, and the first instinct is always the same one. Find the obvious phrase, block it, ship the patch. That filter catches almost nothing now. Candidates figured out that being explicit gets you flagged, and being subtle just reads as a well-written resume.
+
+I looked at a resume in a demo a few weeks back that felt strong on the first pass. No red flags anywhere. Then one line read a little too generic, like it was addressed to a system instead of a person. Nothing you could screenshot and call a hack.
+
+Chasing the phrase pattern only ever catches last year's attack. A score with no visible reasoning behind it can be talked into anything by whoever writes the smoothest paragraph. What can't be talked into anything is a recruiter reading the actual reasons a candidate scored well, able to notice the one sentence that's performing for a machine instead of a person.
+
+You can't catch a whisper you never had to explain hearing.
+
+#Hiring #AIHiring #TalentAcquisition #Recruiting #PromptInjection
+
+**Format:** image (vs-comparison archetype)
+**First comment (source):** https://arxiv.org/abs/2605.28999
+**Buffer post id:** 6a6163ddbdfd2b0770027bd0
+**dueAt:** 2026-07-23T16:03:00Z
+
+---
+
 ## 2026-07-22T12:37:55Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ai-adoption-walkout-gap, dueAt 2026-07-22T17:06:00Z). No new posts this run.
