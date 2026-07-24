@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ai-hiring-litigation-risk-survey",
+      "title": "Norton Rose Fulbright 2026 Annual Litigation Trends Survey (midyear pulse, published this week, corroborated by HR Executive coverage): surveyed 135 general counsel and in-house litigation leaders across energy, financial institutions, healthcare, and technology sectors. 47% named workforce changes (layoffs, policy revisions) as a likely 2026 class-action trigger, second only to data breaches at 51%. Among AI-related litigation risks, 43% expect bias or discrimination claims tied to AI to increase litigation exposure through end of 2026 (alongside privacy violations at 47% and regulatory investigations at 42%); among companies with $1B+ revenue this figure rises to 41%. 46% reported increased federal AI dispute exposure, 42% state-level. Quote from Kimberly Cheeseman, Norton Rose Fulbright co-head of litigation: 'AI-assisted hiring tools are creating real uncertainty for employers, particularly around bias and discrimination claims.' Builder take: general counsel already treat explainability as a live litigation requirement while most AI-hiring vendor conversations still center on speed and volume; that gap between what legal expects and what sales demos show is the actual exposure.",
+      "url": "https://hrexecutive.com/layoffs-and-ai-hiring-tools-are-driving-class-action-risk-corporate-counsel-say/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-24T16:12:00Z"
+    },
+    {
       "topic_key": "resume-prompt-injection-silent-attacks",
       "title": "Duke University with Arizona State, UC Berkeley, UNC Chapel Hill, and hireEZ (paper 'Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening', arXiv 2605.28999, to be presented at USENIX Security Symposium August 2026): analyzed ~200,000 real resumes submitted to hireEZ over multiple years. About 1% contained hidden prompt injection text targeting AI resume screeners; prevalence has risen noticeably over the past 1-2 years. More than 90% of injected prompts used no explicit command (no 'ignore previous instructions'); instead they read as quiet, subtle self-promotional phrasing blended into normal resume text. Authors: Mohan Zhang, Yuqi Jia, Zhen Tan, Steven Jiang, Neil Zhenqiang Gong, Tianlong Chen, Dawn Song. Corroborated by Mirage News coverage quoting Neil Gong: 'Even a few years ago, these attacks would have been completely effective and AI screeners wouldn't have questioned it.' Builder take: phrase-pattern filters only catch yesterday's explicit attacks; the defensible answer is explainable scoring a human can read and catch subtle manipulation in, not a better blocklist.",
       "url": "https://arxiv.org/abs/2605.28999",

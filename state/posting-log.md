@@ -8,6 +8,35 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-24T00:45:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+### ai-hiring-litigation-risk-survey | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The scariest AI-hiring number this week didn't come from an HR report. It came from the lawyers.
+
+Norton Rose Fulbright published its midyear litigation survey this week: 135 general counsel and in-house litigation leaders across energy, financial services, healthcare, and tech. Workforce changes, layoffs and policy shakeups, rank as the second most likely trigger for a 2026 class action, just behind data breaches. Forty-three percent expect bias or discrimination claims tied to AI to grow their litigation exposure before the year is out. Among companies clearing a billion dollars in revenue, that number climbs to 41%.
+
+One line from the firm's co-head of litigation stuck with me. AI-assisted hiring tools, she said, are creating real uncertainty for employers, particularly around bias and discrimination claims.
+
+I build the tools this survey is describing. Most of the pitch meetings I sit in are still about capability. Can it screen faster. Can it handle a volume no recruiter could get through by hand. I've had that meeting a hundred times, and legal was never in the room. General counsel is already living in the world where this gets deposed. Talent acquisition mostly isn't yet.
+
+That gap is where the real exposure sits. A vendor selling speed and a buyer asking about accuracy are having two different conversations, neither one the conversation their own legal team is already having down the hall.
+
+The lawyers already assume your AI hiring tool has to explain itself under oath. Most sales demos never once mention it.
+
+#Hiring #AI #TalentAcquisition #HRTech #AICompliance
+
+**Format:** image (numbered-list archetype)
+**First comment (source):** https://hrexecutive.com/layoffs-and-ai-hiring-tools-are-driving-class-action-risk-corporate-counsel-say/
+**Buffer post id:** 6a62b5a700eb658eba796310
+**dueAt:** 2026-07-24T16:12:00Z
+
+---
+
 ## 2026-07-23T12:37:50Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: resume-prompt-injection-silent-attacks, dueAt 2026-07-23T16:03:00Z). No new posts this run.
