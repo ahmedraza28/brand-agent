@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-25T00:44:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+**Slow-day fallback used.** Research pass ran 6 WebSearch queries + Google News RSS + Recruiting Brainfood; every fresh candidate either duplicated ground covered in the last 1-2 weeks (Stanford Canaries Dashboard entry-level-AI data vs. `stlfed-entry-level-ai-bar`/`entry-level-ai-pipeline`; The Conversation AI-hiring-regulation piece leaning on the already-covered Pymetrics study; an unverifiable NDTV "candidate freezes" story with no confirmable source) or had too weak a hiring angle (Sam's Club's general retail-ops AI rule). No candidate cleared the quality bar, so per `config/sources.md` this pulled the least-recently-used (never-used) opinion-bank entry instead of forcing a weak reaction.
+
+### bank-ai-fluency-is-the-new-signal | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take (source opinion id: `ai-fluency-is-the-new-signal`)
+
+**Text:**
+Every job post this year wants an "AI-fluent" candidate, and I have yet to meet a hiring team that can tell you what they're actually testing for.
+
+Ask five recruiters what it means and you get five different fuzzy answers. Comfortable with tools. Uses ChatGPT daily. Not scared of it. None of that is a skill you can screen for. It's a vibe you're hoping shows up in the room.
+
+I build the systems that score candidates for a living, so people assume I've got a rubric for this sitting in a drawer somewhere. I don't. Nobody does yet. Most companies wrote "AI fluency" into a job ad before anyone worked out how to measure it.
+
+The wrong version of the skill is knowing the right incantation. A slash command, a system prompt trick, some phrasing that nudges a slightly better answer out of the model. That's trivia, and trivia is easy to fake in thirty minutes. It teaches you nothing about how someone actually works.
+
+The real version is quieter. It's handing the model a messy real problem and knowing what to check first. It's catching the moment a confident answer is wrong in the exact way that reads correct on the first pass. Most people don't do that. They trust it because it sounded fluent.
+
+I watched a candidate last week ask a model the same follow-up three separate ways before he'd act on the fourth answer. Nobody's rubric had a box for that. There isn't one yet.
+
+Screening for "comfortable with AI" measures confidence. The job actually needs someone who's suspicious of it.
+
+#Hiring #TalentAcquisition #AIHiring #FutureOfWork #Recruiting
+
+**Format:** image (quadrant archetype)
+**First comment (source):** none (opinion post, no external claim requiring citation)
+**Buffer post id:** 6a6407059d853f39877e0245
+**dueAt:** 2026-07-25T16:33:00Z
+
+---
+
 ## 2026-07-24T12:37:04Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ai-hiring-litigation-risk-survey, dueAt 2026-07-24T16:12:00Z). No new posts this run.

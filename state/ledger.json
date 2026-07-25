@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "bank-ai-fluency-is-the-new-signal",
+      "title": "Slow-day opinion-bank take (no news hook): 'AI fluency' has become a common hiring-brief requirement in 2026 but TA teams have no validated way to test for it. Ahmed's developed angle: the wrong definition is knowing prompt tricks (trivia, fakeable in 30 minutes); the real skill is handing a model a messy problem, catching a confidently-wrong answer that reads correct on first pass, and verifying before shipping. Builder-lens post from the AI-interview-scoring seat.",
+      "url": "",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-25T16:33:00Z"
+    },
+    {
       "topic_key": "ai-hiring-litigation-risk-survey",
       "title": "Norton Rose Fulbright 2026 Annual Litigation Trends Survey (midyear pulse, published this week, corroborated by HR Executive coverage): surveyed 135 general counsel and in-house litigation leaders across energy, financial institutions, healthcare, and technology sectors. 47% named workforce changes (layoffs, policy revisions) as a likely 2026 class-action trigger, second only to data breaches at 51%. Among AI-related litigation risks, 43% expect bias or discrimination claims tied to AI to increase litigation exposure through end of 2026 (alongside privacy violations at 47% and regulatory investigations at 42%); among companies with $1B+ revenue this figure rises to 41%. 46% reported increased federal AI dispute exposure, 42% state-level. Quote from Kimberly Cheeseman, Norton Rose Fulbright co-head of litigation: 'AI-assisted hiring tools are creating real uncertainty for employers, particularly around bias and discrimination claims.' Builder take: general counsel already treat explainability as a live litigation requirement while most AI-hiring vendor conversations still center on speed and volume; that gap between what legal expects and what sales demos show is the actual exposure.",
       "url": "https://hrexecutive.com/layoffs-and-ai-hiring-tools-are-driving-class-action-risk-corporate-counsel-say/",
