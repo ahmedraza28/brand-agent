@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-27T00:39:37Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 4 WebSearch queries + Google News RSS (regulation/bias query) + HR Dive/Indeed Hiring Lab/Josh Bersin feeds. Top candidates considered: a new Meta layoffs court ruling (too close a follow-up to the meta-ai-layoff-scoring-suit topic already covered 2026-07-17), the recurring LLM-hiring-stereotype study (already in ledger within 7 days, dropped), Victoria's proposed AI-hiring/surveillance regulation (real but still a proposal with no enacted text, thinner than the alternative), and a verified retail AI-screening case study (selected). Verified via 2 independent sources (hcamag.com, stockhead.com.au), each corroborating the same figures.
+
+### blind-screening-bias-counterpoint | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The AI-hiring bias panic has had a rough run of bad data all year.
+
+A retail case study out this week might be the first real counterpoint, and the reason it worked matters more than the headline number.
+
+A major Australian retailer replaced its resume-and-interview screen with a five-question AI chat across more than 450 stores, running roughly 600,000 applications a year through it. Time to hire dropped from 44 days to 11.8. The company says it saved $5 to $6 million over three years. First Nations hires landed at 8.2%, well above the 3% parity benchmark. Candidates disclosing a disability made up 3.5% of hires.
+
+I build the kind of tool doing that screening, so the number that actually stopped me wasn't the savings. It was the 85%. That's how often human recruiters accepted the AI's shortlist, which means 15% of the time they didn't. The system proposed. A person still overruled it when they disagreed.
+
+The other detail worth sitting with: the tool never tells the hiring manager a candidate's age, gender, or background. It scores five structured answers about teamwork and problem-solving, nothing else. Nobody had to correct for bias after the fact, because the bias-triggering information was never in the room to begin with.
+
+The AI didn't get smarter about fairness. It got designed to withhold the parts of a person a human brain reacts to before it reacts to the work. That's not a data science breakthrough. It's a decision most vendors still don't make.
+
+#Hiring #AIHiring #TalentAcquisition #Recruiting #HRTech
+
+**Format:** image (single-stat archetype)
+**First comment (source):** https://www.hcamag.com/au/specialisation/hr-technology/kmarts-blind-ai-tool-cuts-hiring-time-and-costs/583194
+**Buffer post id:** 6a66a9d2351863828cfb471e
+**dueAt:** 2026-07-27T16:14:00Z
+
+---
+
 ## 2026-07-26T00:36:56Z (scheduled run check)
 
 skip-day: sun
