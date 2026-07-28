@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-28T00:38:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 6 WebSearch queries + Google News RSS (AI-hiring 3d query + regulation/bias 7d query) + HR Dive feed. Top candidates considered: the recurring Stanford/Pymetrics bias study resurfacing in search (already covered 2026-07-09 and again referenced 2026-07-13/07-20 window, dropped as a repeat), an ere.net opinion piece "Stop Adding AI to Broken Hiring Processes" (thin, no new data, saturated-take risk), an HR Dive item on leadership AI-readiness (generic, no hiring-specific number), and a fresh Fortune piece (published 2026-07-27) quoting Greenhouse CEO Daniel Chait on an "AI doom loop" of AI-driven mass-applying vs AI-driven filtering, with hard platform numbers (selected). Verified via direct WebFetch of the Fortune source article, confirming all figures.
+
+### greenhouse-ai-doom-loop | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Job seekers are now paying $20 a month for AI that applies to every open role on their behalf. Recruiters are running AI that reads almost none of it. Everyone bought a faster machine, and the pipeline got worse for both of them.
+
+Greenhouse's CEO Daniel Chait put a number on it this week. Across the platform's 175,000 live roles, each posting now draws roughly 254 applicants on average. Applications per recruiter are up 412%. His name for it: the AI doom loop. Job seekers automate the apply button because getting ghosted stopped feeling personal. Employers automate the filter because 254 applicants a posting isn't readable by a human anymore. Each side's fix makes the other side's problem worse, and the loop tightens on its own.
+
+I build the filtering half of that loop. Volume was never the hard part. A model can score 254 applications before lunch. I looked at a resume in a demo last month that used the phrase "cross-functional stakeholder alignment" four times in six lines. Not a person's voice. Someone fed the job description back into a generator and mailed it to the filter, not to a human.
+
+Chait's own team found the one thing that actually cuts through it. Candidates who flag a single role as their real priority get hired at close to five times the rate of everyone applying blind. Not a smarter model. A forced, cheap-to-fake-nothing signal of real intent.
+
+Both sides bought speed this year. Almost nobody bought a clearer signal.
+
+What would your funnel look like if a candidate could only apply to one role a month?
+
+#Hiring #TalentAcquisition #AIHiring #Recruiting #JobSearch
+
+**Format:** image (funnel archetype)
+**First comment (source):** https://fortune.com/2026/07/27/greenhouse-ceo-daniel-chait-ai-doom-loop-job-seekers-spam-interview-applications-unemployment/
+**Buffer post id:** 6a67fba4fbdf65da5411d66c
+**dueAt:** 2026-07-28T16:12:00Z
+
+---
+
 ## 2026-07-27T12:37:25Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: blind-screening-bias-counterpoint, dueAt 2026-07-27T16:14:00Z). No new posts this run.

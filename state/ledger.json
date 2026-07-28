@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "greenhouse-ai-doom-loop",
+      "title": "Fortune (published 2026-07-27), Greenhouse CEO Daniel Chait interview: describes an 'AI doom loop' where job seekers pay ~$20/month for AI tools that mass-apply to every open role and employers deploy AI filters in response, worsening signal for both sides. Across Greenhouse's 175,000 live job postings, average applicants per posting is ~254; applications per recruiter are up 412%. Quotes: 'This is the first time when really both sides have been unhappy,' 'The market just isn't working for either side,' 'Everyone's using their own AI to solve their own problem, but it's making the whole system worse.' Greenhouse's own 'My Dream Job' feature (candidates flag one priority role/month) has drawn ~500,000 applications since launch and those candidates get hired at roughly 5x the rate of other applicants. Builder take: volume was never the hard part to screen; the doom loop is both sides optimizing for a machine reader instead of a human one, and the one thing that cuts through is a forced, hard-to-fake signal of real intent rather than a smarter filter.",
+      "url": "https://fortune.com/2026/07/27/greenhouse-ceo-daniel-chait-ai-doom-loop-job-seekers-spam-interview-applications-unemployment/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-28T16:12:00Z"
+    },
+    {
       "topic_key": "blind-screening-bias-counterpoint",
       "title": "Kmart (Australia) AI hiring case study, corroborated by HCA Mag and Stockhead (published this week): replaced resume/interview screening with a five-question AI chat (Sapia.ai, vendor not named in post) across 450+ stores, ~600,000 applications/year. Time-to-hire dropped from 44 days to 11.8. Kmart says it saved $5-6M over three years. First Nations hires at 8.2% vs a 3% parity benchmark; candidates disclosing a disability at 3.5% of hires. Human recruiters accepted the AI's shortlist ~85% of the time (overruled ~15%). Tool is 'blind': never surfaces age, gender, or background to the hiring manager, scores five structured competency answers instead. Builder take: this is a rare counter-data-point to the year's AI-hiring-bias-panic narrative, and the mechanism that produced it (withhold protected-characteristic signal from the human, keep a human override in the loop) is a design decision, not a smarter model.",
       "url": "https://www.hcamag.com/au/specialisation/hr-technology/kmarts-blind-ai-tool-cuts-hiring-time-and-costs/583194",
