@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-29T12:39:44Z (scheduled run check)
+
+target-met: research_per_day=1 already reached (1 research post today: entry-level-seniority-tilt, dueAt 2026-07-29T16:24:00Z). No new posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-07-29T00:42:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
