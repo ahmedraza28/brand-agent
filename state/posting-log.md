@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-29T00:42:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 5 WebSearch queries + Google News RSS (AI-hiring 2d query) + HR Dive feed + Indeed Hiring Lab feed. Top candidates considered: HR Dive "managers don't feel ready to lead an AI-fluent workforce" (too close to `bank-ai-fluency-is-the-new-signal` covered 2026-07-25, dropped), HR Dive "leadership readiness lags AI adoption" (generic AI-leadership stat, weak hiring-specific angle, dropped), Gartner supply-chain entry-level-AI survey (stale, Feb 2026, sector-narrow, dropped), Fox Business "companies hiring humans again" (thin, single-source TV segment, no citable number, dropped), and two Indeed Hiring Lab reports published this week ("The Labor Market Is Tilting Toward Seniority" + "Entry-Level Jobs Aren't Just for Inexperienced Workers," both 2026-07-23) with hard first-party numbers on the career-ladder/entry-level crunch (selected). Verified via direct WebFetch of both Indeed Hiring Lab source articles, confirming all figures.
+
+### entry-level-seniority-tilt | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Almost half of all entry-level applications right now come from someone with ten or more years of experience.
+
+Indeed's Hiring Lab published the numbers this week. Senior-level job postings are up 14.7% over the past year. Entry-level postings are down 7.5% over the same stretch. Somewhere in that gap, a manager with a decade of experience is applying to a role built for someone in their first year of work, because there's nothing else open.
+
+49% of applications from workers with ten-plus years of experience now target entry-level jobs. Only 12% of that same group applies for senior roles. The ladder didn't just lose its bottom rung. It lost most of the rungs in between.
+
+I build the filters that screen these applications, and this is the exact case that breaks a naive one. A resume that reads "VP of Operations, 2011-2024" gets auto-flagged as overqualified and dropped, even when the person applied on purpose and would do the job well. Meanwhile the actual early-career candidate this posting was written for is competing in a pool where 3 in 10 entry-level applicants already have a decade or more on her.
+
+Healthcare shows the sharpest version of it. Only 4% of experienced healthcare workers apply for senior roles once they're 10+ years in, versus 26% in tech. There's nowhere up to go, so everyone goes down.
+
+Screening for "years of experience" used to be a proxy for seniority. Now it's mostly noise. The people writing entry-level job posts have no real idea who's actually applying to them anymore.
+
+The candidate pool changed. Almost nobody rebuilt the funnel to match it.
+
+#Hiring #TalentAcquisition #Recruiting #FutureOfWork #LaborMarket
+
+**Format:** image (before-after archetype)
+**First comment (source):** https://www.hiringlab.org/2026/07/23/the-labor-market-is-tilting-toward-seniority/
+**Buffer post id:** 6a694ca906a254588099dabd
+**dueAt:** 2026-07-29T16:24:00Z
+
+---
+
 ## 2026-07-28T12:39:08Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: greenhouse-ai-doom-loop, dueAt 2026-07-28T16:12:00Z). No new posts this run.

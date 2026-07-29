@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "entry-level-seniority-tilt",
+      "title": "Indeed Hiring Lab (published 2026-07-23), two corroborating articles ('The Labor Market Is Tilting Toward Seniority' and 'Entry-Level Jobs Aren't Just for Inexperienced Workers'): senior-level job postings up 14.7% YoY through May 2026, entry-level postings down 7.5% over the same period; entry-level share of postings ~46%, senior ~14%, mid ~40%. 49% of applications from workers with 10+ years of experience now target entry-level jobs (up from prior periods); only 12% of that group applies for senior roles; 62% of applications from workers with 6-9 years experience target entry-level; 30% of all entry-level applications come from workers with 10+ years experience. Industry disparity: in tech, 26% of experienced (10+ yr) workers apply for senior roles vs only 4% in healthcare. Quote: 'Employer demand is tilting toward experienced workers.' Builder take: naive resume/experience filters break on this pattern (auto-flagging an overqualified-on-purpose applicant, or missing that the entry-level pool is now flooded with experienced downshifters), and nobody has rebuilt the screening funnel to account for it.",
+      "url": "https://www.hiringlab.org/2026/07/23/the-labor-market-is-tilting-toward-seniority/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-07-29T16:24:00Z"
+    },
+    {
       "topic_key": "greenhouse-ai-doom-loop",
       "title": "Fortune (published 2026-07-27), Greenhouse CEO Daniel Chait interview: describes an 'AI doom loop' where job seekers pay ~$20/month for AI tools that mass-apply to every open role and employers deploy AI filters in response, worsening signal for both sides. Across Greenhouse's 175,000 live job postings, average applicants per posting is ~254; applications per recruiter are up 412%. Quotes: 'This is the first time when really both sides have been unhappy,' 'The market just isn't working for either side,' 'Everyone's using their own AI to solve their own problem, but it's making the whole system worse.' Greenhouse's own 'My Dream Job' feature (candidates flag one priority role/month) has drawn ~500,000 applications since launch and those candidates get hired at roughly 5x the rate of other applicants. Builder take: volume was never the hard part to screen; the doom loop is both sides optimizing for a machine reader instead of a human one, and the one thing that cuts through is a forced, hard-to-fake signal of real intent rather than a smarter filter.",
       "url": "https://fortune.com/2026/07/27/greenhouse-ceo-daniel-chait-ai-doom-loop-job-seekers-spam-interview-applications-unemployment/",
