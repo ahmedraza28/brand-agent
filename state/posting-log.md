@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-30T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 5 WebSearch queries + Google News RSS (AI-hiring 2d query) + HR Dive feed + Indeed Hiring Lab feed attempt (redirected, not used). Top candidates considered: HR Dive "AI use may improve engagement" (Gallup, not hiring/screening-specific, dropped), HR Dive "HR often uses ChatGPT to complete non-HR tasks" (OpenAI report, general workplace AI use not hiring-specific, dropped), "Obra Launches to Put Job Seekers First in an AI-Chaotic Hiring Market" (single-source startup-launch press coverage, thin, dropped), Box CEO Aaron Levie comments on AI and hiring (single-source opinion, no new data, dropped), and NYT (Lydia DePillis, published 2026-07-29) "A.I. Companies Are Recruiting Electricians and Carpenters by the Thousands" — OpenAI/Google/Meta/BlackRock committing $265M combined to electrician/carpenter training pipelines for data center construction, with hard figures on spend, wage premium, apprenticeship intake, and completion rate (selected). Verified via direct WebFetch of a detailed syndicated rundown (Yahoo Finance) of the NYT reporting, cross-checked against Techmeme's index entry (crediting Lydia DePillis/NYT) and aiweekly.co's summary of the same NYT piece — all in agreement on the $265M figure, the per-company breakdown, and the 42%/70%/45% stats.
+
+### ai-companies-recruiting-trades | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Everyone's worried about the jobs AI is going to erase. Meanwhile OpenAI, Google, Meta, and BlackRock have committed $265 million this year to training thousands of new electricians and carpenters, just to keep pace with data center construction.
+
+Meta alone put in $115 million for a one-month course that takes about 5,000 people from a classroom straight to a live contractor job site. Google wants to grow its apprenticeship intake from 19,500 a year to 30,000 within three years. A data center electrician now earns roughly 42% more than someone doing the same job anywhere else, according to Indeed. At OpenAI's Michigan build site, that pay comes with ten-hour shifts and no days off.
+
+The number nobody's cheering about: applications for commercial electrical apprenticeships are up more than 70% since 2022. Completion sits around 45%. More than half the people who sign up for this gold rush never finish it.
+
+I build screening tools for a living, and I recognize this shape instantly. Flood the top of a hiring pipeline with volume, skip building a real selection layer underneath it, then act surprised when half the intake disappears before any of the training pays off. Sean McGarvey, who leads North America's Building Trades Unions, called Meta's program "a brilliant public relations move." He didn't say it screens for who actually stays.
+
+AI is currently the single largest driver of blue collar hiring demand in the country, and it inherited the exact same unsolved problem every fast-scaling hiring push runs into. Volume was never the hard part.
+
+Nobody built the filter for who finishes.
+
+#Hiring #TalentAcquisition #FutureOfWork #AIHiring #LaborMarket
+
+**Format:** image (vs-comparison archetype)
+**First comment (source):** https://finance.yahoo.com/technology/ai/articles/ai-companies-spending-265-million-173148687.html
+**Buffer post id:** 6a6a9e5d31c6b0ee115647c2
+**dueAt:** 2026-07-30T16:14:00Z
+
+---
+
 ## 2026-07-29T12:39:44Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: entry-level-seniority-tilt, dueAt 2026-07-29T16:24:00Z). No new posts this run.
