@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-31T00:44:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 4 WebSearch queries + Google News RSS (AI-hiring 2d query) + HR Dive feed + Indeed Hiring Lab feed. Top candidates considered: HR Dive "AI CEO who promised interview to anyone who got tattoo of company logo apologizes" (would require naming/mocking a specific person, dropped per no-personal-attacks guardrail), HR Dive "This week in 5 numbers" leadership-AI-readiness roundup citing ManpowerGroup (3% of C-suite/CHRO/TA leaders feel "highly prepared" to lead AI adoption) — too close in shape to the already-covered `bank-ai-fluency-is-the-new-signal` (2026-07-25) territory and the source article didn't link the primary ManpowerGroup report, dropped, Indeed Hiring Lab's new healthcare-migration piece (real but no hiring-screening/AI angle, off-territory), and a Harris Poll x Ruth AI survey on AI salary-negotiation covered by HR Dive today (selected). Verified via direct WebFetch of the HR Dive article, direct WebFetch of the primary source page (ruthapp.ai/research, matching figures exactly), and cross-checked against independent Fast Company / Forbes coverage of the same Harris Poll dataset (2,131 US adults, fielded June 11-13 2026).
+
+### ai-pay-negotiation-bias-gap | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Almost half of US adults would let an AI negotiate their salary for them.
+
+Three in four of them have no idea it might already be steering them low.
+
+Harris Poll and Ruth AI put real numbers on this a few days ago. 47% would hand pay negotiation to AI outright. A third have already asked one what to counter an offer with. 76% had never heard that AI career advice can carry bias at all. Among people who did get AI salary guidance, 43% believe their race, gender, or ethnicity shaped what it told them to ask for.
+
+I spend my days on the other side of this exact problem. I build AI that screens and scores candidates, and every serious buyer's first real question now is some version of how do we know this isn't biased. I sat through a pitch a few weeks ago where general counsel spent twenty minutes on the audit trail before anyone opened a demo screen. That scrutiny is standard on the employer's side of the table now.
+
+Nobody is running that same check on the candidate's side. A worker opens a chat window, asks what number to counter with, and takes the answer at face value. No audit log. No human reviewing the reasoning. No way to know if the model just quietly lowballed her because of a pattern sitting somewhere in its training data.
+
+If explainability is the bar for the AI judging a candidate, it has to be the bar for the AI advising one too.
+
+Nobody's holding it to that yet.
+
+#Hiring #AIHiring #TalentAcquisition #PayEquity #FutureOfWork
+
+**Format:** image (numbered-list archetype)
+**First comment (source):** https://www.hrdive.com/news/nearly-half-of-workers-say-theyd-let-ai-negotiate-their-pay/826476/
+**Buffer post id:** 6a6befecbb30a36747fe80b5
+**dueAt:** 2026-07-31T16:09:00Z
+
+---
+
 ## 2026-07-30T00:37:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
