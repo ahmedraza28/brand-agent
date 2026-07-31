@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-07-31T12:36:51Z (scheduled run check)
+
+target-met: research_per_day=1 already reached (1 research post today: ai-pay-negotiation-bias-gap, dueAt 2026-07-31T16:09:00Z). No new posts this run.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-07-31T00:44:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
