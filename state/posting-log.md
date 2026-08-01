@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-01T00:37:24Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 5 WebSearch queries + HR Dive feed + Indeed Hiring Lab feed. Top candidates considered: "Nearly half of workers say they'd let AI negotiate their pay" (HR Dive, same Harris Poll/Ruth AI story already covered as `ai-pay-negotiation-bias-gap` on 2026-07-31, dropped as duplicate), "Employers may not be training workers well enough for widespread AI disruption" (Conference Board, generic upskilling stat, no hiring-decision angle, dropped), "Q2 2026 Employment Cost Index" (Indeed Hiring Lab, wage data with no AI/screening angle, off-territory), and "Managers say they are using AI to make layoff decisions" (HR Dive, published 2026-07-31, citing a ResumeTemplates.com survey of 1,000 US managers) — selected. Verified via direct WebFetch of the HR Dive article (exact stats, factors weighed, and the Julia Toothacre quote confirmed) plus a corroborating WebSearch pass confirming the same ResumeTemplates.com study and figures via independent coverage. Not a duplicate of `meta-ai-layoff-scoring-suit` (2026-07-17, outside the 7-day dedup window and a different angle: a national manager-behavior survey vs. one company's lawsuit).
+
+### ai-layoff-scoring-factors-survey | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+We regulated the AI decision that hires someone. Nobody built the same guardrails for the identical decision that fires them.
+
+A ResumeTemplates.com survey out this week polled 1,000 US managers with direct reports, all of them already using AI at work. Fifty-nine percent use AI when deciding who gets laid off. Fifty-eight percent use it deciding who gets fired.
+
+Break down what these tools are actually weighing and it gets uncomfortable fast. Performance shows up in 80% of them, reasonable enough. Attendance in 57%, still defensible. Then it turns. Sick days or medical leave factor into 31% of these decisions. Tenure into 32%. Age into 14%.
+
+The survey's lead researcher, Julia Toothacre, said it plainly: sick days, medical leave, and age stand apart from the usual reasons a layoff happens, because discriminating on any of them is illegal.
+
+Ninety-one percent of managers say they'd override an AI recommendation they disagreed with. That's the right instinct. But 38% of them have never been trained on ethical AI use in an HR decision, and 17% let the model run unsupervised often or all the time. You can't override a call you were never taught to question.
+
+I build the screening half of this problem, not the layoff half, and I still know the shape on sight. I sat through a data review a few months back where a performance model had quietly downweighted anyone with a gap longer than two weeks in their activity log. Nobody had told it medical leave was a gap it should ignore.
+
+We spent two years arguing about explainability at the front door of employment. The back door just got handed the exact same machine, with less than half the scrutiny.
+
+#Hiring #AIHiring #TalentAcquisition #HRTech #AIBias
+
+**Format:** image (single-stat archetype)
+**First comment (source):** https://www.hrdive.com/news/managers-are-using-ai-to-make-layoff-decisions/826697/
+**Buffer post id:** 6a6d4159f93d764d938415d8
+**dueAt:** 2026-08-01T16:11:00Z
+
+---
+
 ## 2026-07-31T12:36:51Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ai-pay-negotiation-bias-gap, dueAt 2026-07-31T16:09:00Z). No new posts this run.
