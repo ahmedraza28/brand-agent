@@ -8,6 +8,12 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-02T00:36:30Z (scheduled run check)
+
+skip-day: sun (2026-08-02 is Sunday UTC, in settings.skip_days). No research, no draft, no publish this run per Gate 2 (no exceptions, even for big news).
+
+---
+
 ## 2026-08-01T12:36:41Z (scheduled run check)
 
 target-met: research_per_day=1 already reached (1 research post today: ai-layoff-scoring-factors-survey, dueAt 2026-08-01T16:11:00Z). No new posts this run.
