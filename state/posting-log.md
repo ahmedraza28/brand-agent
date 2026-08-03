@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-03T12:44:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 3 WebSearch queries + Google News RSS (AI-hiring 2d query) + HR Dive feed + Indeed Hiring Lab feed. Top candidates considered: generic "AI in Recruitment 2026" evergreen guide/listicle results (not news, dropped), an EU AI Act Article 50 transparency-deadline mention buried in a generic recruiting-trends summary (no single fresh news hook, dropped), HR Dive "Employers may not be training workers well enough for widespread AI disruption" (Conference Board, general upskilling stat, no hiring-decision angle, dropped), Indeed Hiring Lab Q2 2026 Employment Cost Index (real wage data but no AI/hiring-screening angle, off-territory), and Indeed's UK mid-year jobs report reported by Reuters/Bloomberg/Fortune (published 2026-08-02/08-03): UK job postings down 11% since January and 32% below pre-pandemic, graduate postings down 7% YoY (lowest for the season since 2020), youth unemployment at a decade-plus high, AI-related skills in a record 9.4% of UK postings, software developer postings up 14% concentrated in senior/AI-linked roles — selected. Verified via direct WebFetch of Fortune's article (quotes, software-developer and youth-unemployment figures) plus the Reuters wire syndication on byteseu.com (job-posting decline, graduate-posting, and AI-skills-percentage figures), two independent sources agreeing on all cited numbers. Not a duplicate of `entry-level-seniority-tilt` (2026-07-29, outside the 7-day dedup window, different geography/dataset: US Indeed Hiring Lab senior-vs-entry postings vs. this UK-specific Indeed mid-year report centered on the AI-skills-demand record).
+
+### uk-two-speed-ai-job-market | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+AI didn't shrink the UK job market this year. It just told employers who's worth calling back.
+
+Indeed's mid-year numbers, out this week: UK job postings down 11% since January, sitting 32% below pre-pandemic levels. Graduate postings down 7% year-on-year, the weakest for this point in the calendar since 2020. Youth unemployment is at its highest in over a decade.
+
+Underneath that, one line is growing. AI-related skills now appear in 9.4% of UK postings, a record. Software developer listings are up 14%, almost entirely in senior roles or ones built around AI directly. Indeed's Jack Kennedy put it plainly: the bar is rising, and it now wants either specialist AI capability or years of proof you don't need the specialism explained to you.
+
+I build the layer that decides who gets a first conversation, so I've watched this exact filter tighten from the inside. A hiring manager I spoke with last month rejected a junior candidate for a role that, three years ago, would have gone to someone with exactly her resume. Her file wasn't weak. The bar under it moved.
+
+Maybe that's too clean a story from one conversation. But the data says the same thing at scale: postings are consolidating around people who already cleared the bar once, and shrinking for people who've never had the chance to.
+
+What does an entry-level screen even mean in a market that keeps raising the price of entry?
+
+#Hiring #AIHiring #TalentAcquisition #LaborMarket #FutureOfWork
+
+**Format:** image (funnel archetype)
+**First comment (source):** https://www.byteseu.com/2248136/
+**Buffer post id:** 6a708d272766419d49f52f6a
+**dueAt:** 2026-08-03T16:12:00Z
+
+---
+
 ## 2026-08-02T12:36:38Z (scheduled run check)
 
 skip-day: sun (2026-08-02 is Sunday UTC, in settings.skip_days). No research, no draft, no publish this run per Gate 2 (no exceptions, even for big news).

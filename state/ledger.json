@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "uk-two-speed-ai-job-market",
+      "title": "Indeed's mid-year UK jobs report (published 2026-08-02/08-03, corroborated via direct WebFetch of Fortune and the Reuters wire syndication on byteseu.com): UK job postings down 11% between start of 2026 and July 17, 32% below pre-pandemic levels. Graduate postings down 7% YoY as of July 10, lowest for the time of year since 2020. Youth unemployment at its highest level in over a decade. AI-related skills appeared in a record 9.4% of UK job postings (end of June). Software developer postings up 14%, concentrated in senior roles and roles directly tied to AI; manufacturing postings down 58% since June 2022. Indeed senior economist Jack Kennedy: 'The UK's labour market is under sustained pressure... the bar is therefore rising as the stronger areas of the market increasingly require either specialist AI capability or substantial experience.' Builder take: screening rubrics that weight 'demonstrated track record' as the top signal are a closed loop by design in a market that's simultaneously shrinking the entry-level roles that used to build that record.",
+      "url": "https://www.byteseu.com/2248136/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-08-03T16:12:00Z"
+    },
+    {
       "topic_key": "ai-layoff-scoring-factors-survey",
       "title": "HR Dive (published 2026-07-31), citing a ResumeTemplates.com survey of 1,000 US managers with direct reports, all already using AI at work: 59% use AI when deciding who gets laid off, 58% when deciding who gets fired. Factors the AI weighs: performance/productivity (80%), attendance (57%), salary/cost (42%), tenure (32%), sick days or medical leave (31%), PTO (23%), age (14%), whether the job could be done by AI (34% of those using AI for layoffs). 91% of managers say they'd override an AI recommendation they disagreed with; 57% say they'd never let AI decide layoffs unsupervised, 43% occasionally take a hands-off approach, 17% do it often or all the time; 38% had never been trained on ethical AI use in HR decisions. Quote from Julia Toothacre, ResumeTemplates.com chief career strategist: sick days, medical leave, and age stand apart from the usual reasons a layoff happens, because discriminating on any of them is illegal. Builder take: explainability/human-override scrutiny has focused on the hiring decision; the identical AI-scoring problem on the termination side gets far less of it.",
       "url": "https://www.hrdive.com/news/managers-are-using-ai-to-make-layoff-decisions/826697/",
