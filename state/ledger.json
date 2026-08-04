@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "bank-human-in-the-loop-becoming-law",
+      "title": "Slow-day opinion-bank take (no news hook, no fresh moment cleared the quality bar this run): human-in-the-loop as a competitive moat, not a compliance cost. Developed angle: regulators (NYC LL144 public bias audit, EU AI Act regulator-facing documentation requirement) are converging on 'a machine can assist, a person must own the call,' verified via WebSearch this run. Builders who bake in a legible override from day one are building something a black-box rival can't retrofit before a big enterprise deal; explainability is the product, not the cost of entry.",
+      "url": "",
+      "platform": ["linkedin"],
+      "posted_at": "2026-08-04T16:52:00Z"
+    },
+    {
       "topic_key": "uk-two-speed-ai-job-market",
       "title": "Indeed's mid-year UK jobs report (published 2026-08-02/08-03, corroborated via direct WebFetch of Fortune and the Reuters wire syndication on byteseu.com): UK job postings down 11% between start of 2026 and July 17, 32% below pre-pandemic levels. Graduate postings down 7% YoY as of July 10, lowest for the time of year since 2020. Youth unemployment at its highest level in over a decade. AI-related skills appeared in a record 9.4% of UK job postings (end of June). Software developer postings up 14%, concentrated in senior roles and roles directly tied to AI; manufacturing postings down 58% since June 2022. Indeed senior economist Jack Kennedy: 'The UK's labour market is under sustained pressure... the bar is therefore rising as the stronger areas of the market increasingly require either specialist AI capability or substantial experience.' Builder take: screening rubrics that weight 'demonstrated track record' as the top signal are a closed loop by design in a market that's simultaneously shrinking the entry-level roles that used to build that record.",
       "url": "https://www.byteseu.com/2248136/",

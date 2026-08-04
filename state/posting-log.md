@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-04T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 5 WebSearch queries + Google News RSS (AI-hiring 2d + regulation/bias 14d queries) + HR Dive feed + Indeed Hiring Lab feed + r/recruiting. Top candidates considered: AP/wire recap "AI weeds out older and minority job applicants, lawsuit against Workday claims" (same underlying June 22 FEHA/ADA ruling already covered as `workday-vendor-liability` on 2026-06-23, no new development since, dropped as a re-syndication not a fresh moment), Victorian Premier Jacinta Allan's proposed Equal Opportunity Act amendment restricting AI hiring discrimination + business "unnecessary overreach" pushback (original announcement dated 2026-07-21, over two weeks stale, and no clear fresh primary-source article confirming a new development this week, dropped), EU AI Act Article 50 transparency deadline reached 2026-08-02 (verified real via WebSearch, but Article 50 governs general AI content/chatbot disclosure, not the employment/hiring high-risk track already covered as `eu-aiact-deferral-hiring`, off-territory for the hiring beat), "AI Hiring Has Split Into Three Distinct Tracks" skills-gap listicle (Data Scientist/ML Engineer/AI Engineer skill differences, no hiring-mechanics or screening angle, thin/listicle-shaped per the saturated-take guard), and Q2 2026 Employment Cost Index real-wage decline (Indeed Hiring Lab, published 2026-07-31, real wages -0.4% YoY, first drop since 2022 — real labor-market data but no hiring-screening/AI angle, off-territory, same reason it was passed over in a prior run). No candidate cleared the quality + grounding bar for a genuine fresh moment distinct from what's already in the ledger. **Slow-day fallback invoked** per `config/sources.md`.
+
+Bank selection: `human-in-the-loop-becoming-law` (never used before, `last_used: null` = highest LRU priority; also a genuine connection to this week's discourse — NYC LL144 public bias-audit requirement and the EU AI Act's regulator-facing documentation requirement were both independently confirmed via WebSearch this run). Developed into an original angle not in the bank's note: human-in-the-loop as a competitive moat a black-box rival can't retrofit late, rather than a compliance cost. Every cited fact (NYC bias-audit public posting, EU technical-documentation-on-request requirement) verified via WebSearch this run; the builder anchor (a TA leader's demo question) is honest-generic, specific-but-unverifiable, no invented client story.
+
+### bank-human-in-the-loop-becoming-law | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+Every AI hiring vendor treats "a human has to sign off" as the annoying part regulators bolted onto their product. I think it's the cheapest moat in the category, and almost nobody is building for it on purpose.
+
+Look at where the rules keep landing. NYC wants a bias audit posted in public. The EU wants a paper trail regulators can pull on request. State after state is converging on the same sentence, worded slightly differently every time: a machine can assist the call, a person has to own it. Nobody serious is legislating "ban the AI." They're legislating "show your work."
+
+Most teams treat that as paperwork to survive. Fill out the form, post the audit, move on with the roadmap. A TA leader I demoed something for last quarter never asked about accuracy. Her only question was whether she could see why the model passed on a candidate, and whether she could overrule it herself. That was the entire sale.
+
+The builders baking the override in from day one, making every score legible enough for a recruiter to argue with, aren't doing compliance theater. They're building the one thing a black-box competitor can't bolt on the weekend before a big enterprise deal.
+
+Explainability isn't the cost of entry to this market anymore.
+
+It's the actual product.
+
+#AIHiring #FutureOfWork #HRTech #TalentAcquisition #Regulation
+
+**Format:** image (before-after archetype)
+**First comment (source):** none (evergreen bank take, no news hook)
+**Buffer post id:** 6a713681d702c24ecb1f7a24
+**dueAt:** 2026-08-04T16:52:00Z
+
+---
+
 ## 2026-08-03T12:44:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
