@@ -8,6 +8,12 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-04T12:37:26Z
+
+target-met: research_per_day=1 already reached (1 research post today: bank-human-in-the-loop-becoming-law, dueAt 2026-08-04T16:52:00Z). No new posts this run.
+
+---
+
 ## 2026-08-04T00:37:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
