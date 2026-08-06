@@ -11,12 +11,12 @@ config/
   persona.md     # the voice (the #1 tuning knob)
   playbook.md    # fact-checked X + LinkedIn best-practices (drives format)
   guardrails.md  # full-auto safety rails (grounding, content-safety, kill switch)
-  styles.md      # ~18 image art-directions + anti-repeat rules
+  styles.md      # ONE locked Ployo template + layout-archetype rotation + image prompting
   sources.md     # free, keyless trend sources + ranking heuristics
 state/
   settings.json      # { enabled, mode } — kill switch + soft-launch
   ledger.json        # topics already covered (7-day dedup)
-  recent-styles.json # last 6 image styles used (anti-repeat)
+  recent-styles.json # last 4 LAYOUT archetypes used (anti-repeat)
   posting-log.md     # append-only human-readable log of every run
 docs/
   images/        # generated PNGs, served via GitHub Pages
@@ -33,6 +33,6 @@ GitHub Pages serves `/docs`, so an image at `docs/images/<slug>.png` is public a
 - **Tune the voice:** edit `config/persona.md`. Tune format rules in `config/playbook.md`, safety in `config/guardrails.md`, image variety in `config/styles.md`. The routine reads all of these fresh every run.
 
 ## What the routine does each run
-pull → gather (WebSearch + Google News / HN / Product Hunt / Reddit RSS) → dedup vs ledger → rank → **verify every claim against a fetched source** → draft per playbook → pick a non-recent image style → generate image → commit image → publish via Buffer (staggered, verified windows) → append ledger + recent-styles + posting-log → push.
+pull → gather (WebSearch + Google News / HN / Product Hunt / Reddit RSS) → dedup vs ledger → rank → **verify every claim against a fetched source** → draft per playbook → **humanizer pass** (`config/humanizer.md`, wired via `persona.md`) → pick a non-recent layout archetype → render 3 image candidates and promote the best → commit the winner → publish via Buffer (staggered, verified windows) → append ledger + recent-styles + posting-log → push.
 
 A slow news day produces zero posts. Quality over cadence.

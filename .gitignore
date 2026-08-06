@@ -6,3 +6,7 @@ id_*
 .env
 env/
 secrets*
+
+# Losing image variants from IMAGE_N>1. Only the promoted winner belongs in docs/images/;
+# these are ~2MB each and this repo is public + GitHub-Pages served.
+.image-candidates/

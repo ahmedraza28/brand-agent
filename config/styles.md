@@ -57,7 +57,32 @@ cream, dark teal ink, teal accent<, and one soft red>. Crisp, perfectly spelled,
 print-quality typography with clear hierarchy.
 ```
 
-Render: `python3 tools/make_image.py "$IMAGE_PROMPT" "$SLUG" docs/images` (portrait default). Image URL = `https://ahmedraza28.github.io/brand-agent/images/<SLUG>.png`.
+Render three candidates and ship the best one:
+
+```
+IMAGE_N=3 python3 tools/make_image.py "$IMAGE_PROMPT" "$SLUG" docs/images
+```
+
+It prints one path per candidate. Candidate 1 is always `docs/images/<SLUG>.png`; the other two land in `.image-candidates/` (gitignored). **Read all three images, then promote the best-rendered one** by `cp`-ing it over `docs/images/<SLUG>.png`. Judge on rendering only, not on taste — the prompt is the same for all three, so the differences are misspellings, a clipped or squashed word, a crooked pill, uneven rows, a mangled `ployo` wordmark. If candidate 1 is already clean, keep it and move on.
+
+Then commit **only** `docs/images/<SLUG>.png`. Never `git add` `.image-candidates/` — the repo is public and GitHub-Pages served, and each losing candidate is ~2MB.
+
+Image URL = `https://ahmedraza28.github.io/brand-agent/images/<SLUG>.png`.
+
+### What was actually measured (2026-08-06) — don't re-litigate this from a blog post
+
+- **`quality` is "medium", and that is deliberate.** The same real template prompt was rendered 2x at `high` and 5x at `medium` at the production 1088x1360. All seven spelled every word correctly, footer credit included, checked at 1:1. Medium costs a **quarter** of high (1587 vs 6431 output tokens) and takes ~50s vs ~133s. Override with `IMAGE_QUALITY=high` if you ever see the difference, but render both and compare the footer strip before you believe it.
+- **Three medium candidates cost less than one high image** and take about the same wall-clock as one (55s for n=3 vs 48s for n=1 — they generate concurrently server-side). That is why the pick-the-best step above is affordable at all.
+- **There is no "thinking mode" on this API.** `mode`, `thinking` and `reasoning_effort` all return 400 "Unknown parameter". It is a ChatGPT product feature. Any skill or article telling you to pass it is wrong about the API and will break this step.
+
+### Prompt habits that actually improve rendering
+
+These matter far more than the quality knob:
+
+- **Quote every string verbatim** in the prompt, exactly as it must appear, with the line breaks you want (`on 3 lines: "..." / "..." / "..."`). The model renders what you quote; it invents when you describe.
+- **Fewer words beats higher quality.** Rows of ≤5 words render cleanly at medium; a row that runs long is the thing that gets squashed or clipped, at any quality.
+- **Name the hex every time** you name a colour, and say where the emphasis goes ("emphasize `<2-4 words>` in teal `#0D9488`") rather than trusting it to choose.
+- **Avoid words that are easy to mis-render** (long compound words, unusual proper nouns). If a word is risky, pick a shorter synonym — rule 3 below.
 
 ## Rules that keep it on-brand
 
