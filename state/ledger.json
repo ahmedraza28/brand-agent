@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "ai-reshuffles-white-collar-work",
+      "title": "Indeed Hiring Lab's new Labor Market Outlook Survey (published 2026-08-05, verified via direct WebFetch of hiringlab.org): 120 economists and labor-market experts surveyed by Pulsenomics in partnership with Indeed, fielded July 2026, first survey of its kind. 52% expect AI to be a mild drag on employment over the next year, 35% expect a net gain, 13% expect no effect. 57% expect downward wage pressure on college-educated workers vs 34% for workers without a degree. 61% say their own assessment of AI's displacement risk for college-educated workers increased over the past year (not decreased). Sectors the panel expects to grow fastest: personal care & home health, nursing. Sectors expected to shrink: software development, administrative work. Builder take: most screening rubrics still auto-weight a degree plus specialized software background as the low-risk hire, an assumption built for a labor market this survey says no longer holds; the safest-looking resume on paper may now be applying into the sector this panel just flagged as shrinking.",
+      "url": "https://www.hiringlab.org/2026/08/05/q2-labor-market-outlook-survey/",
+      "platform": ["linkedin"],
+      "posted_at": "2026-08-06T07:23:00Z"
+    },
+    {
       "topic_key": "bank-human-in-the-loop-becoming-law",
       "title": "Slow-day opinion-bank take (no news hook, no fresh moment cleared the quality bar this run): human-in-the-loop as a competitive moat, not a compliance cost. Developed angle: regulators (NYC LL144 public bias audit, EU AI Act regulator-facing documentation requirement) are converging on 'a machine can assist, a person must own the call,' verified via WebSearch this run. Builders who bake in a legible override from day one are building something a black-box rival can't retrofit before a big enterprise deal; explainability is the product, not the cost of entry.",
       "url": "",

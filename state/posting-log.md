@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-06T07:13:51Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Research pass ran 4 WebSearch queries (AI x hiring news, new AI recruiting tools, EU AI Act/LL144 regulation, ghosting/ATS/time-to-hire) + HR Dive feed + Indeed Hiring Lab feed. Top candidates considered: generic recruiter-facing "AI in Recruitment 2026" trend explainers (not news, dropped), AI interview-cheating/proctoring-arms-race framing (already covered as `ai-interview-cheating-fails-onboard` on 2026-07-16, same underlying theme, dropped as duplicate territory), various HR Dive DEI/discrimination-litigation items with no AI-hiring angle (off-territory), and Indeed Hiring Lab's new Q3 2026 Labor Market Outlook Survey (published 2026-08-05) — selected. Verified via direct WebFetch of the primary hiringlab.org article: 120 economists surveyed via Pulsenomics in partnership with Indeed, fielded July 2026, first survey of its kind. 52% expect AI to be a mild employment drag, 35% net gain, 13% no effect. 57% expect wage pressure on college-educated workers vs 34% for non-college-educated. 61% say their own assessment of AI's displacement risk for college-educated workers increased over the past year. Sectors expected to grow fastest: personal care & home health, nursing. Sectors expected to shrink: software development, administrative work. Primary first-party source (Indeed's own commissioned survey), not a duplicate of any ledger entry (distinct from `stlfed-entry-level-ai-bar` [St. Louis Fed, 18-24 age cohort specific] and `uk-two-speed-ai-job-market` [UK-specific Indeed postings data] — this is a new US economist-panel forecast survey).
+
+### ai-reshuffles-white-collar-work | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The safest job in the market right now might be the one nobody's polishing a resume for.
+
+Indeed Hiring Lab put a new survey out this week: 120 economists, fielded through Pulsenomics in July, the first read of its kind. The sectors this panel expects to grow fastest over the next year are personal care, home health, and nursing. The ones they expect to shrink are software development and administrative work.
+
+The number that actually stopped me wasn't the 52% who expect AI to be a drag on employment overall. It's that 61% say their own read on how dangerous AI is for college-educated workers went up over the past year. Not down. Up. People paid to track this for a living are getting more worried with time, not settling into a range.
+
+Fifty-seven percent expect wage pressure on college-educated workers. Thirty-four percent say the same for workers without a degree. That gap ran the other way for most of my career.
+
+I build the tool that scores who gets a first conversation, and most screening rubrics I've seen still treat a degree plus specialized software background as the safe hire. That assumption was built for a labor market these numbers say doesn't exist anymore.
+
+The resume that looks safest on paper might be the one applying into the sector this panel just flagged as shrinking.
+
+#Hiring #AIHiring #FutureOfWork #LaborMarket #TalentAcquisition
+
+**Format:** image (vs-comparison archetype)
+**First comment (source):** https://www.hiringlab.org/2026/08/05/q2-labor-market-outlook-survey/
+**Buffer post id:** 6a74366d0c33c8e2319399a5
+**dueAt:** 2026-08-06T16:37:00Z
+
+---
+
 ## 2026-08-04T12:37:26Z
 
 target-met: research_per_day=1 already reached (1 research post today: bank-human-in-the-loop-becoming-law, dueAt 2026-08-04T16:52:00Z). No new posts this run.
