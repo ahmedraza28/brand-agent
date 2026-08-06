@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-06T12:40:33Z (scheduled run check)
+
+target-met: settings.research_per_day = 1 (current value). Today's count from this log (UTC 2026-08-06) = 2 (ai-reshuffles-white-collar-work, LIVE, dueAt 2026-08-06T16:37:00Z, logged 07:13:51Z; csuite-life-skills-vs-ai-skills, DRAFT, logged 08:24:00Z under a temporary research_per_day=2 test value that has since reverted to 1). remaining = 1 - 2 = -1. No new research pass run, no draft, no publish this run per Step 3.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-08-06T08:24:00Z (second run of the day)
 
 spotlight: skipped (product_spotlight.enabled = false).
