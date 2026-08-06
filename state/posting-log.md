@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-06T08:24:00Z (second run of the day)
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Daily target check: settings.research_per_day = 2 (temporary test value, see commit 2c1b66e). Today's count from this log = 1 (ai-reshuffles-white-collar-work, logged at 07:13:51Z). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI-in-hiring news, regulation/bias, new AI recruiting tools, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 48h query) + HR Dive feed + Indeed Hiring Lab feed. Top candidates considered: "AI Weeds Out Older and Minority Job Applicants" (CPA Practice Advisor, re-syndication of the already-covered `workday-vendor-liability` FEHA ruling, dropped as duplicate territory), "Fake AI Job Candidates Pass Interviews and Vanish" (Business Insider, close in territory to already-covered `ai-vs-ai-interview-arms-race`, dropped), "I've had to Botox my CV" (BBC, candidate-side CV age-editing trend, real but softer/anecdotal than the alternative below and closer to a lifestyle piece than a hiring-mechanics moment, passed over), "When AI screens women out, an appeal pathway must be available" (Women's Agenda AU, an opinion/advocacy piece without a fresh primary data source this run, dropped), June 2026 JOLTS "Duck on a Pond" (Indeed Hiring Lab, real labor data but no hiring-screening/AI angle, off-territory), and High Point University Research Center's C-suite survey on life skills vs. AI skills in hiring, covered by hcamag.com (published 2026-08-05) — selected. Verified via direct WebFetch of the primary hcamag.com article: survey of 500+ US C-suite executives; all statistics (90%, 75%, 7%/7%/87%, 44%/46%/17-18%) and both direct quotes (Nido Qubein, Roberto Rigobon) confirmed in the fetched text. Not a duplicate of `bank-ai-fluency-is-the-new-signal` (2026-07-25, outside the 7-day dedup window and a distinct angle: that bank take was about how to test for AI fluency, this is a fresh primary-source survey about the C-suite valuing life skills over AI skills and a prep-gap between what grads/HR think matters vs. what actually gets hired).
+
+### csuite-life-skills-vs-ai-skills | LinkedIn | DRAFT (addToQueue, saveToDraft)
+
+**Text:**
+Every job post this year name-drops "AI fluency." The people actually deciding who gets hired are quietly optimizing for something else.
+
+High Point University surveyed more than 500 C-suite executives this week. Ninety percent said life skills, judgment, coachability, the ability to actually listen, are what make a hire work. Seventy-five percent said they'd pick the candidate strong in those over one who only brings AI technical chops. Only 7% want a leader built purely on AI skills. Only 7% want one built purely on life skills either. The real number is 87%, wanting both, which is a much harder thing to screen for than a prompt-engineering quiz.
+
+Career centers should sit with the next question the survey asked: what grads are actually being prepared for. Forty-four percent of the C-suite and 46% of HR pros think recent graduates walk in better equipped with AI and technical skills than with life skills. Under a fifth think the opposite. HPU's president called that gap "very scary." He's not wrong. We're training a generation to optimize for the 7% that barely moves a hiring decision.
+
+I score candidates for a living, and this is the exact mismatch I keep re-encoding into every rubric a client hands us. They ask for "AI-fluent." Then they pass on the AI-fluent candidate who can't take feedback, and hire the mid-tier prompt-writer who clearly listens.
+
+Teach someone the tool in an afternoon. Nobody's figured out how to teach judgment by Friday.
+
+#Hiring #AIHiring #TalentAcquisition #FutureOfWork #HRTech
+
+**Format:** image (numbered-list archetype)
+**First comment (source):** https://www.hcamag.com/us/specialization/hr-technology/ai-skills-matter-but-executives-are-hiring-for-something-else/585085
+**Buffer post id:** 6a744235e1cbc9821a312418
+**dueAt:** draft (mode=draft, no scheduled time; sits in Buffer queue as a draft for Ahmed to review)
+
+---
+
 ## 2026-08-06T07:13:51Z
 
 spotlight: skipped (product_spotlight.enabled = false).

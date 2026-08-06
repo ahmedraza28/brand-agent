@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "csuite-life-skills-vs-ai-skills",
+      "title": "High Point University Research Center survey of 500+ US C-suite executives (published 2026-08-05, verified via direct WebFetch of hcamag.com/hrd coverage): 90% say life skills (emotional intelligence, work ethic, coachability, problem-solving) still matter for hiring; 75% would pick a candidate strong in life skills over one who only brings AI technical ability; only 7% want an ideal leader built purely on AI skills, only 7% purely on life skills, 87% want both. Separately, 44% of C-suite execs and 46% of HR professionals believe recent graduates are better prepared with AI/technical skills than life skills; only 17-18% think the opposite. HPU president Nido Qubein on the gap: 'That's scary. That's very scary.' MIT Sloan's Roberto Rigobon: 'A calculator is useless without a human.' Builder take: TA teams keep writing 'AI-fluent' into job briefs while the C-suite's own revealed preference is judgment and coachability, the exact mismatch a screening rubric built around AI-skills keywords would miss.",
+      "url": "https://www.hcamag.com/us/specialization/hr-technology/ai-skills-matter-but-executives-are-hiring-for-something-else/585085",
+      "platform": ["linkedin"],
+      "posted_at": "2026-08-06T08:24:00Z"
+    },
+    {
       "topic_key": "ai-reshuffles-white-collar-work",
       "title": "Indeed Hiring Lab's new Labor Market Outlook Survey (published 2026-08-05, verified via direct WebFetch of hiringlab.org): 120 economists and labor-market experts surveyed by Pulsenomics in partnership with Indeed, fielded July 2026, first survey of its kind. 52% expect AI to be a mild drag on employment over the next year, 35% expect a net gain, 13% expect no effect. 57% expect downward wage pressure on college-educated workers vs 34% for workers without a degree. 61% say their own assessment of AI's displacement risk for college-educated workers increased over the past year (not decreased). Sectors the panel expects to grow fastest: personal care & home health, nursing. Sectors expected to shrink: software development, administrative work. Builder take: most screening rubrics still auto-weight a degree plus specialized software background as the low-risk hire, an assumption built for a labor market this survey says no longer holds; the safest-looking resume on paper may now be applying into the sector this panel just flagged as shrinking.",
       "url": "https://www.hiringlab.org/2026/08/05/q2-labor-market-outlook-survey/",
