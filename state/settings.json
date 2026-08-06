@@ -1,7 +1,7 @@
 {
   "enabled": true,
-  "mode": "draft",
-  "research_per_day": 2,
+  "mode": "live",
+  "research_per_day": 1,
   "linkedin_format": "text-first",
   "channels": [
     "linkedin"
