@@ -63,6 +63,8 @@ Render three candidates and ship the best one:
 IMAGE_N=3 python3 tools/make_image.py "$IMAGE_PROMPT" "$SLUG" docs/images
 ```
 
+⚠ **The routine prompt's Step 7 gives you this command WITHOUT the `IMAGE_N=3` prefix.** Add the prefix. Everything else about the command is unchanged, and the output path is unchanged, so this is safe: the prefix is the only difference between "one image" and "three candidates for the price of a third of an old one". If you skip it you still get the cheaper medium render, just no choice.
+
 It prints one path per candidate. Candidate 1 is always `docs/images/<SLUG>.png`; the other two land in `.image-candidates/` (gitignored). **Read all three images, then promote the best-rendered one** by `cp`-ing it over `docs/images/<SLUG>.png`. Judge on rendering only, not on taste — the prompt is the same for all three, so the differences are misspellings, a clipped or squashed word, a crooked pill, uneven rows, a mangled `ployo` wordmark. If candidate 1 is already clean, keep it and move on.
 
 Then commit **only** `docs/images/<SLUG>.png`. Never `git add` `.image-candidates/` — the repo is public and GitHub-Pages served, and each losing candidate is ~2MB.
