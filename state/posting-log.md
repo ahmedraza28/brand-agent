@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-07T21:20:42Z (scheduled run check)
+
+target-met: settings.research_per_day = 1 (current value). Today's count from this log (UTC 2026-08-07) = 1 (figma-hires-fewer-market-wants-proof, LIVE, dueAt 2026-08-07T17:12:00Z, logged 00:44:00Z). remaining = 1 - 1 = 0. No new research pass run, no draft, no publish this run per Step 3.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-08-07T00:44:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
