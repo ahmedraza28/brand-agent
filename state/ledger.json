@@ -1,6 +1,13 @@
 {
   "covered": [
     {
+      "topic_key": "figma-hires-fewer-market-wants-proof",
+      "title": "Figma Q2 2026 earnings call (published 2026-08-05/06, verified via direct WebFetch of Fast Company and TheNextWeb, two independent sources agreeing on all figures): revenue up 48% to $370.1M, R&D spend more than doubled to $167.3M, total operating expenses nearly doubled to $426.9M, adjusted operating margin fell from 16% to 10%, GAAP operating loss $117.3M. CFO Praveer Melwani said Figma is 'hiring fewer people than we originally had planned' because AI tools are covering part of that work. Stock fell approximately 16% after hours despite the growth numbers, as investors questioned whether the AI spend converts to margin. Builder take: 'fewer hires because of AI' reads as automatic discipline in most hiring pitches, but the market's actual verdict on Figma was that the savings from not hiring have to prove themselves in the P&L before they count as a win, the same unanswered question sitting under every AI-screening budget pitch TA leaders sign off on.",
+      "url": "https://www.fastcompany.com/91586117/figma-hiring-less-people-because-of-ai-wall-street-not-impressed",
+      "platform": ["linkedin"],
+      "posted_at": "2026-08-07T00:44:00Z"
+    },
+    {
       "topic_key": "csuite-life-skills-vs-ai-skills",
       "title": "High Point University Research Center survey of 500+ US C-suite executives (published 2026-08-05, verified via direct WebFetch of hcamag.com/hrd coverage): 90% say life skills (emotional intelligence, work ethic, coachability, problem-solving) still matter for hiring; 75% would pick a candidate strong in life skills over one who only brings AI technical ability; only 7% want an ideal leader built purely on AI skills, only 7% purely on life skills, 87% want both. Separately, 44% of C-suite execs and 46% of HR professionals believe recent graduates are better prepared with AI/technical skills than life skills; only 17-18% think the opposite. HPU president Nido Qubein on the gap: 'That's scary. That's very scary.' MIT Sloan's Roberto Rigobon: 'A calculator is useless without a human.' Builder take: TA teams keep writing 'AI-fluent' into job briefs while the C-suite's own revealed preference is judgment and coachability, the exact mismatch a screening rubric built around AI-skills keywords would miss.",
       "url": "https://www.hcamag.com/us/specialization/hr-technology/ai-skills-matter-but-executives-are-hiring-for-something-else/585085",

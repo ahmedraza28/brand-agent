@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-07T00:44:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Daily target check: settings.research_per_day = 1. Today's count from this log (UTC 2026-08-07) = 0 before this run. remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news, new AI recruiting tools, EU AI Act/LL144/bias regulation, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 48h query) + HR Dive feed. Top candidates considered: a January 2026 Dylan Field (Figma CEO) "AI natives" hiring-bias remark resurfacing in syndication (stale, 7 months old, and using it risked reading as a dunk on a named individual, dropped per guardrail 10); a YouGov poll on UK public attitudes to AI CV-sifting amplified by Greater Manchester Mayor turned PM Andy Burnham's on-record political remarks (dropped: guardrail 12 requires staying out of politics entirely, and the story's news hook was fundamentally a sitting politician's public comments, not a neutral hiring-mechanics moment); a Taggd vendor press release ("80% adopt AI in hiring, only 10% see gains") that is both a self-promotional vehicle for Taggd's own product and semantically a re-run of the already-covered `manpowergroup-ai-hiring-gap` adoption/gains-gap story (dropped as duplicate territory + disguised-ad risk); and Figma's Q2 2026 earnings call (published 2026-08-05/06) — selected. Verified via direct WebFetch of Fast Company and TheNextWeb, two independent sources agreeing on every cited figure: revenue up 48% to $370.1M, R&D spend more than doubled to $167.3M, total operating expenses nearly doubled to $426.9M, adjusted operating margin fell from 16% to 10%, stock fell ~16% after hours, CFO Praveer Melwani stated Figma is "hiring fewer people than we originally had planned" because AI tools are covering some of that work. Not a duplicate of any ledger entry (a new company-specific earnings disclosure, distinct from prior adoption-gap surveys and layoff/regulation stories already covered).
+
+### figma-hires-fewer-market-wants-proof | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Figma just admitted it's hiring fewer people because AI does more of the work now, and Wall Street punished the stock for it anyway.
+
+The numbers came out of Tuesday's earnings call. Revenue up 48% to $370 million, R&D spend more than doubled to $167 million, and total operating expenses nearly doubled too, with operating margin dropping from 16% to 10%. CFO Praveer Melwani said it plainly: Figma is hiring fewer people than it originally planned, because AI tools are covering part of that work now. The stock fell about 16% anyway.
+
+That's the sequence nobody's hiring rubric accounts for. Fewer hires, more output. It's supposed to read as discipline. The market read it as an unproven bet instead, because the headcount you don't add doesn't disappear. It moves to a different line item, and investors wanted to see that line item pay for itself before they'd believe the story.
+
+A TA leader I spoke with last month justified her AI-screening budget the same way Figma just did in public: two recruiter headcounts she wouldn't need to add next year. Nobody in that budget meeting asked where the money for the tool actually shows up afterward. It's the same trade Figma just made at a much bigger scale, and the same question is still unanswered.
+
+Fewer hires because of AI isn't a result on its own. It's a bet on where the saved salary ends up landing, and most teams making that bet haven't had to defend it in front of an earnings call yet.
+
+#Hiring #AIHiring #FutureOfWork #TalentAcquisition #HRTech
+
+**Format:** image (single-stat archetype)
+**First comment (source):** https://www.fastcompany.com/91586117/figma-hiring-less-people-because-of-ai-wall-street-not-impressed
+**Buffer post id:** 6a752a91e66d34bb734b1e9b
+**dueAt:** 2026-08-07T17:12:00Z
+
+---
+
 ## 2026-08-06T12:40:33Z (scheduled run check)
 
 target-met: settings.research_per_day = 1 (current value). Today's count from this log (UTC 2026-08-06) = 2 (ai-reshuffles-white-collar-work, LIVE, dueAt 2026-08-06T16:37:00Z, logged 07:13:51Z; csuite-life-skills-vs-ai-skills, DRAFT, logged 08:24:00Z under a temporary research_per_day=2 test value that has since reverted to 1). remaining = 1 - 2 = -1. No new research pass run, no draft, no publish this run per Step 3.
