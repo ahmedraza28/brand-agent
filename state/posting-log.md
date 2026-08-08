@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-08T00:36:50Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-08) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log = 0 before this run. remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news, new AI recruiting tools, EU AI Act/LL144/bias regulation, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 48h query) + HR Dive feed. r/recruiting RSS returned no content this run (likely rate-limited), skipped per fallback rule. Top candidates considered: "DoD wants AI to cut civilian hiring to 30 days" (Federal News Network, government/political hiring reform, dropped per guardrail 12, stay out of politics/government policy lane); "OpenAI settles DOJ allegation it shut US workers out of lucrative jobs" (HR Dive, 2026-08-07, a real labor-law settlement but centers on one named company's legal wrongdoing, risked reading as a dunk on a named company and has no hiring-mechanics/screening angle for the TA audience, dropped per guardrail 10); "How AI Slop Is Ruining Hiring" (Inc.com, Kit Eaton) and its cited cost-per-hire/cost-per-application figures could not be verified this run (Inc.com blocked both WebFetch and curl with a 403, and no primary report was locatable independently), dropped per the no-source-no-post rule; and Semafor's "AI avatars enter the job interview" (published 2026-08-07, Jake Angelo) — selected. Verified via direct WebFetch of the full article text: Sydney recruiter Lana Kersanava's on-record account of three AI-avatar candidate interviews over six months, her exact quote, and the detail that all three were non-native English speakers applying for English-speaking roles. Treated as a single-source reported anecdote (attributed directly to the named recruiter and outlet, not stated as a broad statistical trend) per guardrail 3's opinion-framing option for a developing/anecdotal story. Not a duplicate of `ai-vs-ai-interview-arms-race` (2026-06-18) or `ai-interview-cheating-fails-onboard` (2026-07-14) — distinct entity, event, and mechanism, and both outside the 7-day dedup window regardless.
+
+### ai-avatar-interview-arms-race | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A recruiter in Sydney sat through most of a video interview before realizing the face on the other end wasn't real.
+
+Lana Kersanava says she's run into this three times over the past six months: an AI avatar standing in for the actual candidate, built to move and talk like a person on the call. Her first reaction, in her own words: "At the beginning, it's like you feel like something is off. It looks very realistic." About five minutes into an answer too polished to be anyone actually thinking on their feet, she ended the call.
+
+All three candidates she caught this way were applying for English-speaking roles as non-native speakers. The avatar wasn't covering for a missing skill. It was covering a language gap the interview format never directly tested for anyway.
+
+I build AI interviewers, so I've spent more time than I'd like on what these avatars actually exploit. Not the model behind them. The format. A scripted first-round screen rewards a smooth, rehearsed answer over a real one, and a good clone is built for exactly that job.
+
+Chasing better deepfake detection is a fight you lose by design, the fake keeps improving faster than your ability to spot it. What a script can't survive is a live follow-up it never saw coming: change the scenario mid-answer, push on the part they rushed past, ask why that path and not the obvious one.
+
+You can fake a face. Faking a real argument, live, is a different problem entirely.
+
+#AIHiring #FutureOfWork #TalentAcquisition #HRTech #Recruiting
+
+**Format:** image (funnel archetype)
+**First comment (source):** https://www.semafor.com/article/08/07/2026/ai-avatars-enter-the-job-interview
+**Buffer post id:** 6a767c338aa5e1393fab8af3
+**dueAt:** 2026-08-08T16:47:00Z
+
+---
+
 ## 2026-08-07T00:44:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
