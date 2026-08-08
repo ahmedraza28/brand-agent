@@ -66,17 +66,19 @@ Ahmed Raza, Co-Founder & CTO of **Ployo** (`ployo.ai` = a full AI-interview plat
 
 ~1 high-quality LinkedIn post per weekday, **skip Sunday** (`state/settings.json` → `skip_days`). Consistency beats raw volume, but a daily post that doesn't clear the bar underperforms 3-5x/week that does — so post on a weekday ONLY when the topic clears the quality gate; on a slow news day pull a bank-driven evergreen take rather than forcing a weak news reaction. Mix the three pillars across the week. Reserve ~1 slot/week for a genuine carousel deck. Reply to comments within the first 60-90 minutes of every post.
 
-## Posting windows (US + AU overlap — research-recommended)
+## Posting windows (audience anchor: Australia, Australia/Sydney local time)
 
-> **⚠ OPERATIVE schedule = `state/settings.json` → `posting_windows_utc`** (read by the runbook's Step 8). To retime, edit that array — no routine-prompt change. The windows below are the research recommendation for hitting US + AU HR/exec audiences; tune the array toward them and refine against real analytics.
+> **⚠ OPERATIVE schedule = `state/settings.json` → `posting_windows_local` + `posting_timezone`** (currently `Australia/Sydney`), resolved to UTC each run via `python3 tools/posting_window.py` (Step 8), DST-aware. `posting_windows_utc` in that same file is only a stale-cache fallback, it goes an hour stale at every AEST/AEDT switch, never edit it by hand as the source of truth. To retime posts, edit `posting_windows_local` (and `posting_timezone` if the audience ever changes), no routine-prompt change needed.
 
-Because AU and US business hours barely overlap, accept that ONE post can't peak both home markets. Use the primary window to reach both at their second-best, or alternate days between the two windows to serve each market at its true prime.
+**2026-08-08 reversal, read this before trusting an older instinct about "3-8pm/Wed-4pm":** that pattern was refuted below against 2025-era data. Buffer's July 2026 analysis of 4.8M LinkedIn posts found the peak has since shifted later in the day, so the schedule now deliberately follows it. Treat the two AU windows below as current, not the earlier US-anchored windows they replaced.
 
-- **PRIMARY — 12:30-14:30 UTC, Tue/Wed/Thu.** The single best slot to hit US + AU in one post: catches US East Coast climbing into 8-11am ET prime (the strongest B2B-decision-maker block) while it is the AU evening resurgence (~22:30-00:30 AEST), a window AU audiences engage with unusually strongly.
-- **SECONDARY — 22:00-00:00 UTC, Tue/Wed/Thu.** Lands in AU mid-morning prime (Wed/Thu ~08:00-11:00 AEST, the highest-engagement AU block) while US West Coast is still afternoon (2-4pm PT) and US East Coast early evening.
-- **Strongest days: Wednesday and Thursday; Tuesday is solid.** If only two posts a week are optimized, anchor them at ~13:00 UTC Wed and ~23:00 UTC Wed.
-- **Avoid** Monday before ~14:00 UTC (US inbox-clearing slump), Friday afternoon US, and Saturday. Skip Sunday entirely.
-- Floor every `dueAt` at now + 10 min. **Stagger around the diary**, which posts to LinkedIn in the ~12:45-15:00 UTC window — don't schedule within 90 min of a same-day diary post.
+The audience is Australia, so the schedule now anchors purely to AU local time instead of splitting the difference with a US-overlap slot.
+
+- **Window 1 (afternoon peak): 15:00-17:00 Australia/Sydney local.** Inside Buffer's 3pm-8pm local peak band.
+- **Window 2 (evening peak): 21:00-22:30 Australia/Sydney local.** The strong late-evening slot the same analysis found, distinct from and later than the afternoon peak.
+- **Best days: Wednesday, then Thursday and Friday.** Monday and Tuesday are the weakest days per the July 2026 data, weight posts toward Wed/Thu/Fri when only a few slots a week are optimized.
+- **Mornings before noon local now underperform** relative to the two windows above, avoid scheduling into them.
+- Floor every `dueAt` at now + 10 min. **Stagger around the diary**, which posts to LinkedIn in the ~12:45-15:00 UTC window, don't schedule within 90 min of a same-day diary post. The two AU-local windows above (05:00-07:00 UTC and 11:00-12:30 UTC in AEST, one hour earlier in AEDT) already clear that diary slot.
 
 ## Product spotlight — DORMANT (X-stream, off while X suspended)
 Separate from the hiring stream above, there was a near-daily **X** post (and an occasional LinkedIn carousel) reacting to a notable **new product launch** (Product Hunt / Show HN) with a builder's lens. **It is OFF** (`state/settings.json` → `product_spotlight.enabled=false`) because X is suspended. Its ruleset lives in **`config/product-spotlight.md`** (quality gate, builder's-lens framing — never a thumbs-up/down verdict, never a dunk on the makers — grounding, X format, the LinkedIn-only-when-deck-worthy weekly cap). When X returns and it is re-enabled, all the persona + guardrail rules here still apply to it; it does NOT count against `research_per_day`.
@@ -88,13 +90,12 @@ Separate from the hiring stream above, there was a near-daily **X** post (and an
 
 ## DO NOT encode — these sounded right but were REFUTED in verification
 - "LinkedIn never penalizes over-posting / post unlimited" ✗ (keep 2-5/week).
-- "LinkedIn best time = Wed 4pm / 3-8pm evening block" ✗ (use the late-morning/afternoon windows above).
 - "Carousels get 596% more engagement than text" ✗ (top format, but not that number).
 - "4-5×/week is the peak and 8+ hurts" ✗.
 - "Link posts get a ~94% A/B view drop" ✗ (links hurt, but not that exact figure).
 - "Vertical 4:5 images perform best on X" ✗ (they just crop to 16:9).
 
 ## Open items (stay conservative until validated)
-- Posting-window numbers are research-recommended, not yet validated against Ahmed's own LinkedIn analytics — refine the `posting_windows_utc` array once real per-post reach data accrues.
+- Posting-window numbers are research-recommended, not yet validated against Ahmed's own LinkedIn analytics: refine `posting_windows_local` (and `posting_timezone`) once real per-post reach data accrues.
 - No verified figure for the X spam-detection ceiling on scheduled posts/day → if X is reinstated, stay at/under medium cadence (X 1-2/day).
 - Premium *may* reduce the X link penalty (an Oct-2025 softening test) → still default to link-in-reply / no-body-link when X returns.
