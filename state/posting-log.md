@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-10T00:44:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+**⚠ Infra note (branch/Pages conflict, read before next run):** this session's harness assigned a dedicated git branch (`claude/magical-carson-wafz78`) with an explicit "never push to a different branch without permission" rule, instead of the direct-`main` push this routine's Step 0/Step 10 instructions assume. GitHub Pages only builds from `main` (verified: a known-live image on `main` returns HTTP 200, the image pushed to this branch for today's post returns 404 after push). Two consequences this run: (1) the branded image could not go live before the Buffer call, so **today's post shipped text-only** per the routine's own "if it never goes live, publish text-only rather than failing" fallback — no image asset, no archetype consumed, `state/recent-styles.json` was reverted back to unchanged (see below). (2) all of this run's state updates (this log entry, the ledger entry) are committed to that branch, not `main` — until a human merges `claude/magical-carson-wafz78` into `main`, the next scheduled run will clone `main` fresh and won't see today's ledger/log entry (dedup risk) or any future image (Pages stays stuck on old content). Flagged to Ahmed via notification; not resolved automatically since it would require either pushing straight to `main` (against this session's explicit instructions) or opening a PR (not requested).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-10) is Monday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log = 0 before this run. remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news, new AI recruiting tools, EU AI Act/LL144/bias regulation, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 2d query, 38 items). Top candidates considered: "AI avatars are showing up in job interviews as candidates" (TheNextWeb, 2026-08-08) — same entity/event as `ai-avatar-interview-arms-race` already posted 2026-08-08, inside the 7-day dedup window, dropped as duplicate; "We applied to be a Kmart holiday casual. An AI bot did the interview" (SMH/The Age, 2026-08-09) — same entity (Kmart's Sapia.ai screening tool) as `blind-screening-bias-counterpoint` posted 2026-07-27, dropped as duplicate territory within the semantic dedup window; "SAP pauses hiring and travel to fund AI spending" (Times of India/BW People/Inshorts/AD HOC NEWS, multiple corroborating sources, 2026-08-09) — real and well-corroborated, but too close in shape to `figma-hires-fewer-market-wants-proof` posted just 3 days earlier (2026-08-07, "company cites AI for hiring fewer people, market reacts"), passed over to avoid the week reading as one repeated note; "Only 10% of enterprises see measurable hiring gains despite 80% adopting AI" (EdexLive) — close duplicate territory of the already-covered `manpowergroup-ai-hiring-gap` adoption-gap story, dropped; "AI cheating sparks unusual hiring trend: candidates asked to answer with eyes closed" (Moneycontrol/news24online) — could not verify via WebFetch (moneycontrol.com blocked), and thematically close to the already-covered AI-interview-cheating-arms-race territory, dropped; and Nomura's India AI employment report (published 2026-08-07, widely syndicated 2026-08-08/09) — selected. Verified via 2 independent direct WebFetches (theprint.in and india.com), both agreeing on every figure: 83,100 AI-related hires vs 31,921 documented layoffs/attrition in India since 2022, net +51,179 jobs; a cited ICRIER survey of 651 Indian IT firms found 55% cut entry-level hiring vs only 14% that cut senior-level hiring; direct quote from Nomura economists Sonal Varma and Si Ying Toh on the hiring/firing mechanism, and their own caution that the aggregate "masks distributional pain." Not a duplicate of `entry-level-seniority-tilt` (2026-07-29, US/Indeed data), `uk-two-speed-ai-job-market` (2026-08-03, UK/Indeed data), or `stlfed-entry-level-ai-bar` (St. Louis Fed, US 18-24 cohort) — distinct geography (India), distinct primary source (Nomura + ICRIER), distinct dataset, and outside the 7-day window regardless.
+
+### nomura-india-ai-net-jobs-entry-level-split | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The stat going around this week to prove AI isn't killing jobs is the same stat that shows exactly who it's leaving behind.
+
+Nomura tracked it closely: 83,100 AI-related hires in India against 31,921 documented layoffs and attrition since 2022. Net gain, a little over 51,000 jobs. Their economists Sonal Varma and Si Ying Toh summed up the mechanism in one line: most of the firing is support teams replaced by chatbots, most of the hiring is IT-services graduates companies openly credit to AI demand. Read as a headline, it's a clean rebuttal to the doom story.
+
+Read one layer down, it stops being clean. A separate survey of 651 Indian IT firms, cited alongside the Nomura numbers, found 55% had cut entry-level hiring. Only 14% had cut anything at senior level. The jobs coming in and the jobs disappearing aren't landing on the same rung, and a net-positive total doesn't tell you which rung you're standing on.
+
+I score candidates for a living, and this is the exact shape I watch for in the rubrics we build. Senior applicants move through a pipeline built to reward a track record already proven. Entry-level applicants are fighting over a shrinking set of first conversations, screened by a filter that was never rebuilt for a market tilted this hard.
+
+Nomura's own caution is worth repeating more than the topline number: the aggregate "masks distributional pain." Net positive was never the number that mattered. It was always going to be who the net actually caught.
+
+#Hiring #AIHiring #FutureOfWork #TalentAcquisition #LaborMarket
+
+**Format:** none (image generated but could not go live on Pages this run — branch/Pages conflict, see infra note above; text-only per the routine's documented fallback)
+**First comment (source):** https://theprint.in/india/ai-related-hiring-is-outpacing-job-losses-in-india-so-far-nomura-report/3008667/
+**Buffer post id:** 6a791ff1ab7f19abefc24250
+**dueAt:** 2026-08-10T05:44:00Z
+
+---
+
 ## 2026-08-09T08:36:24Z (scheduled run check)
 
 skip-day: sun
