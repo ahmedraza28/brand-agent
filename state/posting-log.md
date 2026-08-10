@@ -8,6 +8,15 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-10T08:39:50Z (scheduled run)
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+**⚠ Same infra conflict as the 00:44:00Z run today, discovered before publishing this time.** This session's harness assigned `claude/magical-carson-xt2bhp`, a fresh branch cloned from `main`, with an explicit "never push to a different branch without permission" constraint. `main`'s `posting-log.md`/`ledger.json` showed zero posts today, so the daily gate initially read `remaining = 1`. Research selected a fresh, double-sourced moment (Gartner survey of 110 CHROs, released 2026-07-27: 22% report a business leader stopped entry-level hiring because of AI, only 1 in 5 orgs saw significant AI value from the same survey; corroborated via direct WebFetch of Yahoo Finance and PeopleMattersGlobal, both agreeing on the 22% figure, sample size, and Q4-2025 fielding date; Stanford SIEPR finding on 22-25-year-old employment decline in AI-exposed occupations since late 2022 also verified via the Yahoo Finance fetch), drafted the post, and rendered its image (before-after archetype: "The entry-level freeze came before the proof") before, as a final check, inspecting the other `claude/magical-carson-*` branches on the remote. `origin/claude/magical-carson-wafz78` (last commit 2026-08-10T00:49:46Z, NOT merged to `main`) contains an already-LIVE Buffer post from earlier today: `nomura-india-ai-net-jobs-entry-level-split`, Buffer post id `6a791ff1ab7f19abefc24250`, dueAt `2026-08-10T05:44:00Z` (already elapsed). That run hit the identical branch/Pages conflict, shipped text-only per the routine's documented image-timeout fallback, and flagged the same infra issue in its own log entry (visible only on that unmerged branch). Per `settings.research_per_day = 1`, today's real count is already 1 (the Nomura post genuinely published to LinkedIn), so `remaining = 0`. **Target met. This run publishes nothing.** The generated image (`gartner-entry-level-freeze-ahead-of-proof.png`, before-after archetype) and the `state/recent-styles.json` archetype pick were reverted/discarded since no post consumed them; the researched moment (Gartner CHRO survey + Stanford SIEPR) remains fresh and unposted for a future run to pick up (not added to `ledger.json` since it was never published). Flagged to Ahmed via notification: this is the second same-day occurrence of the branch-vs-main split silently forking routine state and creating real double-post risk (this run nearly published a second same-day post before the cross-branch check caught it), needs a human fix (merge these branches into `main` promptly, or reconfigure the harness to always assign `main` for this routine's sessions).
+
+---
+
 ## 2026-08-09T08:36:24Z (scheduled run check)
 
 skip-day: sun
