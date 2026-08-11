@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-11T00:38:44Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-11) is Tuesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log = 0 before this run. remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news, new AI recruiting tools, EU AI Act/LL144/bias regulation, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 48h query) + HR Dive feed. Top candidates considered: Forbes "AI Is Making These Jobs 'Irreplaceable' Even As Hiring Rates Plunge 24%" (Visier research on job reshuffling, real but abstract/no concrete hiring-mechanics hook for a TA audience, passed over for a sharper alternative); Gartner's entry-level-hiring survey (22% of CHROs report a leader halting entry-level hiring due to AI) — real and verifiable, but semantically close to already-covered ground this month (`entry-level-seniority-tilt` 07-23, `stlfed-entry-level-ai-bar` 07-13, `entry-level-ai-pipeline` 06-22, `bank-first-rung-rebuild` unused-but-similar-territory), risked reading as the fourth entry-level post in seven weeks, passed over; a moneywise.com resume-prompt-injection piece that re-syndicates the already-covered Duke/hireEZ study (`resume-prompt-injection-silent-attacks`, 07-23), dropped as duplicate; and Fortune's "Hiring managers say AI-optimized résumés are backfiring" (published 2026-08-10) — selected. Verified via direct WebFetch of the full article text (fortune.com/2026/08/10/resume-perfect-match-ai-hiring-hr-leaders-interview-matters-most/): Kathleen Walch (Director of AI Engagement and Community, Project Management Institute) on record that over-polished, job-description-mirroring résumés are getting fewer interview callbacks, her exact quote confirmed verbatim; the 70% Indeed sponsored-applications-via-algorithm-recommendation stat confirmed in the fetched text. Not a duplicate of any ledger entry — a fresh angle (résumé-authenticity backfire + algorithmic pre-filtering) distinct from prior ATS/keyword-theater and entry-level posts.
+
+### ai-resumes-overfit-backfiring | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A resume that matches the job post too well is starting to look like a red flag instead of a green light.
+
+Kathleen Walch, who runs AI engagement at the Project Management Institute, said it flat out this week. Resumes over-polished until they mirror a job description word for word aren't landing more interviews. They're landing fewer. "If you do that, you're losing your authentic human self," she said. "Why are we hiring you? Because you're a human."
+
+The same reporting adds a detail worth sitting with. Seventy percent of sponsored applications on Indeed now come from an algorithm recommendation, not a recruiter searching manually. The resume isn't even the first filter most days anymore. A model decides who gets surfaced before a person reads a single line.
+
+So the resume gets optimized for the algorithm. The algorithm gets optimized for a match score. Match score turns out to be close to the last thing you'd want to optimize a hiring decision on. A too-perfect fit now reads as manufactured, and the burden of proof quietly moves somewhere else.
+
+I build AI interviewers, and I've watched this exact handoff happen from the other side of the table. Once a resume can be engineered to fit, it stops being evidence of anything. The conversation becomes the evidence again, whether anyone designed it that way on purpose or not.
+
+What's the last resume you saw that was clearly too good to be true?
+
+#Hiring #AIHiring #TalentAcquisition #FutureOfWork #HRTech
+
+**Format:** image (before-after archetype)
+**First comment (source):** https://fortune.com/2026/08/10/resume-perfect-match-ai-hiring-hr-leaders-interview-matters-most/
+**Buffer post id:** 6a7a6ff498be23f3c73fc9dd
+**dueAt:** 2026-08-11T05:52:00Z
+
+---
+
 ## 2026-08-09T08:36:24Z (scheduled run check)
 
 skip-day: sun
