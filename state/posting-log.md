@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-11T08:37:25Z (scheduled run check)
+
+target-met: settings.research_per_day = 1. Today's count from this log (UTC 2026-08-11) = 1 (ai-resumes-overfit-backfiring, LIVE, dueAt 2026-08-11T05:52:00Z, logged 00:38:44Z). remaining = 1 - 1 = 0. No new research pass run, no draft, no publish this run per Step 3.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-08-11T00:38:44Z
 
 spotlight: skipped (product_spotlight.enabled = false).
