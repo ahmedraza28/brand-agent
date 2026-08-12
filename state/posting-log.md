@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-12T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-12) is Wednesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log = 0 before this run. remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news, new AI recruiting tools, EU AI Act/LL144/bias regulation, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 48h query) + HR Dive feed. Top candidates considered: a Forbes piece (Michelle Travis, 2026-08-11) titled "AI Hiring Tools Don't Just Learn Bias, AI Forms New Biases Of Its Own" — traced back to the same Princeton/U Chicago simulated-hiring-game stereotype study already covered as `llm-hiring-stereotype-study` on 2026-07-21, dropped as duplicate territory; RSM US chief economist Joe Brusuelas's "historic labor market shrinkage" analysis (HR Dive, 2026-08-11, verified via direct WebFetch) on older-worker labor-force exit driving AI adoption — real and fresh, but the mechanism leans on immigration-policy commentary, which risks guardrail 12 (stay out of politics), and has no hiring-mechanics/screening angle for the TA audience, passed over; and the University of Maryland Smith School's "AI Self-preferencing in Algorithmic Hiring" study — selected. Verified via direct WebFetch of two independent official UMD sources (rhsmith.umd.edu and trails.umd.edu, the NSF Institute for Trustworthy AI in Law & Society), both corroborating every statistic: 2,200+ resumes across 24 occupations, self-preference rate 67-82% when LLMs rated their own generated resumes vs. human-written ones, 23-60% higher shortlisting likelihood for candidates using the same LLM as the employer's screening tool, worst in sales/accounting roles, author Jiannan Xu's on-record quote. Peer-reviewed (AAAI/ACM AIES) and cross-picked-up by The Register, NY Post, and Business Insider per search corroboration, an actively-recirculating conversation this week even though the underlying arXiv paper (2509.00462) first posted September 2025. Not a duplicate of any ledger entry: distinct mechanism from `stanford-pymetrics-bias-study` (bias mirrors the employer's existing team) and `llm-hiring-stereotype-study` (feedback-loop-induced stereotypes from simulated hiring outcomes) — this is AI-to-AI self-recognition/self-preference bias, a fresh angle not previously covered.
+
+### ai-self-preference-resume-bias | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Every AI resume screener you've deployed has a favorite candidate, and it isn't the most qualified one.
+
+Researchers at the University of Maryland ran more than 2,200 resumes across 24 occupations through the major commercial and open-source AI models companies actually use for screening. When a model rated resumes it had generated itself against ones a human wrote, it preferred its own output 67 to 82 percent of the time. Candidates who happened to write with the same AI the employer's screener runs on were 23 to 60 percent more likely to get shortlisted than an equally qualified person who wrote their own materials. The gap was widest in sales and accounting roles.
+
+We've spent two years worrying an AI screener might discriminate on race or gender, and that worry is earned. Almost nobody built a test for whether it discriminates on dialect, meaning which AI ghostwrote the application. The model isn't weighing someone's experience. It's recognizing a pattern that resembles its own writing and rewarding the resemblance.
+
+I build one of these systems, and self-recognition bias has never once shown up on a bias checklist that's landed on my desk. Every audit I've seen tests protected classes. None of them test whether the model likes the sound of its own voice.
+
+A screener that quietly rewards its own writing style isn't ranking talent. It's ranking who guessed your vendor.
+
+#AIHiring #TalentAcquisition #HRTech #FutureOfWork #Hiring
+
+**Format:** none (text-only — OPENAI_API_KEY returned `insufficient_quota` / "no credits remaining" this run, so image generation was skipped per the Step 7 fallback rule; flagged to Ahmed separately, not a repo issue)
+**First comment (source):** https://www.rhsmith.umd.edu/news/ai-hiring-tools-may-favor-their-own-work-smith-study-finds
+**Buffer post id:** 6a7bc14a3d0bf74d65212144
+**dueAt:** 2026-08-12T06:05:00Z
+
+---
+
 ## 2026-08-11T00:38:44Z
 
 spotlight: skipped (product_spotlight.enabled = false).
