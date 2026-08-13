@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-13T00:38:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-13) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news, new AI recruiting tools, EU AI Act/LL144/bias regulation, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 48h query). Top candidates considered: an NBC News piece on hidden-text prompt-injection resume attacks (same underlying phenomenon as `resume-prompt-injection-silent-attacks`, already covered 2026-07-23, dropped as duplicate territory); a Tech Times item claiming AI cover letters fail a "52% competency check" (single low-authority source, figure not corroborated elsewhere, dropped per no-source-no-post); "24% of AI job interviews happen late at night" (moneywise.com / Business Insider, thin single-stat with no clear hiring-mechanics angle beyond novelty, passed over); and Bloomberg's report (2026-08-10) that Google DeepMind's AGI Safety and Alignment Team privately tells its own job applicants not to trust the company's AI hiring filter — selected. Verified via direct WebFetch of two independent sources corroborating the same internal-memo quotes (Futurism and a Yahoo Finance syndication of the Bloomberg story): the memo's line that the applicant system carries "a non-trivial probability your CV will be screened out incorrectly," the side-door form built to route resumes straight to a human, the team's aside that reviewers "get really tired of reading LLM answers, because they all sound very samey," and Google DeepMind's on-record denial that the system filters incorrectly, framed as a form to skip recruiter review rather than a fix. Treated as a single-company anecdote per guardrail 12 (hiring-mechanics angle only, no dunk on the named company) and guardrail 10 (critique of the system, not a personal attack). Not a duplicate of any ledger entry (a fresh entity/event, distinct from prior resume-prompt-injection, self-preference-bias, and layoff-AI-scoring topics already covered).
+
+### google-deepmind-ai-filter-distrust | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The company that sells AI hiring software to everyone else just warned its own job applicants not to trust it.
+
+Bloomberg got its hands on an internal memo from Google DeepMind's AGI safety team, the group paid to study how AI systems fail. The memo tells candidates the company's applicant system carries what it calls a non-trivial probability your CV gets screened out incorrectly. The fix isn't a patch. It's a side door. A separate form that skips the AI screen and puts your resume in front of an actual person.
+
+One line in that memo stayed with me longer than the workaround itself. The team wrote that the humans reviewing applications get tired of reading LLM-written answers, because they all sound the same.
+
+Google's on-record response: there are no shortcuts to getting hired, and the system works as intended. Maybe it does. But the people whose entire job is understanding where AI breaks quietly built themselves an exit ramp around their own hiring AI anyway. That tells you more than the denial does.
+
+I build a version of the tool this memo is describing. I read this as proof the category is working as it should, not as a scandal. Every serious AI screener needs a version of that side door today. Not because the model is bad. Because if the researchers who study AI failure for a living won't trust one automated pass with a decision this size, nobody building this stuff gets to skip the human check either.
+
+The safest people around an AI hiring filter turned out to be the ones who built a way around their own.
+
+#AIHiring #TalentAcquisition #HRTech #Recruiting #FutureOfWork
+
+**Format:** none (text-only — the branded image (vs-comparison archetype) was generated and committed to `docs/images/google-deepmind-ai-filter-distrust.png`, but GitHub Pages had not picked it up after 12 polling tries over ~3 minutes, likely because this run's commits landed on session branch `claude/magical-carson-16j9rh` rather than `main`, which is what GitHub Pages serves; published text-only per the Step 7 fallback rule rather than delay or fail the post. The PNG is committed and will attach to nothing retroactively, but is available in the repo for reference.)
+**First comment (source):** https://futurism.com/future-society/google-hr-resume-applicants-deepmind-ai-hiring
+**Buffer post id:** 6a7d13e4c851ec7c1a04df9e
+**dueAt:** 2026-08-13T05:52:00Z
+
+---
+
 ## 2026-08-12T08:36:48Z (extra scheduled run)
 
 target-met: no-post
