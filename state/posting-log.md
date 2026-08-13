@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-13T08:39:17Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-13) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log = 0 before this run. remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news, EU AI Act/LL144/bias regulation, new AI recruiting tools, ghosting/ATS/time-to-hire) + Google News RSS (AI-hiring 48h query) + HR Dive feed + Indeed Hiring Lab feed (redirected to hiringlab.indeed.com, not separately re-fetched given a strong candidate already in hand). Top candidates considered: several generic 2026 AI-recruiting-trend listicle/guide pages surfaced by the broad WebSearch queries (Phenom, Radancy, Incruiter, MSH Talent etc.) — all evergreen SEO content with no fresh news hook or fetchable primary source, dropped per the aggregator/listicle exclusion; "24% of AI job interviews happen late at night" (moneywise.com) and "AI Cover Letters Fail 52% Competency Check" (Tech Times) — both single-outlet stat claims with no located primary study this run, dropped per the no-verified-primary-source rule; RSM chief economist Joe Brusuelas's "historic labor market shrinkage" HR Dive piece (2026-08-11) — real and fresh but leans on immigration-policy commentary, same one passed over in the 2026-08-12 run for guardrail 12 (stay out of politics), passed over again; and Google DeepMind's internal hiring-filter document story (Bloomberg, published 2026-08-10, widely corroborated 2026-08-11/12 by Forbes, LA Times, Deccan Chronicle, Business Standard, BigGo Finance, TheStar.com.my) — selected. Verified via direct WebFetch of the Yahoo Finance syndication of the full Bloomberg article text, independently cross-checked against TheStar.com.my's separate writeup: both agree verbatim on the internal document's two direct quotes ("a non-trivial probability your CV will be screened out incorrectly or take too long to reach us" / "A real human will read these. These humans get really tired of reading LLM answers, because they all sound very samey"), the "PLEASE DO NOT SHARE THIS DOC WIDELY" document marking, and Google DeepMind's on-record spokesperson denial. Not a duplicate of any ledger entry (a distinct company-specific document leak, different mechanism from prior bias-study and litigation entries).
+
+Note on this run's publishing constraint: this session's git branch policy requires developing on `claude/magical-carson-7lvadw` and prohibits pushing directly to `main` without explicit permission. GitHub Pages for this repo serves `docs/images/` and `docs/carousels/` only from `main`, so an image committed to this feature branch cannot go live on Pages before the Buffer call. Per the routine's own Step 7 timing fallback ("if it never goes live after ~12 tries, publish text-only rather than failing"), a branded image was still generated (3 candidates rendered, candidate 1 selected, `vs-comparison` archetype, committed to this branch) but the post below shipped **text-only** since the image URL 404'd after 12 polling attempts (~3 minutes) against `https://ahmedraza28.github.io/brand-agent/images/google-ai-hiring-filter-workaround.png`. `state/recent-styles.json` was still updated to record the `vs-comparison` archetype pick so the rotation stays accurate once this branch merges.
+
+### google-ai-hiring-filter-workaround | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Google's own AI safety team just told job applicants not to trust Google's hiring AI. That might be the most honest thing anyone in this industry has said about automated screening all year.
+
+An internal document surfaced this week, marked "PLEASE DO NOT SHARE THIS DOC WIDELY." DeepMind's AGI Safety and Alignment team built a side door for people applying to work with them, because there is, in their own words, "a non-trivial probability your CV will be screened out incorrectly or take too long to reach us." The form comes with its own warning too: "A real human will read these. These humans get really tired of reading LLM answers, because they all sound very samey."
+
+Google sells screening tools like the one its own safety team is routing around. The people who think hardest about AI risk inside the company built themselves an escape hatch from their own product, quietly, and marked it not for sharing.
+
+I build one of these systems for a living. Distrusting an automated filter enough to hand-build a human backstop isn't an embarrassment. It's the correct response to a screener you didn't personally audit. Every model that ranks resumes carries an error rate nobody prints on the sales page.
+
+What that team actually shipped wasn't a fix for their own hiring pipeline. It was proof that the fix has always been a person who reads the thing, and every vendor selling you around that person already knows it.
+
+#AIHiring #TalentAcquisition #HRTech #FutureOfWork #Hiring
+
+**Format:** image generated (vs-comparison archetype, committed to `docs/images/google-ai-hiring-filter-workaround.png` on this branch) but NOT attached — shipped text-only because Pages only serves `main` and this session cannot push there (see note above).
+**First comment (source):** https://finance.yahoo.com/technology/ai/articles/google-ai-team-tells-job-222929935.html
+**Buffer post id:** 6a7d843ce8ef718a109244ed
+**dueAt:** 2026-08-13T11:52:00Z
+
+---
+
 ## 2026-08-12T08:36:48Z (extra scheduled run)
 
 target-met: no-post
