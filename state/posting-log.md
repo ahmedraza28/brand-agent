@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-14T08:45:05Z (scheduled run check)
+
+target-met: settings.enabled = true. Today (UTC 2026-08-14) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`hr-jobs-booming-not-dying`, LIVE, dueAt 2026-08-14T05:20:00Z, logged by the 00:39:26Z run this same UTC day). remaining = 1 - 1 = 0. Per Step 3, target already met this run does no research, no drafting, no publish. Stopping.
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+---
+
 ## 2026-08-14T00:39:26Z
 
 spotlight: skipped (product_spotlight.enabled = false).
