@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-14T00:39:26Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-14) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (no prior entries dated 2026-08-13 or 2026-08-14 exist in this log; the last run recorded was 2026-08-12). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran Google News RSS (AI x hiring 48h query) + HR Dive feed + Indeed Hiring Lab feed attempt (redirected, not used) + Josh Bersin feed + 2 WebSearch queries (AI hiring news this week, EU AI Act/LL144 regulation). Top candidates considered: CPA Practice Advisor covering Resume Genius's 2026 Hiring Trends Report (1,500 US hiring managers: job-hopping the #1 red flag at 65%, AI-generated application materials #2 at 49%) — real and fresh, but semantically close to the already-covered `ai-resumes-overfit-backfiring` ledger entry (2026-08-11, still inside the 7-day dedup window, same AI-authenticity-in-resumes territory), passed over as duplicate-adjacent; a generic WebSearch AI-hiring-market roundup (Ford/Commonwealth Bank/IBM reversing AI layoffs, AI skills gap stats) with no single verifiable primary source this run, dropped per no-source-no-post; and Josh Bersin's "Despite Massive AI Investments, HR Jobs Are Booming. Why?" (published 2026-08-13, same-day) — selected. Verified via direct WebFetch of the full article: Lightcast job-posting data showing 1.2%/year HR job-posting growth over 20 years vs. 6% growth over the last 24 months, HR salaries compounding at 3.1%/year vs. 2.1%/year inflation, the article's direct quote characterizing a CEO's Bloomberg/SHRM-conference remark that HR "faces extinction," and the specific shrinking titles named in the piece (HR administrator, HR assistant, recruiting coordinator, training administrator) vs. growing higher-level roles. Not a duplicate of any ledger entry — a fresh contrarian "state of hiring" angle (aggregate HR/TA job growth data countering the AI-kills-HR narrative) distinct from prior entry-level, layoff, and resume-authenticity stories.
+
+### hr-jobs-booming-not-dying | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Every "AI is killing HR" headline this year is watching a real trend and drawing exactly the wrong conclusion from it.
+
+Josh Bersin published the actual hiring numbers a few hours ago. HR job postings grew about 1.2% a year for two decades. Over the last 24 months, inside the current AI wave, that growth rate jumped to 6%. HR salaries have compounded at 3.1% a year against 2.1% inflation, one of the rare white-collar functions where pay is actually outrunning the cost of living right now.
+
+A CEO told Bloomberg at this month's SHRM conference that HR "faces extinction." The hiring data from the same conference month says the opposite.
+
+The part the headline missed is which roles are actually vanishing inside that 6% growth. Not recruiters. Recruiting coordinators. HR administrators. Training admins. The scheduling-and-paperwork layer of the function is getting erased title by title, while the roles that decide who gets interviewed and who gets hired keep growing underneath it.
+
+I build the tool that eats exactly that coordination layer, the first pass that used to eat a recruiting coordinator's whole week. Watching that title disappear from job postings isn't a surprise from where I sit. What I didn't expect was that removing it wouldn't shrink the function. It just pushed the headcount up a level, toward the person who has to decide instead of just process.
+
+AI didn't kill HR. It killed the job that does the paperwork and left the one that makes the call standing, with a raise.
+
+#Hiring #AIHiring #TalentAcquisition #FutureOfWork #HRTech
+
+**Format:** image (vs-comparison archetype)
+**First comment (source):** https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/
+**Buffer post id:** 6a7e64f56c3e52b01865a9f9
+**dueAt:** 2026-08-14T05:20:00Z
+
+---
+
 ## 2026-08-12T08:36:48Z (extra scheduled run)
 
 target-met: no-post
