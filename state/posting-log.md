@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-15T00:41:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-15) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry dated 2026-08-14). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 3 WebSearch queries (AI x hiring news today, EU AI Act/LL144/bias regulation this week, new AI recruiting tools launched this week) + Google News RSS (AI-hiring 48h query, 20 headlines) + HR Dive feed. Top candidates considered: WSJ "Job Seekers Are Racing to AI-Proof Their Résumés" (2026-08-13) and CPA Practice Advisor's Resume Genius survey piece (2026-08-13, AI-written applications the #2 red flag) — both semantically adjacent to `ai-resumes-overfit-backfiring` (2026-08-11, still inside the 7-day dedup window, same resume-authenticity-vs-AI-screening territory), passed over as duplicate-adjacent; Colorado's "proposed AI hiring rulebook" (JD Supra, 2026-08-14) traced back to the March/May working-group rulemaking already covered by `colorado-ai-act-gutted` (2026-06-24), no genuinely new regulatory fact this run, dropped as duplicate territory; and Google DeepMind's AGI Safety and Alignment team building an internal bypass form around Google's own AI hiring-screening system because they don't trust it — selected. Verified via direct WebFetch of two independent sources agreeing on every quote: HR Executive (hrexecutive.com, published 2026-08-14, author Jen Colletta) and Yahoo Finance's syndication of Bloomberg's original reporting (published 2026-08-10, author Julia Love), both confirming the internal-note quotes verbatim ("We have an applications system with a non-trivial probability your CV will be screened out incorrectly or take too long to reach us," "A real human will read these," "get really tired of reading LLM answers, because they all sound very samey") and the Gartner candidate-trust stat (~26% trust AI to judge them fairly) cited in the HR Executive piece. Not a duplicate of any ledger entry — first coverage of this specific story, distinct entity/event/mechanism from all prior bias/regulation/screening posts.
+
+### google-deepmind-warns-own-ai-filters | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The team at Google whose entire job is keeping AI safe just told job candidates not to trust Google's own AI to screen them.
+
+DeepMind's AGI Safety and Alignment team built a side door around Google's own applications system. An internal note laid out why, plainly: "We have an applications system with a non-trivial probability your CV will be screened out incorrectly or take too long to reach us." Candidates get pointed to a second form instead, with a promise attached: "A real human will read these." The same guidance tells candidates to go easy on AI-written answers too, warning that reviewers "get really tired of reading LLM answers, because they all sound very samey."
+
+Read that twice. The safety team at one of the largest AI labs on earth didn't trust their own employer's screening tool enough to let their own hires pass through it unchecked. They built a bypass, not a bug report.
+
+Only about a quarter of candidates say they trust AI to judge them fairly, and that number was already low before this story broke. Now the honest reason for it is coming from the inside instead of a survey.
+
+I build AI interviewers, and the lesson I keep relearning is a boring one. The model was never the safety mechanism. The fallback is. If your AI screen doesn't have a human-reviewed side door built in from day one, you don't have a hiring tool. You have a filter nobody trusts enough to use straight.
+
+#AIHiring #TalentAcquisition #Hiring #FutureOfWork #HRTech
+
+**Format:** image (numbered-list archetype)
+**First comment (source):** https://hrexecutive.com/google-insiders-warn-job-candidates-about-its-ai-hiring-filters/
+**Buffer post id:** 6a7fb66972d7f70e3e211884
+**dueAt:** 2026-08-15T06:12:00Z
+
+---
+
 ## 2026-08-14T00:39:26Z
 
 spotlight: skipped (product_spotlight.enabled = false).
