@@ -2599,3 +2599,11 @@ spotlight: skipped (product_spotlight.enabled = false).
 takes: skipped (takes.enabled = false).
 
 ---
+
+## 2026-08-16T00:36:23Z
+
+skip-day: sun
+
+Gate check: settings.enabled = true, but today (UTC 2026-08-16) is Sunday, which is in `settings.skip_days` (["sun"]). Per Step 1 gate 2, no research, no drafting, no publish this run. Stopping immediately, no exceptions.
+
+---
