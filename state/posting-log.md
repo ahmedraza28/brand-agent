@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-17T00:36:17Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-17) is Monday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry 2026-08-16 was a skip-day). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news today, EU AI Act/LL144/regulation this week, new AI recruiting tools this week, time-to-hire/ghosting/ATS problems) + Google News RSS (AI-hiring 48h catch-all, 20 headlines). Candidates considered: Inc.com's "More Companies Are Automating Candidate Interviews. Experts Say Transparency Is the Real Test" (2026-08-16) — traced back to the same Greenhouse 63%/38% AI-interview-walkout survey already covered as `ai-adoption-walkout-gap` (2026-07-22), passed over as duplicate territory; NextBigWhat's recirculation of the Google DeepMind story already covered as `google-deepmind-warns-own-ai-filters` (2026-08-15), skipped; a set of "applications per recruiter / time-to-first-offer" benchmark stats (2,500 apps/recruiter, 68.5-day time-to-offer) traced only to SEO benchmark-listicle sites (pin.com, metaintro.com, resutrack.com) with no identifiable primary source, dropped per the no-source-no-post rule and the guardrails' explicit warning against aggregator stat-listicles; and CEOWORLD's "AI Job Disruption Is Moving From Forecasts to Hiring Plans" (2026-08-15) plus Allwork.space's "Why Executives May Be Overestimating The Speed Of AI's White-Collar Takeover" (2026-08-14) — selected. Verified via direct WebFetch of Allwork.space (full text) and the primary source it cites, resumetemplates.com's own published survey writeup (933 US business leaders, C-suite/VP/Director, fielded February 2026: 60% believe most white-collar work fully automated within 12-18 months, 58% now tell college students to pursue skilled trades instead of white-collar careers, 42% say AI is already shrinking their own headcount, quote from Julia Toothacre). Allwork.space's pushback data (McKinsey's 88%-regular-AI-use-in-one-function/not-scaled-further finding, Anthropic's own Economic Index usage data showing more human-AI collaboration than full-task-handoff, and the direct researcher quote on why job/workflow change lags tool adoption) verified via WebFetch of the full Allwork.space article text. Not a duplicate of any ledger entry: distinct from `ai-reshuffles-white-collar-work` (2026-08-06, a 120-economist Pulsenomics/Indeed labor-market-outlook survey on wage/sector effects) and the June entry-level ResumeTemplates survey (different sample, different question, different month) — this is a fresh reaction (published this week) to a distinct claim: executive automation-timeline predictions vs. the executives' own actual AI deployment maturity.
+
+### forecast-ahead-of-white-collar-rollout | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A survey of 933 business leaders is telling college kids to skip white collar work for the trades. Most of those same leaders haven't finished the thing they're predicting yet.
+
+The numbers, from a February poll of C-suite and VP hiring decision-makers: 60% believe most white-collar work gets fully automated within 12 to 18 months. 58% now tell college students to go learn a trade instead of chasing an office career. 42% say AI is already shrinking their own headcount.
+
+A different set of research landed this week and it complicates the story. Most companies, per McKinsey's own numbers, use AI regularly in one function and haven't scaled it past that one function. Anthropic's usage data on its own model shows people working alongside it more often than handing it a task and walking away. One line from the researchers looking at the gap stuck with me: "AI tools may spread quickly, but changing jobs, incentives, data flows, quality controls, and decision rights takes longer."
+
+I build the tool that automates part of a hiring pipeline, and I watch this exact lag from the inside, constantly. A job brief gets rewritten the same week as a scary headline. The actual workflow doesn't change for months, sometimes longer, sometimes never. The forecast always outruns the rollout.
+
+Maybe this time the clock is right. I've heard an 18-month countdown before, on a different task, and it kept resetting.
+
+The people setting that clock haven't finished the transition themselves. Before you rewrite a hiring plan around their guess, or tell someone's kid to skip college over it, check who's actually done it first.
+
+#AIHiring #TalentAcquisition #FutureOfWork #Hiring #HRTech
+
+**Format:** image (single-stat archetype)
+**First comment (source):** https://allwork.space/2026/08/why-executives-may-be-overestimating-the-speed-of-ais-white-collar-takeover
+**Buffer post id:** 6a825950acf3e75953acfb47
+**dueAt:** 2026-08-17T06:44:00Z
+
+---
+
 ## 2026-08-16T00:00:00Z
 
 skip-day: sun
