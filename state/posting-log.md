@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-18T00:37:30Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-18) is Tuesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry 2026-08-17 was target-met). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news today, EU AI Act/LL144/regulation this week, new AI recruiting tools launched this week, time-to-hire/ghosting/ATS problem August 2026) + Google News RSS (AI-hiring 48h catch-all) + HR Dive feed. Candidates considered: "HireID Launches Interview Integrity Platform" (TMX Newsfile, 2026-08-17) — a vendor press release with no independent traction, dropped per the low-signal "vendor press release" rule; "The AI hiring myth: Why AI decision-makers are the real law firm recruiting risk" (Thomson Reuters Institute, 2026-08-17, sourced from its own 2026 Future of Professionals Report) — real and fresh but a law-firm-vertical AI-adoption-retention story with only a loose hiring-mechanics thread (senior lawyers as flight risk over AI tooling access), weaker fit for the screening/interview/scoring pillar than the alternative below, passed over; and Forbes' "The Rise Of AI Cheating Culture, And The Hiring Crisis It Left Behind" (2026-08-17, could not be fetched directly, blocked/404) traced to its underlying primary source, Fabric's own published interview-cheating dataset — selected. Verified via direct WebFetch of fabrichq.ai's own data page: 19,368 real interviews analyzed July 2025-January 2026 using 20+ behavioral detection signals; 38.5% of candidates flagged for AI-assisted cheating, tripling between July and September 2025; of flagged cheaters, 61% still scored at or above the platform's own pass threshold; cheating rate 48% in technical roles vs 12% in sales; junior candidates cheat at close to double the rate of senior candidates; method breakdown (45% dedicated cheating app, 34% LLM in voice mode, 18% traditional methods, 3% live human help). The 38.5% headline figure independently corroborated in a second outlet surfaced by WebSearch (The Interview Guys, "The State of Hiring Fraud 2026"), satisfying the developing-story 2+ source bar even though this is a published dataset rather than breaking news. Not a duplicate of any ledger entry: distinct from `ai-vs-ai-interview-arms-race` (2026-06-18, survey of TA-leader perception, no dataset), `ai-interview-cheating-fails-onboard` (2026-07-14, single Bloomberg anecdote), and `ai-avatar-interview-arms-race` (2026-08-08, single-recruiter anecdote about visual avatar impersonation) — first quantified large-sample dataset on the detection-gap mechanism specifically, and all three are outside the 7-day dedup window regardless.
+
+### ai-cheat-detection-doesnt-stop-the-pass | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Most AI interview screens aren't failing to catch cheating. They're catching it and still handing out a passing grade.
+
+An AI interview platform called Fabric ran behavioral detection, gaze patterns, response timing, keystroke dynamics, language patterns, across 19,368 real interviews between July and January. 38.5% of candidates got flagged for AI-assisted cheating, a rate that tripled in three months. Of the ones the system caught cheating, 61% still scored above the pass line.
+
+The methods aren't exotic. Almost half ran a dedicated cheating app alongside the call. A third just left an LLM open in voice mode and repeated what it said back. Junior candidates cheated at close to double the rate of senior ones. Makes sense. They have the most to prove and the least room to say no to a shortcut.
+
+I build one of these interview systems, and for a while I thought better detection was the finish line. Catch the cheater, done. Then that 61% number stopped me mid-thought. Detection was catching the act. It was never catching the outcome. A rubric built to reward the right answer, no matter who or what supplied it, keeps passing a well-run co-pilot even after you've caught it red-handed.
+
+A rubric that only checks the answer will keep waving through anyone clever enough to fake the reasoning behind it, caught or not.
+
+#AIHiring #TalentAcquisition #Hiring #FutureOfWork #HRTech
+
+**Format:** image (funnel archetype)
+**First comment (source):** https://fabrichq.ai/blogs/state-of-ai-interview-cheating-in-2026-insights-from-19-368-interviews
+**Buffer post id:** 6a83aafe33ec6735e90f6473
+**dueAt:** 2026-08-18T06:22:00Z
+
+---
+
 ## 2026-08-17T08:36:26Z (extra scheduled run)
 
 target-met: no-post
