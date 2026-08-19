@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-19T00:39:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-19) is Wednesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry 2026-08-18 was published that UTC day). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news today, EU AI Act/LL144/regulation this week, new AI recruiting tools launched this week, time-to-hire/ghosting/ATS problems August 2026) + Google News RSS (AI-hiring 48h catch-all, ~28 headlines). Candidates considered: "AI hiring tools can invent their own bias, research finds" (HR Executive, 2026-08-17) — traced back to the same Princeton/University of Chicago simulated-hiring stereotype-formation study already covered as `llm-hiring-stereotype-study` (2026-07-21), dropped as duplicate territory; "Why CV-slop has become the biggest AI-related issue in high-volume recruitment" (Business Reporter, 2026-08-18) — real trend but no single fetchable primary source, only secondary trend write-ups (Robert Half, TechRound, People Management) restating the same general claim with no one grounded dataset, dropped per the no-primary-source rule; LinkedIn's "The Triple Penalty 2026" report on women holding just 26% of new AI roles and 13% of AI-company executive seats (Bloomberg/HR Brew/Newser, 2026-08-18, verified via direct WebFetch of HR Brew's coverage) — real, fresh, and well-corroborated, but no hiring-mechanics/screening mechanism was findable this run (the coverage does not tie the gap to sourcing, screening, or interview practices), so it would have landed as generic workforce-composition commentary rather than earned builder-lens territory, passed over as a weaker fit than the alternative below; and US HR/staffing stocks (ManpowerGroup, Robert Half, ZipRecruiter) surging on Q2 earnings as AI-generated application volume increases demand for professional screening — selected. Verified via direct WebFetch of BigGo Finance's full article (named analyst quotes from BMO Capital Markets' Jeff Silber, UBS's Joshua Chan, Barclays' Manav Patnaik, William Blair's Trevor Romeo; ManpowerGroup +94% off its February low with its best quarterly operating profit in three years, Robert Half +120% off its March low and beating expectations, ZipRecruiter +183% off its March low), independently corroborated by Moomoo's coverage of the same underlying story (headline and framing confirmed via WebSearch after WebFetch of the Moomoo page itself returned no extractable body text). Not a duplicate of any ledger entry: distinct from `greenhouse-ai-doom-loop` (2026-07-27, Greenhouse CEO interview on applicant-volume-per-posting) and `figma-hires-fewer-market-wants-proof` (2026-08-05/06, a single company's margin story) — this is a market-wide, multi-company stock-valuation reaction to the AI-application-flood problem, a fresh entity/event/mechanism.
+
+### hr-staffing-stocks-price-screening-value | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The market that's supposed to be betting against recruiters just handed them their best year in years.
+
+ManpowerGroup is up 94% off its February low, Robert Half up 120%, and ZipRecruiter has nearly tripled off its March low. All three beat earnings this quarter, and ManpowerGroup just posted its best quarterly profit in three years.
+
+The read from analysts covering the sector is blunt: AI made it cheaper to apply, and that made screening worth more, not less. Every generative tool that helps a candidate blast out five hundred tailored resumes in an afternoon also hands the recruiter on the other end a bigger pile of noise to sort through. Somebody has to separate the real signal from the flood, and right now Wall Street is pricing that job as more valuable, not obsolete.
+
+I build the tool that does exactly that sorting, so I watched this coming two years before it showed up in a stock chart. Every quarter someone predicts screening gets automated into irrelevance. Every quarter the actual demand for doing it well goes up instead, because the volume it has to sort through keeps climbing faster than any one system can quietly absorb it.
+
+Automating the sorting was never going to make the sorting less necessary. It made getting it right worth more.
+
+What happens to that valuation the day AI gets as good at faking a convincing human as it already is at generating a resume?
+
+#AIHiring #TalentAcquisition #Hiring #FutureOfWork #HRTech
+
+**Format:** image (before-after archetype)
+**First comment (source):** https://finance.biggo.com/news/8a8991f0-a333-4e3d-9f80-3257c10ac84d
+**Buffer post id:** 6a84fc2952d75a5c93757ef4
+**dueAt:** 2026-08-19T06:36:00Z
+
+---
+
 ## 2026-08-18T00:37:30Z
 
 spotlight: skipped (product_spotlight.enabled = false).
