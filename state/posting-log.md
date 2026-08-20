@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-20T00:41:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-20) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry 2026-08-19 was target-met). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news today, EU AI Act/LL144/regulation this week, new AI recruiting tools launched this week, time-to-hire/ghosting/ATS problems August 2026) + Google News RSS (AI-hiring 48h catch-all, 27 headlines) + HR Dive feed. Candidates considered: LinkedIn's "Triple Penalty 2026" gender-gap-in-AI-roles story recirculating across CBS News/HR Brew/Newser/HR Digest (2026-08-18/19) — the same story already passed over in the 2026-08-19 run for lacking a hiring-mechanics angle; still no screening/sourcing/interview mechanism found this run, passed over again; a Toronto Metropolitan University "Bridging Divides" study on AI resume screening allegedly disadvantaging immigrant applicants (recirculated via Canadian HR Reporter as an "expert warns" piece dated 2026-08-19) — traced to its actual primary source (The Conversation, published 2026-06-24), found to be nearly two months old with only qualitative interview findings and no new hard number, dropped as stale/thin; and Goldman Sachs' "Global Economics Comment: Is AI Impacting Global Labor Markets?" report (published 2026-08-19) — selected. Verified via direct WebFetch of two independent sources agreeing on the figures: PYMNTS and City AM (CNBC's own coverage 403'd to WebFetch but corroborates per search-result headline/summary). Confirmed: analysis spans 800+ occupations combining 11 surveys of AI use; a 10% rise in occupational AI exposure drags annual headcount growth by about 0.1 percentage points across the workforce as a whole (US/France/Canada); for entry-level workers specifically that drag runs 2-6x larger (0.2+ points in the US, 0.6+ points in Australia); hardest-hit industries are management consulting, advertising, software publishing, call centers and info/communications services, with US call-center headcount 39% below trend (33% Canada, 27% Germany). Not a duplicate of any ledger entry: distinct from `stlfed-entry-level-ai-bar` (St Louis Fed, 18-24yo unemployment/EPOP data), `entry-level-seniority-tilt` (Indeed Hiring Lab, job-posting mix skew), `ai-reshuffles-white-collar-work` (120-economist Pulsenomics survey, forward-looking predictions), and `forecast-ahead-of-white-collar-rollout` (933-business-leader survey on automation timelines) — this is a distinct entity (Goldman Sachs), distinct event (a same-day published report), and a distinct mechanism (a quantified occupational-AI-exposure regression across 800+ roles), all within the broader entry-level-AI theme but each a separate verified data point, not semantic duplicates.
+
+### goldman-entry-level-ai-squeeze | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Goldman just put a number on something junior employees have felt for two years without proof: the AI hiring slowdown isn't landing evenly. It's landing on them.
+
+The bank ran the numbers across more than 800 occupations, combining eleven separate surveys of AI use. Across the workforce as a whole, the drag is tiny: every 10% rise in a job's AI exposure knocks about a tenth of a point off headcount growth. For workers just starting out, that same drag runs two to six times bigger. Six-tenths of a point in Australia. Consulting, advertising, software publishing and call centers are cratering against trend since 2022, US call center headcount alone sitting 39% below where it should be.
+
+The why isn't mysterious. The research memo, the first-draft deck, the summary nobody senior wanted to write themselves. That's the exact task generative AI now finishes before a junior has opened the doc.
+
+I build the tool that screens someone for their first job as much as their tenth, and this is the part that sits with me. Those tasks were never just busywork somebody tolerated. They were the training. The thing a 23-year-old did badly six times, with someone senior watching and correcting, before doing it well.
+
+Cut the task and you don't just save an hour. You cut the cheapest way anyone ever finds out whether that 23-year-old was going to be good at the job.
+
+Automating the training task doesn't remove the need to train someone. It just hides the bill until the senior roles run empty.
+
+#AIHiring #TalentAcquisition #FutureOfWork #Hiring #HRTech
+
+**Format:** image (vs-comparison archetype)
+**First comment (source):** https://www.cityam.com/goldman-junior-white-collar-workers-squeezed-hardest-by-ai-hiring-slump/
+**Buffer post id:** 6a864e016d2f57ba06c3f872
+**dueAt:** 2026-08-20T05:18:00Z
+
+---
+
 ## 2026-08-19T08:36:47Z (extra scheduled run)
 
 target-met: no-post
