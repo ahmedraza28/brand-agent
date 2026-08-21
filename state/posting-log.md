@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-21T00:47:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-21) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry 2026-08-20 was target-met). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news today, EU AI Act/LL144/regulation this week, new AI recruiting tools launched this week, time-to-hire/ghosting/ATS problems August 2026) + Google News RSS (AI-hiring 48h catch-all, 30 headlines) + HR Dive feed (direct fetch, 10 headlines). Candidates considered: "New LinkedIn Research Finds Women Account for Just 26% of AI Hires" (WebWire/CBS News, 2026-08-19/20) — same "Triple Penalty" story already passed over twice in the 2026-08-18 and 2026-08-19 runs for lacking a hiring-mechanics angle, passed over again for the same reason; a Guardian piece on AI hiring discrimination/secrecy lawsuits (2026-08-19) — traced toward the Eightfold AI FCRA class action, but that suit was filed 2026-01-20 and I could not fetch the Guardian's own article text directly (search-engine access only, no fetchable primary this run), so dropped per the no-verified-fetch-no-post rule rather than risk restating stale litigation as fresh; "Everyone Looks Good on Paper Now" (TechR Series guest post, 2026-08-20) — fetched in full, but it is a guest post authored by the CEO of a competing candidate-screening vendor (Willo), thin beyond the same Greenhouse 74%-AI-in-job-search stat already available elsewhere, and reads too close to a competitor's own marketing to react to safely, dropped; "Hays Shifts to Hard-to-Replace Roles as AI Reshapes Hiring" (Bloomberg, 2026-08-20) — a real, dated story (confirmed the underlying Hays FY2026 preliminary results exist and were released 2026-08-20, via direct WebFetch of the raw results PDF header, plus direct WebFetch corroboration of Hays' recent restructuring/financial context via ajbell.co.uk and hl.co.uk), but Bloomberg itself and every corroborating write-up (Yorkshire Post, Staffing Industry) 403'd to direct WebFetch, and the PDF's body text could not be reliably extracted in this environment (CID-encoded fonts), so the specific AI-strategy quotes could not be traced to a fetched primary source this run; dropped per the grounding rule rather than state them on search-snippet synthesis alone; and the iCIMS Insights August 2026 Workforce Report (released 2026-08-12, covering July 2026 data, reacted to fresh by HR Dive on 2026-08-20) — selected. Verified via direct WebFetch of iCIMS's own press release (icims.com) and HR Dive's write-up (Lara Ewen), both agreeing on every figure: 3.1 million users, 691 million candidate profiles; July job openings +17% vs last year, applications +6%, hires flat, the widest demand-hiring gap of the year; manufacturing openings +29%, applications +4%, hires -6%; manufacturing applicant pool now 85% under-45 (up from 79%) against a workforce that's ~47% aged 45+; quote from Trent Cotton, ICIMS head of talent insights. Not a duplicate of `hiring-freeze-low-fire` (2026-06-18/19, a different month's iCIMS/Indeed data showing the opposite trend, application volume down 11% YoY) — distinct dataset, distinct month, inverted trend, outside the 7-day window regardless.
+
+### hiring-gap-widens | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The hiring funnel isn't short on candidates. It's short on a machine that can turn them into hires.
+
+iCIMS pulled this from 3.1 million users and 691 million candidate profiles: July job openings ran 17% above last year, applications climbed 6%, and hires stayed flat. Widest gap of the year, and it isn't a sourcing story. Both ends of the funnel are growing. The middle isn't.
+
+Manufacturing shows it worst. Openings up 29%. Applications up 4%. Hires down 6%, the one number moving backward while everything above it climbs. ICIMS's head of talent insights put it in five words: "Growth alone does not fill a role."
+
+One more number sits underneath that. Under-45 applicants now make up 85% of that manufacturing pool, up from 79% last year, while close to half the people already on the floor are 45 or older. Two different generations are showing up on either side of the same funnel, and no rubric built five years ago was screening for that gap.
+
+I build the tool sitting at exactly this choke point, and the instinct every time demand spikes is always the same: post more roles, buy another sourcing tool, widen the top of the funnel again. None of it touches where the flow actually stops.
+
+The funnel was never thin. What's missing is the engine built to empty it at the speed demand now requires.
+
+#AIHiring #TalentAcquisition #Hiring #FutureOfWork #HRTech
+
+**Format:** image (numbered-list archetype)
+**First comment (source):** https://www.icims.com/company/newsroom/augustinsights2026/
+**Buffer post id:** 6a87a0f93120534163c06c3c
+**dueAt:** 2026-08-21T06:14:00Z
+
+---
+
 ## 2026-08-20T08:36:46Z (extra scheduled run)
 
 target-met: no-post
