@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-23T08:36:55Z
+
+skip-day: sun
+
+Gate check: settings.enabled = true, but today (UTC 2026-08-23) is Sunday, which is in `settings.skip_days` (["sun"]). Per Step 1 gate 2, no research, no drafting, no publish this run. Stopping immediately, no exceptions.
+
+---
+
 ## 2026-08-22T08:36:50Z (extra scheduled run)
 
 target-met: no-post
