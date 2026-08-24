@@ -1,6 +1,15 @@
 {
   "covered": [
     {
+      "topic_key": "followup-gap-nine-tools",
+      "title": "Only two of nine AI interview tools can ask a follow-up question (from our own vendor-page review, config/competitors.md)",
+      "url": "https://ployo.ai",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-08-24T09:58:00Z"
+    },
+    {
       "topic_key": "grad-offer-rescission",
       "title": "Resume Builder (June 2026 survey, 1,000 US recent grads ages 20-28 hired within the past year), reported by Futurism/Frank Landymore (published 2026-08-23, verified via direct WebFetch of the Yahoo Finance syndication of the same article, corroborated by search-confirmed matching figures from SFGate, both citing Resume Builder as the source): 34% had a job offer rescinded after they had already accepted it, 13% of that group had it happen more than once; 68% were ghosted after an interview with no offer at all; 65% believe AI already led to entry-level job cuts in their field (a stated belief, not verified as fact, flagged as such in the post). Quote from Stacie Haller, Resume Builder's chief career adviser: 'today, it's totally out of control'; also 'Having an offer withdrawn without explanation is unacceptable, and experiencing it more than once is incredibly discouraging. For someone new to the workforce, that letdown can feel even more crushing than being ghosted during the interview.' Builder take: a rescinded offer is a broken commitment after the candidate already acted on it (often resigning from a prior job), a sharper failure than pre-offer ghosting, and the mechanics line up with AI-driven application-volume chaos on one side and understaffed/rushed screening on the other, with nobody confirming headcount is real before the offer goes out. Not a duplicate of `employer-ghosting-three-year-high` (2026-07-18, Criteria Corp's ghosting-rate survey, a different entity/study measuring general employer ghosting at 53%, not post-acceptance rescission specifically) or any of the entry-level-AI-displacement ledger entries (stlfed-entry-level-ai-bar, entry-level-seniority-tilt, goldman-entry-level-ai-squeeze, forecast-ahead-of-white-collar-rollout) \u2014 distinct entity, distinct event (a fresh June 2026 survey reported this week), and a distinct mechanism (broken post-acceptance commitment, not general displacement or hiring-mix data), outside the 7-day dedup window regardless.",
       "url": "https://finance.yahoo.com/small-business/articles/employers-hiring-recent-grads-then-150600477.html",

@@ -8,6 +8,40 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-24T09:58:00Z (manual run, Ahmed asked for a post)
+
+Published by hand, not by the scheduled routine. Topic came from the first LinkedIn Pulse
+roundup drafted this session (docs/articles/best-ai-interview-software-australian-care-health-2026.md):
+of the nine AI interview tools in it, only two can conduct a live two-way conversation, and that
+claim is sourced from each vendor's own product pages via config/competitors.md. Passed
+tools/check_facts.py. Chosen deliberately to move the ratios that tools/ratios.py reports as
+0/49 on naming Ployo and 0/49 on linking the site.
+
+### followup-gap-nine-tools | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+I read nine AI interview tools' own product pages this week. Seven of them cannot ask a follow-up question.
+
+Not "choose not to". Cannot. There is nobody listening when the answer arrives.
+
+One-way video records someone talking to nothing. Chat screening waits for you to type. A scoring layer reads the transcript afterwards. All useful. All sold as AI interviewing. None of them can hear a candidate say "I covered nights at that facility" and come back with "on your own, or with a second carer?"
+
+In frontline care hiring that second question is usually the whole interview. It separates someone who has held a shift alone from someone who watched a colleague hold it. A CV will not tell you which one you have. Neither will a fixed question list, because the candidate who needed the follow-up is exactly the one who did not volunteer it.
+
+I build Ployo, so I have a side in this. We are one of two tools on that list of nine running a live two-way conversation, and the other one never sees the candidate.
+
+The uncomfortable part is what the other seven are actually selling. Not judgement. Throughput. Which is a real thing to buy, and worth buying, as long as nobody tells you it is the same purchase.
+
+Nine tools, what each one actually does, and what it costs wherever anyone publishes a price: ployo.ai
+
+#Hiring #TalentAcquisition #AgedCare #AIHiring
+
+**Format:** none (text-only)
+**Buffer post id:** 6a8c166720501c33dcab12f2
+**dueAt:** 2026-08-24T11:37:00Z
+
+---
+
 ## 2026-08-24T00:42:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).

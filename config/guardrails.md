@@ -6,6 +6,8 @@ This runs unsupervised and posts under Ahmed's real name. Every one of these is 
 
 **Channel status (read first):** LinkedIn is the ONLY live channel and is the ACTIVE path for every rule below. X (Twitter) is **DORMANT** — the account is suspended. X-specific logic is kept and clearly marked so it can be revived if X returns; until then it is inert. Anywhere a rule says "on X", treat it as dormant.
 
+⚠ **2026-08-24 — if the routine prompt's Step 1 summary of this file says "no precise live customer/usage count", that phrase is STALE.** It is a one-line description of rule 8a written before 8a was rewritten. Rule 8a below is the authoritative version and it is a whitelist, not a ban. This file wins.
+
 ## Grounding (anti-fabrication)
 1. **Every factual claim must trace to a source URL the agent actually fetched this run.** If it can't be verified, drop the item or soften it to clearly-marked opinion. **No source → no post.** Never react to a headline alone — WebFetch the actual article/report behind any moment and confirm the claim, the number, and who said it before drafting.
 2. **No fabricated specifics.** Version numbers, benchmark scores, $ figures, "Company X partnered with Y", funding amounts, dates, stats, validity coefficients — only if seen in a fetched source this run. Never from memory, never guessed. A surprising stat is only usable if a primary source for it was fetched this run; aggregator/SEO listicles that merely restate a number are not a source — trace it to the primary.
