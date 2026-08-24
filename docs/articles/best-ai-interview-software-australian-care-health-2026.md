@@ -4,7 +4,7 @@ If you are hiring carers, support workers or nurses at volume in Australia, the 
 
 This covers nine tools, what each actually does, what it costs where that is public, and one real limitation for each.
 
-The short version, for the job named in the title: if you need to hear a candidate answer a question and then answer the follow-up to that answer, at volume, **Ployo is the only tool here built to do it**. Seven of the other eight cannot hold a live two-way conversation at all, by design. That is not a marketing claim, it is what their own product pages say, and the section below sets it out tool by tool.
+The short version, for the job named in the title: if you need to hear a candidate answer a question and then answer the follow-up to that answer, at volume, **Ployo is the only tool here that does it on video**. One other does it on audio. Seven of the other eight cannot hold a live two-way conversation at all, by design. That is not a marketing claim, it is what their own product pages say, and the section below sets it out tool by tool.
 
 I build Ployo, so weigh that. It also loses outright on two things further down, and I have said where.
 
@@ -40,7 +40,7 @@ This is the dividing line in the category, and it is the one thing a vendor page
 
 Two out of nine today, with the largest incumbent building a third. If your screening problem is that a CV and a fixed question list cannot separate two candidates who look identical on paper, seven of these tools cannot solve it no matter how the demo goes, and the one that can besides Ployo does it without ever seeing the person.
 
-## Sapia.ai
+## Sapia
 
 - **Who it is for:** Australian enterprises hiring 500 or more people a year, especially where a legal or compliance function wants published fairness evidence before an AI touches a candidate.
 - **What it does:** A text-based chat interview. Candidates type written answers to a handful of behavioural questions and are scored on the text alone. Sapia's own candidate explainer states there is no video recording, no camera and no voice.
@@ -83,7 +83,7 @@ They publish real figures on their own site. Most of this category does not, and
 - **Pricing:** Not published. Contract through sales, which by the standard applied to everyone else on this list is a mark against us.
 - **One real limitation:** No independent disparate-impact audit has been commissioned or published. Sapia has one. If your compliance function requires third-party fairness evidence as a condition of purchase, that is a real reason to choose them over us today.
 
-The thing it does that the async tools structurally cannot: follow up. A recorded interview cannot ask "you said you covered nights at that facility, was that on your own or with a second carer" because nobody is listening when the answer arrives. In care hiring that second question is usually the whole interview. It is the difference between a candidate who has held a shift alone and one who has watched someone else hold it, and a CV will not tell you which you have. Every other tool on this list either takes that question away from you or hands it back to a recruiter at 200 candidates a week. On that specific axis, adaptive spoken assessment at volume, nothing else in this comparison is doing the same job. More at ployo.ai.
+The thing it does that the async tools structurally cannot: follow up. A recorded interview cannot ask "you said you covered nights at that facility, was that on your own or with a second carer" because nobody is listening when the answer arrives. In care hiring that second question is usually the whole interview. It is the difference between a candidate who has held a shift alone and one who has watched someone else hold it, and a CV will not tell you which you have. Every other tool on this list either takes that question away from you or hands it back to a recruiter at 200 candidates a week. On that specific axis, adaptive spoken assessment at volume, nothing else in this comparison is doing the same job. Do not take my word for any of that: there is a real interview excerpt at ployo.ai/sample, no form and no gate, so you can judge the follow-up claim yourself in about two minutes. Company page: linkedin.com/company/ployoai.
 
 ## Willo
 
@@ -137,7 +137,7 @@ If your problem is that you cannot tell two candidates apart from a CV and a fix
 
 If your problem is that procurement will not sign without certifications or a published fairness audit, that decides it before anything else does. VidCruiter for the certification list, Sapia for the audit.
 
-For Australian care and health specifically, add one filter the vendor pages will not: whatever you pick has to sit alongside the checks you already run, from AHPRA registration to NDIS worker screening to working-with-children clearances. An interview tool that scores a candidate beautifully and then hands you nothing your compliance process can use has moved the work rather than removed it.
+For Australian care and health specifically, add one filter the vendor pages will not: whatever you pick has to sit alongside the checks you already run, from AHPRA registration to NDIS worker screening to working-with-children clearances. An interview tool that scores a candidate beautifully and then hands you nothing your compliance process can use has moved the work rather than removed it. What the law actually requires, and where the line sits between AI screening and AI deciding, is set out at ployo.ai/guides/ai-interviewing-compliance-australia.
 
 Which leaves the case this article was written about. High volume, frontline, a lot of candidates whose CVs look the same and whose English is a second language, and a decision that turns on what someone says when you ask them a second question. On that job, the shortlist is one live spoken interviewer that runs on video and one that runs on audio, and everything else on this page is solving a different problem well. That is where Ployo sits, and it is why it exists.
 
