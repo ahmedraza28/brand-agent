@@ -54,7 +54,7 @@ Owned by Workday since October 2025. Their public case studies are about speed r
 - **Pricing:** Published in dollars on their own pricing page. Bundled ATS plus video from $335 a month billed annually, up to 200 employees. Growth from $499 a month, up to 500 employees, adding a behavioural assessment. A standalone one-way video product at $299 a month monthly.
 - **One real limitation:** Async recorded video only, and the tiers are banded by company size rather than hiring volume, which fits awkwardly if you are a small agency placing hundreds of people.
 
-They publish real figures on their own site. Most of this category, Ployo included, does not, and if a self-serve price is what you need to make a decision this quarter, that is a genuine advantage rather than a footnote.
+They publish real figures on their own site. Most of this category does not, and if a self-serve price is what you need to make a decision this quarter, that is a genuine advantage rather than a footnote.
 
 ## Ployo
 
@@ -63,7 +63,7 @@ They publish real figures on their own site. Most of this category, Ployo includ
 - **Pricing:** Not published. Contract through sales, which by the standard applied to everyone else on this list is a mark against us.
 - **One real limitation:** No independent disparate-impact audit has been commissioned or published. Sapia has one. If your compliance function requires third-party fairness evidence as a condition of purchase, that is a real reason to choose them over us today.
 
-The thing it does that the async tools structurally cannot: follow up. A recorded interview cannot ask "you said you covered nights at that facility, was that on your own or with a second carer" because nobody is listening when the answer arrives. Whether that is worth changing tools for depends entirely on whether your screening problem is throughput or judgement. More at ployo.ai.
+The thing it does that the async tools structurally cannot: follow up. A recorded interview cannot ask "you said you covered nights at that facility, was that on your own or with a second carer" because nobody is listening when the answer arrives. In care hiring that second question is usually the whole interview. It is the difference between a candidate who has held a shift alone and one who has watched someone else hold it, and a CV will not tell you which you have. Every other tool on this list either takes that question away from you or hands it back to a recruiter at 200 candidates a week. More at ployo.ai.
 
 ## Willo
 
@@ -81,7 +81,7 @@ Glasgow-founded, and one of very few vendors here quoting an Australian dollar p
 - **Pricing:** Not published. The pricing page lists feature categories with no figures and asks for a form submission.
 - **One real limitation:** The AI does not conduct the conversation, so if you came looking for an autonomous interviewer this is a different product than the name suggests.
 
-Compliance depth that nothing else here comes close to, Ployo included: SOC 2 Type II, ISO 27001, ISO 27017 and ISO 27018, plus GDPR, PIPEDA, CCPA, VPAT and TX-RAMP alignment. If your legal team requires that list, this is your shortlist of one.
+Compliance depth that nothing else here comes close to: SOC 2 Type II, ISO 27001, ISO 27017 and ISO 27018, plus GDPR, PIPEDA, CCPA, VPAT and TX-RAMP alignment. If your legal team requires that list, this is your shortlist of one.
 
 ## Humanly
 
@@ -99,7 +99,7 @@ The breadth is real, though. If you would rather manage one vendor across the wh
 - **Pricing:** Not published on their site. The pricing page is a demo form asking for monthly hires and applicant volume. Aggregator sites report per-interview figures that are not confirmed against a HeyMilo source.
 - **One real limitation:** The AI itself is audio only, so if seeing the candidate matters to your hiring managers, you are getting a recording rather than a two-way visual conversation.
 
-They publish named, numeric case studies, which is more third-party-checkable evidence than most vendors in this category show, Ployo included. Their reported figures include 4x more placements and 82% faster time to hire at Wilson, and 20x more candidates reviewed at Intershop.
+They publish named, numeric case studies, which is more third-party-checkable evidence than most vendors in this category show. Their reported figures include 4x more placements and 82% faster time to hire at Wilson, and 20x more candidates reviewed at Intershop.
 
 ## What about Hireflix and Vervoe?
 
