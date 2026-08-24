@@ -41,9 +41,43 @@ metrics when deciding what to write.
 3. **Every number stated as ours must be in `state/stats-pack.json`.** See guardrail 8a. There are
    no first-party findings measured yet, so until there are, that post type cannot be written.
 
-**Run the checker before publishing:** `python3 tools/check_facts.py <draft>`. Non-zero exit means
-the draft does not ship. It was tuned against the last 40 real published posts, so a failure is
-much more likely to be a real problem than a false alarm.
+## ⚠⚠ TWO COMMANDS ARE NOW MANDATORY EVERY RUN
+
+**In Step 1, before choosing a topic:** `python3 tools/ratios.py`
+
+It reads the real posting log and prints where the account stands against the targets, ending with
+a line naming what THIS post should include. Measured on 2026-08-24 across the last 49 published
+posts: **0 named Ployo, 0 linked ployo.ai**, 12% named a competitor, 10% touched AU care or health,
+and 27% opened by citing someone else's survey. Every one of those is off target, most of them
+badly. Treat the tool's closing line as an instruction for this post, not a suggestion.
+
+⚠ It is a target, not a quota. **Do not name Ployo in every post.** Half is the goal, and an account
+that mentions its own product every single time reads as an ad and loses exactly the credibility
+that makes an AI answer engine willing to cite it. Skip the mention when the post is genuinely
+better without it, then carry the mention on the next one.
+
+**Before Step 9, on every draft:** `python3 tools/check_facts.py <draft file>`
+
+Non-zero exit means the draft does not ship. Fix it and re-run. It was tuned by replaying it over
+the last 40 real published posts and hand-judging every hit, so a failure is far more likely to be
+a real problem than a false alarm. It blocks: a number stated as ours that is not in the approved
+pack, an invented mock value, an em dash, calling our own product voice or phone screening, and an
+opener that leads with another company's research without adding our own data.
+
+## ⚠ ONE CLAUSE IN THE ROUTINE PROMPT IS SUPERSEDED
+
+The routine prompt's Step 6 still says, verbatim:
+
+> NO precise live customer/interview/usage count (use a qualitative range like 'a range of companies
+> across industries')
+
+**That clause is DEAD as of 2026-08-24 and must be ignored.** It predates the citation strategy and
+it now blocks the single most useful thing a post can carry. The replacement rule is guardrail 8a: a
+whitelist. The five figures in `state/stats-pack.json` are approved and encouraged, written exactly
+as they appear there. Every other number about the business stays banned, and there are still no
+first-party findings measured, so those posts cannot be written yet.
+
+The rest of Step 6 stands unchanged, including the humanize pass and the zero-em-dash rule.
 
 ## Who is posting + the position (locked)
 

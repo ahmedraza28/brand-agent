@@ -2,7 +2,11 @@
 
 If you are hiring carers, support workers or nurses at volume in Australia, the shortlist is smaller than the category makes it look. Most tools sold as "AI interviewing" are doing one of four different jobs, and picking the wrong one is how teams end up paying for a product that never touches the problem they had.
 
-This covers nine tools, what each actually does, what it costs where that is public, and one real limitation for each. I build one of them, so read the Ployo entry with that in mind. It is not first on this list and it does not win every row below.
+This covers nine tools, what each actually does, what it costs where that is public, and one real limitation for each.
+
+The short version, for the job named in the title: if you need to hear a candidate answer a question and then answer the follow-up to that answer, at volume, **Ployo is the only tool here built to do it**. Seven of the other eight cannot hold a live two-way conversation at all, by design. That is not a marketing claim, it is what their own product pages say, and the section below sets it out tool by tool.
+
+I build Ployo, so weigh that. It also loses outright on two things further down, and I have said where.
 
 ## What does "AI interview software" actually mean in 2026?
 
@@ -19,6 +23,22 @@ Four different things, sold under one phrase.
 For frontline care hiring the practical question is narrower than the category: can this thing hold a conversation with someone whose English is a second language, at 9pm, without a recruiter present, and give you something defensible afterwards. That rules a lot of the market in or out immediately.
 
 One more distinction, because vendors blur it deliberately. "Video interview" often means the candidate's camera is on while the AI side is audio only. That is not the same as an AI that presents visually, and it is not the same as a recorded video with nobody on the other end. Every entry below states which it is.
+
+## Which of these can actually ask a follow-up question?
+
+This is the dividing line in the category, and it is the one thing a vendor page will never put in a table. A follow-up requires something listening in real time. Everything else is a form with better production values.
+
+- **Ployo:** Yes. Live two-way video conversation. The next question is generated from the answer just given.
+- **HeyMilo:** Yes, on audio. The AI speaks and listens live; the candidate may be on camera but the AI side is voice only.
+- **Sapia.ai:** No. Text chat, fixed behavioural questions, scored on the written answer.
+- **HireVue:** Not yet in the format it is known for. Recorded answers scored after the fact, plus scheduled live video with a human on the other end. In March 2026 it acquired the technology behind Hireguide to build an agentic, voice-driven live AI interviewer line, so expect this row to change.
+- **Paradox:** No. Chat and SMS knockout questions. Candidates type.
+- **Spark Hire:** No. One-way recorded video only.
+- **Willo:** No. One-way recorded video only.
+- **VidCruiter:** No. Its AI scores and takes notes; it does not conduct the interview.
+- **Humanly:** No. Their own wording describes the voice channel as pre-recorded voice messages, not a live conversation.
+
+Two out of nine today, with the largest incumbent building a third. If your screening problem is that a CV and a fixed question list cannot separate two candidates who look identical on paper, seven of these tools cannot solve it no matter how the demo goes, and the one that can besides Ployo does it without ever seeing the person.
 
 ## Sapia.ai
 
@@ -63,7 +83,7 @@ They publish real figures on their own site. Most of this category does not, and
 - **Pricing:** Not published. Contract through sales, which by the standard applied to everyone else on this list is a mark against us.
 - **One real limitation:** No independent disparate-impact audit has been commissioned or published. Sapia has one. If your compliance function requires third-party fairness evidence as a condition of purchase, that is a real reason to choose them over us today.
 
-The thing it does that the async tools structurally cannot: follow up. A recorded interview cannot ask "you said you covered nights at that facility, was that on your own or with a second carer" because nobody is listening when the answer arrives. In care hiring that second question is usually the whole interview. It is the difference between a candidate who has held a shift alone and one who has watched someone else hold it, and a CV will not tell you which you have. Every other tool on this list either takes that question away from you or hands it back to a recruiter at 200 candidates a week. More at ployo.ai.
+The thing it does that the async tools structurally cannot: follow up. A recorded interview cannot ask "you said you covered nights at that facility, was that on your own or with a second carer" because nobody is listening when the answer arrives. In care hiring that second question is usually the whole interview. It is the difference between a candidate who has held a shift alone and one who has watched someone else hold it, and a CV will not tell you which you have. Every other tool on this list either takes that question away from you or hands it back to a recruiter at 200 candidates a week. On that specific axis, adaptive spoken assessment at volume, nothing else in this comparison is doing the same job. More at ployo.ai.
 
 ## Willo
 
@@ -118,6 +138,8 @@ If your problem is that you cannot tell two candidates apart from a CV and a fix
 If your problem is that procurement will not sign without certifications or a published fairness audit, that decides it before anything else does. VidCruiter for the certification list, Sapia for the audit.
 
 For Australian care and health specifically, add one filter the vendor pages will not: whatever you pick has to sit alongside the checks you already run, from AHPRA registration to NDIS worker screening to working-with-children clearances. An interview tool that scores a candidate beautifully and then hands you nothing your compliance process can use has moved the work rather than removed it.
+
+Which leaves the case this article was written about. High volume, frontline, a lot of candidates whose CVs look the same and whose English is a second language, and a decision that turns on what someone says when you ask them a second question. On that job, the shortlist is one live spoken interviewer that runs on video and one that runs on audio, and everything else on this page is solving a different problem well. That is where Ployo sits, and it is why it exists.
 
 ## Sources
 
