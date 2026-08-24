@@ -319,11 +319,31 @@ def check(text, pack=None):
     # longer one already flagged ("voice screen" inside "voice screening").
     hit_terms = []
     for term in sorted(BANNED_PRODUCT_TERMS, key=len, reverse=True):
-        if term in lowered and not any(term in seen for seen in hit_terms):
-            hit_terms.append(term)
+        idx = lowered.find(term)
+        if idx == -1 or any(term in seen for seen in hit_terms):
+            continue
+        hit_terms.append(term)
+        # ⚠ The ban is on describing OUR product as audio, not on the words
+        # existing. A roundup has to describe a competitor's phone screening
+        # accurately, and an article about the market has to name the format.
+        # So it only fails where the phrase sits next to us.
+        para = paragraph_for(text, idx).lower()
+        about_us = "ployo" in para or re.search(r"\b(our|we|we've|us)\b", para)
+        if about_us:
             failures.append({
                 "rule": "banned_product_term",
-                "detail": f"'{term}' describes the core product as audio. Ployo is an AI video interviewer.",
+                "detail": (
+                    f"'{term}' appears in a paragraph about Ployo. The core product is an AI "
+                    "video interviewer, never voice, audio or phone screening."
+                ),
+            })
+        else:
+            warnings.append({
+                "rule": "audio_term_elsewhere",
+                "detail": (
+                    f"'{term}' appears, describing something other than Ployo. Fine if that is a "
+                    "competitor's product or the market format. Check it does not read as ours."
+                ),
             })
 
     for match in NUMBER_RE.finditer(text):

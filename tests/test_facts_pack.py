@@ -82,10 +82,21 @@ class TestPublishGate(unittest.TestCase):
         self.assertFalse(result["ok"])
         self.assertIn("em_dash", [f["rule"] for f in result["failures"]])
 
-    def test_audio_product_language_is_blocked(self):
+    def test_audio_product_language_about_us_is_blocked(self):
         result = self.run_check("Our phone screening tool is fast. Ployo ployo.ai")
         self.assertFalse(result["ok"])
         self.assertIn("banned_product_term", [f["rule"] for f in result["failures"]])
+
+    def test_audio_language_describing_a_competitor_is_allowed(self):
+        """A roundup has to describe a rival's phone screening accurately. The
+        ban is on calling OUR product audio, not on the words existing."""
+        text = (
+            "Humanly added automated phone screening through an acquisition.\n\n"
+            "Ployo runs a live video interview instead. ployo.ai"
+        )
+        result = self.run_check(text)
+        self.assertTrue(result["ok"], result["failures"])
+        self.assertIn("audio_term_elsewhere", [w["rule"] for w in result["warnings"]])
 
     def test_borrowed_opener_without_our_own_data_is_blocked(self):
         text = "A new iCIMS report says applications are up. My take: hiring teams are drowning."
