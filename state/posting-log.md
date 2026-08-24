@@ -8,6 +8,37 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-24T00:42:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-24) is Monday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry 2026-08-23 was a skip-day). remaining = 1. Selected top 1 fresh moment.
+
+Research pass ran 4 WebSearch queries (AI x hiring news today, EU AI Act/LL144/regulation this week, new AI recruiting tools launched this week, time-to-hire/ghosting/ATS problems August 2026) + Google News RSS (AI-hiring 48h catch-all, 53 headlines) + HR Dive feed (direct fetch, 10 headlines). Candidates considered: "'Cheating' in hiring: It's a messy, expensive AI world" (Knowledge at Wharton, 2026-08-23) — traced to the same underlying dataset already covered as `ai-cheat-detection-doesnt-stop-the-pass` (2026-08-18, Fabric's 19,368-interview / 38.5%-flagged study), same entity and event, dropped as duplicate territory; "New North Korean AI Hiring Scheme Targets US Companies" (TechRepublic, 2026-08-22) — real but a vetting/security-fraud story with a thin hiring-mechanics angle for this audience, weaker fit than the alternative below, passed over; "Skilled labor demand is exploding. AI may be both a cause and a solution" (HR Dive, 2026-08-21) — already passed over in the 2026-08-22 run for being thin on a citable number, still thin this run, passed over again; and Resume Builder's June 2026 survey of 1,000 recent grads on rescinded offers, reported fresh this week by Futurism (2026-08-23) — selected. Verified via direct WebFetch of the Yahoo Finance syndication of the Futurism article (Frank Landymore), corroborated by search-confirmed matching figures independently reported by SFGate, both citing Resume Builder as the source: 34% had an offer rescinded after acceptance, 13% of that group more than once, 68% ghosted after an interview with no offer at all, 65% believe AI already cost entry-level jobs in their field (flagged as a stated belief, not fact, in the post), quotes from Stacie Haller (Resume Builder's chief career adviser). Not a duplicate of `employer-ghosting-three-year-high` (2026-07-18, Criteria Corp's general ghosting-rate survey, 53%, a different entity/study and a different mechanism, pre-offer ghosting not post-acceptance rescission) or any entry-level-AI-displacement ledger entries — distinct entity, event, and mechanism, outside the 7-day dedup window regardless.
+
+### grad-offer-rescission | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+An accepted offer is supposed to be the finish line. For a third of new grads this year, it turned out to be a false one.
+
+Resume Builder surveyed 1,000 recent grads, ages 20 to 28, all hired within the past year. 34% had an offer pulled back after they had already said yes. 13% of that group watched it happen more than once. Sixty-eight percent got ghosted after an interview, no offer at all. Stacie Haller, the firm's chief career adviser, called it "totally out of control."
+
+The ghosting number bothers me less than the rescission one. Ghosting is a company failing to send an email. Rescinding is a company that already told someone the job was theirs, maybe watched them give notice at their old one, then took it back anyway.
+
+Sixty-five percent of the grads surveyed believe AI already cost people their entry-level shot. That's a belief, not a fact, so I will leave it there. But I build the screening tool sitting in the middle of this exact pipeline, and the mechanics behind a rescinded offer look familiar from where I sit: a flood of AI-written applications on one side, a screening stack racing to keep pace on the other, and nobody actually confirming the seat is funded before the offer letter goes out.
+
+The seat either exists before the offer goes out, or the candidate finds out it didn't after they already quit their old one.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (funnel archetype)
+**First comment (source):** https://finance.yahoo.com/small-business/articles/employers-hiring-recent-grads-then-150600477.html
+**Buffer post id:** 6a8b93a353c54dc08763c311
+**dueAt:** 2026-08-24T05:52:00Z
+
+---
+
 ## 2026-08-23T08:36:55Z
 
 skip-day: sun

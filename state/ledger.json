@@ -1,283 +1,372 @@
 {
   "covered": [
     {
+      "topic_key": "grad-offer-rescission",
+      "title": "Resume Builder (June 2026 survey, 1,000 US recent grads ages 20-28 hired within the past year), reported by Futurism/Frank Landymore (published 2026-08-23, verified via direct WebFetch of the Yahoo Finance syndication of the same article, corroborated by search-confirmed matching figures from SFGate, both citing Resume Builder as the source): 34% had a job offer rescinded after they had already accepted it, 13% of that group had it happen more than once; 68% were ghosted after an interview with no offer at all; 65% believe AI already led to entry-level job cuts in their field (a stated belief, not verified as fact, flagged as such in the post). Quote from Stacie Haller, Resume Builder's chief career adviser: 'today, it's totally out of control'; also 'Having an offer withdrawn without explanation is unacceptable, and experiencing it more than once is incredibly discouraging. For someone new to the workforce, that letdown can feel even more crushing than being ghosted during the interview.' Builder take: a rescinded offer is a broken commitment after the candidate already acted on it (often resigning from a prior job), a sharper failure than pre-offer ghosting, and the mechanics line up with AI-driven application-volume chaos on one side and understaffed/rushed screening on the other, with nobody confirming headcount is real before the offer goes out. Not a duplicate of `employer-ghosting-three-year-high` (2026-07-18, Criteria Corp's ghosting-rate survey, a different entity/study measuring general employer ghosting at 53%, not post-acceptance rescission specifically) or any of the entry-level-AI-displacement ledger entries (stlfed-entry-level-ai-bar, entry-level-seniority-tilt, goldman-entry-level-ai-squeeze, forecast-ahead-of-white-collar-rollout) \u2014 distinct entity, distinct event (a fresh June 2026 survey reported this week), and a distinct mechanism (broken post-acceptance commitment, not general displacement or hiring-mix data), outside the 7-day dedup window regardless.",
+      "url": "https://finance.yahoo.com/small-business/articles/employers-hiring-recent-grads-then-150600477.html",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-08-24T05:52:00Z"
+    },
+    {
       "topic_key": "resume-injection-self-defeat",
-      "title": "Two directly-fetched primary sources, published/verified this run: (1) Greenhouse's own newsroom press release ('An AI Trust Crisis', greenhouse.com), surveying 4,136 respondents across US/UK/Ireland/Germany including 1,200 US job seekers and 665 US recruiters/hiring managers: 41% of the 1,200 US job seekers admit hiding prompt injections (hidden instructions to an AI screener) in their resumes; of the 59% who don't, 52% say they're considering it; 65% of US hiring managers/recruiters have caught a candidate using AI deceptively in some form, including 32% catching someone reading from an AI script, 22% catching a hidden prompt injection specifically, 18% catching a deepfake. (2) 'Prompt Injection in Automated Resume Screening with Large Language Models: Single and Multi-Injection Settings' (Baxi, Xu, Jiang, Jasin; ACL 2026 Findings; arXiv 2606.27287), verified via direct WebFetch of the arXiv abstract: prompt injection reliably lifts a candidate's ranking only when few candidates inject and the pool is homogeneous in quality; the effect rapidly diminishes as more candidates inject and collapses when manipulation becomes widespread; the system is most vulnerable when manipulation is rare and quality differences are small; under heterogeneous quality, injection is less effective on average but can occasionally let a lower-quality candidate outrank a stronger one. Builder take: the injection tactic is a self-defeating arms race by its own game-theoretic design, not just something detection eventually catches, so the fix is a scoring rubric that can't be talked into a false positive rather than a better hidden-text filter. Not a duplicate of `resume-prompt-injection-silent-attacks` (2026-07-23, Duke/hireEZ study measuring ~1% actual real-world prevalence and the subtlety of injected phrasing found in hireEZ's own resume corpus) or `ai-cheat-detection-doesnt-stop-the-pass` (2026-08-18, Fabric's live-interview cheating-detection dataset) — distinct entities (Greenhouse + a new ACL 2026 paper), distinct event (this week's self-report survey + a newly published game-theoretic study), and a distinct mechanism (the tactic's effectiveness self-cancelling at scale, not detection prevalence or a detection-vs-scoring gap), both prior entries also outside the 7-day dedup window regardless.",
+      "title": "Two directly-fetched primary sources, published/verified this run: (1) Greenhouse's own newsroom press release ('An AI Trust Crisis', greenhouse.com), surveying 4,136 respondents across US/UK/Ireland/Germany including 1,200 US job seekers and 665 US recruiters/hiring managers: 41% of the 1,200 US job seekers admit hiding prompt injections (hidden instructions to an AI screener) in their resumes; of the 59% who don't, 52% say they're considering it; 65% of US hiring managers/recruiters have caught a candidate using AI deceptively in some form, including 32% catching someone reading from an AI script, 22% catching a hidden prompt injection specifically, 18% catching a deepfake. (2) 'Prompt Injection in Automated Resume Screening with Large Language Models: Single and Multi-Injection Settings' (Baxi, Xu, Jiang, Jasin; ACL 2026 Findings; arXiv 2606.27287), verified via direct WebFetch of the arXiv abstract: prompt injection reliably lifts a candidate's ranking only when few candidates inject and the pool is homogeneous in quality; the effect rapidly diminishes as more candidates inject and collapses when manipulation becomes widespread; the system is most vulnerable when manipulation is rare and quality differences are small; under heterogeneous quality, injection is less effective on average but can occasionally let a lower-quality candidate outrank a stronger one. Builder take: the injection tactic is a self-defeating arms race by its own game-theoretic design, not just something detection eventually catches, so the fix is a scoring rubric that can't be talked into a false positive rather than a better hidden-text filter. Not a duplicate of `resume-prompt-injection-silent-attacks` (2026-07-23, Duke/hireEZ study measuring ~1% actual real-world prevalence and the subtlety of injected phrasing found in hireEZ's own resume corpus) or `ai-cheat-detection-doesnt-stop-the-pass` (2026-08-18, Fabric's live-interview cheating-detection dataset) \u2014 distinct entities (Greenhouse + a new ACL 2026 paper), distinct event (this week's self-report survey + a newly published game-theoretic study), and a distinct mechanism (the tactic's effectiveness self-cancelling at scale, not detection prevalence or a detection-vs-scoring gap), both prior entries also outside the 7-day dedup window regardless.",
       "url": "https://www.greenhouse.com/newsroom/an-ai-trust-crisis-70-of-hiring-managers-trust-ai-to-make-faster-and-better-hiring-decisions-only-8-of-job-seekers-call-it-fair",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-22T06:27:00Z"
     },
     {
       "topic_key": "hiring-gap-widens",
-      "title": "iCIMS Insights August 2026 Workforce Report (released 2026-08-12, covering July 2026 data; verified via direct WebFetch of iCIMS's own press release at icims.com/company/newsroom/augustinsights2026/, independently corroborated by direct WebFetch of HR Dive's write-up published 2026-08-20 by Lara Ewen, both agreeing on every figure): drawn from 3.1 million users and 691 million candidate profiles. July 2026 US labor market vs July 2025 baseline: job openings +17%, applications +6%, hires flat, the widest gap between employer demand and hiring activity recorded so far this year. Manufacturing sector shows it sharpest: job openings +29% (the largest sector increase), applications +4%, hires -6% (moving the wrong direction while everything upstream climbs). Applicant-pool demographic shift in manufacturing: candidates under 45 made up 85% of applicants in July 2026, up from 79% in July 2025, while roughly 47% of the actual manufacturing workforce is 45 or older. Quote from Trent Cotton, ICIMS head of talent insights: 'Growth alone does not fill a role. Recruiting organizations are being asked to keep pace with demand that is climbing faster than their hiring engines can absorb.' HR Dive's companion reporting adds BLS context: manufacturing added 5,000 jobs in July 2026, a 145% increase from July 2025 when 11,000 were cut. Builder take: this isn't a sourcing problem (both openings and applications are growing), it's a screening/conversion-throughput bottleneck, the exact choke point an AI-interview platform sits at; volume-hiring segments like manufacturing are where this gap is sharpest and least served. Not a duplicate of `hiring-freeze-low-fire` (2026-06-18/19, Indeed Hiring Lab + iCIMS May 2026 data showing application volume actually DOWN 11% YoY, a 'low-hire, low-fire freeze' narrative) — distinct month, distinct dataset, and an inverted trend (applications now rising, not falling), outside the 7-day dedup window regardless.",
+      "title": "iCIMS Insights August 2026 Workforce Report (released 2026-08-12, covering July 2026 data; verified via direct WebFetch of iCIMS's own press release at icims.com/company/newsroom/augustinsights2026/, independently corroborated by direct WebFetch of HR Dive's write-up published 2026-08-20 by Lara Ewen, both agreeing on every figure): drawn from 3.1 million users and 691 million candidate profiles. July 2026 US labor market vs July 2025 baseline: job openings +17%, applications +6%, hires flat, the widest gap between employer demand and hiring activity recorded so far this year. Manufacturing sector shows it sharpest: job openings +29% (the largest sector increase), applications +4%, hires -6% (moving the wrong direction while everything upstream climbs). Applicant-pool demographic shift in manufacturing: candidates under 45 made up 85% of applicants in July 2026, up from 79% in July 2025, while roughly 47% of the actual manufacturing workforce is 45 or older. Quote from Trent Cotton, ICIMS head of talent insights: 'Growth alone does not fill a role. Recruiting organizations are being asked to keep pace with demand that is climbing faster than their hiring engines can absorb.' HR Dive's companion reporting adds BLS context: manufacturing added 5,000 jobs in July 2026, a 145% increase from July 2025 when 11,000 were cut. Builder take: this isn't a sourcing problem (both openings and applications are growing), it's a screening/conversion-throughput bottleneck, the exact choke point an AI-interview platform sits at; volume-hiring segments like manufacturing are where this gap is sharpest and least served. Not a duplicate of `hiring-freeze-low-fire` (2026-06-18/19, Indeed Hiring Lab + iCIMS May 2026 data showing application volume actually DOWN 11% YoY, a 'low-hire, low-fire freeze' narrative) \u2014 distinct month, distinct dataset, and an inverted trend (applications now rising, not falling), outside the 7-day dedup window regardless.",
       "url": "https://www.icims.com/company/newsroom/augustinsights2026/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-21T06:14:00Z"
     },
     {
       "topic_key": "goldman-entry-level-ai-squeeze",
-      "title": "Goldman Sachs 'Global Economics Comment: Is AI Impacting Global Labor Markets?' (published 2026-08-19, verified via direct WebFetch of PYMNTS and City AM, two independent sources agreeing on all figures; CNBC's own coverage corroborates the same figures per search but 403'd to direct WebFetch): analysis spans 800+ occupations combining 11 surveys of AI use. A 10% rise in occupational AI exposure drags annual headcount growth by about 0.1 percentage points across the workforce as a whole (US/France/Canada). For entry-level workers specifically that drag runs 2-6x larger: 0.2+ points in the US, 0.6+ points in Australia. Hardest-hit industries: management consulting, advertising, software publishing, call centers, and information/communications services, all showing sharply-below-trend job-opening growth since mid-2022; US call-center headcount 39% below trend (33% Canada, 27% Germany). Mechanism per the report: entry-level roles in fields like consulting and advertising lean on research/admin/first-draft tasks that generative AI now performs directly. Builder take: those tasks were never just busywork, they were the cheap way a junior proved they'd be good at the job with senior correction in the loop; automating the training task doesn't remove the need to train someone, it defers the cost to when senior roles run short. Not a duplicate of `stlfed-entry-level-ai-bar` (2026-06-30, St Louis Fed 18-24yo unemployment/EPOP data), `entry-level-seniority-tilt` (2026-07-23, Indeed Hiring Lab job-posting mix skew), `ai-reshuffles-white-collar-work` (2026-08-06, 120-economist Pulsenomics survey, forward-looking predictions), or `forecast-ahead-of-white-collar-rollout` (2026-08-17, 933-business-leader survey on automation timelines) — distinct entity (Goldman Sachs), distinct event (a same-day published report), distinct mechanism (a quantified occupational-AI-exposure regression across 800+ roles), a fresh verified data point within the broader entry-level-AI theme rather than a semantic duplicate.",
+      "title": "Goldman Sachs 'Global Economics Comment: Is AI Impacting Global Labor Markets?' (published 2026-08-19, verified via direct WebFetch of PYMNTS and City AM, two independent sources agreeing on all figures; CNBC's own coverage corroborates the same figures per search but 403'd to direct WebFetch): analysis spans 800+ occupations combining 11 surveys of AI use. A 10% rise in occupational AI exposure drags annual headcount growth by about 0.1 percentage points across the workforce as a whole (US/France/Canada). For entry-level workers specifically that drag runs 2-6x larger: 0.2+ points in the US, 0.6+ points in Australia. Hardest-hit industries: management consulting, advertising, software publishing, call centers, and information/communications services, all showing sharply-below-trend job-opening growth since mid-2022; US call-center headcount 39% below trend (33% Canada, 27% Germany). Mechanism per the report: entry-level roles in fields like consulting and advertising lean on research/admin/first-draft tasks that generative AI now performs directly. Builder take: those tasks were never just busywork, they were the cheap way a junior proved they'd be good at the job with senior correction in the loop; automating the training task doesn't remove the need to train someone, it defers the cost to when senior roles run short. Not a duplicate of `stlfed-entry-level-ai-bar` (2026-06-30, St Louis Fed 18-24yo unemployment/EPOP data), `entry-level-seniority-tilt` (2026-07-23, Indeed Hiring Lab job-posting mix skew), `ai-reshuffles-white-collar-work` (2026-08-06, 120-economist Pulsenomics survey, forward-looking predictions), or `forecast-ahead-of-white-collar-rollout` (2026-08-17, 933-business-leader survey on automation timelines) \u2014 distinct entity (Goldman Sachs), distinct event (a same-day published report), distinct mechanism (a quantified occupational-AI-exposure regression across 800+ roles), a fresh verified data point within the broader entry-level-AI theme rather than a semantic duplicate.",
       "url": "https://www.cityam.com/goldman-junior-white-collar-workers-squeezed-hardest-by-ai-hiring-slump/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-20T05:18:00Z"
     },
     {
       "topic_key": "hr-staffing-stocks-price-screening-value",
-      "title": "BigGo Finance (published 2026-08-18/19, verified via direct WebFetch of the full article), independently corroborated by Moomoo's coverage of the same underlying story: US HR/staffing stocks rallied off their 2026 lows on Q2 earnings as AI-generated application volume increases demand for professional candidate screening. ManpowerGroup up 94% off its February low with its best quarterly operating profit in three years; Robert Half up 120% off its March low, beat expectations; ZipRecruiter up nearly 183% off its March low; Recruit Holdings ADRs up 170% off trough; a professional-services stock index up 44% since April. Named analyst commentary: BMO Capital Markets' Jeff Silber (the market 'threw the baby out with the bathwater' during earlier AI panic), UBS's Joshua Chan (real earnings data shifting his prior pessimistic AI-disruption stance), Barclays' Manav Patnaik (staffing recovery 'unquestionably underway'), William Blair's Trevor Romeo (rising AI-generated applications may increase reliance on professional recruiters). Core mechanism per the article: AI lowered the cost of applying while raising the value of screening. Risk factor noted: weak July 2026 employment data and downward revisions could complicate the recovery narrative. Builder take: Wall Street just put a valuation on the exact problem Ahmed builds against, screening signal collapsing under AI-generated application volume, and priced professional/AI-powered screening as more valuable, not obsolete. Not a duplicate of `greenhouse-ai-doom-loop` (2026-07-27, Greenhouse CEO interview on applicant-volume-per-posting, no market/stock angle) or `figma-hires-fewer-market-wants-proof` (2026-08-05/06, single company's margin story, opposite mechanism, the market skeptical of AI-driven hiring cuts rather than rewarding screening demand) — distinct entity, event, and mechanism (a market-wide multi-company valuation reaction), outside the 7-day dedup window regardless.",
+      "title": "BigGo Finance (published 2026-08-18/19, verified via direct WebFetch of the full article), independently corroborated by Moomoo's coverage of the same underlying story: US HR/staffing stocks rallied off their 2026 lows on Q2 earnings as AI-generated application volume increases demand for professional candidate screening. ManpowerGroup up 94% off its February low with its best quarterly operating profit in three years; Robert Half up 120% off its March low, beat expectations; ZipRecruiter up nearly 183% off its March low; Recruit Holdings ADRs up 170% off trough; a professional-services stock index up 44% since April. Named analyst commentary: BMO Capital Markets' Jeff Silber (the market 'threw the baby out with the bathwater' during earlier AI panic), UBS's Joshua Chan (real earnings data shifting his prior pessimistic AI-disruption stance), Barclays' Manav Patnaik (staffing recovery 'unquestionably underway'), William Blair's Trevor Romeo (rising AI-generated applications may increase reliance on professional recruiters). Core mechanism per the article: AI lowered the cost of applying while raising the value of screening. Risk factor noted: weak July 2026 employment data and downward revisions could complicate the recovery narrative. Builder take: Wall Street just put a valuation on the exact problem Ahmed builds against, screening signal collapsing under AI-generated application volume, and priced professional/AI-powered screening as more valuable, not obsolete. Not a duplicate of `greenhouse-ai-doom-loop` (2026-07-27, Greenhouse CEO interview on applicant-volume-per-posting, no market/stock angle) or `figma-hires-fewer-market-wants-proof` (2026-08-05/06, single company's margin story, opposite mechanism, the market skeptical of AI-driven hiring cuts rather than rewarding screening demand) \u2014 distinct entity, event, and mechanism (a market-wide multi-company valuation reaction), outside the 7-day dedup window regardless.",
       "url": "https://finance.biggo.com/news/8a8991f0-a333-4e3d-9f80-3257c10ac84d",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-19T06:36:00Z"
     },
     {
       "topic_key": "ai-cheat-detection-doesnt-stop-the-pass",
-      "title": "Fabric (AI interview platform), 'State of AI Interview Cheating in 2026' (verified via direct WebFetch of fabrichq.ai's own published data, corroborated independently by a second outlet, The Interview Guys, citing the same 38.5% headline figure): analyzed 19,368 real interviews conducted July 2025 to January 2026 using 20+ behavioral detection signals (gaze patterns, response timing, keystroke dynamics, language patterns). 38.5% of all candidates flagged for AI-assisted cheating (cheating-probability score >40%), a rate that roughly tripled between July and September 2025. Of candidates flagged as cheating, 61% still scored at or above the platform's own pass threshold (interview score >=7.0) and would have advanced on score alone without the behavioral flag. Cheating rate 48% in technical roles vs 12% in sales roles. Junior candidates (0-5 years experience) cheat at close to double the rate of senior candidates. Method breakdown: 45% used a dedicated cheating-assistant app, 34% ran an LLM in voice mode and repeated its answers, 18% used traditional methods (tab switching, second screens), 3% had live help from another person. Builder take: catching the cheating behavior and disqualifying the candidate are two different systems, a rubric built to reward the right answer regardless of source will keep passing a well-run AI co-pilot even after detection has flagged it, so the fix is redesigning what earns points, not just improving detection accuracy. Not a duplicate of `ai-vs-ai-interview-arms-race` (2026-06-18, GoodTime survey, candidate perception of the arms race as a threat, no dataset), `ai-interview-cheating-fails-onboard` (2026-07-14, Bloomberg single-anecdote about one bad hire), or `ai-avatar-interview-arms-race` (2026-08-08, Semafor single-recruiter anecdote about visual/audio avatar impersonation, no quantified dataset) — this is the first quantified, large-sample dataset on the interview-cheating detection gap specifically, and outside the 7-day dedup window regardless.",
+      "title": "Fabric (AI interview platform), 'State of AI Interview Cheating in 2026' (verified via direct WebFetch of fabrichq.ai's own published data, corroborated independently by a second outlet, The Interview Guys, citing the same 38.5% headline figure): analyzed 19,368 real interviews conducted July 2025 to January 2026 using 20+ behavioral detection signals (gaze patterns, response timing, keystroke dynamics, language patterns). 38.5% of all candidates flagged for AI-assisted cheating (cheating-probability score >40%), a rate that roughly tripled between July and September 2025. Of candidates flagged as cheating, 61% still scored at or above the platform's own pass threshold (interview score >=7.0) and would have advanced on score alone without the behavioral flag. Cheating rate 48% in technical roles vs 12% in sales roles. Junior candidates (0-5 years experience) cheat at close to double the rate of senior candidates. Method breakdown: 45% used a dedicated cheating-assistant app, 34% ran an LLM in voice mode and repeated its answers, 18% used traditional methods (tab switching, second screens), 3% had live help from another person. Builder take: catching the cheating behavior and disqualifying the candidate are two different systems, a rubric built to reward the right answer regardless of source will keep passing a well-run AI co-pilot even after detection has flagged it, so the fix is redesigning what earns points, not just improving detection accuracy. Not a duplicate of `ai-vs-ai-interview-arms-race` (2026-06-18, GoodTime survey, candidate perception of the arms race as a threat, no dataset), `ai-interview-cheating-fails-onboard` (2026-07-14, Bloomberg single-anecdote about one bad hire), or `ai-avatar-interview-arms-race` (2026-08-08, Semafor single-recruiter anecdote about visual/audio avatar impersonation, no quantified dataset) \u2014 this is the first quantified, large-sample dataset on the interview-cheating detection gap specifically, and outside the 7-day dedup window regardless.",
       "url": "https://fabrichq.ai/blogs/state-of-ai-interview-cheating-in-2026-insights-from-19-368-interviews",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-18T06:22:00Z"
     },
     {
       "topic_key": "forecast-ahead-of-white-collar-rollout",
       "title": "Allwork.space (published 2026-08-14, verified via direct WebFetch of the full article text) and CEOWORLD magazine (published 2026-08-15) both react to ResumeTemplates.com's survey of 933 US business leaders (C-suite/VP/Director, fielded February 2026, verified via direct WebFetch of resumetemplates.com's own writeup): 60% believe most white-collar work gets fully automated within 12-18 months, 58% now tell college students to pursue skilled trades instead of white-collar careers, 42% say AI is already shrinking their own headcount, quote from Julia Toothacre (Chief Career Strategist). Allwork.space's pushback, also verified via WebFetch: McKinsey research finds 88% of companies report regular AI use in at least one business function but most haven't scaled it enterprise-wide; Anthropic's own Economic Index usage data shows people working alongside Claude (augmentation) as often or more than handing it a full task (automation); researcher quote: 'AI tools may spread quickly, but changing jobs, incentives, data flows, quality controls, and decision rights takes longer.' Builder take: TA leaders write hiring plans and career advice off automation-timeline predictions made by executives who, per the same body of research, haven't finished deploying AI in their own companies yet; the forecast consistently outruns the actual rollout.",
       "url": "https://allwork.space/2026/08/why-executives-may-be-overestimating-the-speed-of-ais-white-collar-takeover",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-17T06:44:00Z"
     },
     {
       "topic_key": "google-deepmind-warns-own-ai-filters",
       "title": "HR Executive (Jen Colletta, published 2026-08-14) and Bloomberg (Julia Love, published 2026-08-10, syndicated via Yahoo Finance), verified via direct WebFetch of both, quotes agreeing verbatim: Google DeepMind's AGI Safety and Alignment team built a supplementary form for internal job candidates to route around Google's own AI hiring-screening system, because they don't trust it to work reliably. Internal guidance quoted directly: 'We have an applications system with a non-trivial probability your CV will be screened out incorrectly or take too long to reach us' and 'Filling out this form makes sure that a real human on the team will get to see your application.' A second form promises 'A real human will read these' and warns that reviewers 'get really tired of reading LLM answers, because they all sound very samey.' Background stat cited in the HR Executive piece (Gartner research): only ~26% of candidates trust AI to evaluate applications fairly. Builder take: the safety team at one of the largest AI labs on earth didn't trust their own employer's screening tool enough to let their own hires go through it unchecked, and built a human-reviewed bypass instead of filing a bug report, which is the human-in-the-loop spine playing out as an internal admission rather than a regulatory requirement.",
       "url": "https://hrexecutive.com/google-insiders-warn-job-candidates-about-its-ai-hiring-filters/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-15T06:12:00Z"
     },
     {
       "topic_key": "hr-jobs-booming-not-dying",
       "title": "Josh Bersin blog post 'Despite Massive AI Investments, HR Jobs Are Booming. Why?' (published 2026-08-13, verified via direct WebFetch): using Lightcast job-posting data, Bersin shows HR job postings grew ~1.2%/year compounded over 20 years, accelerating to 6% growth over the last 24 months (the current AI wave), outpacing total US employment growth. HR salaries have compounded at 3.1%/year vs 2.1%/year US inflation. The article directly rebuts a CEO's remark to Bloomberg at this month's SHRM conference that HR 'faces extinction.' The roles actually shrinking within that growth are named explicitly: HR administrator, HR assistant, recruiting coordinator, training administrator (the administrative/coordination layer, roughly 30-40% of current HR roles per the article), while HR business partner, L&D, talent acquisition, and analytics roles are expanding. Builder take: the coordination/scheduling layer of hiring (exactly what Ahmed's own category of tool automates) is being erased title by title, while the judgment layer above it is growing, not shrinking, which is the tasks-not-jobs mechanic playing out concretely inside recruiting job titles.",
       "url": "https://joshbersin.com/2026/08/despite-massive-ai-investments-hr-jobs-are-booming-why/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-14T05:20:00Z"
     },
     {
       "topic_key": "ai-self-preference-resume-bias",
       "title": "University of Maryland Robert H. Smith School of Business / TRAILS (NSF Institute for Trustworthy AI in Law & Society), study 'AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights' by Jiannan Xu, Gujie Li, and Jane Yi Jiang, peer-reviewed at AAAI/ACM AIES, verified via direct WebFetch of two independent official UMD sources (rhsmith.umd.edu and trails.umd.edu): analyzed 2,200+ resumes across 24 occupations run through major commercial and open-source LLMs used for hiring screening. When a model rated resumes it had generated itself against human-written ones, self-preference rate was 67-82%. Candidates using the same LLM as the employer's screening tool were 23-60% more likely to be shortlisted than equally qualified applicants with human-written materials; disparities were largest in sales and accounting roles. Simple interventions targeting the models' self-recognition capability cut the bias by more than 50%. Quote from lead author Jiannan Xu: 'The central contribution is to show that bias can emerge not only from human data or human decisions, but also from the way AI models respond to one another.' Builder take: this is a distinct mechanism from prior bias coverage (not training-data mirroring, not feedback-loop stereotype formation) and it never appears on a standard protected-class bias checklist.",
       "url": "https://www.rhsmith.umd.edu/news/ai-hiring-tools-may-favor-their-own-work-smith-study-finds",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-12T06:05:00Z"
     },
     {
       "topic_key": "ai-resumes-overfit-backfiring",
-      "title": "Fortune (Kristin Stoller, published 2026-08-10, verified via direct WebFetch of the full article text): Kathleen Walch, Director of AI Engagement and Community at the Project Management Institute, says candidates who over-polish resumes to mirror a job description word for word are landing fewer interviews, not more. Her on-record quote: 'If you do that, you're losing your authentic human self... Why are we hiring you? Because you're a human.' Same article cites Indeed data: 70% of sponsored applications on the platform now come from an algorithm's recommendation rather than a recruiter's manual search. Other named sources in the piece: Aisha Lawrey (Responsible AI Portfolio Lead, Johns Hopkins), Anthony Moisant (CIO/CSO, Indeed), Niki Armstrong (Chief Administrative and Legal Officer, Everpure). Builder take: once a resume can be engineered to fit, it stops being evidence, so the interview becomes the load-bearing check on a candidate again, whether or not that was anyone's intent. Not a duplicate of prior entry-level or ATS-keyword-theater ledger entries — a distinct angle (resume authenticity backfiring + algorithmic pre-filtering ahead of human review).",
+      "title": "Fortune (Kristin Stoller, published 2026-08-10, verified via direct WebFetch of the full article text): Kathleen Walch, Director of AI Engagement and Community at the Project Management Institute, says candidates who over-polish resumes to mirror a job description word for word are landing fewer interviews, not more. Her on-record quote: 'If you do that, you're losing your authentic human self... Why are we hiring you? Because you're a human.' Same article cites Indeed data: 70% of sponsored applications on the platform now come from an algorithm's recommendation rather than a recruiter's manual search. Other named sources in the piece: Aisha Lawrey (Responsible AI Portfolio Lead, Johns Hopkins), Anthony Moisant (CIO/CSO, Indeed), Niki Armstrong (Chief Administrative and Legal Officer, Everpure). Builder take: once a resume can be engineered to fit, it stops being evidence, so the interview becomes the load-bearing check on a candidate again, whether or not that was anyone's intent. Not a duplicate of prior entry-level or ATS-keyword-theater ledger entries \u2014 a distinct angle (resume authenticity backfiring + algorithmic pre-filtering ahead of human review).",
       "url": "https://fortune.com/2026/08/10/resume-perfect-match-ai-hiring-hr-leaders-interview-matters-most/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-11T05:52:00Z"
     },
     {
       "topic_key": "ai-avatar-interview-arms-race",
-      "title": "Semafor (Jake Angelo, published 2026-08-07, verified via direct WebFetch of the full article text): Sydney-based recruiter Lana Kersanava reports encountering AI avatars, digital constructs replicating a candidate's voice and appearance, in first-round video interviews three times over the past six months. Her account: 'At the beginning, it's like you feel like something is off. It looks very realistic.' After roughly five minutes of an answer too polished to be genuine, she ended the call and rejected the candidate each time. All three candidates were applying for English-speaking roles as non-native speakers, using the avatar to mask a language gap rather than a skills gap. Framed by Semafor as part of a broader hiring automation arms race: ATS tools screen resumes with AI, recruiters use AI avatars for first-round screens, and candidates are now countering with their own AI. Builder take: the format of a scripted first-round interview is what these avatars actually exploit (it rewards a smooth rehearsed answer over a real one), so chasing better deepfake detection is a losing race; the fix is a live, adaptive follow-up a script or avatar can't survive. Not a duplicate of `ai-vs-ai-interview-arms-race` (2026-06-18, GoodTime survey on fake candidates as a hiring-goal risk) or `ai-interview-cheating-fails-onboard` (2026-07-14, Bloomberg story about a chatbot-assisted hire who couldn't perform on the job) — distinct entity, distinct event, distinct mechanism (visual/audio avatar impersonation vs text-based real-time chatbot assistance), both outside the 7-day dedup window regardless.",
+      "title": "Semafor (Jake Angelo, published 2026-08-07, verified via direct WebFetch of the full article text): Sydney-based recruiter Lana Kersanava reports encountering AI avatars, digital constructs replicating a candidate's voice and appearance, in first-round video interviews three times over the past six months. Her account: 'At the beginning, it's like you feel like something is off. It looks very realistic.' After roughly five minutes of an answer too polished to be genuine, she ended the call and rejected the candidate each time. All three candidates were applying for English-speaking roles as non-native speakers, using the avatar to mask a language gap rather than a skills gap. Framed by Semafor as part of a broader hiring automation arms race: ATS tools screen resumes with AI, recruiters use AI avatars for first-round screens, and candidates are now countering with their own AI. Builder take: the format of a scripted first-round interview is what these avatars actually exploit (it rewards a smooth rehearsed answer over a real one), so chasing better deepfake detection is a losing race; the fix is a live, adaptive follow-up a script or avatar can't survive. Not a duplicate of `ai-vs-ai-interview-arms-race` (2026-06-18, GoodTime survey on fake candidates as a hiring-goal risk) or `ai-interview-cheating-fails-onboard` (2026-07-14, Bloomberg story about a chatbot-assisted hire who couldn't perform on the job) \u2014 distinct entity, distinct event, distinct mechanism (visual/audio avatar impersonation vs text-based real-time chatbot assistance), both outside the 7-day dedup window regardless.",
       "url": "https://www.semafor.com/article/08/07/2026/ai-avatars-enter-the-job-interview",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-08T16:47:00Z"
     },
     {
       "topic_key": "figma-hires-fewer-market-wants-proof",
       "title": "Figma Q2 2026 earnings call (published 2026-08-05/06, verified via direct WebFetch of Fast Company and TheNextWeb, two independent sources agreeing on all figures): revenue up 48% to $370.1M, R&D spend more than doubled to $167.3M, total operating expenses nearly doubled to $426.9M, adjusted operating margin fell from 16% to 10%, GAAP operating loss $117.3M. CFO Praveer Melwani said Figma is 'hiring fewer people than we originally had planned' because AI tools are covering part of that work. Stock fell approximately 16% after hours despite the growth numbers, as investors questioned whether the AI spend converts to margin. Builder take: 'fewer hires because of AI' reads as automatic discipline in most hiring pitches, but the market's actual verdict on Figma was that the savings from not hiring have to prove themselves in the P&L before they count as a win, the same unanswered question sitting under every AI-screening budget pitch TA leaders sign off on.",
       "url": "https://www.fastcompany.com/91586117/figma-hiring-less-people-because-of-ai-wall-street-not-impressed",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-07T00:44:00Z"
     },
     {
       "topic_key": "csuite-life-skills-vs-ai-skills",
       "title": "High Point University Research Center survey of 500+ US C-suite executives (published 2026-08-05, verified via direct WebFetch of hcamag.com/hrd coverage): 90% say life skills (emotional intelligence, work ethic, coachability, problem-solving) still matter for hiring; 75% would pick a candidate strong in life skills over one who only brings AI technical ability; only 7% want an ideal leader built purely on AI skills, only 7% purely on life skills, 87% want both. Separately, 44% of C-suite execs and 46% of HR professionals believe recent graduates are better prepared with AI/technical skills than life skills; only 17-18% think the opposite. HPU president Nido Qubein on the gap: 'That's scary. That's very scary.' MIT Sloan's Roberto Rigobon: 'A calculator is useless without a human.' Builder take: TA teams keep writing 'AI-fluent' into job briefs while the C-suite's own revealed preference is judgment and coachability, the exact mismatch a screening rubric built around AI-skills keywords would miss.",
       "url": "https://www.hcamag.com/us/specialization/hr-technology/ai-skills-matter-but-executives-are-hiring-for-something-else/585085",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-06T08:24:00Z"
     },
     {
       "topic_key": "ai-reshuffles-white-collar-work",
       "title": "Indeed Hiring Lab's new Labor Market Outlook Survey (published 2026-08-05, verified via direct WebFetch of hiringlab.org): 120 economists and labor-market experts surveyed by Pulsenomics in partnership with Indeed, fielded July 2026, first survey of its kind. 52% expect AI to be a mild drag on employment over the next year, 35% expect a net gain, 13% expect no effect. 57% expect downward wage pressure on college-educated workers vs 34% for workers without a degree. 61% say their own assessment of AI's displacement risk for college-educated workers increased over the past year (not decreased). Sectors the panel expects to grow fastest: personal care & home health, nursing. Sectors expected to shrink: software development, administrative work. Builder take: most screening rubrics still auto-weight a degree plus specialized software background as the low-risk hire, an assumption built for a labor market this survey says no longer holds; the safest-looking resume on paper may now be applying into the sector this panel just flagged as shrinking.",
       "url": "https://www.hiringlab.org/2026/08/05/q2-labor-market-outlook-survey/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-06T07:23:00Z"
     },
     {
       "topic_key": "bank-human-in-the-loop-becoming-law",
       "title": "Slow-day opinion-bank take (no news hook, no fresh moment cleared the quality bar this run): human-in-the-loop as a competitive moat, not a compliance cost. Developed angle: regulators (NYC LL144 public bias audit, EU AI Act regulator-facing documentation requirement) are converging on 'a machine can assist, a person must own the call,' verified via WebSearch this run. Builders who bake in a legible override from day one are building something a black-box rival can't retrofit before a big enterprise deal; explainability is the product, not the cost of entry.",
       "url": "",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-04T16:52:00Z"
     },
     {
       "topic_key": "uk-two-speed-ai-job-market",
       "title": "Indeed's mid-year UK jobs report (published 2026-08-02/08-03, corroborated via direct WebFetch of Fortune and the Reuters wire syndication on byteseu.com): UK job postings down 11% between start of 2026 and July 17, 32% below pre-pandemic levels. Graduate postings down 7% YoY as of July 10, lowest for the time of year since 2020. Youth unemployment at its highest level in over a decade. AI-related skills appeared in a record 9.4% of UK job postings (end of June). Software developer postings up 14%, concentrated in senior roles and roles directly tied to AI; manufacturing postings down 58% since June 2022. Indeed senior economist Jack Kennedy: 'The UK's labour market is under sustained pressure... the bar is therefore rising as the stronger areas of the market increasingly require either specialist AI capability or substantial experience.' Builder take: screening rubrics that weight 'demonstrated track record' as the top signal are a closed loop by design in a market that's simultaneously shrinking the entry-level roles that used to build that record.",
       "url": "https://www.byteseu.com/2248136/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-03T16:12:00Z"
     },
     {
       "topic_key": "ai-layoff-scoring-factors-survey",
       "title": "HR Dive (published 2026-07-31), citing a ResumeTemplates.com survey of 1,000 US managers with direct reports, all already using AI at work: 59% use AI when deciding who gets laid off, 58% when deciding who gets fired. Factors the AI weighs: performance/productivity (80%), attendance (57%), salary/cost (42%), tenure (32%), sick days or medical leave (31%), PTO (23%), age (14%), whether the job could be done by AI (34% of those using AI for layoffs). 91% of managers say they'd override an AI recommendation they disagreed with; 57% say they'd never let AI decide layoffs unsupervised, 43% occasionally take a hands-off approach, 17% do it often or all the time; 38% had never been trained on ethical AI use in HR decisions. Quote from Julia Toothacre, ResumeTemplates.com chief career strategist: sick days, medical leave, and age stand apart from the usual reasons a layoff happens, because discriminating on any of them is illegal. Builder take: explainability/human-override scrutiny has focused on the hiring decision; the identical AI-scoring problem on the termination side gets far less of it.",
       "url": "https://www.hrdive.com/news/managers-are-using-ai-to-make-layoff-decisions/826697/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-08-01T16:11:00Z"
     },
     {
       "topic_key": "ai-pay-negotiation-bias-gap",
       "title": "HR Dive (published 2026-07-30), sourcing a Harris Poll x Ruth AI survey ('The Trust Gap', 2,131 US adults, fielded June 11-13 2026, verified directly against ruthapp.ai/research and cross-checked against Fast Company and Forbes coverage of the same dataset): 47% of US adults would let AI negotiate their salary outright (53% of men vs 42-44% of women); 49% would let AI negotiate benefits; 33-45% have used AI for career/money advice depending on the cut, with Millennials highest adoption (~50-55%); 76% had never heard that AI career/salary advice can be biased; 72% agree AI can sound confident even when wrong; among people who received AI salary guidance, 43% believe their race, gender, ethnicity, or sexual orientation influenced the advice; 80% of young women want policies protecting against biased AI guidance. Ruth AI founder/CEO Valerie Chapman quote: 'People are handing the most consequential money conversation of their lives to a tool most have never questioned.' Builder take: employer-side AI hiring tools now face standard explainability/audit-trail scrutiny from buyers and legal, but no equivalent scrutiny exists yet for the AI tools candidates use to advise themselves on pay, which is the same black-box-bias risk sitting on the other side of the same negotiation.",
       "url": "https://www.hrdive.com/news/nearly-half-of-workers-say-theyd-let-ai-negotiate-their-pay/826476/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-31T16:09:00Z"
     },
     {
       "topic_key": "ai-companies-recruiting-trades",
       "title": "New York Times (Lydia DePillis, published 2026-07-29): OpenAI, Google, Meta, and BlackRock have committed a combined $265 million this year to training pipelines for electricians and carpenters to build AI data centers. Meta put in $115 million for a one-month course enrolling ~5,000 people that sends them straight to a live contractor job site. Google aims to grow its apprenticeship intake from 19,500/year to 30,000/year within three years. BlackRock is expanding skilled-trades training for Texas data centers. Data center hourly installation/maintenance workers earn roughly 42% above wages for comparable roles elsewhere, per Indeed analysis. At OpenAI's Saline Township, Michigan facility, hundreds of electricians are working ten-hour shifts with no days off. Applications for commercial electrical apprenticeships rose over 70% between 2022 and 2024, but only about 45% of registered apprenticeship participants complete their programs. Sean McGarvey, president of North America's Building Trades Unions, called Meta's program 'a brilliant public relations move,' noting it differs from traditional four-year apprenticeships requiring 10,000 on-the-job hours. Corroborated via a detailed syndicated rundown (Yahoo Finance) plus Techmeme and aiweekly.co both indexing the same NYT piece. Builder take: AI is currently the largest driver of blue-collar hiring demand in the country, and the apprenticeship pipeline has the same unsolved screening-at-volume problem as any fast-scaling white-collar hiring funnel, pump the top of the pipe with volume and skip building a real selection layer, then the completion rate collapses.",
       "url": "https://finance.yahoo.com/technology/ai/articles/ai-companies-spending-265-million-173148687.html",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-30T16:14:00Z"
     },
     {
       "topic_key": "entry-level-seniority-tilt",
       "title": "Indeed Hiring Lab (published 2026-07-23), two corroborating articles ('The Labor Market Is Tilting Toward Seniority' and 'Entry-Level Jobs Aren't Just for Inexperienced Workers'): senior-level job postings up 14.7% YoY through May 2026, entry-level postings down 7.5% over the same period; entry-level share of postings ~46%, senior ~14%, mid ~40%. 49% of applications from workers with 10+ years of experience now target entry-level jobs (up from prior periods); only 12% of that group applies for senior roles; 62% of applications from workers with 6-9 years experience target entry-level; 30% of all entry-level applications come from workers with 10+ years experience. Industry disparity: in tech, 26% of experienced (10+ yr) workers apply for senior roles vs only 4% in healthcare. Quote: 'Employer demand is tilting toward experienced workers.' Builder take: naive resume/experience filters break on this pattern (auto-flagging an overqualified-on-purpose applicant, or missing that the entry-level pool is now flooded with experienced downshifters), and nobody has rebuilt the screening funnel to account for it.",
       "url": "https://www.hiringlab.org/2026/07/23/the-labor-market-is-tilting-toward-seniority/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-29T16:24:00Z"
     },
     {
       "topic_key": "greenhouse-ai-doom-loop",
       "title": "Fortune (published 2026-07-27), Greenhouse CEO Daniel Chait interview: describes an 'AI doom loop' where job seekers pay ~$20/month for AI tools that mass-apply to every open role and employers deploy AI filters in response, worsening signal for both sides. Across Greenhouse's 175,000 live job postings, average applicants per posting is ~254; applications per recruiter are up 412%. Quotes: 'This is the first time when really both sides have been unhappy,' 'The market just isn't working for either side,' 'Everyone's using their own AI to solve their own problem, but it's making the whole system worse.' Greenhouse's own 'My Dream Job' feature (candidates flag one priority role/month) has drawn ~500,000 applications since launch and those candidates get hired at roughly 5x the rate of other applicants. Builder take: volume was never the hard part to screen; the doom loop is both sides optimizing for a machine reader instead of a human one, and the one thing that cuts through is a forced, hard-to-fake signal of real intent rather than a smarter filter.",
       "url": "https://fortune.com/2026/07/27/greenhouse-ceo-daniel-chait-ai-doom-loop-job-seekers-spam-interview-applications-unemployment/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-28T16:12:00Z"
     },
     {
       "topic_key": "blind-screening-bias-counterpoint",
       "title": "Kmart (Australia) AI hiring case study, corroborated by HCA Mag and Stockhead (published this week): replaced resume/interview screening with a five-question AI chat (Sapia.ai, vendor not named in post) across 450+ stores, ~600,000 applications/year. Time-to-hire dropped from 44 days to 11.8. Kmart says it saved $5-6M over three years. First Nations hires at 8.2% vs a 3% parity benchmark; candidates disclosing a disability at 3.5% of hires. Human recruiters accepted the AI's shortlist ~85% of the time (overruled ~15%). Tool is 'blind': never surfaces age, gender, or background to the hiring manager, scores five structured competency answers instead. Builder take: this is a rare counter-data-point to the year's AI-hiring-bias-panic narrative, and the mechanism that produced it (withhold protected-characteristic signal from the human, keep a human override in the loop) is a design decision, not a smarter model.",
       "url": "https://www.hcamag.com/au/specialisation/hr-technology/kmarts-blind-ai-tool-cuts-hiring-time-and-costs/583194",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-27T16:14:00Z"
     },
     {
       "topic_key": "bank-ai-fluency-is-the-new-signal",
       "title": "Slow-day opinion-bank take (no news hook): 'AI fluency' has become a common hiring-brief requirement in 2026 but TA teams have no validated way to test for it. Ahmed's developed angle: the wrong definition is knowing prompt tricks (trivia, fakeable in 30 minutes); the real skill is handing a model a messy problem, catching a confidently-wrong answer that reads correct on first pass, and verifying before shipping. Builder-lens post from the AI-interview-scoring seat.",
       "url": "",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-25T16:33:00Z"
     },
     {
       "topic_key": "ai-hiring-litigation-risk-survey",
       "title": "Norton Rose Fulbright 2026 Annual Litigation Trends Survey (midyear pulse, published this week, corroborated by HR Executive coverage): surveyed 135 general counsel and in-house litigation leaders across energy, financial institutions, healthcare, and technology sectors. 47% named workforce changes (layoffs, policy revisions) as a likely 2026 class-action trigger, second only to data breaches at 51%. Among AI-related litigation risks, 43% expect bias or discrimination claims tied to AI to increase litigation exposure through end of 2026 (alongside privacy violations at 47% and regulatory investigations at 42%); among companies with $1B+ revenue this figure rises to 41%. 46% reported increased federal AI dispute exposure, 42% state-level. Quote from Kimberly Cheeseman, Norton Rose Fulbright co-head of litigation: 'AI-assisted hiring tools are creating real uncertainty for employers, particularly around bias and discrimination claims.' Builder take: general counsel already treat explainability as a live litigation requirement while most AI-hiring vendor conversations still center on speed and volume; that gap between what legal expects and what sales demos show is the actual exposure.",
       "url": "https://hrexecutive.com/layoffs-and-ai-hiring-tools-are-driving-class-action-risk-corporate-counsel-say/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-24T16:12:00Z"
     },
     {
       "topic_key": "resume-prompt-injection-silent-attacks",
       "title": "Duke University with Arizona State, UC Berkeley, UNC Chapel Hill, and hireEZ (paper 'Measuring Real-World Prompt Injection Attacks in LLM-based Resume Screening', arXiv 2605.28999, to be presented at USENIX Security Symposium August 2026): analyzed ~200,000 real resumes submitted to hireEZ over multiple years. About 1% contained hidden prompt injection text targeting AI resume screeners; prevalence has risen noticeably over the past 1-2 years. More than 90% of injected prompts used no explicit command (no 'ignore previous instructions'); instead they read as quiet, subtle self-promotional phrasing blended into normal resume text. Authors: Mohan Zhang, Yuqi Jia, Zhen Tan, Steven Jiang, Neil Zhenqiang Gong, Tianlong Chen, Dawn Song. Corroborated by Mirage News coverage quoting Neil Gong: 'Even a few years ago, these attacks would have been completely effective and AI screeners wouldn't have questioned it.' Builder take: phrase-pattern filters only catch yesterday's explicit attacks; the defensible answer is explainable scoring a human can read and catch subtle manipulation in, not a better blocklist.",
       "url": "https://arxiv.org/abs/2605.28999",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-23T16:03:00Z"
     },
     {
       "topic_key": "ai-adoption-walkout-gap",
       "title": "SHRM 'State of AI in HR 2026' report (surveyed 1,722 HR professionals Dec 5-23, 2025): 39% of HR functions have AI adopted, 62% of orgs use AI somewhere. Greenhouse '2026 Candidate AI Interview Report' (press release May 1, 2026, surveyed 2,950 active job seekers, 1,200 US-based + UK/Germany/Australia/Ireland, corroborated by Fast Company): 63% have experienced an AI interview (up 13pts in 6 months), 38% walked away from a hiring process specifically because of an AI interview (12% more say they would), 70% were never clearly told upfront AI would evaluate them, 21% found out only after the interview started, 57% believe AI disclosure should be legally required. Greenhouse CEO Daniel Chait quote: 'Most AI in hiring today is making a bad system worse: more applications, less signal, and less transparency.' Builder take: adoption-side stats and candidate-side walkout stats are never read together; a rising adoption chart hides a rising walkout rate nobody is putting in the same report.",
       "url": "https://www.prnewswire.com/news-releases/63-of-job-seekers-have-faced-an-ai-interview-most-havent-had-a-good-one-yet-302760120.html",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-22T17:06:00Z"
     },
     {
       "topic_key": "llm-hiring-stereotype-study",
       "title": "MIT Technology Review (July 20, 2026, corroborated by Gizmodo same day): Princeton and University of Chicago researchers ran ChatGPT, Claude, Gemini, o3, and DeepSeek R1 through a simulated hiring game adapted from a psychology stereotype-formation study (coauthor Ryan Liu, Princeton PhD student). 40 rounds, 20 job types, 4 fictional ethnic groups (Tufa, Aima, Reku, Weki) with identical success rates across all jobs, so there was no real signal to learn. On a 0-2 segregation scale, human participants in the original study scored 0.84; the LLMs scored roughly 65% higher on average, with OpenAI's o3 hitting 1.83, near the ceiling. Mechanism per Liu: models are 'eager to create generalizations from limited data' because that's core to their optimization. Cornell's Angelina Wang noted models 'over-index' on prior conversation patterns. Caveat: real hiring lacks the study's instant feedback loop, which may amplify bias formation vs. real deployments. Builder take: this is bias invented from a feedback loop, not inherited from biased training data, which is the failure mode that should worry anyone running an AI that updates on outcomes without a human checking group-level patterns.",
       "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-21T17:14:00Z"
     },
     {
       "topic_key": "ai-learning-debt-explainability-gap",
       "title": "TalentLMS/Epignosis 'Learning Debt' Report (published July 15, 2026, covered by HR Dive July 16, 2026): survey of 1,200 US employees (ages 25-64, surveyed June 2026). 41% said their role evolved faster than company training capacity; nearly 60% use AI tools at least sometimes for tasks they were never formally trained on; 29% delivered work they couldn't fully explain if asked; 47% keep quiet about skill gaps; 62% use workarounds to compensate. CEO Dimitris Tsignos: 'AI is blurring the line between learning and doing.' Builder take: the explainability gap hiring teams worry about at the interview stage (can this person defend their own reasoning) doesn't close once someone is hired, it just stops being checked; AI-assisted work quietly increases the population of employees who can't walk through their own output on demand.",
       "url": "https://www.hrdive.com/news/ai-may-conceal-growing-learning-debt-for-fast-changing-roles/825396/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-20T16:29:00Z"
     },
     {
       "topic_key": "employer-ghosting-three-year-high",
       "title": "Criteria Corp's 2026 Candidate Experience Report (covered by Fortune, published March 20, 2026): employer ghosting of candidates hit 53% this year, up from 48% in 2025 and 38% in 2024, a three-year high. Criteria CEO/cofounder Josh Millet attributes the rise to AI tools making mass-application and resume-tailoring trivial, which surged application volume and left hiring teams with weaker signal per application despite reviewing more of them; his framing: ghosting is less about intent and more about a hiring process that hasn't caught up to how candidates apply now. Builder take: ghosting is a downstream symptom of screening-signal collapse (recruiters facing hundreds of similarly AI-polished applications default to silence as a capacity response), not a manners failure, so the fix sits at the layer meant to separate real signal from AI-polished noise before it reaches a human queue.",
       "url": "https://fortune.com/2026/03/20/job-seekers-arent-imagining-things-candidates-ghosted-by-employers-hit-three-year-high/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-18T16:42:00Z"
     },
     {
       "topic_key": "meta-ai-layoff-scoring-suit",
       "title": "26 current/former Meta employees sued Meta (filed week of July 14, 2026, federal court, Oakland, CA), alleging internal AI systems (Metamate LLM assistant, activity/keystroke monitoring, algorithmically-assisted performance rankings) helped select targets for the ~8,000-person layoff (~10% of workforce) beginning May 20, 2026. 8 plaintiffs were on pregnancy/maternity leave, 4 on parental leave, others had disability accommodations or took caregiver/bereavement leave. Central allegation (corroborated by Fortune and CBS News): the scoring systems, by design, cannot accumulate for someone on protected medical/family leave, so any absence reads as reduced output. Claims invoke FMLA, ADA, PDA, Pregnant Workers Fairness Act, and Title VII disparate-impact doctrine. Meta's on-record response: 'These claims lack merit and are not based on facts. Workforce management and organizational decisions were and are made by people, not AI.' Builder take: a scoring system that can't distinguish protected leave from reduced output isn't a bias-audit problem after the fact, it's a design flaw that needed a human-in-the-loop check before the score was ever trusted.",
       "url": "https://www.cbsnews.com/news/26-meta-workers-sue-ai-aided-layoffs-medical-family-leave/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-17T16:53:00Z"
     },
     {
       "topic_key": "ai-interview-cheating-fails-onboard",
       "title": "Bloomberg (Jo Constantz, published July 14, 2026): a NYC nonprofit hired a grant writer whose virtual-interview answers were polished and sharp; within a month he couldn't make basic calls on the actual project, and the hiring manager suspected he'd covertly used a chatbot during the interview, saying on record it was 'embarrassing to admit you got duped by artificial intelligence.' Corroborating data: Resume Genius's 2026 Job Seeker Insights Report (1,000 US job seekers, covered by Newsweek) found 22% used AI live during real-time interviews, 78% used AI somewhere in their job search; HR consultant Bryan Driscoll quoted: 'If your interview can be passed by ChatGPT in real time, you're not interviewing effectively.' Builder take: the interview format itself (predictable STAR-shaped questions) is script-able by design; the fix is redesigning questions to require live reasoning and follow-ups a script can't survive, not chasing detection.",
       "url": "https://www.bloomberg.com/news/articles/2026-07-14/ai-tools-can-help-job-hunters-cheat-on-interviews-and-coding-tests",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-16T16:21:00Z"
     },
     {
       "topic_key": "randstad-ai-role-screening-gap",
       "title": "Randstad Digital (press release, 2026) analyzed 35M+ global job postings 2021-2026 (8.7M US, 4.07M India): AI trainer postings up 281%, AI solutions lead roles up 226%, process automation specialists up 196%, AI architects up 152%. Vacancy rates: AI solutions lead 27% (US)/18% (UK)/10.3% (India); AI engineers 46.8% (Japan). Time-to-fill: 53-54 days for advanced AI infrastructure roles (US/UK) vs 38 days for a standard IT role; Process Automation Specialist 90 days (Italy). Quote: Michael Morris, Global Head of Platform and Talent, Randstad Digital, 'Enterprise AI is no longer a future investment; it is today's operational reality.' Corroborated independently by itbrief.com.au (same Randstad data set, additional figures: AI-augmented developer roles +597% since 2021 vs +28% traditional). Builder take: the AI hiring shortage is an assessment-methodology gap (no validated way to test 'can run AI in production'), not a sourcing/applicant-volume problem.",
       "url": "https://www.randstaddigital.com/insights/newsroom/press-releases/top-10-high-demand-ai-tech-jobs-integration-gap/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-15T16:47:00Z"
     },
     {
       "topic_key": "ai-adoption-headcount-growth",
       "title": "PYMNTS (published July 13, 2026) synthesized two studies: Ramp & Revelio Labs tracked 21,559 US firms Jan 2021-Feb 2026, correlating AI spending with headcount. High-intensity AI adopters ($33.67/employee/month) grew headcount 10.2% over two years, entry-level roles +12%; low-intensity adopters ($2.78/employee/month) saw no statistically significant employment change. PwC's 2026 Global AI Jobs Barometer (1B+ job ads, 27 countries): AI-exposed companies grew headcount 52% since 2018 vs 36% for least-exposed; wage growth 24% vs 17%; top 20% AI-exposed firms saw 163% labor productivity growth. Quotes: Torsten Slok (Apollo chief economist) on Jevons-paradox mechanism ('Britain didn't burn less coal, it burned more'); Aaron Chatterji (OpenAI chief economist) on elastic demand. Builder take: AI adoption intensity, not AI itself, is the variable; half-committed adoption (vendor chatbot bolted onto an ATS) doesn't cost jobs, it just costs the upside that full commitment captures.",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-adoption-fuels-hiring-not-layoffs-new-data-shows/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-14T16:12:00Z"
     },
     {
       "topic_key": "stlfed-entry-level-ai-bar",
       "title": "St. Louis Fed research (Rodgers & Kassens, published June 30, 2026) tracked 18-24 year olds April 2023-December 2025: unemployment rate +3.51 percentage points, employment-to-population ratio -2.24 points, neither move seen in workers 25+. Decline in job openings is the primary driver across all three metrics. AI-related skill demand explains ~45% of the employment-to-population decline and ~1/3 of the unemployment increase (nearly 50% in Eighth District states). Recent grads still had relatively high employment-to-population ratios (79% national, 82% Eighth District, Q1 2026) but their concentration in entry-level roles exposes them as the bar for those roles shifts toward AI tasks. Researchers' framing: AI's effect is 'narrow, early and age-specific,' raising the bar at labor-market entry points rather than eliminating jobs broadly. Builder take: entry-level screening rubrics haven't caught up to where the bar actually moved.",
       "url": "https://www.stlouisfed.org/on-the-economy/2026/jun/how-shifts-labor-supply-demand-shape-outcomes-young-workers",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-13T17:28:00Z"
     },
     {
       "topic_key": "indeed-ai-titles-nontech-shift",
       "title": "Indeed Hiring Lab (published July 8, 2026): US job postings with 'AI' in the title grew from 264 (Q1 2022) to 822 (Q1 2026), about 8.3% (1 in 12) of all titles, after dipping to 159 in 2023. 63% of AI-touched titles are now outside tech occupations (truck driver, physical therapist, HR manager, salesperson, corporate trainer among examples). Three emerging clusters: AI enablement/consulting, AI training/content creation, AI instruction. Europe mirrors this: non-tech AI titles are the majority in Germany (59%), Netherlands (58%), France (54%), UK (54%); Spain remains tech-heavy (64%). Builder take: AI-screening playbooks and rubrics were built for technical candidates, but the actual demand for 'AI skills' has moved into non-technical, non-engineering roles that TA teams have no assessment playbook for yet.",
       "url": "https://www.hiringlab.org/2026/07/08/ai-is-no-longer-just-a-tech-occupation-story/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-10T17:13:00Z"
     },
     {
       "topic_key": "stanford-pymetrics-bias-study",
       "title": "Stanford, Chapman, and Northeastern researchers (published May 26, 2026) analyzed 4 million job applications from 3 million applicants across 156 large employers (mostly $5B+ revenue) using the Pymetrics AI screening platform (game-based assessment, owned by Harver). Using the EEOC four-fifths rule, ~25.87% of Black applicants' submissions and ~14.74% of Asian applicants' submissions targeted positions with discriminatory algorithmic outcomes; ~10.62% of roles showed adverse impact against Black applicants, ~5% against Asian applicants; 30% of Black applicants applied to at least one flagged position. Mechanism: the platform trains its scoring model on each employer's current team in that exact role, so a non-diverse existing team becomes the model's target profile. Builder take: the model didn't invent bias, it mirrored the room it was handed; bias-aware auditing of the training population (not just outcome scores) is the actual fix.",
       "url": "https://fortune.com/2026/05/26/ai-hiring-algorithm-racial-disparities-pymetrics-stanford-study/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-09T15:33:00Z"
     },
     {
       "topic_key": "ll144-bias-audit-theater",
       "title": "NY State Comptroller audit (released Dec 2025, covering DCWP activity July 2023-June 2025) of NYC Local Law 144 enforcement: DCWP reviewed bias-audit disclosures of 32 employers/vendors and found 1 likely non-compliance instance; the Comptroller's own auditors reviewing the same 32 found 17 potential non-compliance instances. Separately, 12 test calls to NYC's 311 line to file an AEDT complaint: only 3 (25%) correctly routed to DCWP, 8 misrouted to NYS Dept of Labor, 1 routed back to the employer being complained about. 13 recommendations issued. Builder take: a bias-audit mandate nobody actually double-checks is compliance theater, not oversight.",
       "url": "https://www.osc.ny.gov/press/releases/2025/12/dinapoli-new-yorkers-deserve-transparent-hiring-process-when-artificial-intelligence-used-vet-their",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-07-08T16:42:00Z"
     },
     {
       "topic_key": "connecticut-cart-act",
       "title": "Connecticut CART Act (Public Act No. 26-15, SB 5), signed May 29, 2026 by Governor Lamont: comprehensive AI law covering employment AI. Key requirements: employers using AI as 'substantial factor' in hiring decisions must give rejected applicants explanation of principal reasons, type/source of data used, and right to examine and correct their data (effective October 1, 2027). WARN Act AI disclosure requirement effective October 1, 2026. No 'AI made the decision' defense against discrimination claims. Enforcement by state AG only, no private right of action. Builder take: candidate data-correction right and adverse-decision explanation are harder product problems than scoring itself; regulatory patchwork is fragmenting.",
       "url": "https://ogletree.com/insights-resources/blog-posts/new-connecticut-law-restricts-employer-ai-use-mandates-notice-for-ai-caused-rifs/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-30T06:45:00Z"
     },
     {
       "topic_key": "linkedin-apply-assistant",
       "title": "LinkedIn launches Premium Apply Assistant (announced June 26, 2026): AI tool for Premium subscribers that pre-fills job applications, drafts cover letters, and highlights high-match roles. Recruiters cannot see AI involvement. Works for external applications beyond LinkedIn. Builder take: automates the surface of job applications at scale, making the application an even weaker hiring signal and pushing real assessment further down the funnel.",
       "url": "https://www.hrdive.com/news/sociable-linkedin-automates-job-application-process-for-premium-users/823876/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-29T00:32:12Z"
     },
     {
       "topic_key": "ai-slopification-hiring-telephone",
-      "title": "Holweg (Oxford) and Davenport (Babson) research published in HBR June 2026: AI creates 'knowledge decay' in hiring pipelines through 'slopification' — AI-produced polished but lower-quality output at each step causes downstream users to stop verifying, creating a 'risky game of telephone' that moves hiring content further from truth. Recommendation: structured questionnaires with verifiable inputs over open CVs.",
+      "title": "Holweg (Oxford) and Davenport (Babson) research published in HBR June 2026: AI creates 'knowledge decay' in hiring pipelines through 'slopification' \u2014 AI-produced polished but lower-quality output at each step causes downstream users to stop verifying, creating a 'risky game of telephone' that moves hiring content further from truth. Recommendation: structured questionnaires with verifiable inputs over open CVs.",
       "url": "https://hrexecutive.com/ai-in-hiring-a-risky-game-of-telephone/",
-      "platform": ["linkedin"],
+      "platform": [
+        "linkedin"
+      ],
       "posted_at": "2026-06-27T00:36:59Z"
     },
     {
@@ -309,7 +398,7 @@
     },
     {
       "topic_key": "entry-level-ai-pipeline",
-      "title": "ResumeTemplates survey June 3 2026 (1,000 US hiring managers): 48% prefer investing in AI tools over hiring entry-level grads; 55% already shifted entry-level budgets to AI; 45% restructured so one senior+AI replaces multiple junior hires; 35% won't hire Class of 2026 at same volume. Builder take: entry-level roles were an apprenticeship pipeline in disguise — automating them defers a talent-supply problem by 3-5 years.",
+      "title": "ResumeTemplates survey June 3 2026 (1,000 US hiring managers): 48% prefer investing in AI tools over hiring entry-level grads; 55% already shifted entry-level budgets to AI; 45% restructured so one senior+AI replaces multiple junior hires; 35% won't hire Class of 2026 at same volume. Builder take: entry-level roles were an apprenticeship pipeline in disguise \u2014 automating them defers a talent-supply problem by 3-5 years.",
       "url": "https://www.prnewswire.com/news-releases/resumetemplatescom-survey-nearly-half-of-hiring-managers-will-train-ai-instead-of-hiring-2026-college-grads-302790839.html",
       "platform": [
         "linkedin"
@@ -327,7 +416,7 @@
     },
     {
       "topic_key": "hiring-freeze-low-fire",
-      "title": "Indeed Hiring Lab June 18 2026: hiring rate 3.2% and separation rate 3.1% at 2013 lows — 'low-hire, low-fire' freeze. iCIMS May 2026: job openings +9% YoY, hiring +1% YoY, application volume -11% YoY, frontline applications -18% YoY. Labor market grows on thin 0.1-point margin; AI recruiting tools optimized for volume, not the application shortage.",
+      "title": "Indeed Hiring Lab June 18 2026: hiring rate 3.2% and separation rate 3.1% at 2013 lows \u2014 'low-hire, low-fire' freeze. iCIMS May 2026: job openings +9% YoY, hiring +1% YoY, application volume -11% YoY, frontline applications -18% YoY. Labor market grows on thin 0.1-point margin; AI recruiting tools optimized for volume, not the application shortage.",
       "url": "https://hiringlab.org/2026/06/18/strong-job-gains-weak-hiring/",
       "platform": [
         "linkedin"
@@ -354,7 +443,7 @@
     },
     {
       "topic_key": "salesforce-fin-agents",
-      "title": "Salesforce acquires Fin (formerly Intercom) for $3.6 billion — largest agentic customer service acquisition to date. Fin's AI agent (Apex model) resolves 76% of support volume end-to-end across chat, email, WhatsApp, SMS, phone, Slack. 30,000+ customers. Agentforce ARR $1.2B, up 205% YoY. Announced June 15, 2026.",
+      "title": "Salesforce acquires Fin (formerly Intercom) for $3.6 billion \u2014 largest agentic customer service acquisition to date. Fin's AI agent (Apex model) resolves 76% of support volume end-to-end across chat, email, WhatsApp, SMS, phone, Slack. 30,000+ customers. Agentforce ARR $1.2B, up 205% YoY. Announced June 15, 2026.",
       "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
       "platform": [
         "linkedin"
@@ -400,7 +489,7 @@
     },
     {
       "topic_key": "ps-terminal-mode",
-      "title": "Terminal Mode by Even Realities: ambient agent-status monitor for developers on Even G2 smart glasses — shows Claude Code agent state (running, blocked, waiting, needs approval) in peripheral vision, ~1s latency, voice + tap controls. PH #4 June 11 2026, 394 upvotes.",
+      "title": "Terminal Mode by Even Realities: ambient agent-status monitor for developers on Even G2 smart glasses \u2014 shows Claude Code agent state (running, blocked, waiting, needs approval) in peripheral vision, ~1s latency, voice + tap controls. PH #4 June 11 2026, 394 upvotes.",
       "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities",
       "platform": [
         "x"
@@ -428,7 +517,7 @@
     },
     {
       "topic_key": "tk-ai-is-labor",
-      "title": "Take: AI is labor, not software — the real question is why humans are doing tasks at all",
+      "title": "Take: AI is labor, not software \u2014 the real question is why humans are doing tasks at all",
       "url": "",
       "platform": [
         "x"
@@ -457,7 +546,7 @@
     },
     {
       "topic_key": "ps-intuned",
-      "title": "Intuned (YC S22): browser automation platform with AI self-healing — agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
+      "title": "Intuned (YC S22): browser automation platform with AI self-healing \u2014 agent reads error traces and rewrites Playwright code when automations break. Launch HN June 8 2026, 115pts/54 comments.",
       "url": "https://intunedhq.com",
       "platform": [
         "x"
@@ -476,7 +565,7 @@
     },
     {
       "topic_key": "ps-kimi-work",
-      "title": "Kimi Work: Moonshot AI desktop app for knowledge work — up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
+      "title": "Kimi Work: Moonshot AI desktop app for knowledge work \u2014 up to 300 agents in parallel, local files, WebBridge browser automation, PPT/Excel/Word/PDF outputs, free tier. Launched June 8 2026.",
       "url": "https://www.producthunt.com/products/kimi-ai-assistant",
       "platform": [
         "x",
@@ -496,7 +585,7 @@
     },
     {
       "topic_key": "xai-landlord-compute",
-      "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) — both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
+      "title": "xAI collecting $2.17B/month from Anthropic ($1.25B/month, 220K GPUs) and Google ($920M/month, 110K GPUs) \u2014 both deals revealed in SpaceX S-1; xAI built Colossus 1 in 122 days",
       "url": "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
       "platform": [
         "x",
