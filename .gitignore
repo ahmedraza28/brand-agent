@@ -10,3 +10,8 @@ secrets*
 # Losing image variants from IMAGE_N>1. Only the promoted winner belongs in docs/images/;
 # these are ~2MB each and this repo is public + GitHub-Pages served.
 .image-candidates/
+
+# Invented findings used only to exercise the drafting pipeline before any real
+# measurement exists (tools/stats_pack.py --mock). Never publish, never commit:
+# a fake business statistic sitting in a public repo reads as a real claim.
+state/stats-pack.mock.json

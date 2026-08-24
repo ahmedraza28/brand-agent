@@ -1,0 +1,109 @@
+{
+  "_README": "APPROVED FACTS AND FIGURES. This file is the ONLY source of numbers that may appear in a published post. If a number is not in here, the post does not ship (tools/check_facts.py enforces this). Every entry below is already published on ployo.ai, so nothing here leaks anything new. Adding an entry is a deliberate act: it must be true, it must match ployo.ai exactly, and it must carry a source URL. Never round differently, never invent a new metric, never 'update' a figure because it feels stale. Brief: 'Ployo LinkedIn brief: write for citation, not engagement' (2026-08-24).",
+  "version": 1,
+  "updated": "2026-08-24",
+  "source_of_truth": "https://ployo.ai",
+  "figures": [
+    {
+      "id": "interviews_completed",
+      "kind": "numeric",
+      "display": "30,000+",
+      "value": 30000,
+      "unit": "interviews",
+      "label": "AI interviews completed",
+      "status": "approved_public",
+      "source": "https://ployo.ai",
+      "notes": "Retired from the site 2026-08-12, reinstated by Ahmed 2026-08-20. Always written with the plus. Never 'over 30k', never '30,000 exactly'."
+    },
+    {
+      "id": "answers_graded",
+      "kind": "numeric",
+      "display": "340,000+",
+      "value": 340000,
+      "unit": "answers",
+      "label": "Candidate answers captured and graded",
+      "status": "approved_public",
+      "source": "https://ployo.ai"
+    },
+    {
+      "id": "completion_rate",
+      "kind": "numeric",
+      "display": "70%+",
+      "value": 70,
+      "unit": "percent",
+      "label": "Interview completion rate",
+      "status": "approved_public",
+      "source": "https://ployo.ai"
+    },
+    {
+      "id": "recruiter_hours_saved",
+      "kind": "numeric",
+      "display": "15,000+",
+      "value": 15000,
+      "unit": "hours",
+      "label": "Recruiter hours saved",
+      "status": "approved_public",
+      "source": "https://ployo.ai"
+    },
+    {
+      "id": "languages",
+      "kind": "numeric",
+      "display": "23",
+      "value": 23,
+      "unit": "languages",
+      "label": "Languages supported",
+      "status": "approved_public",
+      "source": "https://ployo.ai"
+    },
+    {
+      "id": "positioning",
+      "kind": "phrase",
+      "display": "AI Interviews for High-Volume Hiring",
+      "label": "Category positioning line",
+      "status": "approved_public",
+      "source": "https://ployo.ai"
+    },
+    {
+      "id": "product_line",
+      "kind": "phrase",
+      "display": "AI video interviewing",
+      "label": "What the core product is",
+      "status": "approved_public",
+      "source": "https://ployo.ai",
+      "notes": "HARD RULE: never 'voice screening', 'audio screening' or 'phone screening' for the core product. Enforced by check_facts.py."
+    },
+    {
+      "id": "founder",
+      "kind": "phrase",
+      "display": "Ahmed Raza",
+      "label": "Founder",
+      "status": "approved_public",
+      "source": "https://ployo.ai"
+    },
+    {
+      "id": "advisor",
+      "kind": "phrase",
+      "display": "Mohsin Ali Khan, ex-Head of Product at SEEK, ex-CPO at Hudson",
+      "label": "Advisor and his credentials",
+      "status": "approved_public",
+      "source": "https://ployo.ai"
+    }
+  ],
+  "nameable_customers": {
+    "_note": "Cleared for public content by Ahmed in the 2026-08-24 brief. This is a REVERSAL of guardrail 5's blanket 'never name a client'. Only these names, only as customers, never with their data, their numbers, their candidates or their contract terms.",
+    "names": [
+      "YNA",
+      "MPOT",
+      "Talking Matters",
+      "Alpha Plan Management",
+      "Global Health Source",
+      "Alpha Nursing",
+      "Age Care Directions",
+      "HMNS"
+    ]
+  },
+  "findings": {
+    "_note": "First-party findings (the 'we ran 30,000+ interviews and here is what we saw' posts) go here as they are produced from the real database. EMPTY BY DESIGN: nothing has been measured yet. Run `python3 tools/stats_pack.py --mock` to generate state/stats-pack.mock.json for pipeline testing; mock values are gitignored and are HARD-BLOCKED from publishing by check_facts.py. A finding only moves into this list once someone has run the real query, recorded it, and dated it.",
+    "items": []
+  }
+}
