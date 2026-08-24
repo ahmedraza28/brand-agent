@@ -64,10 +64,10 @@ class TestPublishGate(unittest.TestCase):
         result = self.run_check(text)
         self.assertTrue(result["ok"], result["failures"])
 
-    def test_unapproved_percentage_is_blocked(self):
+    def test_unapproved_percentage_stated_as_ours_is_blocked(self):
         result = self.run_check("Our completion rate is 91% and rising. Ployo, ployo.ai")
         self.assertFalse(result["ok"])
-        self.assertIn("unapproved_number", [f["rule"] for f in result["failures"]])
+        self.assertIn("unapproved_own_number", [f["rule"] for f in result["failures"]])
 
     def test_years_and_small_counts_do_not_trip_the_gate(self):
         text = (
@@ -99,6 +99,34 @@ class TestPublishGate(unittest.TestCase):
         )
         result = self.run_check(text)
         self.assertNotIn("borrowed_opener", [f["rule"] for f in result["failures"]])
+
+    def test_third_party_number_is_allowed_when_credited(self):
+        """The distinction the whole gate rests on: someone else's published
+        number, credited to them, is not a fabrication risk and must pass."""
+        text = (
+            "Across 30,000+ AI interviews we watch this from the other side.\n\n"
+            "Resume Builder surveyed 1,000 recent grads. 34% had an offer pulled back after "
+            "they had already said yes.\n\nThat number bothers me. Ployo, ployo.ai"
+        )
+        result = self.run_check(text)
+        self.assertTrue(result["ok"], result["failures"])
+        self.assertEqual(result["third_party_numbers"], 2)
+
+    def test_same_number_claimed_as_ours_is_blocked(self):
+        text = "In our data, 34% of candidates had an offer pulled back. Ployo, ployo.ai"
+        result = self.run_check(text)
+        self.assertFalse(result["ok"])
+        self.assertIn("unapproved_own_number", [f["rule"] for f in result["failures"]])
+
+    def test_unattributed_percentage_is_blocked(self):
+        result = self.run_check("Roughly 47% of screening happens before a human looks.")
+        self.assertFalse(result["ok"])
+        self.assertIn("unattributed_percentage", [f["rule"] for f in result["failures"]])
+
+    def test_borrowed_data_only_warns(self):
+        text = "A Gartner study found 61% of teams use AI screening.\n\nMy read: that is early."
+        result = self.run_check(text)
+        self.assertIn("borrowed_data_only", [w["rule"] for w in result["warnings"]])
 
     def test_missing_ployo_mention_warns_but_does_not_block(self):
         result = self.run_check("Hiring is hard and getting harder.")
