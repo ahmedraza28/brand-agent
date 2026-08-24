@@ -1,61 +1,88 @@
-# Image style — ONE locked Ployo template, rotate the LAYOUT
+# Image style — editorial PHOTOGRAPHY, one locked treatment
 
-**Philosophy change (2026-07-20):** the old "rotate 18 random art-directions, never repeat" system is retired. Ahmed wants a **consistent, recognizable branded look** — the same visual system on every post, the way strong operator accounts do it (one editorial template you learn to recognize in the feed). Variety now comes from the **layout archetype** and the **content**, NOT from a different art style each time.
+⚠⚠ **DIRECTION CHANGED 2026-08-24. The cream infographic template is DEAD. Do not render charts.**
 
-The look is Ployo's **signature editorial** aesthetic: warm cream paper, dark teal-black serif headline, one teal accent, a dark punchline strip, an "Ahmed Raza" footer. Think a sharp business-magazine cover, not an AI art piece.
+Ahmed reviewed a month of posts in Buffer and rejected the whole look: cream background, serif
+headline with a teal underline, funnel and check/x diagrams, big percentage, dark punchline pill.
+His words: "I don't care about infographics." Every post rendered that way is retired as a template.
+Do not revive it, do not produce a "lighter" version of it, do not fall back to it on a data post.
 
-Render with `tools/make_image.py` (gpt-image-2, portrait **1088x1360**, opaque). gpt-image-2 spells short text correctly — lean on that, but keep small-text density LOW (a few short rows, never paragraphs).
+**What replaces it:** a real editorial PHOTOGRAPH with a restrained type treatment over it. The look
+to match is the cover published on the 2026-08-24 Pulse article: a documentary photograph of an
+aged-care worker mid-conversation, a dark teal panel over one third, a short white serif headline,
+a two-line teal subline, the `ployo` wordmark small and quiet. It reads like a publication. The old
+template read like a slide.
 
-## The locked template (every image, no exceptions)
+## The locked treatment (every image, no exceptions)
 
-- **Canvas:** 4:5 portrait, warm cream paper background `#faf6ec` with a very subtle paper texture. Flat vector, generous negative space. NO photographs, NO real human faces/likenesses, NO robots, NO brains, NO glowing orbs.
-- **Headline (top):** a bold, high-contrast **serif** headline in dark teal-black ink `#0c2422`, left-aligned, 2–4 short lines. Underline ONE key phrase with a hand-drawn **teal** stroke `#0D9488`. This is the post's core claim, compressed.
-- **Body (middle):** the chosen **layout archetype** (see list) rendered in flat line icons + short text. Positives use teal `#0D9488` check icons; negatives use a soft red `#D83E3A` x icon. Keep rows short (2–5 words each), evenly spaced, tidy alignment.
-- **Punchline strip (lower):** a full-width rounded pill filled dark teal-black `#0c2422` with centered cream text — one sharp line, with 2–4 words emphasized in teal `#0D9488`.
-- **Footer (bottom):** a thin hairline divider, then the lowercase wordmark **"ployo"** set bold in teal `#0D9488` with tight letter-spacing, then muted dark-gray text **"Ahmed Raza  ·  Co-Founder & CTO"**. Always this exact footer.
-- **Palette — use ONLY these:** cream `#faf6ec`, dark teal-ink `#0c2422`, brand teal `#0D9488`, soft red `#D83E3A` (negatives only), muted gray for secondary text. No other colors.
-- **Typography feel:** serif display headline, clean sans for body/rows. Perfectly spelled, print-quality, clear hierarchy.
+- **The photograph is the image.** Documentary, candid, natural light. Real texture, real faces,
+  real rooms. Never a posed stock smile, never a corporate handshake, never a person pointing at a
+  screen, never blue-tinted "tech" imagery, never an illustration of a robot.
+- **The type panel:** a solid dark teal `#0c2422` panel at roughly 88 percent opacity covering about
+  a third of the frame, inner edge softly feathered. Rotate WHERE it sits (see archetypes).
+- **Headline:** white SERIF, large, tight, **2 to 5 words per line, 2 lines maximum**. This is the
+  post's hook compressed to almost nothing. Not a sentence. Not a stat.
+- **Subline:** teal `#0D9488` sans-serif, smaller, at most 2 short lines. This is where a specific
+  claim goes if the post needs one.
+- **Wordmark:** the lowercase `ployo` in teal `#0D9488`, small, inside the panel, comfortably clear
+  of every edge.
+- **Nothing else on the image.** No charts, no icons, no check marks, no x marks, no funnels, no
+  quadrants, no percentage callouts, no punchline pill, no underline stroke, no borders, no
+  "Ahmed Raza · Co-Founder & CTO" credit line. The old footer is retired with the old template.
 
-## Layout archetype — rotate this (anti-repeat)
+## Scene archetype — rotate this (anti-repeat)
 
-1. Read `state/recent-styles.json` (`{"recent":[...]}`). **Pick an archetype NOT in the last 4.** Prepend your pick, trim to 4, commit.
-2. The archetypes (pick by what the post's idea actually is — don't force it):
-   - **`vs-comparison`** — two columns split by a small teal "VS" badge: a red-tagged wrong way vs a teal-tagged right way, 3 short rows each. (Best for "X isn't the problem, Y is" takes.)
-   - **`numbered-list`** — a teal kicker label + 3 stacked rows, each an icon-in-circle + a short bold sub-head + one muted line. (Best for "3 things / 3 signs / 3 people" takes.)
-   - **`funnel`** — a filter/funnel splitting inputs into kept vs dropped, showing what a bad filter silently loses. (Best for ATS / screening-volume takes.)
-   - **`single-stat`** — one oversized number or ratio as the hero, a one-line frame under it, the punchline strip below. (Best for a data-shock take; only with a VERIFIED number from Step 4.)
-   - **`before-after`** — two stacked panels, "what it looks like" vs "what's actually true". (Best for reframe-the-villain takes.)
-   - **`quadrant`** — a 2x2 with one highlighted cell in teal. (Best for a framework take; use sparingly.)
-3. Whatever the archetype, the template above (cream, serif headline, teal accent, dark punchline pill, ployo/Ahmed footer) stays identical. Two `vs-comparison` posts weeks apart should look like the SAME brand — that is the point now.
+Variety now comes from the SCENE, not from a chart type.
 
-## Building the gpt-image-2 prompt (skeleton — fill with THIS post's content)
+1. Read `state/recent-styles.json` (`{"recent":[...]}`). **Pick a scene NOT in the last 4.** Prepend
+   your pick, trim to 4, commit.
+2. The scenes. Pick the one that actually fits the post; do not force it.
+   - `care-worker` — a carer or nurse in soft scrubs, mid-conversation, listening. Warm interior.
+   - `recruiter-desk` — someone at a desk late, screen glow, papers, coffee going cold.
+   - `waiting` — a candidate waiting: a chair in a corridor, a bag, hands in lap, a lanyard.
+   - `hands-detail` — a tight crop: hands on a phone, a form being signed, a badge, a keyboard.
+   - `interview-room` — two people across a table, the near one out of focus from behind.
+   - `night-shift` — a corridor or ward at night, warm lamps, a figure at the far end.
+   - `commute` — someone outside a building checking a phone, early light, coat, breath.
+   - `empty-room` — an empty interview room, two chairs, one table, nobody in it.
+3. **The panel position rotates with the scene:** left third for a portrait subject on the right,
+   bottom third for a wide or detail shot. Whatever keeps the face and the type from fighting.
 
-Compose the prompt in this order; keep it concrete and specify the hexes:
+## Building the gpt-image-2 prompt
+
+Fill this with THIS post's content. Quote every string that must render verbatim.
 
 ```
-A premium editorial infographic poster for LinkedIn, 4:5 portrait, calm magazine-cover
-style. Warm cream paper background (hex #faf6ec), subtle paper texture. Flat vector, lots
-of negative space, no photographs, no real human faces, no robots, no glowing orbs.
+A premium editorial photograph for a magazine article. Portrait orientation, cinematic.
 
-TOP — a bold high-contrast SERIF headline in dark teal-black ink (hex #0c2422), left
-aligned, on <N> lines: "<line 1>" / "<line 2>" / "<line 3>". Underline "<key phrase>"
-with a hand-drawn teal stroke (hex #0D9488).
+Scene: <the chosen archetype, described concretely and specifically: who, what they are
+doing, the room, the light>. Natural <window/lamp/early morning> light from the <left/right>,
+shallow depth of field, warm neutral tones, real skin texture, candid documentary feel.
+No posed smile, no stock-photo look. The subject occupies the <right/upper> two thirds.
 
-MIDDLE — <the chosen archetype, described concretely: columns / rows / funnel, each row's
-short text, teal check icons for positives (#0D9488) and soft-red x icons for negatives
-(#D83E3A), even spacing, tidy alignment>.
+Over the <left third / bottom third>, a solid dark teal #0c2422 panel at roughly 88 percent
+opacity, its inner edge softly feathered. All text sits well inside this panel with generous
+padding, never closer than 8 percent of the image height to any edge of the frame.
 
-LOWER — a full-width rounded pill strip filled dark teal-black (hex #0c2422) with centered
-cream text: "<one sharp punchline>". Emphasize "<2-4 words>" in teal (hex #0D9488).
+On the panel, in clean white serif type, large and tightly set, two lines:
+"<3-5 words>"
+"<3-5 words>"
+Directly beneath it, smaller, in teal #0D9488 sans-serif, at most two lines:
+"<the specific claim, short>"
 
-FOOTER — a thin hairline divider, then the lowercase wordmark "ployo" bold in teal (hex
-#0D9488) with tight letter spacing, followed by smaller muted dark-gray text
-"Ahmed Raza  ·  Co-Founder & CTO".
+Lower on the same panel, with clear space beneath it, the lowercase wordmark "ployo" in
+teal #0D9488, small.
 
-Overall mood: sophisticated, editorial, trustworthy, tech-forward. Restrained palette of
-cream, dark teal ink, teal accent<, and one soft red>. Crisp, perfectly spelled,
-print-quality typography with clear hierarchy.
+No quotation marks anywhere unless the headline is a real quote from a named source. No other
+text anywhere. Photorealistic, restrained, editorial. No charts, no icons, no logos, no
+collage, no borders, no illustration.
 ```
+
+## Rendering
+
+Feed posts are **portrait 1088x1360** (LinkedIn shows portrait uncropped in feed).
+Article covers are **landscape 1920x1088** — ⚠ LinkedIn crops article covers to 16:9, and a 3:2
+cover gets the wordmark sliced off the bottom. That happened on 2026-08-24; render 16:9 for covers.
 
 Render three candidates and ship the best one:
 
@@ -63,39 +90,54 @@ Render three candidates and ship the best one:
 IMAGE_N=3 python3 tools/make_image.py "$IMAGE_PROMPT" "$SLUG" docs/images
 ```
 
-⚠ **The routine prompt's Step 7 gives you this command WITHOUT the `IMAGE_N=3` prefix.** Add the prefix. Everything else about the command is unchanged, and the output path is unchanged, so this is safe: the prefix is the only difference between "one image" and "three candidates for the price of a third of an old one". If you skip it you still get the cheaper medium render, just no choice.
+⚠ **The routine prompt's Step 7 gives you this command WITHOUT the `IMAGE_N=3` prefix.** Add the
+prefix. The output path is unchanged, so this is safe.
 
-It prints one path per candidate. Candidate 1 is always `docs/images/<SLUG>.png`; the other two land in `.image-candidates/` (gitignored). **Read all three images, then promote the best-rendered one** by `cp`-ing it over `docs/images/<SLUG>.png`. Judge on rendering only, not on taste — the prompt is the same for all three, so the differences are misspellings, a clipped or squashed word, a crooked pill, uneven rows, a mangled `ployo` wordmark. If candidate 1 is already clean, keep it and move on.
-
-Then commit **only** `docs/images/<SLUG>.png`. Never `git add` `.image-candidates/` — the repo is public and GitHub-Pages served, and each losing candidate is ~2MB.
+Candidate 1 is always `docs/images/<SLUG>.png`; the others land in `.image-candidates/` (gitignored).
+**Read all three and promote the best**, by `cp`-ing it over `docs/images/<SLUG>.png`. With
+photography, judge on: a mangled face or hand, text overlapping the subject's face, a misspelling in
+the headline, a clipped wordmark, a panel that swallows the photograph. Then commit **only**
+`docs/images/<SLUG>.png`. Never `git add` `.image-candidates/` — the repo is public and each loser is
+~2MB.
 
 Image URL = `https://ahmedraza28.github.io/brand-agent/images/<SLUG>.png`.
 
-### What was actually measured (2026-08-06) — don't re-litigate this from a blog post
+### What was measured (2026-08-06) — don't re-litigate this from a blog post
 
-- **`quality` is "medium", and that is deliberate.** The same real template prompt was rendered 2x at `high` and 5x at `medium` at the production 1088x1360. All seven spelled every word correctly, footer credit included, checked at 1:1. Medium costs a **quarter** of high (1587 vs 6431 output tokens) and takes ~50s vs ~133s. Override with `IMAGE_QUALITY=high` if you ever see the difference, but render both and compare the footer strip before you believe it.
-- **Three medium candidates cost less than one high image** and take about the same wall-clock as one (55s for n=3 vs 48s for n=1 — they generate concurrently server-side). That is why the pick-the-best step above is affordable at all.
-- **There is no "thinking mode" on this API.** `mode`, `thinking` and `reasoning_effort` all return 400 "Unknown parameter". It is a ChatGPT product feature. Any skill or article telling you to pass it is wrong about the API and will break this step.
+- **`quality` is "medium", deliberately.** Rendered 2x at `high` and 5x at `medium` at production
+  size: all seven spelled every word correctly. Medium costs a **quarter** of high (1587 vs 6431
+  output tokens) and takes ~50s vs ~133s.
+- **Three medium candidates cost less than one high image** and take about the same wall clock
+  (55s for n=3 vs 48s for n=1, generated concurrently server-side).
+- **There is no "thinking mode" on this API.** `mode`, `thinking` and `reasoning_effort` all return
+  400 "Unknown parameter". Any skill telling you to pass it is wrong and will break this step.
 
 ### Prompt habits that actually improve rendering
 
-These matter far more than the quality knob:
-
-- **Quote every string verbatim** in the prompt, exactly as it must appear, with the line breaks you want (`on 3 lines: "..." / "..." / "..."`). The model renders what you quote; it invents when you describe.
-- **Fewer words beats higher quality.** Rows of ≤5 words render cleanly at medium; a row that runs long is the thing that gets squashed or clipped, at any quality.
-- **Name the hex every time** you name a colour, and say where the emphasis goes ("emphasize `<2-4 words>` in teal `#0D9488`") rather than trusting it to choose.
-- **Avoid words that are easy to mis-render** (long compound words, unusual proper nouns). If a word is risky, pick a shorter synonym — rule 3 below.
+- **Quote every string verbatim**, with the line breaks you want. The model renders what you quote
+  and invents when you describe.
+- **Fewer words beats higher quality.** The headline is 2 lines of 3 to 5 words. Anything longer is
+  what gets squashed, at any quality.
+- **Name the hex every time** you name a colour.
+- **Describe the photograph like a photographer**, not like a brief: name the light source and
+  direction, the depth of field, the crop. "Natural window light from the left, shallow depth of
+  field, warm neutral tones" does more work than "professional and modern".
 
 ## Rules that keep it on-brand
 
-1. **The headline = the post's hook, compressed.** The image must carry the SAME single claim as the text post — never a second unrelated idea. One post, one claim, echoed in the image.
-2. **Short text only.** A 2–4 line headline, ≤5 rows of ≤5 words, one punchline. No paragraphs on the image — dense small text is the one thing gpt-image-2 still fumbles.
-3. **Perfect spelling.** Re-read every word in the prompt; if a word is easy to mis-render, simplify it.
-4. **Honor the guardrails on the image too** (`config/guardrails.md`): no internal Ployo specifics, no unverified number (a `single-stat` needs a Step-4-verified figure), hold the explainable / human-in-the-loop / bias-aware line, never name/dunk a competitor.
-5. **No em dashes anywhere on the image** (use a middot ·, comma, or period).
-6. **Footer is fixed:** the ployo wordmark + "Ahmed Raza · Co-Founder & CTO", every time.
-
-## Proven examples (the look to match)
-
-- `vs-comparison`: headline "AI can screen 1,000 resumes a minute. It still can't tell you who can do the job." → left "RESUME KEYWORD MATCH" (3 red x rows) vs right "STRUCTURED EVIDENCE" (3 teal check rows) → strip "Screening at volume isn't the problem. Screening for the wrong signal is."
-- `numbered-list`: headline "Your ATS rejected your best candidate. It just doesn't know it." → kicker "3 PEOPLE YOUR KEYWORD FILTER SILENTLY DROPS" → 3 rows (the career-changer / the self-taught builder / the returner) → strip "Hiring for keywords is how you miss the person who would have been great."
+1. **The headline = the post's hook, compressed to almost nothing.** Same single claim as the text
+   post, never a second idea.
+2. **Two lines, 3 to 5 words each.** If it does not fit, the hook is not sharp enough yet.
+3. **Perfect spelling.** Re-read every quoted word; simplify anything easy to mis-render.
+4. **Honor the guardrails on the image too** (`config/guardrails.md`): no internal Ployo specifics,
+   no number that is not in `state/stats-pack.json` or verified this run, hold the explainable /
+   human-in-the-loop / bias-aware line, never name or dunk a competitor.
+5. **No em dashes anywhere on the image.**
+6. ⚠ **The people in these photographs are AI-generated and are not real.** Never write or imply
+   that the person shown is a Ployo candidate, customer, employee or interviewee. Never put quotation
+   marks around a headline unless it is a real quote from a named source that was verified this run:
+   a quoted sentence nobody said is a fabrication, on an account whose whole position is that its
+   claims are checkable. Where the platform offers an image caption, use
+   "AI-generated illustration. Not a real candidate, customer or interview."
+7. **No charts. No infographics.** If a post's idea seems to need a diagram, it needs a sharper hook
+   instead. This rule is the reason this file was rewritten.
