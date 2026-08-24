@@ -1,0 +1,10 @@
+{
+  "_README": "Pulse article queue. Status flow: drafting -> ready -> published. LinkedIn has no article API, so 'ready' means a human still has to paste it (see docs/PULSE-PUBLISHING.md). Target is 2 to 3 per month, rotating roundup, comparison, compliance.",
+  "monthly_target": 2,
+  "rotation": [
+    "roundup",
+    "comparison",
+    "compliance"
+  ],
+  "items": []
+}

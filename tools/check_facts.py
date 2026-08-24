@@ -62,10 +62,35 @@ BANNED_PRODUCT_TERMS = [
 BORROWED_RESEARCH_SOURCES = [
     "resume builder", "resumebuilder", "icims", "goldman sachs", "goldman",
     "gartner", "forrester", "mckinsey", "deloitte", "pwc", "kpmg", "accenture",
-    "shrm", "korn ferry", "josh bersin", "bersin", "lever", "greenhouse",
-    "workday", "indeed", "seek", "glassdoor", "linkedin's", "harvard business review",
-    "stanford", "mit", "world economic forum", "wef",
+    "shrm", "korn ferry", "josh bersin", "bersin", "greenhouse",
+    "workday", "glassdoor", "harvard business review", "stanford",
+    "world economic forum",
 ]
+
+# ⚠ These are real sources whose names are also ordinary English words or live
+# inside other words. Matched CASE-SENSITIVELY as whole words, because a bare
+# lowercase substring match reads "limitation" as a citation of MIT, and
+# "indeed" the adverb as a citation of Indeed. That is not hypothetical: the
+# first cut of this file blocked a valid roundup for citing MIT because one
+# entry said "One real limitation", and worse, it silently marked such posts as
+# externally sourced, which let unattributed percentages through.
+CASE_SENSITIVE_SOURCES = ["MIT", "WEF", "Indeed", "SEEK", "Lever", "Sense", "Maki"]
+
+_BORROWED_RE = re.compile(
+    r"\b(" + "|".join(re.escape(s) for s in BORROWED_RESEARCH_SOURCES) + r")\b",
+    re.IGNORECASE,
+)
+_CASE_SENSITIVE_RE = re.compile(
+    r"\b(" + "|".join(re.escape(s) for s in CASE_SENSITIVE_SOURCES) + r")\b"
+)
+
+
+def borrowed_sources_in(text):
+    """Named outside research houses appearing in `text`, whole words only."""
+    found = [m.group(1).lower() for m in _BORROWED_RE.finditer(text)]
+    found += [m.group(1) for m in _CASE_SENSITIVE_RE.finditer(text)]
+    return found
+
 
 # A number is only a fabrication risk when the post presents it as OURS. A
 # number attributed to an outside study is governed by guardrail 1 (trace it to
@@ -94,8 +119,10 @@ ATTRIBUTION_MARKERS = [
     "found that", "data from", "respondents", "paper", "index", "economists",
     "figures from", "cited", "estimates", "estimated", "forecast", "filing",
     "lawsuit", "court", "regulator", "census", "audit of", "review of",
-    "'s data", "their data", "sample of", "review found", "tracked", "track",
-    "ran ", "put a number on", "published", "researcher", "dataset", "platform called",
+    "'s data", "their data", "sample of", "review found", "tracked", "tracking",
+    "ran a", "ran the", "put a number on", "published a", "published by", "published its",
+    "researcher", "dataset", "platform called", "per their", "earnings call",
+    "earnings", "cfo", "ceo", "told", "quarter", "shares", "filing",
 ]
 
 
@@ -189,7 +216,7 @@ def post_has_external_attribution(text):
     """Does the post credit an outside source anywhere? Assessed across the
     whole post on purpose (see ATTRIBUTION_MARKERS)."""
     t = text.lower()
-    return any(m in t for m in ATTRIBUTION_MARKERS) or any(x in t for x in BORROWED_RESEARCH_SOURCES)
+    return any(m in t for m in ATTRIBUTION_MARKERS) or bool(borrowed_sources_in(text))
 
 
 def sentence_for(text, index):
@@ -210,15 +237,24 @@ def claims_as_ours(paragraph, sentence):
     unmistakably a claim about us.
     """
     p, sent = paragraph.lower(), sentence.lower()
+
+    # A number sitting in a first-person sentence is a claim about us, full
+    # stop. This has to outrank paragraph attribution: "we screen 41% faster"
+    # in a post that also cites Gartner is still our claim, and an earlier cut
+    # let exactly that through because the same paragraph said "Not published".
+    if re.search(r"\b(our|we|we've|we have|i've)\b", sent):
+        return True
+
     if any(m in p for m in OWN_DATA_MARKERS):
         return True
+
     paragraph_credits_someone = (
         any(m in p for m in ATTRIBUTION_MARKERS)
-        or any(x in p for x in BORROWED_RESEARCH_SOURCES)
+        or bool(borrowed_sources_in(paragraph))
     )
-    if paragraph_credits_someone:
-        return False
-    return bool(re.search(r"\b(our|we|we've|i've)\b", sent))
+    return not paragraph_credits_someone and bool(
+        re.search(r"\b(our|we|we've|i've)\b", p)
+    )
 
 
 def is_safe_by_construction(value, unit, trailing):
@@ -316,6 +352,23 @@ def check(text, pack=None):
 
         paragraph = paragraph_for(text, match.start())
 
+        # A figure introduced with a source earlier in the post stays theirs
+        # when it is referred back to. Without this, a rhetorical "we are
+        # training a generation to optimise for the 7%" reads as our own claim
+        # even though the 7% was credited two paragraphs up. Hand-judged from
+        # the real posting log.
+        first_use = text.find(surface)
+        introduced_with_source = (
+            first_use != -1
+            and first_use < match.start()
+            and not claims_as_ours(
+                paragraph_for(text, first_use), sentence_for(text, first_use)
+            )
+        )
+        if introduced_with_source:
+            third_party_numbers += 1
+            continue
+
         if claims_as_ours(paragraph, sentence_for(text, match.start())):
             if value in mocks:
                 failures.append({
@@ -364,8 +417,7 @@ def check(text, pack=None):
                 "detail": f"'{surface}' has no visible attribution anywhere in the post.",
             })
 
-    opener = lowered[:OPENER_CHARS]
-    borrowed = [s for s in BORROWED_RESEARCH_SOURCES if s in opener]
+    borrowed = borrowed_sources_in(text[:OPENER_CHARS])
     if borrowed:
         states_own_figure = any(
             str(int(v)) in text.replace(",", "") or fig.get("display", "") in text

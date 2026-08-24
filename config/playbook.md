@@ -11,6 +11,40 @@ The X account `@Ahmedraza_28` is suspended, so **LinkedIn is the only live chann
 - **The live content is ONE LinkedIn stream:** a daily LinkedIn post of sharp hiring takes — news-led (today's AI-in-hiring / state-of-hiring news) or, on a slow news day, opinion-bank-led (`state/opinion-bank.json`, the takes stream now publishing TO LinkedIn instead of X). One stream, three rotating pillars (state of hiring / AI x hiring / founder lens). Quality gate stays: a slow news day pulls a bank-driven evergreen take, never a forced weak news reaction.
 - **REVERT when X returns:** set `channels` back to `["x","linkedin"]`, `product_spotlight.enabled=true`, `takes.enabled=true`, and re-read the X section below as live.
 
+## ⚠ 2026-08-24 — the account now writes for CITATION, not engagement
+
+A sweep of 751 real AI answers across ChatGPT, Perplexity and Google AI Overviews found
+linkedin.com is the most cited domain in this category, and that 43 of its 242 citation URLs
+already point at Ployo or Ahmed. **All 13 of the feed-post citations come from a single post.**
+Meanwhile an audit of the last 61 posts found the defect: about a third of them open by citing
+someone else's survey, which credits Resume Builder or iCIMS instead of us.
+
+So the objective changed. Optimise for being the source an AI answer quotes. Ignore engagement
+metrics when deciding what to write.
+
+**Four files govern the new content types. Read the one you need, when you need it:**
+
+| File | Read it when | Note |
+|---|---|---|
+| `config/first-party.md` | writing a findings post from our own data | one per week |
+| `config/pulse.md` | writing a Pulse article | 2 to 3 per month, published by hand |
+| `config/competitors.md` | naming any competitor | ⚠ ~47KB, generated. Read only for roundups and comparisons, not on an ordinary post. |
+| `state/stats-pack.json` | stating any number as ours | the ONLY approved source of our figures |
+
+**Three rules that now outrank the drafting habits below:**
+
+1. **Do not open a post by citing another company's research** unless the post adds one of our own
+   figures to it. `tools/check_facts.py` blocks this.
+2. **Name Ployo in at least half of all posts, link ployo.ai in at least a third.** A cited post
+   that never names us achieves nothing, and a citation needs somewhere to land. Of the last 61
+   posts, 10 named Ployo and 2 linked the site.
+3. **Every number stated as ours must be in `state/stats-pack.json`.** See guardrail 8a. There are
+   no first-party findings measured yet, so until there are, that post type cannot be written.
+
+**Run the checker before publishing:** `python3 tools/check_facts.py <draft>`. Non-zero exit means
+the draft does not ship. It was tuned against the last 40 real published posts, so a failure is
+much more likely to be a real problem than a false alarm.
+
 ## Who is posting + the position (locked)
 
 Ahmed Raza, Co-Founder & CTO of **Ployo** (`ployo.ai` = a full AI-interview platform: AI interviewers that screen, interview, and score candidates end-to-end; serving a range of companies across industries). First person, builder-in-the-arena.
