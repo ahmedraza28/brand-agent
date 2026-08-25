@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-25T00:39:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-25) is Tuesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0 (last entry 2026-08-24 was for the prior UTC day). remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 3% name Ployo (target 50%), 3% link ployo.ai (target 33%), 13% name a competitor (target 33%), 13% touch AU care/health (target 33%), 30% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, touch AU care/health, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, AU aged care/disability hiring AI screening, EU AI Act/LL144 regulation this week, new AI recruiting tools launched this week, time-to-hire/ghosting/ATS problems 2026) + Google News RSS (AI-hiring 48h catch-all, 38 headlines). Candidates considered: "Job Seekers Use Hidden Resume Prompts To Outsmart AI Screeners" (Black Enterprise) — traced toward the same prompt-injection territory already covered as `resume-injection-self-defeat` (2026-08-22), dropped as duplicate; "New York added 30,640 tech workers in 3 years, surpassing San Francisco" (Fortune) — a labor-market/tech-hub story with no screening/hiring-mechanics angle for this audience, passed over; and Bloomberg's "Picture-Perfect AI Resumes Push Firms Back to Tests, Referrals" (published 2026-08-24, Bloomberg itself 403'd to direct WebFetch, verified via direct WebFetch of the full syndicated text at thestar.com.my, corroborated by matching figures and quotes independently returned by two further WebSearch passes) — selected. Verified: AmplifyME report finds 84% of candidates applying to early-career finance roles use AI tools preparing applications/interview answers; LinkedIn data shows a candidate is 3x+ more likely to be hired if already connected to an employee before applying, and a third of Gen Z say the missing network is the biggest barrier to a first job; named quotes from Zoe McLoughlin (London Business School), Rebecca Siciliano (Tiger Recruitment), Andrew Powell (Robert Walters), Anthony Cheung (AmplifyME). Not a duplicate of `ai-resumes-overfit-backfiring` (2026-08-10, Fortune/Walch, a candidate-side finding about over-polished resumes drawing fewer interviews) or `greenhouse-ai-doom-loop` (2026-07-27, Greenhouse CEO on applicant-volume-per-posting) — distinct entity, event, and mechanism (employers systemically dropping resume screening for referrals/live-tests, not a candidate behavior finding or an applicant-volume story), outside the 7-day dedup window regardless. Opened on the opinion (referral-based hiring as an old bias in new clothes), not on Bloomberg's data, per the fact-gate opener rule.
+
+### same-bias-new-excuse | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Hiring teams quietly giving up on resumes isn't a fix. It's a company admitting its evaluation system broke, then swapping it for a worse one.
+
+Bloomberg reported this week that firms flooded with AI-polished applications are pulling back toward referrals, networking events and live timed tests. Eighty-four percent of candidates applying for early-career finance roles now use AI to write their applications or rehearse their answers, according to a report from AmplifyME. One London recruiter's line stuck with me: it's almost impossible to find the signal in the noise anymore.
+
+So the fix on offer is knowing someone. LinkedIn's own data says a candidate is more than three times likelier to get hired if they already know an employee before applying. A third of Gen Z say the missing network, not the missing skill, is what keeps them out of a first job.
+
+That isn't a correction. It's the oldest bias in hiring, wearing a new excuse. Trade a resume you can fake for a network you can't buy your way into, and signal collapse hasn't been solved. It has just been made to favor people who were already inside.
+
+I build Ployo, an AI interviewer that sits exactly where this decision gets made, and going backward to pedigree and who-you-know was never the honest fix. The thing that actually works is a live conversation nobody can pre-write. We've run 30,000+ of those interviews, and the ones that catch something real are never the scripted kind. They're the follow-up nobody saw coming.
+
+The volume end of this market, aged care and frontline health hiring in Australia among it, never had a referral network to fall back on in the first place. Screening at that scale either works on a real conversation, or it doesn't work at all.
+
+A resume nobody trusts anymore and a network most candidates don't have aren't two different fixes. They're the same failure, dressed differently.
+
+#AIHiring #TalentAcquisition #Hiring #HRTech #FutureOfWork
+
+**Format:** image (recruiter-desk scene)
+**First comment (source):** https://www.thestar.com.my/tech/tech-news/2026/08/24/picture-perfect-ai-resumes-push-firms-back-to-tests-referrals. More on this: ployo.ai
+**Buffer post id:** 6a8ce5287fa16d24f522a61d
+**dueAt:** 2026-08-25T05:42:00Z
+
+---
+
 ## 2026-08-24T09:58:00Z (manual run, Ahmed asked for a post)
 
 Published by hand, not by the scheduled routine. Topic came from the first LinkedIn Pulse
