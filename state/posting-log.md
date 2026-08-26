@@ -8,6 +8,12 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-26T08:36:51Z
+
+target-met: settings.enabled = true. Today (UTC 2026-08-26) is Wednesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (the 2026-08-26T00:36:00Z run already published `eu-ai-act-hiring-delay` to LinkedIn, Buffer post id 6a8e36908c18e093aa69038e, dueAt 2026-08-26T05:37:00Z). remaining = 1 - 1 = 0. Per Step 3, target met for today: no research, no drafting, no publish this run. Stopping.
+
+---
+
 ## 2026-08-26T00:36:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
