@@ -2,7 +2,7 @@
   "covered": [
     {
       "topic_key": "same-bias-new-excuse",
-      "title": "Bloomberg (published 2026-08-24, verified via direct WebFetch of the full syndicated text at thestar.com.my after Bloomberg itself 403'd, corroborated by search-confirmed matching figures/quotes): firms flooded with AI-polished applications are retreating from resume screening toward referrals, networking events and live timed tests. AmplifyME report: 84% of candidates applying to early-career finance roles use AI tools preparing applications/interview answers. LinkedIn data: a candidate is 3x+ more likely to be hired if already connected to an employee before applying; a third of Gen Z say the missing network is the biggest barrier to a first job. Named quotes: Zoe McLoughlin (London Business School Career Centre), Rebecca Siciliano (Tiger Recruitment), Andrew Powell (Robert Walters), Anthony Cheung (AmplifyME). Builder take: retreating to referrals/networking isn't a fix for AI-resume signal collapse, it's swapping a fakeable filter for an older, unbuyable one (who you know), and it disadvantages exactly the candidates volume-hiring segments like AU aged care draw from; the honest fix is a live conversation, not going backward to pedigree. Not a duplicate of `ai-resumes-overfit-backfiring` (2026-08-10, Fortune/Walch, a candidate-side finding about over-polished resumes drawing fewer interviews) or `greenhouse-ai-doom-loop` (2026-07-27, applicant-volume-per-posting) — distinct entity, event, and mechanism (employers systemically dropping resume screening for referrals/live-tests), outside the 7-day dedup window regardless.",
+      "title": "Bloomberg (published 2026-08-24, verified via direct WebFetch of the full syndicated text at thestar.com.my after Bloomberg itself 403'd, corroborated by search-confirmed matching figures/quotes): firms flooded with AI-polished applications are retreating from resume screening toward referrals, networking events and live timed tests. AmplifyME report: 84% of candidates applying to early-career finance roles use AI tools preparing applications/interview answers. LinkedIn data: a candidate is 3x+ more likely to be hired if already connected to an employee before applying; a third of Gen Z say the missing network is the biggest barrier to a first job. Named quotes: Zoe McLoughlin (London Business School Career Centre), Rebecca Siciliano (Tiger Recruitment), Andrew Powell (Robert Walters), Anthony Cheung (AmplifyME). Builder take: retreating to referrals/networking isn't a fix for AI-resume signal collapse, it's swapping a fakeable filter for an older, unbuyable one (who you know), and it disadvantages exactly the candidates volume-hiring segments like AU aged care draw from; the honest fix is a live conversation, not going backward to pedigree. Not a duplicate of `ai-resumes-overfit-backfiring` (2026-08-10, Fortune/Walch, a candidate-side finding about over-polished resumes drawing fewer interviews) or `greenhouse-ai-doom-loop` (2026-07-27, applicant-volume-per-posting) \u2014 distinct entity, event, and mechanism (employers systemically dropping resume screening for referrals/live-tests), outside the 7-day dedup window regardless.",
       "url": "https://www.thestar.com.my/tech/tech-news/2026/08/24/picture-perfect-ai-resumes-push-firms-back-to-tests-referrals",
       "platform": [
         "linkedin"
@@ -714,6 +714,15 @@
         "linkedin"
       ],
       "posted_at": "2026-06-04T10:19:38Z"
+    },
+    {
+      "topic_key": "eu-ai-act-hiring-delay",
+      "title": "EU Digital Omnibus (Regulation 2026/1744) postpones EU AI Act high-risk hiring obligations from Aug 2 2026 to Dec 2 2027; GDPR Art. 22 and Art. 50 transparency remain in force",
+      "url": "https://www.praxikon.com/en/posts/digital-omnibus-high-risk-postponement-december-2027",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-08-26T00:42:00Z"
     }
   ]
 }

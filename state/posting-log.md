@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-26T00:36:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-26) is Wednesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 7% name Ployo (target 50%), 3% link ployo.ai (target 33%), 13% name a competitor (target 33%), 17% touch AU care/health (target 33%), 30% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, touch AU care/health, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, AU aged care/disability staff shortage + AI screening, EU AI Act/Local Law 144 regulation this week, new AI recruiting tools launched this week, HireVue/Paradox/HeyMilo news) covering all three pillars. Candidates considered: the general AI-in-recruiting market-growth roundups (SHRM/Bersin/Deloitte trend pieces) — no single citable news moment, low signal, passed over; AU aged care workforce shortage (38,000+ workers needed, 31-38% turnover) — real but not fresh enough alone, folded in as supporting color instead; HeyMilo's $6M raise (announced 2026-06-16) — outside the 7-day window and not fresh; selected the EU AI Act Digital Omnibus delay (Regulation (EU) 2026/1744, published 2026-07-24, entered into force 2026-07-27) postponing Annex III high-risk hiring obligations from 2026-08-02 to 2027-12-02 — a genuinely fresh (days-old), high-authority regulatory moment squarely in Pillar 2 (AI x hiring / regulation), not covered in the ledger within 7 days or otherwise. Verified via two independently WebFetched sources this run: praxikon.com/aiactblog.nl (exact dates, regulation number, publication/entry-into-force dates, which obligations are deferred vs. still active) and actuia.com (corroborating the 16-month deferral and confirming GDPR Article 22 remains fully applicable), cross-checked against WebSearch summaries citing DLA Piper, Cloud Security Alliance and HLC on the same facts. Also verified via WebSearch this run: HireVue's live, two-way voice AI Interviewer line launched in 2026 (independent corroboration beyond config/competitors.md's existing entry) and Australia's national NDIS-style aged care worker screening model expanding from mid-2026 (health.gov.au guidance + multiple trade sources). Opened on the opinion (reading the delay as relief is the mistake), not on any vendor's or regulator's data, per the fact-gate opener rule. Ran `python3 tools/check_facts.py` on the final draft: PASS (one advisory warning: post does not link ployo.ai in the body, which is correct per the no-links-in-body rule — the link is in the LinkedIn firstComment instead).
+
+### eu-ai-act-hiring-delay | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Every HR compliance memo landing this week is reading the update as relief. That's the wrong takeaway.
+
+Brussels just pushed the EU AI Act's high-risk hiring obligations back sixteen months, from August 2 this year to December 2, 2027. The regulation carrying the delay, 2026/1744, published July 24 and took effect July 27, six days before hiring AI was set to officially become high-risk. Risk management. Technical documentation. Logging. Human oversight. All of it pushed out.
+
+What didn't move: Article 22 of the GDPR, which already lets a candidate contest a hiring decision made entirely by a machine. Article 50's transparency duty, telling someone they're talking to an AI, started right on schedule. The delay bought vendors time to file paperwork. It didn't buy anyone a pass on whether the decision itself holds up.
+
+I build Ployo. Every score we produce carries a reason a recruiter can actually read before acting on it, across 340,000+ graded answers. Not because a regulator told us to this month. Because a screening call nobody can explain was never defensible, deadline or no deadline.
+
+HireVue built out a live AI interviewer line this year without waiting for Brussels either. The vendors treating explainability as a 2027 checkbox are the ones who'll be rebuilding under a deadline. The ones already treating it as the product just picked up sixteen months of runway nobody's forcing them to use.
+
+Meanwhile Australia's aged care sector is moving the other way entirely. A national worker-screening model is rolling into aged care from the middle of this year, tightening who gets cleared to work with vulnerable people. Screening got harder here the same month it got easier in Brussels.
+
+A sixteen-month delay changes when you have to prove your hiring AI is fair. It never changed whether it actually is.
+
+#AIHiring #TalentAcquisition #HRTech #FutureOfWork #Hiring
+
+**Format:** image (hands-detail scene)
+**First comment (source):** Sources: praxikon.com/en/posts/digital-omnibus-high-risk-postponement-december-2027 and actuia.com (EU Digital Omnibus, Regulation 2026/1744). More on this: ployo.ai
+**Buffer post id:** 6a8e36908c18e093aa69038e
+**dueAt:** 2026-08-26T05:37:00Z
+
+---
+
 ## 2026-08-25T00:39:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
