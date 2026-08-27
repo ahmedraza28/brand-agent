@@ -1,6 +1,7 @@
 {
   "_comment": "Anti-repeat memory for the SCENE archetype (config/styles.md), rewritten 2026-08-24 when the cream-infographic template was retired for editorial photography. Values are scene ids: care-worker | recruiter-desk | waiting | hands-detail | interview-room | night-shift | commute | empty-room. Prepend each run's pick, trim to 4. RESET on 2026-08-24: the old values (funnel, single-stat, numbered-list, vs-comparison) were chart archetypes and no longer exist.",
   "recent": [
+    "empty-room",
     "hands-detail",
     "recruiter-desk",
     "care-worker"
