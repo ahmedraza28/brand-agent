@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-27T00:42:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-27) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 10% name Ployo (target 50%), 3% link ployo.ai (target 33%), 17% name a competitor (target 33%), 20% touch AU care/health (target 33%), 30% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, touch AU care/health, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 5 WebSearch queries (AI x hiring news this week, AU aged care/disability staff shortage + AI screening, HireVue/Paradox/HeyMilo/Sapia news, EU AI Act/LL144 regulation this week, time-to-hire/ghosting/ATS problems 2026) plus Google News RSS (AI-hiring 48h catch-all) and the HR Dive, Indeed Hiring Lab and Josh Bersin feeds. Candidates considered: the general AI-recruiting trend/statistics roundups (SEO listicles, no single dated primary source) — passed over as low-signal aggregators; ICIMS/Lighthouse Research's "75% of high-volume employers say AI reduces recruiter workload" finding (HRTech Series) — would have required opening on someone else's survey with no angle beyond restating it, passed over; "Looks matter more than resume in first impressions" study (HR Dive) — thin, no primary source fetched, passed over; selected PageUp and Sapia.ai's enhanced partnership, announced 2026-08-26 (PR Newswire, corroborated by The Manila Times and ADVFN carrying the same wire release) — a fresh, dated vendor-integration moment squarely in Pillar 2 (AI x hiring), naming a real competitor (Sapia.ai, category leader in Australia per config/competitors.md, checked 2026-08-05) and an AU-relevant vertical, not covered in the ledger within 7 days or otherwise. Verified via direct WebFetch of the PR Newswire release this run: announced 2026-08-26; PageUp SVP Partnerships Fiona Moreton and Sapia.ai founder/CEO Barb Hyman named and quoted; both companies hold ISO 42001 certification; the integration screens all applicants via Sapia's text-based, asynchronous conversational interview before shortlisting; disability services and healthcare named among the sectors reached across APAC/UK. Opened on the opinion (screening coverage vs. real conversation are being conflated), not on the press release's figures, per the fact-gate opener rule. Named Sapia.ai fairly per config/competitors.md's "where they genuinely win" guidance (published third-party bias audit, low-friction text format) without dunking. Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings.
+
+### pageup-sapia-screening-vs-conversation | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Screening every applicant is not the same as understanding every applicant. This week's biggest hiring-tech deal treats those as interchangeable.
+
+PageUp and Sapia.ai announced Wednesday that Sapia's interviewing now sits directly inside PageUp's enterprise platform, so every applicant gets evaluated before a recruiter opens a shortlist. Sapia's founder and CEO, Barb Hyman, put the problem in bandwidth terms: traditional hiring remains constrained by human bandwidth, leading to compressed timelines and overlooked talent. PageUp's Fiona Moreton called it a case of needing both extreme scale and unwavering trust. Both companies now hold ISO 42001 certification, the international benchmark for responsible AI management, and the release names disability services and healthcare among the sectors this reaches across Australia and the wider region.
+
+None of that is small. Sapia has published an independent, third party bias audit that most vendors in this category, us included, haven't bothered to commission. And a typed interview a candidate can answer from their phone between shifts removes a real barrier for anyone who'd rather not be on camera.
+
+What the integration doesn't touch is the format underneath it. Fixed questions, answered in writing, on the candidate's own schedule. Running that script across a hundred percent of a pool is still a script. It just got a wider reach.
+
+I build Ployo. We've run 30,000+ of these interviews and graded 340,000+ candidate answers, and the ones that actually change a recruiter's mind are never the answer that stuck to the plan. They're the follow-up nobody wrote down in advance. ployo.ai
+
+Coverage was never the hard problem in hiring. Conversation was.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (empty-room scene)
+**First comment (source):** Source: https://www.prnewswire.com/news-releases/pageup-and-sapiaai-embed-intelligent-ai-interviewing-directly-into-enterprise-hiring-workflows-302860717.html More on this: ployo.ai
+**Buffer post id:** 6a8f8821613647d56fe0bcd2
+**dueAt:** 2026-08-27T05:51:00Z
+
+---
+
 ## 2026-08-26T00:36:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
