@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-28T00:36:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-28) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 13% name Ployo (target 50%), 7% link ployo.ai (target 33%), 17% name a competitor (target 33%), 23% touch AU care/health (target 33%), 27% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, touch AU care/health, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, AU aged care/disability staff shortage + AI screening, EU AI Act/LL144 regulation this week, new AI recruiting tool launched this week, time-to-hire/ghosting/ATS problems 2026) plus Google News RSS (AI-hiring 48h catch-all), HR Dive direct feed, Indeed Hiring Lab feed, and Josh Bersin feed. Candidates considered: most WebSearch results were SEO listicle/evergreen aggregators (Incruiter, Truffle, onewayinterview, etc.) with no single dated primary source, passed over as low-signal; "AI Hiring Tools Cut Recruiter Workloads by 75%" (Ad-hoc-news.de, 2026-08-27) traces to the same ICIMS/Lighthouse survey already passed over in the 2026-08-27 run for offering no angle beyond restating the figure, passed over again; HR Dive's "AI is stress-testing hiring and hurting trust" initially looked fresh but WebFetch showed it published/updated April 2026, not current, dropped; selected HR Dive's "Hiring managers say they trust AI, but actively manage issues with it" (Lara Ewen, published 2026-08-27) — fresh, dated, three independently named studies (Paylocity survey of 1,000+ US HR/recruiting leaders, Ashby's applications-per-hire data, a ManpowerGroup/Everest Group survey), squarely Pillar 2 (AI x hiring), not covered in the ledger within 7 days or otherwise. Verified via direct WebFetch of the HR Dive article this run: 91% use AI somewhere in hiring, 85% trust it "regardless of background," 80% actively managing a real issue (bias 16%, compliance/regulatory 16%, loss of control/transparency 11%, candidate trust/drop-offs 11%), 89% said AI helped identify better candidates, applications per hire tripled 2021-2024 (Ashby), fewer than 5% of companies call the outcome "transformational" (ManpowerGroup/Everest). Also verified via direct WebFetch of skilled.programmed.com.au (published 2026-08-22) for the AU aged-care/NDIS statutory worker-screening angle: risk-assessed roles cannot start without a current clearance, no exception for an AI recommendation. Named HireVue fairly per config/competitors.md (its Fortune-100-heavy install base is built on enterprise plumbing and compliance depth, not on anyone trusting its verdict outright, one of the file's own "where they genuinely win" points), no dunk. Opened on the opinion (a trust that needs daily babysitting isn't trust), not on Paylocity's data, per the fact-gate opener rule. Included the approved 340,000+ graded-answers figure to avoid an all-borrowed-numbers post. Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings.
+
+### trust-vs-supervision | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Eighty percent of hiring leaders can't leave their own AI screening tool alone for a week. They call that trust.
+
+A Paylocity survey of over 1,000 US HR and recruiting leaders, published this week, found 91% now use AI somewhere in hiring and 85% trust it to judge applicants "regardless of background." The same leaders admitted, in the same breath, that 80% are actively managing a real problem with that AI right now: bias, a compliance question, a candidate they suspect got dropped for the wrong reason. You don't manage what you actually trust. You watch it.
+
+Applications per hire have tripled since 2021, per Ashby's data in the same report, and that's the honest reason adoption exploded. Somebody had to read the pile. But a separate ManpowerGroup and Everest Group survey found fewer than 5% of companies running AI hiring tools call the result transformational. Universal and unremarkable, at the same time, and almost nobody in either report seemed to notice the two facts sit next to each other.
+
+Even HireVue, the most enterprise-ready name in this category, built its install base across most of the Fortune 100 on integrations and compliance depth, not on anyone trusting its verdict outright. Procurement bought the plumbing.
+
+Australia's aged care and disability sectors never got the option of trusting quietly. A worker can't start a risk-assessed shift without a statutory screening clearance, AI recommendation or not. I build Ployo. Across 340,000+ candidate answers we've graded, every score still needs a human to read the reasoning and sign off before anyone acts on it, the same posture the law already forces in aged care. That's not a compliance tax. It's what the other 80% are learning the hard way, one flagged tool at a time. ployo.ai
+
+The 91% adoption number was never the interesting one. The 80% babysitting it was.
+
+#AIHiring #TalentAcquisition #HRTech #Hiring
+
+**Format:** image (interview-room scene)
+**First comment (source):** Source: https://www.hrdive.com/news/hiring-managers-say-they-trust-ai-but-actively-manage-issues-with-it/828884/
+**Buffer post id:** 6a90d9d76693c575a78173b4
+**dueAt:** 2026-08-28T06:25:00Z
+
+---
+
 ## 2026-08-27T00:42:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
