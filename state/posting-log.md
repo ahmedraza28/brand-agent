@@ -8,6 +8,17 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-29T (later run, same UTC day)
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-29) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (the `opm-hiring-review-loophole` post, logged at 2026-08-29T00:36:00Z, dueAt 2026-08-29T05:02:00Z). remaining = 1 - 1 = 0.
+
+target-met: no research needed this run, no slow-day bank-take needed. Posted nothing.
+
+---
+
 ## 2026-08-29T00:36:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
