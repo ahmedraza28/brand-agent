@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-29T00:36:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-29) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 17% name Ployo (target 50%), 10% link ployo.ai (target 33%), 20% name a competitor (target 33%), 27% touch AU care/health (target 33%), 27% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, touch AU care/health, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, AU aged care/disability staff shortage + AI screening, EU AI Act/LL144 regulation this week, new AI recruiting tool launched this week, time-to-hire/ghosting/ATS problems August 2026) plus Google News RSS (AI-hiring 48h catch-all), HR Dive direct feed, Indeed Hiring Lab feed, and Josh Bersin feed. Candidates considered: most general WebSearch results were evergreen SEO listicles with no single dated primary source, passed over; Josh Bersin's "Multi-Agent AI For Talent Acquisition Arrives" piece (names Eightfold, Paradox, Maki, Radancy) traced to a 2026-07-15 publish date, outside the freshness window, passed over; selected OPM's memo directing federal agencies to expand AI use in hiring (issued 2026-08-27, covered same-day/next-day by Govexec, Federal News Network, Nextgov, ExecutiveGov, MeriTalk, FedScoop) — fresh, multi-sourced, squarely Pillar 2 (AI x hiring / hiring-policy), not covered in the ledger within 7 days or otherwise. Verified via direct WebFetch of three independent sources this run: Govexec, Federal News Network, and ExecutiveGov. Two of the three initially disagreed on whether resume screening/candidate scoring is classified "presumed high-impact"; ExecutiveGov's fetch resolved the conflict by quoting the memo directly ("résumé screening and qualification review, when the deciding official independently reviews the underlying record rather than relying solely on the AI summary" is NOT high-impact), consistent with Federal News Network's account, so the Govexec summary's contrary framing was not used. Confirmed facts used: OPM CIO Adam Starr's quotes ("overly cautious," "too many agencies assumed any AI touching hiring triggered the high-impact standard, in reality that is not the case"), the 87-day current average / 80-day governmentwide target from the 2025 merit hiring plan, the "presumed high-impact" list (final hiring/firing/promotion/discipline/reassignment decisions) versus the excluded list (resume screening/qualification review conditional on independent human review of the underlying record, job description drafting), and planned AI features for USA JOBS/USA Staffing/USA Hire. Named Paradox fairly per config/competitors.md's "where they genuinely win" guidance (logistics/scheduling/responsiveness at government-referenced scale, not assessment judgment), no dunk. Opened on the opinion (the loophole in "independently reviews the underlying record"), not on OPM's or any outlet's data, per the fact-gate opener rule. Included the AU aged-care statutory-clearance contrast (established in the 2026-08-28 run's verified source) as supporting color, and the approved 30,000+ interviews figure. Caught and rewrote two "It's not X, it's Y" false-binary constructions (the mid-post safeguard line and the closing line) during the persona/guardrails pass before running the fact gate. Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings.
+
+### opm-hiring-review-loophole | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The federal government just legalized the exact loophole every hiring team already uses. Read the summary, skip the file, call it review.
+
+OPM told federal agencies this week to use AI more, not less, in hiring. CIO Adam Starr wrote that agencies have been "overly cautious," building on a governmentwide push to cut average time-to-hire from 87 days toward an 80-day target. Fair goal. Nobody defends an 87-day wait.
+
+The part worth sitting with is what counts as safe. The memo keeps strict "high-impact" oversight, human review, audit logs, sampling, for final hiring, firing and promotion calls. Resume screening and candidate scoring skip that bar on one condition: the deciding official "independently reviews the underlying record rather than relying solely on the AI summary." Starr's own words: too many agencies assumed any AI touching hiring triggered the high-impact standard. Most of it doesn't now, as long as a human can say they looked.
+
+Nobody can audit whether someone opened the file or just nodded at the AI's three-line synopsis before clicking next. A rule nobody can check is a checkbox wearing a safeguard's clothes.
+
+Paradox has genuinely solved the logistics half of this, government-scale responsiveness and scheduling, at a size almost nothing else reaches. But logistics was never the hard question here. Judgment at volume is, and judgment doesn't show up in a log unless the tool was built to force it.
+
+Australia's aged care sector doesn't run on an honor system. A worker can't start a shift without a statutory clearance a human physically has to check, glance not included. I build Ployo. Every one of our 30,000+ interviews leaves a transcript, not a synopsis, because a summary is what a tired reviewer trusts instead of reading the thing itself. ployo.ai
+
+A policy that depends on someone's stated state of mind is a hope with a memo number stapled to it.
+
+#AIHiring #TalentAcquisition #HRTech #FutureOfWork
+
+**Format:** image (care-worker scene)
+**First comment (source):** Sources: https://www.govexec.com/technology/2026/08/opm-memo-pushes-agencies-speed-hiring-ai/415706/ and https://federalnewsnetwork.com/artificial-intelligence/2026/08/opm-calls-for-wider-ai-adoption-in-federal-hiring-process/ . More on this: ployo.ai
+**Buffer post id:** 6a922b60aa187a14a5e65f94
+**dueAt:** 2026-08-29T05:02:00Z
+
+---
+
 ## 2026-08-28T00:36:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
