@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-31T08:36:52Z (extra scheduled run)
+
+target-met: no-post
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-31) is Monday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`trades-shortage-ai-cant-fix`, published this same UTC day, dueAt 2026-08-31T05:47:00Z, Buffer post id 6a94d4790d8dad2c1cbebf8a). remaining = 1 - 1 = 0. Per Step 3, target already met; this run does no research, no drafting, no publish. Stopping.
+
+---
+
 ## 2026-08-31T00:42:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
