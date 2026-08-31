@@ -8,6 +8,43 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-08-31T00:42:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-08-31) is Monday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 20% name Ployo (target 50%), 13% link ployo.ai (target 33%), 23% name a competitor (target 33%), 30% touch AU care/health (target 33%), 27% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, touch AU care/health, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, AU aged care/disability staff shortage + AI screening, new AI recruiting tool launched this week, EU AI Act/Local Law 144 regulation this week, time-to-hire/ghosting/ATS problems August 2026) plus Google News RSS (AI-hiring 48h catch-all, 16 headlines), HR Dive direct feed, and Josh Bersin feed. Candidates considered: OPM's "traceable review" follow-up coverage (quasa.io, 2026-08-29) — same underlying OPM memo already covered as `opm-hiring-review-loophole` on 2026-08-29, dropped as duplicate; a WSJ piece on candidate identity verification/deepfakes ("Employers Are Making Job Candidates Jump Through Hoops to Prove They're Real," 2026-08-30) — WSJ is paywalled and unfetchable this run, no non-paywalled syndication found via search, dropped per guardrail 1 (no source actually fetched this run, no post); a Persona/TipRanks candidate-verification product item — traced to a March 2026 article with no fresh news hook and no citable statistics, dropped as thin and stale; Josh Bersin's "The Great Decoupling" (2026-08-27) — a broader worker-company-bond thesis without a specific hiring-mechanics angle for this audience, passed over; selected HR Dive's "There are three skilled trade job openings for every qualified worker" (Lara Ewen, published 2026-08-28, citing a new Lightcast report) — fresh, dated, a genuine labor-market data drop with a hard citable ratio, squarely Pillar 1 (the state of hiring / the labor market itself), not covered in the ledger within 7 days or otherwise. Verified via direct WebFetch of the HR Dive article this run: a 3:1 ratio of skilled-trade job openings to qualified workers; skilled trades account for ~20 million US jobs (9% of the workforce), defined as 135 hands-on occupations requiring specialized training/certification/apprenticeship but not a four-year degree; 2.1 million skilled-trade openings annually against a 1.3 million worker gap; a $13,000 annual wage premium over other non-degree jobs; 25%+ of the skilled-trades workforce is 55 or older, driving 40% of annual openings via retirement; 7 of 10 top in-demand occupations show significant shortages; 70%+ of skilled-trade jobs sit in occupations Lightcast rates as low AI exposure (below 30%); quote from Ron Hetrick, Lightcast principal economist. Named Classet fairly per config/competitors.md's "where they genuinely win" guidance (its live, no-camera, no-portal phone-call format built specifically for skilled-trades and hourly hiring, plus its structured capture of license/travel-radius data), no dunk. Opened on the opinion (the AI-jobs panic is aimed at the wrong industries), not on Lightcast's or HR Dive's data, per the fact-gate opener rule. Included the approved 15,000+ recruiter-hours-saved figure to avoid an all-borrowed-numbers post. Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings.
+
+Image generation failed: `tools/make_image.py` (gpt-image-2) returned HTTP 429 Too Many Requests on every attempt, 16 attempts total across three separate retry passes with increasing backoff (up to 3 minutes between attempts) over roughly 30 minutes, a persistent rate limit rather than a transient one. Per the routine's Step 7 timing rule ("If it never goes live after ~12 tries, publish text-only rather than failing"), published text-only rather than continuing to block. `state/recent-styles.json` was NOT updated since no scene was actually used.
+
+### trades-shortage-ai-cant-fix | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The industries panicking about AI taking their jobs are not the industries actually running out of workers. The ones running out of people are the ones AI barely touches.
+
+Lightcast's newest labor report, out this week via HR Dive, puts a number on it: three open skilled-trade roles for every qualified worker looking for one. Electricians, welders, HVAC techs, over 20 million jobs. Two out of five annual openings exist because somebody retired, not because a company grew. More than seven in ten of these roles sit in occupations the report rates as low AI exposure.
+
+None of that is a resume-screening problem the way software hiring has one. It's a conversion problem. A guy applies from his truck between job sites, and by the time anyone calls him back three days later he's already texted the next posting on his list.
+
+I've heard some version of this from ops leads at care providers for years, and lately from people running trades staffing shops too. The complaint is never "we can't find candidates." It's "we found him, and lost him to a callback that took too long."
+
+Classet built its product around that exact gap: a live phone call within seconds of applying, no camera, no portal, license numbers and travel radius pulled straight out of the conversation. Not a lesser interview format for this audience. Possibly the only one that survives contact with the candidate.
+
+Australia's aged care sector runs the same math on a different trade: tens of thousands of roles unfilled, the caregiving itself nowhere near anything AI can do, the bottleneck sitting entirely in how fast a real conversation happens after someone hits apply. I build Ployo. 15,000+ recruiter hours saved on our platform came almost entirely from closing that same gap, not from smarter scoring, on roles nobody's worried a model will ever take. ployo.ai
+
+AI didn't create the labor shortage in the trades. It just made it obvious that nobody built a hiring funnel fast enough to matter.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** none (image generation rate-limited after 16 attempts, published text-only per the Step 7 fallback rule)
+**First comment (source):** Source: https://www.hrdive.com/news/there-are-three-skilled-trade-job-openings-for-every-qualified-worker/829064/ More on this: ployo.ai
+**Buffer post id:** 6a94d4790d8dad2c1cbebf8a
+**dueAt:** 2026-08-31T05:47:00Z
+
+---
+
 ## 2026-08-30T08:36:00Z
 
 skip-day: sun
