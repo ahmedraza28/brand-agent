@@ -8,6 +8,45 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-01T00:36:36Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-01) is Tuesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 23% name Ployo (target 50%), 17% link ployo.ai (target 33%), 27% name a competitor (target 33%), 33% touch AU care/health (ok, at target), 27% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, and do not open by citing someone else's survey.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, EU AI Act/Local Law 144 regulation this week, new AI recruiting tool launched this week, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus Google News RSS (AI-hiring 48h catch-all), HR Dive direct feed, Josh Bersin feed, Indeed Hiring Lab feed, and Recruiting Brainfood's latest issue (#516, 2026-08-30). Candidates considered and dropped: OPM's continued AI-hiring-adoption coverage (FedScoop/FEDweek, 2026-08-31) — same underlying OPM memo already covered as `opm-hiring-review-loophole` on 2026-08-29, duplicate within the 7-day window, dropped; Eightfold's Candidate Agent / multi-agent TA stack (Bersin, published 2026-07-15) — stale, over six weeks old, dropped; California AB 1883 (workplace AI emotion/neural-data surveillance ban headed to Newsom, HR Dive, published 2026-08-31, verified via direct WebFetch) plus its companion bills SB 951 (AI-driven layoff notice) and SB 947 (automated decision systems for discipline/termination) — confirmed via WebFetch this run that none of the three bills address hiring or candidate screening, only current-employee monitoring and termination, off the hiring/recruiting pillar and closer to the layoff-scoring territory already covered by `ai-layoff-scoring-factors-survey` (2026-07-31) and `meta-ai-layoff-scoring-suit` (2026-07-17), dropped as off-territory rather than stretched into a hiring angle; ZipRecruiter's "2026 AI Employer Report" (published 2026-07-29, verified via direct WebFetch) — over a month old, outside the freshness window, dropped; Indeed Hiring Lab's "US Labor Market Snapshot — August 2026" (published 2026-08-24, verified via direct WebFetch) — a week old, macro wage/vacancy data with no hiring-mechanics angle distinct from prior ledger entries, dropped; Recruiting Brainfood #516's prompt-injection item — same territory as `resume-injection-self-defeat` (2026-08-22) and `resume-prompt-injection-silent-attacks` (2026-07-23), duplicate, dropped. No candidate cleared the "big enough, fresh, non-duplicate" bar this run.
+
+**Slow day -> bank take.** Per config/sources.md's slow-day fallback, pulled from `state/opinion-bank.json`. Selected `interview-theater` (`"Most interviews don't measure whether someone can do the job. They measure whether someone is good at interviews."`), one of many entries with `last_used: null` (never used, highest LRU priority) and not thematically overlapping any recent post (interview-room scene / trust-vs-supervision / eu-ai-act posts covered adjacent explainability ground, not this specific unstructured-vs-structured interview validity angle). Developed a fresh angle per config/takes.md's bank-selection mechanics: a specific-but-unverifiable builder anecdote (two interviewers scoring the same candidate two points apart on a five-point scale) rather than the bank's own thesis line verbatim, closing on a specific answerable question rather than a verdict since the last 5 published LinkedIn posts (2026-08-26 through 2026-08-31) all closed on verdicts, none on questions. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure; no competitor named (forcing one into a bank take with no comparison context would read unnatural, quality over the ratio target). Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings.
+
+Image: scene `waiting` (not in the last 4: care-worker, interview-room, empty-room, hands-detail), rendered at `IMAGE_N=3`, all three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/interview-theater.png`) shipped as-is. `state/recent-styles.json` updated (prepended `waiting`, trimmed to 4).
+
+### interview-theater | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+Most interviews test whether someone is good at interviews, not whether they can do the job. Nobody designed it to fail that way. It just rewards the wrong skill and calls it judgment.
+
+Think about what a live, unstructured chat actually measures. Eye contact. A story that lands in the right beat. The confidence to fill a silence instead of thinking out loud through an answer you don't fully have yet. None of that predicts whether someone can do the work three months in. It predicts whether they've sat through a lot of interviews.
+
+I once watched two interviewers score the same candidate two full points apart on a five point scale. Same conversation, same questions, fifteen minutes apart in their notes. Nobody flagged it as a problem. Someone averaged the numbers and moved the file along.
+
+That's the quiet failure mode. Not an obvious bad actor, just two reasonable people watching the same fifteen minutes and walking away with different verdicts, because the format never made them agree on what "good" meant before the conversation started.
+
+I build Ployo. Every one of our 30,000+ interviews runs against the same scored rubric before a human ever reads a transcript, and the point was never that a rubric is smarter than a person. It's that deciding what "good" looks like in advance stops a charismatic answer from quietly rewriting the bar mid-interview. ployo.ai
+
+If your strongest interviewer and your most nervous candidate would score the same answer the same way, you have a process. If they wouldn't, what exactly are you measuring?
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (waiting scene)
+**First comment (source):** none (bank take, no news source)
+**Buffer post id:** 6a961f9cc3ff10bad2eb28dd
+**dueAt:** 2026-09-01T05:38:00Z
+
+---
+
 ## 2026-08-31T08:36:52Z (extra scheduled run)
 
 target-met: no-post
