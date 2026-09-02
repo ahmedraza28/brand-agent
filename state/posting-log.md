@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-02T00:47:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-02) is Wednesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 27% name Ployo (target 50%), 20% link ployo.ai (target 33%), 27% name a competitor (target 33%), 30% touch AU care/health (target 33%), 27% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, touch AU care/health, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 6 WebSearch queries (AI x hiring news today, AU aged care/disability staff shortage + AI screening, EU AI Act/LL144 regulation this week, new AI recruiting tool launched this week, Josh Bersin/HR Dive/HR Brew this week, time-to-hire/ghosting/ATS problems 2026) plus Google News RSS (AI-hiring 48h catch-all, 20 headlines), HR Dive direct feed, and Josh Bersin feed. Candidates considered and dropped: "AI Hiring Tools Prefer AI-Generated Resumes" (ACA International, 2026-09-01) traced to the same UMD/TRAILS self-preferencing study already covered as `ai-self-preference-resume-bias` on 2026-08-12, a semantic duplicate of the identical finding even though outside the strict 7-day window, dropped rather than recycled; "Cooper Launches AI-Native Hiring Platform" and the EIN News "45% of Companies Hunt for AI-Fluent Workers" piece both traced back to vendor press releases with no independently verifiable primary figures behind the headline number, dropped; California's AI emotion-surveillance bill (HR Dive, 2026-08-31) is employee monitoring/termination, not hiring or candidate screening, off-territory, dropped (consistent with the prior run's reasoning on the same bill); Recruiter.com's acquisition of Feenyx (Business Wire, 2026-08-31, verified via direct WebFetch of a syndicated copy: $25.3M raised by Feenyx, 600,000+ hours of candidate evaluations, quotes from CEOs Jesse Tinsley and Rocky Paap) was a real, dated, sourced moment but a vendor M&A announcement with no angle beyond restating the deal, passed over in favor of a stronger candidate. Selected HR Dive's "Worker personality may matter more than skills, hiring managers say" (published 2026-09-01, sourcing an Express Employment/Harris Poll survey of 1,000+ US hiring decision-makers) — verified via direct WebFetch of the HR Dive article this run: 86% of hiring managers say the right personality can outweigh a candidate's skills gap, 99% say personality can accelerate a career, the most valued traits named are reliability, honesty, adaptability, flexibility and self-motivation, assessed by hiring managers through informal interactions, situational questions, behavioral interview questions and reference checks; quote from Bob Funk Jr., CEO/president/chairman of Express Employment International. Not a duplicate of `csuite-life-skills-vs-ai-skills` (2026-08-06, High Point University survey on life skills vs AI technical skills, a different entity, event and question) — distinct survey, distinct mechanism (personality outweighing a skills gap, assessed informally, vs. AI-skills-vs-life-skills preference), outside the 7-day dedup window regardless. Builder take: everyone agrees personality is the deciding factor and nobody has replaced the unstructured chat used to judge it, the same validity gap the industry already solved for technical skills. Named Spark Hire fairly per config/competitors.md's "where they genuinely win" guidance (its bundled behavioral-assessment tier for small/mid-sized employers, built by acquiring Comeet and Chally in 2023), no dunk. Folded in Australia's aged care sector as a concrete case where the job is almost entirely a personality fit yet gets screened with the same informal chat used for compliance basics. Opened on the opinion, not on the survey's data, per the fact-gate opener rule. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure. Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings.
+
+Image: scene `hands-detail` (not in the last 4: waiting, care-worker, interview-room, empty-room), rendered at `IMAGE_N=3`, all three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/personality-vs-skills-screening.png`) shipped as-is. `state/recent-styles.json` updated (prepended `hands-detail`, trimmed to 4).
+
+### personality-vs-skills-screening | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Every hiring manager will tell you personality beats skills. Almost none of them can tell you how they actually score it.
+
+A survey out today from Express Employment and Harris Poll, over a thousand US hiring decision-makers, found 86% say the right personality can outweigh a real skills gap. Ninety-nine percent think it accelerates a career. Reliability and adaptability, the stuff that never shows up as a bullet point.
+
+Fine. Except ask how that gets assessed and the honest answer is a conversation. A situational question, maybe a gut read on whether someone seems like a team player. The exact informal process we spent a decade trying to strip out of skills screening is still running unchallenged on the trait everyone now says matters more.
+
+Spark Hire actually tried to fix this on the small-business end, bundling a real behavioral assessment into their hiring stack instead of leaving personality to vibes. A narrow slice of the market and a narrow slice of the problem. But it's a structured attempt, where most of the industry just talks longer and calls it insight.
+
+Aged care in Australia runs headfirst into this gap. The job is almost entirely personality, whether someone stays patient with a resident on a hard day. Most providers still screen for it with the same short chat they'd use to check if a candidate knows how to use a hoist. I build Ployo. We score every one of our 30,000+ interviews against a fixed rubric before a human reads a word of it, so "seemed nice" can't quietly become the whole decision. ployo.ai
+
+If personality really predicts who succeeds, it deserves better evidence than a good feeling from a thirty-minute call.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (hands-detail scene)
+**First comment (source):** Source: https://www.hrdive.com/news/worker-personality-matters-more-than-skills-hiring-managers-say/829270/ More on this: ployo.ai
+**Buffer post id:** 6a977145625d5bf9aadce1b6
+**dueAt:** 2026-09-02T05:12:00Z
+
+---
+
 ## 2026-09-01T00:36:36Z
 
 spotlight: skipped (product_spotlight.enabled = false).
