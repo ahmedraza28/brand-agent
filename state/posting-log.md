@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-03T00:36:52Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-03) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 30% name Ployo (target 50%), 23% link ployo.ai (target 33%), 30% name a competitor (target 33%), 33% touch AU care/health (ok, at target), 23% open with someone else's data (max 15%). Instruction for this post: name Ployo, link ployo.ai, name a competitor, and do not open by citing someone else's survey. Selected top 1 fresh moment.
+
+Research pass ran 6 WebSearch queries (AI x hiring news today, EU AI Act/Local Law 144 regulation this week, new AI recruiting tool launched this week, AU aged care/disability staff shortage + AI screening, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus Google News RSS (AI-hiring 48h catch-all, 38 headlines), HR Dive direct feed, and Josh Bersin feed. Candidates considered and dropped: "AI gets promoted to interviewer status in hiring, report finds" (hcamag.com) and the HCA Mag "HR's AI reckoning" piece both 404'd on direct fetch, no non-paywalled corroboration found this run, dropped per guardrail 1 (no source actually fetched); "The AI-Native Talent Crisis: 45% of Companies Hunt for AI-Fluent Workers" (The National Law Review, resurfacing in this run's RSS pull) — same vendor-press-release-with-no-verifiable-primary-figures item already passed over in the 2026-09-02 run for the identical reason, dropped again; "Cooper Launches AI-Native Hiring Platform" — same vendor press release already passed over 2026-09-02, dropped; "Almost half the time spent on AI is on fixing its output, BambooHR says" (HR Dive) — a general AI-productivity finding with no hiring/screening mechanism, off-territory, dropped; "Major banks shrink entry-level hiring amid AI shift" (Korea Times) — thin single-outlet coverage, no primary report identified to verify against, dropped; ICONIQ's H1 2026 headcount-growth-cohort data (saastr.com) — real but a general startup-growth/headcount story with no hiring-mechanics or screening angle for this audience, dropped. Selected Staffmark Group's 2026 Heart of Work Index (released 2026-09-02, verified via two independent direct WebFetches this run: the PR Newswire release and Staffmark's own survey page, both agreeing on every figure) — fresh (published the day before this run), a genuine primary-source survey with real methodology, squarely Pillar 1 (the state of hiring). Verified facts used: surveyed 3,746 workers across eight industries, fielded July 2026 via Attest; overall Heart of Work Index score 71/100 (0 = all-digital, 100 = all-human); by hiring stage, resume-building 54% human-led/46% tech-led and job search/apply 53%/47% (close to even), post-apply/pre-interview 70% human-led/30% tech-led (the widest gap in the study), onboarding 64%/36%; quote from CEO Stacey Lane: "The moment the stakes get real, an interview, an offer, a first day, people want a person in their corner, not a chatbot." Not a duplicate of any recent ledger entry (fresh entity, fresh survey, first appearance of this dataset). Builder take: the finding isn't really "candidates want a human," it's that a fixed, non-responsive script reads as uncaring regardless of who or what built it, so the fix is an AI that actually reacts to what a candidate says rather than reinserting a human body into the process. Named Willo fairly per config/competitors.md's "where they genuinely win" guidance (its transparent, recruiter-defined evaluation blueprint, a real strength), noting its one-way async format as a structural fact rather than a dunk. Opened on the opinion, not on Staffmark's data, per the fact-gate opener rule. Named Ployo, linked ployo.ai (bare mention, no body hyperlink per the no-links rule), cited the approved 70%+ completion-rate figure (rotated away from the heavily-used 30,000+ interviews figure for variety). Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings.
+
+Image: scene `empty-room` (not in the last 4: hands-detail, waiting, care-worker, interview-room), rendered at `IMAGE_N=3` twice (first pass had a headline typo, "dont" missing its apostrophe, rendered identically across all three candidates since it was quoted verbatim in the prompt; regenerated with the corrected headline "Not asking for humans / Asking to be heard" to avoid publishing a grammar flaw), all three candidates in the second pass spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/candidates-want-to-be-heard.png`) shipped as-is. `state/recent-styles.json` updated (prepended `empty-room`, trimmed to 4).
+
+### candidates-want-to-be-heard | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Candidates don't actually want a human in the room. They want proof somebody's paying attention to what they just said.
+
+Staffmark Group's new Heart of Work Index surveyed 3,746 workers across eight industries in July and asked where they wanted a person instead of a screen. Resume building and applying came out close to a coin flip. Then post-apply, before the interview even starts: seventy percent want a human. The widest gap in the whole study. CEO Stacey Lane's read was blunt. The moment the stakes get real, an interview, an offer, a first day, people want a person in their corner, not a chatbot.
+
+I'd push back on the diagnosis, not the data. What candidates are rejecting isn't AI. It's a script that can't react to anything they say, which is exactly what a one-way async interview delivers by design. Willo is honest about running that format, and its recruiter-defined blueprint is at least a transparent way to score it, no black box hiding behind the recording. But transparent still isn't responsive. Read a prompt off a card, record thirty seconds, hope the algorithm liked your tone. Nobody feels heard by that, human-built rubric or not.
+
+I build Ployo. Our interview completion rate sits at 70%+, and the drop-offs we do see cluster right where a question feels like it's reading from a card instead of listening to the last answer.
+
+The fix was never putting a person back on the call. It's building the AI that actually is one. ployo.ai
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (empty-room scene)
+**First comment (source):** Source: https://www.prnewswire.com/news-releases/workers-choose-people-over-ai-at-hirings-most-critical-moments-new-staffmark-group-research-finds-302867797.html More on this: ployo.ai
+**Buffer post id:** 6a98c29d99622a9a0a557fe0
+**dueAt:** 2026-09-03T05:43:00Z
+
+---
+
 ## 2026-09-02T00:47:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).

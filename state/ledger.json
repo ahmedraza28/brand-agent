@@ -1,6 +1,15 @@
 {
   "covered": [
     {
+      "topic_key": "candidates-want-to-be-heard",
+      "title": "Staffmark Group's 2026 Heart of Work Index (released 2026-09-02, verified via two independent direct WebFetches this run: PR Newswire and Staffmark's own survey page, both agreeing on every figure): surveyed 3,746 workers across eight industries, fielded July 2026 via Attest. Overall Heart of Work Index score 71/100 (0 = all-digital, 100 = all-human experience). By hiring stage: resume-building 54% human-led/46% tech-led, job search/apply 53%/47% (both close to even), post-apply/pre-interview 70% human-led/30% tech-led (the widest gap in the whole study), onboarding 64%/36%. Quote from CEO Stacey Lane: 'The moment the stakes get real, an interview, an offer, a first day, people want a person in their corner, not a chatbot.' Builder take: the finding isn't really that candidates want a human body in the process, it's that a fixed, non-responsive script reads as uncaring no matter who or what built it, so the fix is an AI that actually reacts to what a candidate says rather than reinserting a human into the loop. Named Willo fairly per config/competitors.md (its transparent, recruiter-defined evaluation blueprint, a real strength, alongside its one-way async format stated as a structural fact, not a dunk). Opened on the opinion, not on Staffmark's data. Named Ployo, linked ployo.ai, cited the approved 70%+ interview completion rate figure.",
+      "url": "https://www.prnewswire.com/news-releases/workers-choose-people-over-ai-at-hirings-most-critical-moments-new-staffmark-group-research-finds-302867797.html",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-09-03T05:43:00Z"
+    },
+    {
       "topic_key": "personality-vs-skills-screening",
       "title": "HR Dive (published 2026-09-01, verified via direct WebFetch), sourcing an Express Employment/Harris Poll survey of 1,000+ US hiring decision-makers: 86% say the right personality can outweigh a candidate's skills gap, 99% say personality can accelerate a career, most-valued traits named as reliability, honesty, adaptability, flexibility and self-motivation, assessed informally via conversations, situational questions, behavioral interview questions and reference checks; quote from Bob Funk Jr., CEO/president/chairman of Express Employment International. Builder take: everyone agrees personality is the deciding factor and nobody has replaced the unstructured chat used to judge it, the same validity gap already solved for technical skills. Named Spark Hire fairly per config/competitors.md (its bundled behavioral-assessment tier for small/mid employers), no dunk. Folded in Australia's aged care sector as a case where the job is almost entirely a personality fit yet screened informally. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure. Opened on the opinion, not the survey's data. Not a duplicate of `csuite-life-skills-vs-ai-skills` (2026-08-06, a different survey/entity/question).",
       "url": "https://www.hrdive.com/news/worker-personality-matters-more-than-skills-hiring-managers-say/829270/",
