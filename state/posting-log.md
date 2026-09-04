@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-04T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-04) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 33% name Ployo (target 50%), 27% link ployo.ai (target 33%), 33% name a competitor (ok, at target), 33% touch AU care/health (ok, at target), 20% open with someone else's data (max 15%, HIGH). Instruction for this post: name Ployo, link ployo.ai, and do not open by citing someone else's survey.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, EU AI Act/Local Law 144 regulation this week, new AI recruiting tool launched this week, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus Google News RSS (AI-hiring 48h catch-all, 60 headlines). Candidates considered and dropped: "AI Screening Was Supposed to Fix Hiring Bias" (HackerNoon) — an opinion/explainer piece with no fresh dated primary source behind it, passed over; "When AI Ranks the Résumés, Who Explains the Decision?" (dice.com) — a general explainer article, no new dated event, passed over; "'Not a chatbot': People want people in charge of hiring" (hcamag.com) — same underlying Staffmark Group Heart of Work Index already covered as `candidates-want-to-be-heard` on 2026-09-03, duplicate, dropped; "EU AI Office Hiring 40 Enforcement Staff Signals Q4 Crackdown" (forkast.news) — the EU AI Office's own regulator staffing, not itself a hiring/candidate-screening story, off-territory (a regulator hiring headcount to enforce broader AI rules, not an AI-in-hiring moment), dropped; "AI gets promoted to interviewer status in hiring, report finds" (hcamag.com) — same item already dropped in the 2026-09-03 run for lacking independent corroboration, dropped again. Selected CBS News' "AI interviews rolling out for some federal government hires, sources say" (published 2026-09-03, verified via direct WebFetch of the full article) — fresh, dated the day before this run, squarely Pillar 2 (AI x hiring). Verified facts used: OPM is piloting AI-run interviews in the coming days for U.S. Tech Force applicants (an ~8-month-old initiative recruiting private-sector tech experts into two-year government posts); the vendor is CodeSignal; AI agents conduct structured interviews using standardized questions; the system records and summarizes the audio, and hiring managers view/evaluate the transcribed recordings later; the federal government employs approximately 1.9 million workers; OPM issued guidance the prior week recommending AI use with human oversight. Corroborated independently via a second source (CodeSignal's own published OPM customer-story page, confirming the OPM/CodeSignal partnership and the Tech Force program's ~1,000-hire scope) since this is a developing-story rollout requiring 2+ sources per guardrail 3. Not a duplicate of `opm-hiring-review-loophole` (2026-08-29, the OPM memo's "presumed high-impact" review-exemption language) — distinct event (a specific vendor's concrete interview-mechanic deployment for a specific program, six days later), though it deliberately builds on and cites that memo's already-verified quote ("the deciding official independently reviews the underlying record") as background context, not as new fact. Builder take: the "record it, summarize it, review it later" mechanic is the concrete form of the loophole flagged last week, and it's also just a vendor contract on a shortcut every recruiting team already takes (reading the AI's own summary instead of the source material). No competitor named this run (ratios.py had competitor mentions already at target; forcing one into a government-procurement story added nothing). Opened on the opinion, not on CBS's reporting, per the fact-gate opener rule. Named Ployo, linked ployo.ai, cited the approved 340,000+ graded-answers figure (rotated away from the heavily-used 30,000+ interviews and 70%+ completion-rate figures used the last two days). Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings, no failures.
+
+Image: scene `recruiter-desk` (not in the last 4: empty-room, hands-detail, waiting, care-worker), rendered at `IMAGE_N=3`, all three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/federal-ai-interview-summary.png`) shipped as-is. `state/recent-styles.json` updated (prepended `recruiter-desk`, trimmed to 4).
+
+### federal-ai-interview-summary | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The federal government just put a vendor contract on something every recruiting team already does quietly: reading the AI's summary instead of watching the actual interview.
+
+OPM is piloting AI-run interviews in the coming days for U.S. Tech Force applicants, the program aiming to move about a thousand early-career tech professionals into two-year government jobs. The vendor is CodeSignal. Every candidate gets the same standardized questions. The AI records the interview, transcribes and summarizes it, and a hiring manager reviews that packet later, per CBS News, which broke the rollout. OPM's own memo last week already cleared AI screening as long as "the deciding official independently reviews the underlying record." Now the underlying record includes an AI's own summary of the interview it just ran.
+
+I've sat across from enough TA leaders managing forty open reqs to know the honest answer. Nobody rewatches the tape. They read the summary, because the summary exists specifically so they don't have to. That habit predates AI by decades, back when a recruiter typed "strong candidate, moving forward" into an ATS note nobody reopened either. Government didn't invent the shortcut. It just gave it a procurement number.
+
+I build Ployo. Every one of the 340,000+ answers we've graded gets scored against the transcript itself, not a summary written about it, because the summary is exactly where judgment quietly goes missing. ployo.ai
+
+Reviewing the recording and reading the AI's own recap of it were never going to produce different verdicts. Somebody just needs to say that part out loud.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (recruiter-desk scene)
+**First comment (source):** Source: https://www.cbsnews.com/news/ai-interviews-federal-government-hires/ More on this: ployo.ai
+**Buffer post id:** 6a9a1449bc2e4059f2c1d2f6
+**dueAt:** 2026-09-04T06:13:00Z
+
+---
+
 ## 2026-09-03T08:36:29Z (extra scheduled run)
 
 target-met: no-post
