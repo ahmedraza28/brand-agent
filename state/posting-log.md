@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-05T00:36:45Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-05) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 37% name Ployo (target 50%), 30% link ployo.ai (target 33%), 33% name a competitor (ok, at target), 33% touch AU care/health (ok, at target), 20% open with someone else's data (max 15%, HIGH). Instruction for this post: name Ployo, link ployo.ai, and do not open by citing someone else's survey.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, EU AI Act/Local Law 144 regulation this week, new AI recruiting tool launched this week, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus a Google News RSS catch-all (60 headlines) and follow-up searches on standout headlines. Candidates considered and dropped: Revelio Labs CEO Ben Zweig's CNBC appearance on AI/hiring/layoffs — the underlying "AI Labor Market Tracker" report is real and was verified via direct WebFetch of Revelio's own blog (senior roles at AI-adopting firms up 31% vs 6% for junior roles, adopting firms up 27% headcount vs non-adopters), but the report itself published 2026-07-28, over five weeks old, and the CNBC segment page 403'd to direct WebFetch so the "this week" hook couldn't be verified per guardrail 1, dropped as stale/unverifiable; "AI Did Not Kill the Entry-Level Job. Leaders Did." (charterworks.com) — thematically close to four already-covered entry-level-AI-squeeze ledger entries (goldman-entry-level-ai-squeeze, entry-level-seniority-tilt, stlfed-entry-level-ai-bar, forecast-ahead-of-white-collar-rollout), passed over rather than risk a semantic duplicate; "AI Screening Was Supposed to Fix Hiring Bias" (HackerNoon) — same opinion/explainer piece with no fresh dated primary source already dropped in a prior run, dropped again; ADP's August 2026 National Employment Report ("hiring hit 8-month low, AI distorts wage data") — the Tech Times writeup 403'd to direct WebFetch and a second-source fetch (US News) corroborated the jobs figures (38,000 jobs added, below the 47,000 forecast, sector breakdown) but did not carry the "AI distorts wage data" quote, so that specific angle couldn't be verified this run, passed over in favor of a fully-verified candidate. Selected: a new meta-analysis on first impressions in hiring ("First Impressions at Work: A Meta-Analytic Review," Brian Swider of University of Florida's Warrington College of Business and T. Brad Harris of HEC Paris, published in Personnel Psychology 2026-08-03), which resurfaced in HR trade press today (HCA Mag / Human Resources Director, published 2026-09-04, verified via direct WebFetch). Corroborated independently via a second direct WebFetch of the University of Florida's own press release (news.ufl.edu, published 2026-08-19), which agreed on every figure and supplied additional named quotes. Verified facts used: meta-analysis combining 204 independent samples from 145 studies across jobs, countries, education levels and study designs; first impressions form in under a minute; communication style and physical appearance predict the impression better than substantive content, with content cues coming out the weakest predictor in the study; the impression from the first few minutes strongly relates to how someone is felt about more than a month later, tied to real hiring and performance-evaluation outcomes, not just likeability; Swider's own recommended fix is structuring interviews/evaluations and involving multiple people in the decision. Not a duplicate of `interview-theater` (2026-09-01 bank take, a builder anecdote about inter-rater disagreement) or `structure-beats-vibes` (an unused opinion-bank entry, a thesis not a news event) — this is a fresh, dated, verified academic study with a distinct mechanism (the halo effect / primacy bias overriding actual answer content, not inter-rater disagreement), squarely Pillar 1 (the state of hiring). Builder take: TA teams already agree the first impression matters, what nobody built is a process that survives a bad one from a strong candidate; framed as the exact problem structured, rubric-scored interviews are built to solve. No competitor named this run (ratios.py had competitor mentions already at target; forcing one into an academic-study reaction added nothing). Opened on the opinion, not on the study's data, per the fact-gate opener rule. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure. Closed on a specific question (rotating the closer: the last 3 published LinkedIn posts, 2026-09-02 through 2026-09-04, all closed on a verdict, none on a question). Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings, no failures.
+
+Image: scene `interview-room` (not in the last 4: recruiter-desk, empty-room, hands-detail, waiting), rendered at `IMAGE_N=3`, all three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/first-impressions-decide-hiring.png`) shipped as-is. `state/recent-styles.json` updated (prepended `interview-room`, trimmed to 4).
+
+### first-impressions-decide-hiring | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Most hiring decisions get made before the interview does. The rest of the conversation is just each side confirming what it already decided.
+
+A new meta-analysis out of the University of Florida, 204 samples pulled from 145 studies, backs that up with real numbers. First impressions form in under a minute. Communication style and how someone looks predict that impression better than anything they actually say. Content, the substance of the resume, the actual answer to the actual question, came out the weakest signal in the whole study. And the read from minute one still holds a month later, tied to real hiring calls and performance ratings, not just whether someone seemed likeable.
+
+I've watched this happen from the other side of the table more than once. A candidate opens relaxed, a little funny, and the room decides within minutes it likes them. Everything after that gets heard as confirmation. A stronger answer twenty minutes later from someone who opened nervous barely registers, because nobody's still listening for it. They're listening to see if their first read was right.
+
+Lead author Brian Swider's own fix is the boring one. Structure the interview, score it the same way every time, put more than one person in the room. I build Ployo around exactly that idea. Every one of our 30,000+ interviews gets scored against the same rubric before a human reads a word of the transcript, because the alternative is letting the first ninety seconds quietly decide the whole thing. ployo.ai
+
+If your interview process can't survive a bad first impression from your best candidate, what exactly is it measuring?
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (interview-room scene)
+**First comment (source):** Source: https://news.ufl.edu/2026/08/first-impressions-work/ More on this: ployo.ai
+**Buffer post id:** 6a9b65b5720c7a42cca03d7a
+**dueAt:** 2026-09-05T06:14:00Z
+
+---
+
 ## 2026-09-04T00:37:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
