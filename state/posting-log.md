@@ -8,6 +8,39 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-07T00:36:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-07) is Monday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 40% name Ployo (target 50%, LOW), 33% link ployo.ai (ok, at target), 33% name a competitor (ok, at target), 33% touch AU care/health (ok, at target), 20% open with someone else's data (max 15%, HIGH). Instruction for this post: name Ployo, and do not open by citing someone else's survey.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, new AI recruiting tool launched this week, EU AI Act/Local Law 144 regulation this week, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus a Google News RSS catch-all (49 headlines, AI-hiring 48h). Candidates considered and dropped: "Man Pretends to Hallucinate in Job Interview With an AI Bot, Causing It to Go Haywire" (Futurism, 2026-09-05) — the direct article URL 404'd on WebFetch and no independently corroborating source was found this run, dropped per guardrail 1 (no source actually fetched); "Hidden Prompts: How job applicants are using AI to jump up the hiring queue" (firstpost.com) and "Job Seekers Are Hiding Invisible AI Prompts Inside Their Resumes" (Startup Fortune), both Sep 6 — traced back to the same Greenhouse "AI Trust Crisis" survey and ACL 2026 paper already covered as `resume-injection-self-defeat` on 2026-08-22, a semantic duplicate, dropped; "96% of B2B marketers use AI, but hiring is moving toward judgment and QA roles" (MarketScale) — a marketing-function-specific finding with no general hiring/screening mechanism for this audience, off-territory, dropped; "AI hiring boom could turn into a surprise tailwind for software: Bernstein" — a software-sector stock-analyst note, not a hiring/screening story, dropped; "Employers, job seekers increasingly using AI in the hiring process" (Global News) — generic explainer, no fresh dated event or new figures, dropped. Selected the Financial Times' report (Simon Foy, reported 2026-09-05/06) that UBS now requires graduate/intern candidates for its banking and markets roles to demonstrate AI proficiency as a hiring bar, with AI-related interview questions, described as one of the first explicit AI-literacy hiring requirements at a major bank (contrasting with Goldman Sachs/JPMorgan shrinking junior analyst classes instead) — verified via direct WebFetch of ico-optics.org's summary of the FT report (the original FT article is paywalled and no other fetchable full-text syndication was found; ico-optics.org and a WebSearch synthesis independently agreed on every core fact, satisfying the 2+ source developing-story rule), corroborated and extended by direct WebFetch of two of UBS's own official pages this run: the Graduate Talent Program page (confirming the "AI Fluency Pathway" exists, exact wording verified) and the innovation-and-ai page (confirming more than 21,000 employees / 28% hold the internal AI Citizen badge and more than 38,000 have completed AI learning journeys, both as of July 2026). Also fetched UBS's own hiring FAQ page, which separately restricts candidates from using AI to complete assessments/interviews (a distinct candidate-side policy, not used as a claim in the post). Not a duplicate of the `ai-fluency-is-the-new-signal` opinion-bank take (used 2026-07-25 as a slow-day post with no news hook) — that run had no fresh moment; this is a fresh, dated, named-entity event (UBS's specific policy) giving the same underlying belief a concrete news hook, and it is a distinct topic_key in the ledger regardless. Builder take: judging whether a candidate can build a DCF model has a century of interview practice behind it, judging AI fluency has none, so "AI-related questions" in most interview rooms right now is an improvised prompt and a gut call, the same unstructured judgment that already produces inconsistent hires elsewhere. No competitor named this run (ratios.py had competitor mentions already at target, and none fit naturally into an investment-banking story without forcing it). Opened on the opinion, not on the UBS/FT reporting, per the fact-gate opener rule. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure. Closed on a verdict (rotating the closer: the last post, 2026-09-05, closed on a question; the three before that, 2026-09-02 through 2026-09-04, all closed on verdicts). Ran `python3 tools/check_facts.py` on the final draft: PASS, one advisory warning (`unattributed_number` on the UBS AI Citizen badge figure of 21,000, which is clearly attributed to UBS in the surrounding sentence; warnings are advisory per the routine, not blocking).
+
+Image: scene `commute` (not in the last 4: interview-room, recruiter-desk, empty-room, hands-detail), rendered at `IMAGE_N=3`, all three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/ai-fluency-hiring-bar.png`) shipped as-is. `state/recent-styles.json` updated (prepended `commute`, trimmed to 4).
+
+### ai-fluency-hiring-bar | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+AI fluency just became a hiring requirement at one of the world's biggest banks. Nobody, including the bank, has said how they're scoring it.
+
+UBS now tells graduate and intern candidates for its banking and markets roles that AI proficiency sits next to academic record and finance aptitude as a bar to clear, not a nice-to-have. Candidates get AI-related questions in the interview itself. UBS is calling it one of the first explicit AI-literacy requirements at a major bank, and it's rolling every graduate who makes it through into an internal AI Fluency Pathway, on top of a training push that's already put UBS's own AI Citizen badge on more than 21,000 of its employees.
+
+Testing whether a candidate can build a discounted cash flow model has a hundred years of interview practice behind it. Testing whether they can actually use AI well has none. So the honest version of AI-related questions in most interview rooms right now is a couple of improvised prompts and a gut call, the same unstructured judgment we already know produces inconsistent hires.
+
+Naming a tool in an answer proves nothing. Catching the model when it's confidently wrong, and saying so before it costs a client anything, proves something. I score candidates for a living, and that's the entire difference between an AI-fluent hire and someone who's memorized a few prompts. Every one of Ployo's 30,000+ interviews gets scored against a fixed rubric for exactly that reason. ployo.ai
+
+If the skill is real enough to gate hiring at a bank this size, it's real enough to deserve an actual rubric, not a vibe with a job title.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (commute scene)
+**First comment (source):** Source: https://www.ubs.com/global/en/careers/early-careers/graduate-talent-program.html (UBS AI Fluency Pathway) More on this: ployo.ai
+**Buffer post id:** 6a9e0a00c3f65d238efbd14d
+**dueAt:** 2026-09-07T06:33:00Z
+
+---
+
 ## 2026-09-05T00:36:45Z
 
 spotlight: skipped (product_spotlight.enabled = false).
