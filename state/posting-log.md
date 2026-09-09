@@ -8,6 +8,41 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-09T00:36:23Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-09) is Wednesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 47% name Ployo (target 50%, LOW), 40% link ployo.ai (ok, at target), 33% name a competitor (ok, at target), 33% touch AU care/health (ok, at target), 17% open with someone else's data (max 15%, HIGH). Instruction for this post: name Ployo, and do not open by citing someone else's survey.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, new AI recruiting tool launched this week, EU AI Act/Local Law 144 regulation this week, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus a Google News RSS catch-all fetch (28 headlines, AI-hiring 48h) and a direct fetch of HR Dive's feed. Candidates considered and dropped: "Job seekers are learning a new interview skill: how to sound excited about AI" (Business Insider, Sept 8, verified via WebSearch summary) — thematically too close to `ai-fluency-hiring-bar` (UBS AI-fluency-as-hiring-bar, published just 2 days prior, 2026-09-07), both turning on the same underlying mechanism (interviewers improvising judgment on a candidate's AI-related answers), passed over to avoid a semantic near-duplicate inside the 7-day window; "Job seekers are hiding AI prompts in resumes" (People Matters, Sept 8) — same Greenhouse/ACL-2026 survey already covered as `resume-injection-self-defeat` on 2026-08-22, dropped as duplicate (also already dropped in two prior runs for the same reason); "I Interviewed a Deepfake: Lessons From Hiring's New Threat" (UC Today, Sept 8) — same underlying phenomenon as `ai-avatar-interview-arms-race` (Semafor, 2026-08-08), a distinct outlet/anecdote but no new data or mechanism beyond what's already covered, passed over; "Employers that only 'talk the talk' on AI may jeopardize worker trust" (HR Dive, Sept 8) — a general workforce-trust piece with no hiring/screening-specific mechanism, thin, passed over; EU AI Act high-risk deadline delay (Aug 2, 2026 to Dec 2, 2027) — verified via WebSearch (Ogletree, Gibson Dunn, DLA Piper all agreeing), but the underlying political agreement dates to May 2026 and the Omnibus entered into force July 27, 2026, over five weeks stale by the "today" test, not a fresh moment this run, passed over. Selected Cadient's "Authenticity Report" (published 2026-09-08 via PRNewswire-PRWeb, verified via direct WebFetch of the full press release): scanned 11,000 resumes (9,158 assessed) across 13 industries, collected May 2025 to July 2026, using six independent detection agents examining AI-written-text signals plus consistency/employment/education/LinkedIn/identity checks. AI-written content found in a range of 50% to 71% of resumes depending on industry: general merchandise retail 71% (highest), healthcare 68%, government 64%, grocery 62%, specialty retail 50% (lowest measured). Quote from Cadient CTO Prateek Shrivastava, quoted verbatim from the press release: "We are moving toward a hiring environment where AI can help create the resume and another AI can evaluate it." Cadient operates a high-volume hiring platform (500M+ applications processed over 18+ years, retail/healthcare/hospitality/logistics/transportation/franchise employers), and SmartShield is its AI-assisted resume-verification tool. Not a duplicate of `ai-resumes-overfit-backfiring` (2026-08-10, Fortune/Walch, a distinct finding about over-polished resumes drawing fewer interviews) or `resume-injection-self-defeat` (2026-08-22, prompt-injection attacks specifically) — this is a fresh, dated, distinct mechanism (the sheer prevalence of ordinary AI-assisted resume writing across the market, not an attack or a backfire effect), outside the 7-day dedup window regardless. Builder take: a resume is now frequently AI-written on the candidate side and AI-screened on the employer side, so it stops functioning as evidence of the person at all; the fix is scoring what a candidate says live against a fixed rubric rather than a document either side's AI could have shaped. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure. No competitor dunk: Cadient is cited neutrally as the source of the data (not in config/competitors.md; treated like any other vendor-report citation, e.g. iCIMS/Greenhouse in prior posts). Opened on the opinion, not on Cadient's data, per the fact-gate opener rule and this run's ratios.py instruction. Closed on a verdict (rotating the closer: the last 4 published LinkedIn posts, 2026-09-04 through 2026-09-08, ran verdict/question/verdict/verdict, so a verdict close here stays well within the max-1-in-3-questions rule by keeping questions rare rather than absent). Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings, no failures.
+
+Image: scene `hands-detail` (not in the last 4: waiting, commute, interview-room, recruiter-desk), rendered at `IMAGE_N=3` (hands on a keyboard beside a highlighted printed resume, panel on bottom third per the detail-shot rule). All three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/ai-writes-ai-reads.png`) had the cleanest hand anatomy and composition and shipped as-is. `state/recent-styles.json` updated (prepended `hands-detail`, trimmed to 4).
+
+### ai-writes-ai-reads | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A resume is now often written by AI on the way in and about to be screened by AI on the way out, and somehow we still treat it as evidence of anything.
+
+Cadient scanned north of 9,000 resumes across 13 industries, collected between May 2025 and July 2026, using six separate detection agents. AI-written content showed up in a range of 50% to 71% of resumes depending on the industry. General retail topped the list at 71%. Healthcare came in second at 68%. Even the lowest industry measured, specialty retail, sat at 50%, meaning half of that pile had a machine's fingerprints on it already.
+
+I've spent years building an interview platform, so I've watched this coming since before it had a name. The resume was already the weakest sensor in the funnel, a self-reported, retouched summary written to please whatever reads it next. Now the thing reading it next is often a machine too, one that rewards exactly the phrasing an AI writing tool already knows to produce. Two models talking to each other in the shape of a hiring decision, with the actual person standing somewhere off to the side.
+
+Cadient's own CTO, Prateek Shrivastava, said it without flinching: "We are moving toward a hiring environment where AI can help create the resume and another AI can evaluate it." He's right, and it should worry every recruiter nodding along to their AI-screening vendor's demo this week.
+
+The fix was never a sharper AI-detector on the document. It's building the decision on something a candidate's writing tool can't pre-write for you. Every one of the 30,000+ interviews Ployo has scored gets judged on what a person says live, against a fixed rubric, not on how well a document was optimized before either of us ever saw it. ployo.ai
+
+The resume was never proof of anything. It just took two machines writing to each other for the industry to finally notice.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (hands-detail scene)
+**First comment (source):** Source: https://www.prweb.com/releases/cadients-authenticity-report-finds-up-to-71-of-resumes-show-ai-written-content-amid-growing-scrutiny-of-ai-hiring-302870624.html More on this: ployo.ai
+**Buffer post id:** 6aa0ab673bd0dd9ef3209cb8
+**dueAt:** 2026-09-09T05:47:00Z
+
+---
+
 ## 2026-09-08T08:36:53Z (extra scheduled run)
 
 Gate check: settings.enabled = true. Today (UTC 2026-09-08) is Tuesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`no-robo-bosses-act-desk`, published earlier today, dueAt 2026-09-08T06:12:00Z). remaining = 0.
