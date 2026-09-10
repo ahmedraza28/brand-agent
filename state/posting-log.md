@@ -8,6 +8,43 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-10T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-10) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 50% name Ployo (ok, at target), 43% link ployo.ai (ok, at target), 30% name a competitor (target 33%, LOW), 33% touch AU care/health (ok, at target), 17% open with someone else's data (max 15%, HIGH). Instruction for this post: name a competitor, and do not open by citing someone else's survey.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, new AI recruiting tool launched this week, EU AI Act/Local Law 144 regulation this week, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus a Google News RSS catch-all fetch (~55 headlines, AI-hiring 48h) and direct fetches of HR Dive's and Josh Bersin's feeds. Candidates considered and dropped: "Job seekers are facing a new interview test: Figuring out just how excited to sound about AI" (Business Insider, Sept 8) — already considered and dropped in the prior run for being too close to `ai-fluency-hiring-bar` (UBS, 2026-09-07), same reasoning holds, dropped again; "Employers that only 'talk the talk' on AI may jeopardize worker trust" (HR Dive, Sept 8) — thin general workforce-trust piece, no hiring/screening-specific mechanism, already passed over once, dropped again; "Generative AI overuse may hurt leaders' judgment, researchers warn" (HR Dive, Sept 9) — a leadership/general-workforce finding with no hiring/screening angle, off-territory per persona.md's earned-territory test, dropped; New Data From Ashby (EMEA recruiters absorbing rising application volume without slowing hiring, PR Newswire, Sept 9, verified via WebSearch summary of the press release: 180,000+ jobs analyzed 2021-2026, applications per hire doubled in EMEA since 2021, EMEA recruiters holding steady at 3.8-4.8 hires/quarter) — real and on-topic, but the angle (recruiters coping fine with volume) is a softer, less falsifiable hook than the Xobin candidate below and didn't clear the bar against it, passed over; a purported hcamag.com article "AI hiring speed tests new compliance limits" surfaced by Google News's own summary — the direct URL 404'd on WebFetch and no other outlet carried the same figures verbatim, dropped per guardrail 1 (no source actually fetched this run). Selected Xobin Research's "Human vs AI Skills Report: 2026 Mid-Year Edition" (published 2026-09-08/09, authored by founder/CEO Guruprakash Sivabalan), verified via direct WebFetch of the full press-release text on business-standard.com, independently corroborated via a second direct WebFetch of the tribuneindia.com syndication of the same wire release (both agreeing on every figure and quote). Verified facts used: 683 skill groups from Xobin's hiring framework tested against OpenAI and Anthropic models, 72% fully or partially delegable to at least one model; delegability by category (analytical reasoning 90-100%, operations/execution 28%, leadership skills below 50%); across 113 leadership scorecards from 92 employers, emotional intelligence averaged 52% of scorecard weight vs. 48% for everything else combined; traditional AI-free coding-assessment requests fell from 75-100% (Jan-Jun 2024) to 25-50% (Jan-Jun 2026) while AI-assisted coding tasks rose from under 25% to 50-75%. Not a duplicate of `csuite-life-skills-vs-ai-skills` (2026-08-06, a C-suite opinion survey on a related but distinct question, executive belief about life-skills-vs-AI-skills hiring preference, not a skill-delegability measurement with real assessment-mix data) — distinct entity, event and mechanism, outside the 7-day dedup window regardless. Builder take: employers already rewrote what they test for on the highly-delegable analytical/technical layer within two years, but almost nobody has rebuilt the interview for the layer this same data says stays hardest to delegate (leadership, EQ, collaboration), which still mostly runs on an unstructured chat instead of a scored rubric, backwards from where the harder half of the job actually sits. Named Sense fairly per config/competitors.md (its real chat/SMS/phone engagement-and-scheduling platform, positioned accurately as attacking the already-easy-to-automate layer, not a dunk) per this run's ratios.py instruction to name a competitor. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure. Opened on the opinion, not on Xobin's data, per the fact-gate opener rule and this run's ratios.py instruction. Closed on a specific question (rotating the closer: the last 3 published LinkedIn posts, 2026-09-07 through 2026-09-09, all closed on a verdict, so a question here stays well within the max-1-in-3 cap while adding variety). Ran `python3 tools/check_facts.py` on the final draft: first pass FAILed `banned_product_term` (the word "voice screening" sat in the same paragraph as a "Ployo" mention, describing Sense's channel mix, not Ployo's), fixed by splitting the Sense sentence into its own paragraph and rewording to "chat, SMS and phone"; also tightened a three-item list ("generate it, debug it, explain it") to two items to avoid a balanced-triad tic. Second pass PASS, no warnings, no failures.
+
+Image: scene `recruiter-desk` (not in the last 4: hands-detail, waiting, commute, interview-room), rendered at `IMAGE_N=3` (a recruiter alone at a desk late in the evening, thinking, panel on the left third per the portrait-subject-on-the-right rule). All three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 2 (`docs/images/delegable-skills-leadership-gap.png`) had the cleanest composition and a single-line subline, promoted over candidate 1. `state/recent-styles.json` updated (prepended `recruiter-desk`, trimmed to 4).
+
+### delegable-skills-leadership-gap | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The skills easiest to hand to AI are exactly the ones most hiring processes already screen hardest for. The skills nobody built a real test for are the ones staying human.
+
+New research from Xobin ran 683 skill groups from its own hiring framework against OpenAI and Anthropic models. 72% came back fully or partially delegable to at least one of them. Analytical reasoning sat at 90 to 100% delegable. Operations and execution dropped to 28%. Leadership skills came in under 50%. Inside 113 leadership scorecards pulled from 92 employers, emotional intelligence alone carried 52% of the scoring weight, more than every other criterion combined.
+
+Employers are already reacting to the analytical half. Traditional, AI-free coding tests made up most of what the same report's companies asked candidates to do in 2024. This year that share roughly halved, while AI-assisted tasks like generating and debugging code more than doubled.
+
+Nothing close to that speed shows up on the other half. Most interviews still run an unstructured chat for leadership and EQ, the exact layer this data says AI can't touch, while the easy-to-automate half gets the fixed test and all the rigor.
+
+Sense built a real platform around the half that's already easiest to hand off, reaching candidates by chat, SMS and phone at scale. Good product, right layer to attack.
+
+Almost nobody in this category has built the equivalent for the harder half. That's exactly why every one of Ployo's 30,000+ interviews now runs the same fixed rubric on both sides of the split. Consistency was never the problem on the analytical side. ployo.ai
+
+If leadership and EQ are the part of the job even the newest models can't do yet, why is that the part of your interview with the least structure?
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (recruiter-desk scene)
+**First comment (source):** Source: https://xobin.com/research/articles/human-vs-ai-skills-2026/ More on this: ployo.ai
+**Buffer post id:** 6aa1ff2e6666fc6e2a895b8a
+**dueAt:** 2026-09-10T05:56:00Z
+
+---
+
 ## 2026-09-09T00:36:23Z
 
 spotlight: skipped (product_spotlight.enabled = false).
