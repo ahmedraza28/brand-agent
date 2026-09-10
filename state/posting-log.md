@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-10T08:37:07Z (extra scheduled run)
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-10) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`delegable-skills-leadership-gap`, published earlier today, dueAt 2026-09-10T05:56:00Z). remaining = 0.
+
+target-met: no-post
+
+---
+
 ## 2026-09-10T00:37:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
