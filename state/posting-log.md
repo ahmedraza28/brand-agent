@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-11T08:37:26Z (extra scheduled run)
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-11) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`gusto-ai-hiring-faster`, published earlier today, dueAt 2026-09-11T05:41:00Z). remaining = 0.
+
+target-met: no-post
+
+---
+
 ## 2026-09-11T00:37:08Z
 
 spotlight: skipped (product_spotlight.enabled = false).
