@@ -8,6 +8,17 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-12T08:37:54Z (extra scheduled run)
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-12) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`manpower-ai-hiring-speed-gap`, published earlier today, dueAt 2026-09-12T05:52:00Z). remaining = 0.
+
+target-met: no-post
+
+---
+
 ## 2026-09-12T00:37:21Z
 
 spotlight: skipped (product_spotlight.enabled = false).
