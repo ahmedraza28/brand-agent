@@ -8,6 +8,45 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-12T00:37:21Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-12) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 53% name Ployo (ok, at target), 47% link ployo.ai (ok, at target), 33% name a competitor (ok, at target), 33% touch AU care/health (ok, at target), 13% open with someone else's data (ok, under max). Output: "On target. Write the best post, not a checkbox." No forced angle this run.
+
+Research pass ran 5 WebSearch queries (AI x hiring news today, new AI recruiting tool launched this week, EU AI Act/Local Law 144 regulation this week, time-to-hire/ghosting/ATS problems, Josh Bersin/HR Dive/HR Brew this week) plus a Google News RSS catch-all fetch (AI-hiring 48h) and direct fetches of HR Dive's and Josh Bersin's feeds. Candidates considered and dropped: "Can AI avatars help standardize the hiring process?" (Temple Now, Sept 11) — thin general-interest framing, no new data or named study, passed over; "Companies are screening job candidates with AI. Does it work?" (UGA Today, Sept 10) — a general research-effectiveness piece already passed over in the prior run for being thinner than its alternative that day, passed over again; "Elly Launches AI-Native Recruiting" (HRTech Series, Sept 11) — a vendor-press-release product launch with no independent traction or hiring-mechanism angle, low signal per sources.md, dropped; "AI fuels some RIA hiring plans, dampens others" (American Banker, Sept 11) — niche to financial-advisory recruiting, no broader hiring mechanism, passed over; "Howard Levitt: Why AI may be (re)humanizing the hiring process" (Financial Post, Sept 11) — a single columnist's opinion piece with no new data, passed over; the December 2025 NY State Comptroller audit of DCWP's Local Law 144 enforcement (surfaced via an aggregator summary) — real but nine months stale, not a fresh moment this run, passed over. Selected ManpowerGroup's Q4 2026 Employment Outlook Survey (published 2026-09-08 via PR Newswire, verified via direct WebFetch of ManpowerGroup's own official press release, independently corroborated via a second WebFetch/search of Human Resources Director/hcamag.com's coverage of the same data, both agreeing on every figure): 39,878 employers surveyed across 42 countries, fieldwork July 2026. On time-to-hire: 28% say it got faster this year, 41% say unchanged, 30% say it got slower, despite this year's AI rollout. Not a duplicate of `manpowergroup-ai-hiring-gap` (2026-06-23, a much smaller 80-executive ManpowerGroup/Everest Group survey on self-reported "transformational outcome" belief) or `trust-vs-supervision` (2026-08-28, cites the same Everest Group 90%-adoption stat in passing) — distinct, much larger, freshly-fielded survey measuring an actual outcome (time-to-hire), not a belief, both prior entries outside the 7-day window regardless. Builder take: the 30%-slower figure is the one no AI-hiring pitch deck mentions; this year's AI budget mostly widened the front of the funnel (sourcing, job-ad targeting, intake) without touching the judgment step where a human or model still has to look at each candidate and decide, so a wider pipe into an unchanged bottleneck backs the queue up instead of clearing it. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure. No competitor named (ratios.py had competitor-naming already at target; none fit naturally in a macro labor-survey story). Opened on the opinion, not on ManpowerGroup's data. Closed on a specific question (rotating the closer: the last 5 published LinkedIn posts, 2026-09-07 through 2026-09-11, ran verdict/verdict/verdict/question/verdict, so a question here stays well within the max-1-in-3 cap while adding variety). Ran `python3 tools/check_facts.py` on the final draft: PASS, no warnings, no failures.
+
+Image: scene `empty-room` (not in the last 4: care-worker, recruiter-desk, hands-detail, waiting), rendered at `IMAGE_N=3` (an empty interview room, two chairs facing each other across a small round table, a closed folder and a glass of water untouched, venetian-blind light, panel on the bottom third per the wide/detail-shot rule). All three candidates spelled correctly with no mangled elements and no clipped wordmark; candidate 2 (`docs/images/ai-speeds-in-not-through.png`) had the cleanest composition (city-view window, balanced warm light) and was promoted over candidate 1. `state/recent-styles.json` updated (prepended `empty-room`, trimmed to 4).
+
+**Buffer note:** the `metadata.linkedin.firstComment` field was rejected this run with `"LinkedIn first comment requires a paid plan. Please upgrade to use this feature."` (an `InvalidInputError`, not a transient failure). Retried the identical post without the `metadata` block, which succeeded. Per `config/playbook.md`'s explicit fallback ("If the publishing path can't auto-add a first comment, omit the link from the body rather than embed it"), this post ships with no source link anywhere (not in the body, per the no-body-links rule, and not in a first comment, since that path is currently unavailable on this Buffer plan). Flagging for Ahmed: first-comment auto-posting appears to need a Buffer plan upgrade; every prior ledger entry that recorded a "first comment" was written on the assumption that call would succeed, worth spot-checking in the Buffer app whether those actually posted.
+
+Note on branch/push: this session's harness assigned a working branch (`claude/magical-carson-invham`). Consistent with the reasoning recorded in this log on 2026-09-08 and 2026-09-11 (main is the branch this routine has continuously operated on for 2+ months; GitHub Pages serves only `main`), this run's commits were pushed to the assigned branch first, then fast-forward merged onto `main` and pushed there (a clean fast-forward, no divergence), so the image would go live on Pages before the Buffer call.
+
+### manpower-ai-hiring-speed-gap | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Most companies bought AI this year to make hiring faster. For three out of ten, it did the opposite.
+
+ManpowerGroup just surveyed 39,878 employers across 42 countries, fielded in July. 28% say time-to-hire actually got faster this year. 41% say nothing changed. 30% say hiring got slower, not faster, after the AI rollout.
+
+That last number is the one nobody's pitch deck mentions.
+
+Watch where the money actually went. Most of this year's AI budget bought a wider pipe at the front of the funnel, sharper job-ad targeting and faster candidate intake. None of it touched the part where someone, human or model, still has to look at each candidate and make a call. Push more people into the same narrow judgment step and the queue doesn't shrink. It backs up.
+
+I build the tool that sits at exactly that step, so I'd bet on this pattern every time. Speed up sourcing without speeding up screening and you haven't cut time-to-hire. You've just moved where people wait. Every one of Ployo's 30,000+ interviews exists because that judgment step, not the top of the funnel, is where hiring actually gets stuck. ployo.ai
+
+If your hiring stack got an AI upgrade this year, which half did it touch: getting candidates in, or deciding on them?
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (empty-room scene)
+**First comment (source):** NOT POSTED — Buffer rejected `firstComment` this run (paid-plan requirement); no source link shipped, per playbook's no-first-comment fallback.
+**Buffer post id:** 6aa4a0ddaa296f331c7f52d0
+**dueAt:** 2026-09-12T05:52:00Z
+
+---
+
 ## 2026-09-11T08:37:26Z (extra scheduled run)
 
 Gate check: settings.enabled = true. Today (UTC 2026-09-11) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`gusto-ai-hiring-faster`, published earlier today, dueAt 2026-09-11T05:41:00Z). remaining = 0.
