@@ -8,6 +8,14 @@ Product-spotlight posts (the second stream, per config/product-spotlight.md) are
 
 ---
 
+## 2026-09-13T00:38:00Z
+
+skip-day: sun
+
+Gate check: settings.enabled = true, but today (UTC 2026-09-13) is Sunday, which is in `settings.skip_days` (`["sun"]`). Per Step 1's gate (no exceptions, not even for big news), no research pass, no draft, no image, no Buffer call this run. Nothing else changed.
+
+---
+
 ## 2026-09-12T00:37:21Z
 
 spotlight: skipped (product_spotlight.enabled = false).
