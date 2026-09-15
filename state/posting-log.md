@@ -6,6 +6,15 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 Product-spotlight posts (the second stream, per config/product-spotlight.md) are slugged `ps-<slug>` and carry a `**Kind:** product_spotlight` line under the heading, so the weekly LinkedIn cap (settings.product_spotlight.linkedin_max_per_week) can be counted by grepping this file for the current ISO week.
 
+## 2026-09-15T08:37:02Z (extra scheduled run)
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-15) is Tuesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (`cv-stopped-saying-anything`, published earlier today, dueAt 2026-09-15T06:37:00Z). remaining = 0.
+
+target-met: no-post
+
 ---
 
 ## 2026-09-15T00:37:00Z
