@@ -15,3 +15,7 @@ secrets*
 # measurement exists (tools/stats_pack.py --mock). Never publish, never commit:
 # a fake business statistic sitting in a public repo reads as a real claim.
 state/stats-pack.mock.json
+
+# Python bytecode cache generated whenever a tools/*.py script runs.
+__pycache__/
+*.pyc
