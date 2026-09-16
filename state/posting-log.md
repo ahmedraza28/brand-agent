@@ -6,6 +6,47 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 Product-spotlight posts (the second stream, per config/product-spotlight.md) are slugged `ps-<slug>` and carry a `**Kind:** product_spotlight` line under the heading, so the weekly LinkedIn cap (settings.product_spotlight.linkedin_max_per_week) can be counted by grepping this file for the current ISO week.
 
+## 2026-09-16T00:37:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-16) is Wednesday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 63% name Ployo (ok, at target), 57% link ployo.ai (ok, at target), 33% name a competitor (ok, at target), 33% touch AU care/health (ok, at target), 13% open with someone else's data (ok, under max). Output: "On target. Write the best post, not a checkbox." No forced angle this run.
+
+Research pass (delegated to a subagent) ran the standard 6 WebSearch queries plus a Google News RSS catch-all fetch, checked against a dedup list of ~35 recently-covered topics. Four candidates surfaced: (1) City & Guilds' "Counting the Cost" UK employability-skills report (908 employers, AI screening tools indicted for prioritizing technical over human skills); (2) Jack & Jill's $40M Series A for a dual-sided AI hiring-agent marketplace (candidate agent + employer agent, no resume); (3) a CNBC piece on candidates blacklisting employers over AI interviews, flagged by the subagent as recycling ~4.5-month-old Greenhouse survey data under a fresh headline, not independently verified as new reporting, treated as backup-only and not used; (4) Workable's AI Recruiting Agents GA launch, a vendor press release with no independent traction, passed over as low-signal per sources.md. Selected #1: fresher contrarian hook, a named on-record CEO quote, and a direct, falsifiable indictment of AI screening tools (the exact category Ployo sits in), a sharper builder-confessional angle than the funding-round option. Verified independently this run via direct WebFetch of FE News's full write-up (908 employers + 1,014 young people 18-24, all figures and the Andy Moss quote confirmed verbatim) plus a second, independent WebSearch summary agreeing on the same core figures (69% employers, 51% young people). Not a duplicate of any ledger entry (confirmed via a script check across all 96 existing entries for "City & Guilds", "908 employers", "Counting the Cost": zero prior matches).
+
+Builder take: AI screening tools score what leaves a clean, parseable trace (certifications, tool names, years in a title), not judgment, adaptability, or knowing when to push back, so they optimize for what is easy to grade rather than what is actually worth hiring for, and the industry calls the result objective. Framed as a builder's confession ("I build one of these tools, so I will say the part most vendors will not") rather than a vendor pitch, then pivoted to the explainable/human-in-the-loop fix: an AI that scores the traits employers say they cannot find, shows its reasoning per candidate, and lets a recruiter overrule it. Named Ployo, linked ployo.ai, cited the approved 30,000+ interviews figure, woven into the fix paragraph rather than as a separate plug (first draft omitted the Ployo mention entirely; check_facts.py's advisory `no_ployo_mention`/`no_link`/`borrowed_data_only` warnings, plus 63%/57% naming/linking still comfortably above target, argued for keeping it in this time since the post's own logic — "show your reasoning" — has a natural, non-salesy place for it). No competitor named (ratios.py had competitor-naming already at target; none fit naturally in a UK employability-skills survey). Opened on the opinion, not on City & Guilds' data, per the fact-gate opener rule. Closed on a verdict: the last 5 published LinkedIn posts (2026-09-10 through 2026-09-15) ran question/verdict/question/verdict/verdict, 2 of 5 (40%) already closing on a question, at/above the max-1-in-3 cap, so this post closes on a verdict to bring the rolling ratio back down. Ran `python3 tools/check_facts.py` on the final draft: first pass (no Ployo mention) PASS with three advisory warnings (`no_ployo_mention`, `no_link`, `borrowed_data_only`); revised to add the Ployo/fix paragraph, second pass PASS with zero warnings.
+
+Image: scene `recruiter-desk` (not in the last 4: hands-detail, interview-room, empty-room, care-worker), rendered at `IMAGE_N=3` (a recruiter alone at a desk late in the evening, laptop glow, a stack of papers and a cooling coffee cup, panel on the left third per the portrait-subject-on-the-right rule, headline "Built To Screen / The Wrong Thing", subline "69% of employers agree"). All three candidates spelled correctly with no mangled hands/faces/wordmark clipping; candidate 1 (`docs/images/ai-screens-for-the-wrong-skill.png`, the default) had the cleanest composition and was kept as-is. `state/recent-styles.json` updated (prepended `recruiter-desk`, trimmed to 4).
+
+**Buffer note:** `metadata.linkedin.firstComment` was rejected again this run with the same `"LinkedIn first comment requires a paid plan"` InvalidInputError seen on every recent run back to 2026-09-08. Retried without the `metadata` block, which succeeded. This post ships with no source link anywhere (not in the body, not in a first comment), per the playbook's fallback. Standing Buffer-plan limitation, not transient.
+
+Note on branch/push: this run operated directly on `main` (this session's local checkout was already on a branch tracking `main`'s history), consistent with the reasoning recorded on every prior run of this routine (main is the branch this bot has continuously operated on; GitHub Pages serves only `main`). The image commit was pushed straight to `origin/main` as a clean fast-forward, confirmed live via a 404-then-200 poll, before the Buffer call.
+
+### ai-screens-for-the-wrong-skill | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+AI screening tools are getting very good at ranking the wrong thing.
+
+City & Guilds just surveyed 908 UK employers and over a thousand workers aged 18 to 24. Sixty-nine percent of employers think their own AI recruiting tools favor technical skills over the human ones that actually decide whether someone succeeds. Seventy-four percent say communication, judgment, and adaptability now matter more to performance than technical expertise. Almost two in three say candidates with those skills are getting harder to find.
+
+Andy Moss, City & Guilds' interim CEO, put it plainly: "AI powered recruitment risks screening out the human skills employers say they need most."
+
+I build one of these tools, so I will say the part most vendors will not. A model scores what leaves a clean trace. A certification. A tool listed twice. Years in a job title. Judgment under pressure does not show up that way. Neither does knowing when to push back on a bad instruction. So the system optimizes for what is easy to grade, not what is worth hiring for, and calls the result objective.
+
+The fix is not less AI in the loop. It is an AI that scores the traits employers just said they cannot find, shows its reasoning candidate by candidate, and lets a recruiter overrule it when the score misses something a resume line never could. That is the bet behind every one of Ployo's 30,000+ interviews: score the live answer, not the document, and show the recruiter why. ployo.ai
+
+An AI that cannot see judgment is not screening for the job. It is screening for whichever parts of the job are easiest to grade.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (recruiter-desk scene)
+**First comment (source):** NOT POSTED — Buffer rejected `firstComment` this run (paid-plan requirement); no source link shipped, per playbook's no-first-comment fallback.
+**Buffer post id:** 6aa9e7b18df35c6137173c3c
+**dueAt:** 2026-09-16T05:17:00Z
+
+---
+
 ## 2026-09-15T08:37:02Z (extra scheduled run)
 
 spotlight: skipped (product_spotlight.enabled = false).
