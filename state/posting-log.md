@@ -6,6 +6,44 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 Product-spotlight posts (the second stream, per config/product-spotlight.md) are slugged `ps-<slug>` and carry a `**Kind:** product_spotlight` line under the heading, so the weekly LinkedIn cap (settings.product_spotlight.linkedin_max_per_week) can be counted by grepping this file for the current ISO week.
 
+## 2026-09-19T00:36:54Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-19) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Note: no entry exists for 2026-09-18 (Friday) in this log or in git history; that run appears to have not fired or not completed. Not something this run can retroactively fix; flagging for Ahmed. Ran `python3 tools/ratios.py`: last 30 posts, 67% name Ployo (ok, target 50%), 60% link ployo.ai (ok, target 33%), 33% name a competitor (ok, target 33%), 33% touch AU care/health (ok, target 33%), 10% open with someone else's data (ok, max 15%). Output: "On target. Write the best post, not a checkbox." No forced angle this run.
+
+Research pass (delegated to a subagent) ran 5-6 WebSearch queries across the three pillars plus dedup-checked the full ledger.json (899 lines / entire history). Top pick: Amazon Web Services' "Amazon Connect Talent" (an agentic AI hiring product running structured/adaptive AI voice interviews, administering assessments, and scoring candidates) moved from Preview to General Availability on 2026-09-16, per AWS's own "What's New" post, corroborated by 3 further direct WebFetches (AWS Machine Learning blog, PYMNTS, TechTarget/SearchHRSoftware), all agreeing. Backup candidate considered and passed over: a University of Georgia / Information Systems Research study (Lakhiwal et al.) finding AI interview evaluators fail to penalize candidate exaggeration while human evaluators do — strong Pillar-2 mechanism story, but 9 days old (vs. Amazon's 3-day-old GA news) and a study rather than a live event, so ranked below Amazon on freshness + a bigger, more directly competitive builder-lens hook. Rejected as duplicates: an Indeed-CEO "vicious cycle" recirculation (already in ledger as `ai-verifies-humans-not-skill`, 09-14). Rejected as thin: an HR Dive piece on AI-summary legal-discovery exposure (no hard citable number) and an ACCA finance-hiring survey (single-sourced this run, narrower vertical). Not a duplicate of any ledger entry (checked via full-file grep for "Amazon", "Connect Talent", "Bersin": zero prior matches on this topic).
+
+Builder take: a GA launch from a hyperscaler proves the category is real, not that the actually hard part (scoring judgment on atypical candidates, catching bias before it hardens into a rubric, earning a recruiter's trust in a transcript they have to defend to a candidate later) is solved; compute and distribution don't shortcut that work. Used Josh Bersin's on-record skeptical quote (verified verbatim via TechTarget: "Google tried this. Facebook tried it before they were Meta.") as the attributed pushback rather than an Ahmed dunk on Amazon. Named Ployo, framed as building the harder version of the same problem for high-volume, high-stakes segments (aged care, health, frontline shifts) distinct from Amazon's stated retail/logistics/hospitality focus — this also touches AU care/health per the account's earned territory, though not forced (ratio was already at target). Did not link ployo.ai this run (ratios already comfortably at/above target: 67%/60% over the last 30 posts; check_facts.py's `no_link` warning is advisory). No competitor dunked (Bersin's skepticism is his own on-record quote; Amazon described factually). Opened on the opinion, not on AWS's announcement, per the fact-gate opener rule. Closed on a verdict, not a question: the last 5 published LinkedIn posts (2026-09-10 through 2026-09-17) ran verdict/verdict/question/verdict/verdict (1 of 5 closing on a question, well under the max-1-in-3 cap), so either closer was available within the cap; chose the verdict close for the strongest final line. Ran `python3 tools/check_facts.py` on the final draft: PASS, one advisory warning (`no_link`), no failures.
+
+Image: scene `care-worker` (not in the last 4: waiting, recruiter-desk, hands-detail, interview-room), rendered at `IMAGE_N=3` twice (first render had a headline typo, "Thats" missing its apostrophe — caught on review before publishing, re-rendered with the headline simplified to "Amazon Just Showed Up / Not The Hard Part" to avoid the apostrophe-in-quoted-string risk entirely, subline "Trust is the actual product"). All three candidates from the corrected render spelled correctly with no mangled hands/faces/wordmark clipping; candidate 2 (`.image-candidates/amazon-showed-up-not-the-hard-part--cand2.png`) had the cleanest panel edge and warmest, most natural composition, promoted over candidates 1 and 3 to `docs/images/amazon-showed-up-not-the-hard-part.png`. `state/recent-styles.json` updated (prepended `care-worker`, trimmed to 4).
+
+**Branch/Pages note (this run could NOT get the image live, publishing text-only):** this session's harness assigned working branch is `claude/magical-carson-pcmjgy`, and the session's own operating instructions explicitly state "NEVER push to a different branch without explicit permission." The image commit was pushed to that branch and confirmed NOT live on Pages after 3 polls (consistent 404 on `https://ahmedraza28.github.io/brand-agent/images/amazon-showed-up-not-the-hard-part.png`), because GitHub Pages serves only `main` per every prior run's own notes in this log. Unlike prior runs (which recorded pushing the assigned branch's commit through onto `main` directly as a fast-forward), this run held to the explicit no-push-to-other-branches instruction rather than following that precedent, since the instruction is unambiguous and this run has no explicit override for it. Net effect: the image asset exists, is committed, and is correctly recorded in state, but is not reachable by URL from this branch alone, so per the routine's own designed fallback ("If it never goes live after ~12 tries, publish text-only rather than failing"), this post shipped as text-only. **Flagging for Ahmed:** either grant this automation explicit, standing permission to fast-forward its assigned branch onto `main` each run (matching the last 2+ months of established practice), or reconfigure GitHub Pages to build from a source this automation can safely target (a dedicated `pages`/`assets` branch, or a Pages-deploy GitHub Action triggered off the assigned branch) so image publishing doesn't depend on a policy exception every run.
+
+### amazon-showed-up-not-the-hard-part | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Amazon just started running AI job interviews at scale, and I don't think the headline is the part that matters.
+
+AWS's "Connect Talent" went from preview to general availability this week: AI agents write the interview plan, run adaptive voice interviews around the clock, and hand a recruiter a transcript and a score. Built for retail, logistics and hospitality, the industries staring down this year's holiday hiring surge.
+
+The obvious read is that Amazon just validated the whole category. I build in this category, so I'd love to leave it there. Josh Bersin, who's watched a few big-tech companies try this before, wasn't as impressed. "Google tried this. Facebook tried it before they were Meta," he said, calling the market mature and already crowded. A hyperscaler's name on the box doesn't automatically win a domain fight.
+
+A GA announcement can't answer the question that actually decides this. Shipping the interview is the easy part. Scoring someone whose best answer doesn't sound like the training data, catching your own bias before it hardens into a rubric, earning enough trust that a recruiter can defend the transcript to a candidate two weeks later, that's the actual product. Compute and distribution don't shortcut any of it.
+
+I build Ployo for the harder version of that problem: aged care, health, frontline shifts, where a bad hire costs more than a slow one and nobody's handing that judgment to whoever holds the biggest cloud contract.
+
+Amazon showing up doesn't scare me. It tells me the market finally noticed what I've been saying since before it was fashionable to say it.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** text-only this run (image generated and committed, `docs/images/amazon-showed-up-not-the-hard-part.png`, care-worker scene, but not published to the post — see branch/Pages note above)
+**Buffer post id:** 6aaddb5098827948876a139e
+**dueAt:** 2026-09-19T06:09:00Z
+
+---
+
 ## 2026-09-17T00:49:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
