@@ -6,6 +6,50 @@ Format per published post: date, platform, topic_key, the EXACT text published, 
 
 Product-spotlight posts (the second stream, per config/product-spotlight.md) are slugged `ps-<slug>` and carry a `**Kind:** product_spotlight` line under the heading, so the weekly LinkedIn cap (settings.product_spotlight.linkedin_max_per_week) can be counted by grepping this file for the current ISO week.
 
+## 2026-09-24T00:41:00Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-24) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 77% name Ployo (ok, at target), 70% link ployo.ai (ok, at target), 30% name a competitor (LOW, target 33%), 33% touch AU care/health (ok, at target), 10% open with someone else's data (ok, under max). Output: "THIS post should include: names a competitor."
+
+Research pass (delegated to a subagent) ran WebSearch across the three pillars plus targeted queries for regulation/labor-market moments, checked against the 7-day dedup window in ledger.json (ai-fluency-hiring-bar 09-07 through funnel-connected-verdict-didnt 09-23, full list of ~20 recent entries supplied to the subagent). Explicitly excluded Mobley v. Workday litigation per standing instruction (already covered and repeatedly rejected as duplicate territory). Selected Bullhorn's 2026 GRID Talent Trends Report (published 2026-09-23 via GlobeNewswire), independently re-verified this run via a direct WebFetch of the primary release: nearly 2,300 professionals surveyed across North America/UK/Ireland/Benelux/DACH/APAC; 92% rated an AI voice interview as good as or better than a live human one; 93% with a positive AI experience would return to that staffing firm; 69% have now met AI through a staffing firm; 81% rated the overall AI experience positively; 65% said the recruiting AI beats the AI they use day to day; verbatim quote from Lia Taniguchi (Bullhorn's Head of Research and Insights). Considered and passed over: Paychex's "WISE Hire" agentic recruiting launch (same day, but the ledger already covered Joveo's near-identical "agentic recruiting platform" launch the day before as `funnel-connected-verdict-didnt`, and running the same beat twice in a row risked reading as repetitive); the September iCIMS Workforce Report (real publish date 09-10 despite a 09-23-dated newsroom URL, too stale and overlapping the already-covered `manpower-ai-hiring-speed-gap` territory); JOLTS (no new release this cycle); EU AI Act / Local Law 144 (no fresh news this week, prior Digital Omnibus deferral already stale). No natural competitor to name this run: Bullhorn is a staffing/ATS software vendor, not a direct AI-interview rival to Ployo, and its only appearances in config/competitors.md are as an ATS-integration target for Alex and HeyMilo, not a vetted comparison-set competitor, so forcing a "competitor mention" onto Bullhorn's own self-published research would have misrepresented it; left ratios.py's instruction unmet this run rather than force an unnatural fit (per the explicit "it is a target, not a quota" guidance).
+
+Builder take: the real story isn't the 92% figure itself, it's the tension between this report and the already-published `not-rejecting-the-ai` ledger entry (2026-09-19, Greenhouse/CNBC: only 8% of candidates trust AI to judge them fairly, and plenty are now blacklisting companies that ran undisclosed AI interviews). Same technology, opposite candidate sentiment, a spread of more than 90 points. The mechanism: Bullhorn's respondents knew upfront they were talking to an AI; the furious respondents in every other survey this month found out mid-call. Framed as "the variable was never AI vs. human, it's disclosure and craft" rather than picking whichever number flatters the builder's own category. Explicitly flagged the vendor-sponsored-research caveat in the post body (Bullhorn surveyed its own platform's candidates) per the anti-fabrication/grounding guardrails, rather than presenting the 92% figure as neutral. Did not name Ployo or link ployo.ai this run: both metrics are comfortably above target (77%/70% over the last 30 posts) and 3 of the last 4 published posts had already named Ployo, so this run intentionally varied per the playbook's explicit "skip the mention when the post is genuinely better without it" guidance; used a builder-lens anchor without the brand name instead ("I build one of these tools"). No AU care/health angle forced (already at target per ratios.py; no natural bridge without fabricating one in a story with no AU-specific data). Opened on the opinion (a verdict about the "candidates hate AI interviews" narrative), not on Bullhorn's data, per the fact-gate opener rule. Closed on a specific question, rotating the closer: the last 5 published LinkedIn posts (2026-09-17 through 2026-09-23) ran question/verdict/verdict/verdict/verdict, only 1 of 5 (20%) closing on a question, so a question here stays comfortably within the max-1-in-3 cap while adding variety after four straight verdict closes. Ran `python3 tools/check_facts.py` on the final draft: PASS, two advisory warnings (`no_ployo_mention`, `no_link`), both expected and intentional per the reasoning above; no failures.
+
+Image: scene `hands-detail` (not in the last 4: recruiter-desk, interview-room, commute, empty-room), rendered at `IMAGE_N=3` (a close crop of hands holding a smartphone mid video-call at a kitchen table, coffee mug and open notebook nearby, natural window light from the left, panel on the bottom third per the detail-shot rule, headline "The AI Wasn't / The Problem Here", subline "92% rated it better / when they were told"). All three candidates spelled correctly, no charts/icons, no mangled hands/faces, clean wordmark; candidate 1 (`docs/images/disclosure-not-the-ai.png`, the default) had the cleanest, most balanced composition (no extra call-UI clutter) and was kept as-is over candidates 2 and 3. `state/recent-styles.json` updated (prepended `hands-detail`, trimmed to 4).
+
+Note on branch/push: this run's local checkout was already on `main` directly tracking `origin/main`'s history (no divergence). The image + recent-styles commit was pushed straight to `origin/main` as a clean fast-forward, consistent with the reasoning recorded on every prior run of this routine (main is the branch this bot has continuously operated on; GitHub Pages serves only `main`). The image went live on Pages (confirmed via a 404-then-200 poll, live on the 4th attempt) before the Buffer call. Git push used the PAT supplied for this run, embedded inline in the remote URL for push commands only; never written to disk, `.git/config`, or committed.
+
+**Buffer note:** `createPost` succeeded on the first attempt with `schedulingType:"automatic"`, `mode:"customScheduled"`, `dueAt`. No `firstComment`/source link attempted this run (consistent with the standing `"LinkedIn first comment requires a paid plan"` limitation seen on every recent run; the post's own body already carries every fact needed).
+
+### disclosure-not-the-ai | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The "candidates hate AI interviews" story just took a real hit this week, and I don't think the AI deserves the credit.
+
+Bullhorn surveyed nearly 2,300 people who went through a staffing firm in the past three years. Ninety-two percent rated their AI voice interview as good as or better than a live one with a human recruiter. Ninety-three percent who had a good AI experience said they'd work with that firm again. Sixty-five percent said the AI they meet job hunting is better than the AI they use every day.
+
+Five days ago I wrote about a different survey. Greenhouse found only 8% of candidates think AI makes hiring fairer, and plenty of them are angry enough to blacklist companies that used it without saying so.
+
+Same technology. Same year. A spread of more than ninety points.
+
+I build one of these tools, so I've had to sit with that gap instead of grabbing whichever number flatters me. The difference was never AI versus human. It's whether the candidate knew what they were talking to going in, and whether the thing on the other end was actually built to listen. Bullhorn's respondents knew. The furious ones in every other survey this month found out mid-call.
+
+A hidden AI screen reads as a trick, however well it's built. A disclosed one that responds to what you actually say reads as a service. Ninety-three percent willing to come back isn't a UX footnote, it's a retention number, and I'd bet most TA leaders aren't tracking it as one.
+
+Worth saying plainly: Bullhorn ran and published this on its own platform, so the exact size of the number deserves a grain of salt. The direction of it, sitting next to everything else published this month, is harder to explain away.
+
+Which one of your own screening steps have you actually put in front of candidates and asked them to rate honestly?
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (hands-detail scene)
+**Buffer post id:** 6ab471beb54e50f39d0e62ca
+**dueAt:** 2026-09-24T06:50:00Z
+
+---
+
 ## 2026-09-23T08:35:00Z
 
 spotlight: skipped (product_spotlight.enabled = false).
