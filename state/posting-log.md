@@ -1,5 +1,16 @@
 # Posting log
 
+## 2026-09-24T08:35:44Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-24) is Thursday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (the 2026-09-24T00:41:00Z run already published `disclosure-not-the-ai` to LinkedIn, Buffer post id 6ab471beb54e50f39d0e62ca, dueAt 2026-09-24T06:50:00Z). remaining = 1 - 1 = 0.
+
+target-met: no research, no draft, no image, no publish this run. Stopping per Step 3.
+
+---
+
 Append-only. One entry per run. Newest at the top. A run that posts nothing still logs a line (`no-post: <reason>`).
 
 Format per published post: date, platform, topic_key, the EXACT text published, image style (or `none`), Buffer post id (or 'FAILED: <reason>'), dueAt (or 'draft').
