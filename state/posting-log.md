@@ -1,5 +1,16 @@
 # Posting log
 
+## 2026-09-25T08:35:44Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-25) is Friday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (the 2026-09-25T00:36:15Z run already published `chasing-the-cheat-loses` to LinkedIn, Buffer post id 6ab5c48b8c95968bb0262146, dueAt 2026-09-25T06:22:00Z). remaining = 1 - 1 = 0.
+
+target-met: no research, no draft, no image, no publish this run. Stopping per Step 3.
+
+---
+
 ## 2026-09-25T00:36:15Z
 
 spotlight: skipped (product_spotlight.enabled = false).
