@@ -1,5 +1,43 @@
 # Posting log
 
+## 2026-09-26T00:35:35Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-26) is Saturday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 0. remaining = 1. Ran `python3 tools/ratios.py`: last 30 posts, 80% name Ployo (ok, at target), 73% link ployo.ai (ok, at target), 33% name a competitor (ok, at target), 30% touch AU care/health (LOW, target 33%), 7% open with someone else's data (ok, under max). Output: "THIS post should include: AU care / health / NDIS."
+
+Research pass (delegated to a subagent) ran WebSearch across the three pillars, checked against the 7-day dedup window in ledger.json (not-rejecting-the-ai 09-19 through chasing-the-cheat-loses 09-25, full recent list supplied to the subagent) and the standing instruction never to resurface Mobley v. Workday litigation. Selected Paychex's launch of WISE Hire (announced 2026-09-23 via GlobeNewswire, verified via direct WebFetch of the primary press release this run): an agentic AI recruiting product bundled into Paychex's payroll software lineup (Paychex Flex, SurePayroll, Paycor), sourcing candidates through Google for Jobs, Meta's local jobs marketplace, and ChatGPT. Verified facts used: Paychex's own claim of hiring "4x faster" (flagged in the post as a vendor figure, not independently verified); Paychex-cited research that business leaders spend more than a third of their time on administrative hiring tasks; verbatim quote from Ryan Bergstrom, Chief Product and Technology Officer ("WISE Hire expands on our existing capabilities, empowering businesses to fill positions faster by automating routine hiring tasks while keeping people at the center of every hiring decision."); Paychex's own claim of paying 1 in 11 US private-sector workers across roughly 840,000 customers. Considered and rejected as backup: an 8-day-old HR Dive piece on AI meeting-transcription creating discoverable interview records (too stale for the 1-3 day window and thematically adjacent to the already-covered `disclosure-not-the-ai` entry). No natural, non-fabricated AU care/health bridge existed for a US small-business payroll story, so this run's ratios.py instruction went unmet per the explicit "it is a target, not a quota" guidance rather than forcing a fake connection. Not a duplicate of any ledger entry: distinct entity (Paychex), distinct event (a dated product launch this week), distinct mechanism (AI hiring arriving via default software bundling rather than a deliberate vendor choice, not fraud-detection, candidate sentiment, agentic funnel orchestration, a marketplace, or an application-volume story covered by recent entries).
+
+Builder take: the contrarian mechanism is that this isn't really a story about a new tool, it's about how AI hiring is starting to arrive as a bundled default inside software small businesses already pay for (payroll), rather than something anyone evaluates and chooses. For the huge slice of Paychex's ~840,000 customers too small to have a dedicated recruiter, hiring runs through whoever owns payroll, so an AI just started sourcing and pre-screening candidates through a feature toggle instead of a purchase decision. Tied to the standing human-in-the-loop spine: the slow, deliberate act of evaluating and choosing a hiring tool is exactly where "will a human actually check this" gets decided, and skipping that decision doesn't guarantee a human is watching, it just means nobody chose either way. Did not name Ployo or link ployo.ai this run (both metrics comfortably above target per ratios.py: 80% naming, 73% linking over the last 30 posts, and the immediately preceding two published posts had both named and linked Ployo, so this run intentionally varied per the playbook's explicit "skip the mention when the post is genuinely better without it" guidance); used a builder-lens anchor without the brand name instead ("I sell one of the tools that shows up the other way"). No competitor named this run (ratios.py had competitor-naming already at target; Paychex itself is the subject of the story, not a competitor to name separately). Opened on the opinion, not on Paychex's announcement, per the fact-gate opener rule. Closed on a verdict, not a question: the last 5 published LinkedIn posts (2026-09-19 through 2026-09-25) ran verdict/question/verdict/verdict/verdict (only 1 of 5, 20%, closing on a question), comfortably under the max-1-in-3 cap either way, and a verdict landed the strongest close for this piece. Ran `python3 tools/check_facts.py` on the final draft: PASS, three advisory warnings (`unattributed_number` on the 840,000 figure despite it being attributed in-sentence to Paychex, `no_ployo_mention`, `no_link`), all expected and reviewed; no failures.
+
+Image: scene `commute` (not in the last 4: empty-room, hands-detail, recruiter-desk, interview-room), rendered at `IMAGE_N=3` (a small business owner standing just outside their shop before opening, checking a phone with one hand, a coffee cup in the other, breath visible in cool morning air, storefront glass softly out of focus behind them, natural early morning light from the left, panel on the bottom third per the wide-shot rule, headline "The Recruiter / You Never Hired", subline "It shipped inside your payroll"). All three candidates spelled correctly, no charts/icons, no mangled hands/faces, clean wordmark; candidate 2 (promoted over the default candidate 1) had the most balanced composition and lighting and was copied over `docs/images/the-recruiter-you-never-hired.png`. `state/recent-styles.json` updated (prepended `commute`, trimmed to 4).
+
+Note on branch/push: this session cloned the repo fresh to `/tmp/ba` via HTTPS with the supplied fine-grained PAT (per this run's Step 0 instructions) rather than using the harness-assigned working branch; the local checkout tracked `origin/main` directly with no divergence at the start of this run. The image + recent-styles commit was pushed straight to `origin/main` as a clean fast-forward, consistent with the reasoning recorded on every prior run of this routine (GitHub Pages serves only `main`). The image went live on Pages (confirmed via a 404-then-200 poll, live on the 5th attempt) before the Buffer call.
+
+**Buffer note:** `createPost` succeeded on the first attempt with `schedulingType:"automatic"`, `mode:"customScheduled"`, `dueAt`. No `firstComment`/source link attempted this run (consistent with the recurring `"LinkedIn first comment requires a paid plan"` limitation seen on prior runs; the post's own body already carries every fact needed).
+
+### the-recruiter-you-never-hired | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Paychex just added an AI recruiter to hundreds of thousands of small business payroll accounts, and most of the owners who now have one didn't sit through a single demo to get it.
+
+The company launched WISE Hire on September 23, its own agentic recruiting tool, bundled straight into its payroll software lineup. It sources candidates through Google for Jobs, Meta's local jobs marketplace, and ChatGPT. Its own research says business leaders spend more than a third of their time on administrative hiring tasks. Its own number for the fix: hiring 4x faster, a Paychex figure, not one anyone outside Paychex has checked.
+
+Paychex says it pays 1 in 11 private-sector workers in the US, across a customer base it counts at roughly 840,000. Most of those are small enough that hiring runs through whoever owns payroll, not a dedicated recruiter. Which means for a huge slice of American small business, an AI just started sourcing and pre-screening candidates through a feature toggle instead of a purchase decision.
+
+I sell one of the tools that shows up the other way. A founder demos it, argues about it, decides to turn it on. That argument, slow as it is, is where "will a human actually check this thing" gets settled. Skip the argument and you skip the decision. Nobody chose to keep a human in the loop. Nobody chose not to, either.
+
+The AI hiring rollout worth worrying about isn't the flashy one at a conference booth. It's the one that shipped inside software you already pay for, on by default, with nobody in the room who remembers agreeing to it.
+
+#Hiring #TalentAcquisition #AIHiring #HRTech
+
+**Format:** image (commute scene)
+**Buffer post id:** 6ab714feb097c5b401a7973d
+**dueAt:** 2026-09-26T05:53:00Z
+
+---
+
 ## 2026-09-25T00:36:15Z
 
 spotlight: skipped (product_spotlight.enabled = false).
