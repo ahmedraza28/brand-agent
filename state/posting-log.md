@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-09-27T08:35:37Z
+
+skip-day: sun. Today (UTC 2026-09-27) is Sunday, which is in `state/settings.json` -> `skip_days` (["sun"]). Per Step 1's gate this is a hard stop, no exceptions even for big news: no research pass, no draft, no image, no Buffer call this run.
+
+---
+
 ## 2026-09-26T00:35:35Z
 
 spotlight: skipped (product_spotlight.enabled = false).
