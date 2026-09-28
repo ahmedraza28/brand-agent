@@ -1,5 +1,14 @@
 # Posting log
 
+## 2026-09-28T08:36:50Z
+
+spotlight: skipped (product_spotlight.enabled = false).
+takes: skipped (takes.enabled = false).
+
+Gate check: settings.enabled = true. Today (UTC 2026-09-28) is Monday, not in skip_days (["sun"]). Daily target: research_per_day = 1. Today's count from this log before this run = 1 (the-ladder-lost-its-bottom-rung, run at 2026-09-28T00:35:57Z, dueAt 2026-09-28T06:03:00Z, already live). remaining = 1 - 1 = 0.
+
+target-met: no post this run. Daily quota already filled by the earlier run today.
+
 ## 2026-09-28T00:35:57Z
 
 spotlight: skipped (product_spotlight.enabled = false).
