@@ -1,5 +1,34 @@
 # Posting log
 
+## 2026-09-29T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. ratios.py: on target across the board (80% Ployo, 73% link, 33% competitor, 33% AU care, 0% borrowed opener). Selected hipages Group (ASX-listed, AU) replacing take-home assessments with in-person testing, per HCAMag/HRD article dated 2026-09-29, fetched directly this run: Jason Lau, Head of TA, says ~60% of candidates use AI at some point in applying, high volume but lower quality than expected, ~350 employees, human team reviews all applications. Single-source interview, so figures attributed to Lau in the post and no claims beyond the article. Take: in-person testing fits small-batch hiring but does not scale to volume hiring (aged care, disability, hospitality); replacement is live adaptive conversation with readable reasons and a human decision. No dunk on hipages. Named Ployo + approved 30,000+ figure, no link. Closed on a verdict. check_facts: PASS (advisory no_link). Image: scene interview-room, IMAGE_N=3, candidate 1 kept.
+
+### take-home-test-is-dead | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Take-home assessments are finished. Anything a candidate can do alone at a kitchen table, an AI now does faster and better.
+
+hipages, the ASX-listed Australian marketplace, has replaced its take-homes with in-person testing. Jason Lau, their head of talent, told HRD that about 60% of candidates use AI at some point in applying, and that volume is high while quality is lower than expected. Credit to them: they welcome AI use, they want to see how candidates use it, and a human team reviews every application.
+
+For a company of around 350 people hiring a handful of roles at a time, that's a sensible fix. You can put five people in a room.
+
+It breaks the moment volume shows up. I build AI interviewers, and most of the hiring I see is aged care, disability support and hospitality. Hundreds of applicants, shifts to fill by Monday, no spare room and no spare recruiter. Nobody flies 400 support workers in for a whiteboard session.
+
+So what replaces the take-home when you can't afford the room? My bet is a live, adaptive conversation. The second question depends on the first answer, so a pasted response has nowhere to hide. Every score comes with reasons a person can read, and a person makes the call. Ployo has run 30,000+ AI interviews on that principle, and the ones that tell you anything are never the scripted ones.
+
+A test you can only run in person is a test only small companies can afford.
+
+#Hiring #TalentAcquisition #AIHiring #Recruiting
+
+**Format:** image (interview-room scene)
+**Buffer post id:** 6abb08a27889d8281c22c2c0
+**dueAt:** 2026-09-29T05:18:00Z
+
+---
+
 ## 2026-09-28T00:35:57Z
 
 spotlight: skipped (product_spotlight.enabled = false).
