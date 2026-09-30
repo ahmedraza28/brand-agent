@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-09-30T00:41:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. ratios.py: on target. Selected MIT (Hedden and Raghavan, Philosophical Perspectives; MIT News 2026-09-29 + phys.org) on algorithmic monoculture in hiring, two sources agreeing. Flagged as a mathematical model, not a field study. Builder take on auditability / human sampling of rejections. check_facts initially blocked borrowed_opener; fixed by adding approved 30,000+ figure early. Buffer rejected firstComment (paid plan), so source link omitted. Image: scene recruiter-desk, IMAGE_N=3, candidate 1 kept. Closed on a verdict.
+
+### mit-algorithmic-monoculture | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+If every employer screens with the same AI, the biggest risk isn't one biased model. It's that nobody ever finds out what the model got wrong.
+
+Ployo has run 30,000+ AI interviews, and the hardest part of any screen, ours included, is that a rejection is a closed door.
+
+This is the argument in a paper MIT's Brian Hedden and Manish Raghavan published this week. When every firm scores candidates with the identical algorithm, you get what they call an informational echo chamber. The same people get turned away everywhere, so no firm ever learns whether the model was right about them.
+
+To be fair to the paper, it's a mathematical model, not a field study, and they say the effects depend on the details. Monoculture isn't automatically bad. Their fixes are unglamorous: build in some randomness, or average several models instead of trusting one.
+
+You never watch the person you turned away do the job, which means whatever the screen believed on day one is still what it believes on day 300, unless someone goes looking for its mistakes on purpose.
+
+My bet is that any screening tool worth buying lets a human pull a sample of the rejected, read the reasons behind every score, and overrule it. If a vendor can't show you the reasons, you can't audit it. And if you can't audit it, you're renting the same blind spot as every competitor down the road.
+
+A screen that can never be proven wrong can never get any better either.
+
+#Hiring #AIHiring #TalentAcquisition #Recruiting
+
+**Format:** image (recruiter-desk scene)
+**Buffer post id:** 6abc5a343b1eb12e6e3d1c86
+**dueAt:** 2026-09-30T05:41:00Z
+
+---
+
 ## 2026-09-29T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (take-home-test-is-dead, 00:50Z run). Nothing published.
