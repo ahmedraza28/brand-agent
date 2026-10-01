@@ -1,5 +1,34 @@
 # Posting log
 
+## 2026-10-01T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. ratios.py asked for AU care/health. Selected LinkedIn CEO Dan Shapero (WSJ interview, reported by Fortune 2026-09-30, Yahoo repost agrees): applications up 30 percent vs pre-pandemic, applicants look similar. Attributed to Shapero, no claims beyond the article. AU aged-care support worker anchor, Ployo + 30,000+ named, no link. Closed on a verdict. check_facts PASS (advisory no_link). Image: scene care-worker, IMAGE_N=3, candidate 1 kept.
+
+### li-sea-of-applicants | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+When every applicant looks the same on paper, a smarter paper filter solves nothing. LinkedIn's own CEO is now saying it out loud.
+
+Dan Shapero told the Wall Street Journal that, by his count, job seekers now send out 30 percent more applications than before the pandemic. Employers, he said, face a sea of applicants who "look pretty similar." Candidates use AI to put their best foot forward. Employers use AI to cope with the pile. Both sides polish and filter, and the signal gets thinner every round.
+
+I build AI interviewers, and I'll say the uncomfortable part. Faster resume ranking won't fix this. A smarter filter over a document everyone can now generate is just a faster way to sort equally polished paper.
+
+Think about an aged-care provider hiring support workers. The resume says "compassionate, reliable, team player." So does every other one. What separates people is how they answer when you ask what they'd do when a resident refuses a shower at 6am. Resumes can't carry that. A conversation can.
+
+Ployo has run 30,000+ AI video interviews, and the thing I trust least in all of it is any score a recruiter can't read the reasons for. The AI asks and grades. A person still decides, and can overrule it.
+
+When everyone's paper looks the same, the only evidence left is what a candidate actually says and does.
+
+#Hiring #AIHiring #TalentAcquisition #Recruiting #AgedCare
+
+**Format:** image (care-worker scene)
+**Buffer post id:** 6abdab9426106f7332695d02
+**dueAt:** 2026-10-01T05:15:00Z
+
+---
+
 ## 2026-09-30T08:35:00Z
 
 target-met: research_per_day=1, already 1 post today (mit-algorithmic-monoculture, 00:41Z run). Nothing published.
