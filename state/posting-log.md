@@ -1,5 +1,33 @@
 # Posting log
 
+## 2026-10-02T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. ratios.py asked for a competitor + AU care/health. Selected Metaview $60M Series C (Insight Partners lead; TNW + SiliconANGLE agree on amount, lead, 7,000+ customers, Magos "Recruiting is next" quote, "people set the criteria and make every final decision"). Named Metaview without dunking, NDIS anchor, Ployo + 30,000+ named, no link. Passed over California No Robo Bosses Act (SB 947 covers firing/discipline, not hiring). check_facts PASS (advisory no_link). Image: scene night-shift, IMAGE_N=3, candidate 1 kept. Closed on a verdict.
+
+### li-metaview-middle-of-funnel | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Most of the money in AI recruiting is chasing the top of the funnel. The costly mistakes get made in the middle.
+
+Metaview just raised $60M, led by Insight Partners, for agents that source candidates, write the outreach, chase the follow-ups and book the screening call. Its CEO, Siadhal Magos, says "Recruiting is next." More than 7,000 companies already use the product, and the company says people set the criteria and make every final decision.
+
+I build in the same category, so I'm not here to dunk. Sourcing and scheduling tools save real hours.
+
+But picture a disability support provider filling weekend shifts. Nobody on that team is short of applicants or outreach. What they're short of is evidence of how a person handles a hard moment, captured the same way for every applicant. Faster logistics around a thin signal gives you a thin signal, sooner.
+
+Ployo has run 30,000+ AI video interviews, and what I keep relearning is that the agent's job is to ask everyone the same questions and show its working. A recruiter reads the reasons. A person decides.
+
+Every vendor now says a human makes the final call. Soon that line will cost nothing to say. The test is whether the reasons are on screen when they make it.
+
+#Hiring #AIRecruiting #TalentAcquisition #NDIS #Recruiting
+
+**Format:** image (night-shift scene)
+**Buffer post id:** 6abefd1d63de9e09a285e144
+**dueAt:** 2026-10-02T05:45:00Z
+
+---
 ## 2026-10-01T08:35:00Z
 
 target-met: research_per_day=1, already 1 post today (li-sea-of-applicants, 00:55Z run). Nothing published.
