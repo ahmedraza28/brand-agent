@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-03T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. ratios.py asked for a competitor + AU care/health. Selected LinkedIn Hiring Assistant 2 (WebWire release + ERE agree: memory tied to how recruiters/companies hire, 20,000+ companies, Nov 2026 rollout; announcement dates differ across sources so none stated). Angle: memory inherits past hiring habits; reasons must be readable. Competitor named without dunking. fact gate PASS. First comment dropped: Buffer plan does not allow LinkedIn firstComment (source not in post).
+
+### li-hiring-assistant-memory | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A hiring agent that remembers how you used to hire will get very good at hiring the way you used to hire.
+
+LinkedIn just announced Hiring Assistant 2, and memory is the headline. It learns how each recruiter and each company hires, then uses that history to fill in vague searches. LinkedIn says more than 20,000 companies already use the first version.
+
+That is a real convenience. A recruiter who types "fresh perspective" and gets sensible results will not go back.
+
+But memory is a mirror. Picture an aged-care provider whose past hires mostly held a Certificate III and two years on a ward. The agent learns that pattern as taste. The career-changer who spent a decade caring for her own mother never reaches the shortlist, and nobody can say why, because nobody asked the agent to explain itself.
+
+I build AI interviewers, so I like agents. I distrust any whose preferences I can't read. Ployo has run 30,000+ AI video interviews, and the rule I hold hardest is that every score comes with reasons a person can read and overrule.
+
+The announcement I read didn't say how a recruiter sees why someone ranked where they did. That is the feature I'd ask for before memory.
+
+An agent should remember your criteria. It should never quietly inherit your habits.
+
+#Hiring #AIRecruiting #TalentAcquisition #Recruiting #AgedCare
+
+**Format:** image (waiting scene)
+**Buffer post id:** 6ac04e9a724c7034229bb07b
+**dueAt:** 2026-10-03T05:36:00Z
+
+---
 ## 2026-10-02T08:35:00Z
 
 target-met: research_per_day=1, already 1 post today (li-metaview-middle-of-funnel, 00:50Z run). Nothing published.
