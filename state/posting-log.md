@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-05T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. ratios.py asked for a competitor + AU care/health. Selected California ADMT rules (HR Dive + Littler agree: CPPA regs effective 2027-01-01, meaningful human involvement = knows how to interpret output, analyses it, has authority to change decision; risk assessments + pre-use notices; hiring opt-out exception). Angle: a human who can't read the reasons is a signature. No competitor named (no honest fit), AU care via home-care hypothetical. Passed over JHU gendered-prompt chatbot study (thin hiring link). check_facts PASS (advisory no_link). Image: scene interview-room, IMAGE_N=3, candidate 1 kept. Closed on a verdict.
+
+### li-california-human-review | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Every vendor says a human makes the final call. California just defined what that has to mean, and a lot of "human in the loop" setups won't pass.
+
+From 1 January 2027, California's privacy rules require larger employers using automated decision tools in hiring to run a risk assessment and give candidates a notice before use. A tool counts as replacing the human unless the reviewer clears three tests. They know how to interpret the output. They analyse it alongside other relevant information. They have real authority to change the decision.
+
+Read that as a recruiter. A ranking lands, a number out of 100, and you advance forty people before lunch. Could you tell a good 72 from a bad one?
+
+Picture a home-care provider clearing 200 applicants for weekend shifts. The reviewer is capable and rushed, and the screen shows a ranking with no reasons. On paper a person decided. Under that test, I doubt it.
+
+I build AI interviewers, and Ployo has run 30,000+ AI video interviews. What I keep relearning is that every score has to ship with the answer it came from, in words a recruiter can argue with. Without that the human is decoration.
+
+The rules also let an employer refuse an opt-out request in hiring if the tool works for its intended purpose and doesn't discriminate. So the burden of proof lands on the employer. My read, not legal advice.
+
+A human who can't read the reasons is just a signature.
+
+#Hiring #AIRecruiting #TalentAcquisition #HRTech #Compliance
+
+**Format:** image (interview-room scene)
+**Buffer post id:** 6ac2f195d467abe8cfcedcb6
+**dueAt:** 2026-10-05T05:54:00Z
+
+---
 ## 2026-10-04T08:35:00Z
 
 skip-day: sun
