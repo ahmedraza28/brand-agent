@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-06T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. ratios.py asked for a competitor + AU care/health. Selected HackerRank Chakra AI interviewer launch (TechCrunch 2026-10-05: agent watches candidates in a real repo, asks follow-ups; CEO quotes; humans keep final decision). Angle: grade thinking not output, push back on "AI is less biased if tuned" with explainable/human-in-the-loop spine. Competitor named (not in competitors.md, only TechCrunch-verified facts used, no dunk), AU home-care hypothetical, 340,000+ stat. check_facts PASS (advisory no_link). Image: hands-detail, IMAGE_N=3, candidate 3 kept. Buffer firstComment needs a paid plan, so source link omitted (TechCrunch URL above, ployo.ai not linked).
+
+### li-grade-the-thinking | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Grading the final answer stopped working the day everyone got an AI assistant. HackerRank's new interviewer agrees, and I think it's half right.
+
+HackerRank just launched Chakra, an AI agent that watches a candidate work in a real code repo and asks follow-up questions about their reasoning. Their CEO told TechCrunch that anybody can produce an artifact now, so the thing to evaluate is how the person got there.
+
+I agree. Ployo has graded 340,000+ candidate answers, and what I keep seeing is that the polished first answer tells you little. The second question, where someone has to defend it, tells you a lot.
+
+Where I'd push back is the line that AI is way less biased than humans if you tune it properly. Maybe. Tuned by whom, and checked how? A score with no readable reasons behind it just moves the bias somewhere harder to see.
+
+Chakra only scores, and humans keep the hiring decision. Good. That only means something if the human can see why a candidate got the number.
+
+Same test applies far from code. A home-care provider clearing 200 applicants for weekend shifts isn't reading repos, but the question is identical. Can you tell who understood the job from who recited it?
+
+Grade the thinking. Then make the thinking readable.
+
+#Hiring #AIRecruiting #TalentAcquisition #HRTech #AIInterviews
+
+**Format:** image (hands-detail scene)
+**Buffer post id:** 6ac44319acc08dcd5e9aa58f
+**dueAt:** 2026-10-06T05:35:00Z
+
+---
 ## 2026-10-05T08:35:00Z
 
 target-met: research_per_day=1, already 1 post today (li-california-human-review, 00:55Z run). Nothing published.
