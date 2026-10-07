@@ -1,5 +1,37 @@
 # Posting log
 
+## 2026-10-07T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. Slow day: searches returned only aggregator listicles; an aged-care care-minutes item was a 2024 article, so unverifiable for 2026 and dropped. Used bank take volume-roles-are-the-real-frontier. Only stats-pack figures used (30,000+, 70%+). No competitor named (none verified). check_facts PASS (advisory no_link). Image: care-worker scene, IMAGE_N=3, candidate 1 kept.
+
+### bank-volume-roles-frontier | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take (source opinion id: `volume-roles-are-the-real-frontier`)
+
+**Text:**
+Everyone talks about AI hiring for engineers. The roles with the worst screening problem are the ones nobody pitches at conferences.
+
+An office job opens up and a few dozen people apply. Someone careful reads them, probably badly, but they read them. A frontline care role opens up and the inbox fills overnight. Hundreds of applications, a rota with a hole in it by Friday, and one coordinator who also answers the phones.
+
+That is not a careful human read. It is a coin flip with a deadline.
+
+I build AI interviewers, and this is the part that keeps pulling me back. Ployo has run 30,000+ AI interviews, and a lot of them are for exactly these roles: aged care, disability support, health, hourly work. The 70%+ completion rate tells me something I didn't expect. People will happily sit a proper interview at 9pm after a shift, if somebody finally asks them real questions.
+
+I'm not saying a model should decide who gets the job. It shouldn't. The coordinator still makes the call, and she should be able to read why someone ranked where they did.
+
+But the gap between "nobody looked" and "someone asked and wrote down what they heard" is enormous. It sits in the roles where hiring is least glamorous and most urgent.
+
+The serious money and the serious builders are chasing the roles that already get a careful read. The coin flips are somewhere else.
+
+#Hiring #AIRecruiting #TalentAcquisition #AgedCare #FrontlineHiring
+
+**Format:** image (care-worker scene)
+**Buffer post id:** 6ac594c14712dc1b486819bf
+**dueAt:** 2026-10-07T04:19:00Z
+
+---
 ## 2026-10-06T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (li-grade-the-thinking, 00:50Z run, dueAt 2026-10-06T05:35:00Z). Nothing published this run.
