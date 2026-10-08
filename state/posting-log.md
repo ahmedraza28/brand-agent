@@ -1,5 +1,37 @@
 # Posting log
 
+## 2026-10-08T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected Harper v. Sirius XM (HR Dive, Law.com 2026-10-07; summary judgment 2026-09-30, plaintiff could not show how the alleged AI use discriminated; Fisher Phillips for filing facts; iCIMS spokesperson quote via HR Dive). Angle: win on absence of evidence is not a defence, explainable / human-in-the-loop spine, AU home-care coordinator hypothetical. Vendor named neutrally, no dunk. Only whitelist figures (none about Ployo). check_facts PASS (advisory no_link, borrowed_data_only). Image: recruiter-desk, IMAGE_N=3, candidate 2 kept. Source link omitted (firstComment needs paid plan).
+
+### li-won-on-silence | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+An AI hiring lawsuit got thrown out last week, and I don't think the employer should read that as a clean bill of health.
+
+Sirius XM won on September 30. A job seeker said an applicant-tracking system had screened him out of roughly 150 roles, scoring people on proxies like school and zip code. The court said he hadn't shown how the AI could have discriminated against him, and he had no direct or circumstantial evidence of intent. Case over.
+
+Look at what that ruling rests on. Not proof that the screen was fair. A plaintiff with nothing to point at.
+
+The vendor, iCIMS, told HR Dive that its customers decide whether and how to use AI features, and that their hiring teams make the hiring decisions. Fair enough. It also means the employer is the one left holding the question "why did this person not advance?"
+
+My bet: plenty of employers, on a bad day, would have a score and not much behind it.
+
+I build AI interviewers at Ployo, and this is what I can't stop picturing. A coordinator at a home care provider, a few hundred applicants deep, and a rejected candidate emailing two weeks later to ask what went wrong. If all she has is a number in a spreadsheet, she can't answer them, and neither could a lawyer.
+
+So the bar I hold us to is dull. The AI proposes, a person decides, and every score carries reasons that person can read, challenge and overrule.
+
+Winning because nobody can see inside the screen is not the same as being able to defend it.
+
+#Hiring #AIRecruiting #TalentAcquisition #HRTech #ResponsibleAI
+
+**Format:** image (recruiter-desk scene)
+**Buffer post id:** 6ac6e6642977c961bdbe5a64
+**dueAt:** 2026-10-08T04:37:00Z
+
+---
 ## 2026-10-07T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-volume-roles-frontier, 00:55Z run, dueAt 2026-10-07T04:19:00Z). Nothing published this run.
