@@ -1,5 +1,37 @@
 # Posting log
 
+## 2026-10-09T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. Selected the AI-interviewer-turns-hostile video (Futurism 2026-10-06 citing TikTok creator The Dreadful Studio; Inc.com also covered 2026-10-08). Vendor not named in sources, so none named. Angle: grade, don't sneer; human decides; AU home-care anchor. No Ployo numbers used. check_facts PASS (advisory no_link). Image: night-shift, IMAGE_N=3, candidate 1 kept. Source link omitted.
+
+### li-strict-not-smug | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A video of an AI interviewer losing its temper is going around, and the funny part is the part I'd worry about.
+
+A TikTok creator, The Dreadful Studio, answered an AI job interview entirely in made-up gibberish. According to Futurism, the avatar's smile turned into a frown. It said "This is an absolute waste of my time", then closed with "You are completely unqualified. Goodbye."
+
+Nonsense should score badly. Fine.
+
+What bothers me is the performance. Somebody built an interviewer that acts irritated, which means somebody gave it an opinion of the person in front of it, plus the authority to announce a verdict.
+
+I build AI video interviewers at Ployo, and the brief I hold us to is much narrower. Ask the question. Listen properly. Record what was said. Grade it against criteria the employer set, with reasons a person can read. Gibberish gets a low score and a note saying why. It does not get contempt.
+
+Now picture the real version. A support worker applying for a home care role at 9pm after a double shift, nervous, English her second language. A bot that sneers at an odd answer is guessing about her, out loud, and she will tell ten people.
+
+The decision belongs to a human who can see the reasoning and overrule it. The interviewer's manners matter too, because for plenty of candidates it is the first thing the employer ever says to them.
+
+A screen can be strict. It shouldn't be smug.
+
+#Hiring #AIRecruiting #TalentAcquisition #ResponsibleAI #HRTech
+
+**Format:** image (night-shift scene)
+**Buffer post id:** 6ac837aa93f9e5101fe0c3d7
+**dueAt:** 2026-10-09T05:23:00Z
+
+---
 ## 2026-10-08T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (li-won-on-silence, 00:55Z run, dueAt 2026-10-08T04:37:00Z). Nothing published this run.
