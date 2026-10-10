@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-10T00:58:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. Selected ACLU complaint vs Criteria Corp over Emotify (HR Dive 2026-10-09; confirmed by second search result). Allegations framed as allegations. Angle: grade the answer not the face; named Ployo (builder anchor), named Criteria (neutral, no dunk), AU aged-care anchor. check_facts PASS (advisory no_link). Image: waiting scene, IMAGE_N=3, candidate 2 kept (cand 1 had garbled badge text). Buffer first comment unsupported on plan, source link omitted.
+
+### li-emotify-grade-answer | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A hiring test that scores how well you read faces is now the subject of a civil rights complaint, and I think it points at something most buyers never check.
+
+On Tuesday the ACLU filed with the California Civil Rights Department against Criteria Corp. The target is Emotify, an assessment that measures emotional intelligence through matching and prediction games. The ACLU alleges it parallels clinical diagnostic tools for autism so closely that it may count as a medical exam before an offer, and that it could screen out autistic applicants. Criteria hadn't commented when HR Dive reported it. These are allegations, and I have no view on who wins.
+
+My question is for every vendor, including me. What is the score measuring?
+
+Someone who reads expressions slowly can be an excellent aged-care coordinator. A test that rewards speed at labelling faces rewards a skill the job may never use, and it quietly punishes people for how they think instead of what they'd do on shift.
+
+I build AI video interviewers at Ployo, so the standard I hold us to is plain. Ask a job-relevant question. Grade what the person actually said against criteria the employer wrote down. Attach reasons a recruiter can read, argue with and overrule. Give candidates an obvious way to ask for a different format before they are scored, not after.
+
+Grade the answer, never the face or the pace. An interviewer that does the second is the same test with better lighting.
+
+A score nobody can explain is a guess with a logo.
+
+#Hiring #AIRecruiting #ResponsibleAI #TalentAcquisition #HRTech
+
+**Format:** image (waiting scene)
+**Buffer post id:** 6ac98931d9cab260a7a9fc4d
+**dueAt:** 2026-10-10T04:37:00Z
+
+---
 ## 2026-10-09T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (li-strict-not-smug, 00:50Z run, dueAt 2026-10-09T05:23:00Z). Nothing published this run.
