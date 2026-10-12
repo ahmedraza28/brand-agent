@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-12T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. Selected 60 Minutes Australia segment (via Nine, 2026-10-11) on older Australians who say AI screening shuts them out; Stacey Duguid, 52, 16 months job hunting (details corroborated by BBC Aug 2026, which could not confirm AI caused her rejections, stated in post). EEOC v iTutorGroup ($365,000, alleged auto-rejection of women 55+/men 60+, 200+ applicants) verified on eeoc.gov. Named Ployo + approved 30,000+ figure, named Sapia (neutral, paraphrased founder comment from syndicated 60 Minutes summary), AU angle. check_facts PASS (advisory no_link). Image: hands-detail, IMAGE_N=3, candidate 1 kept. Buffer first comment unsupported, no link. Closed on a verdict.
+
+### li-delete-your-age | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+If the fix for being rejected is deleting your age from the document, the document was never what was being judged.
+
+60 Minutes Australia reported this week on older workers who say AI screening is shutting them out. Stacey Duguid, 52, a former fashion editor, spent 16 months job hunting after a redundancy. A friend told her to cut her work history back and take her age off the CV. She did.
+
+Nobody has shown that software caused her rejections. The BBC said as much when it told her story in August. That is the part worth sitting with. She can't know, and neither can the employer, because a CV filter, human or machine, leaves no reasons behind.
+
+The pattern is real somewhere. In 2023 the EEOC settled with iTutorGroup for $365,000 after alleging its hiring software automatically rejected women aged 55 or older and men aged 60 or older. More than 200 applicants. That was a rule someone typed in, not a mystery.
+
+I build AI interviewers at Ployo, so I don't get to call AI the cure. It can scale the same shortcut faster. Sapia's founder told the program she sees no malevolence in this, that employers switch on features that create bias without realising it. She may well be right, and it's why I want every switch logged.
+
+Our rule after 30,000+ AI interviews: score what the person actually said against criteria written before anyone applied, attach reasons a recruiter can read, and let a human overrule.
+
+A filter that can't explain itself will always get blamed. Some days it will deserve it.
+
+#Hiring #AgeDiscrimination #AIRecruiting #ResponsibleAI #TalentAcquisition
+
+**Format:** image (hands-detail scene)
+**Buffer post id:** 6acc2c278e8dd50ffc5f47e8
+**dueAt:** 2026-10-12T04:49:00Z
+
+---
 ## 2026-10-11T08:35:00Z
 
 skip-day: sun (repeat run, nothing published)
