@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-13T01:05:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. Selected Guardian opinion (Giselle Au-Nhien Nguyen, 2026-10-12/13), first-person account of an AI video interview for a preschool educator role (paused to think, booted out; questions answered from the job ad; withdrew; no human reply in over a month), verified by direct fetch of the Guardian page. Greenhouse figure (around 38% withdrew from a hiring process over an AI interview) verified on Fortune 2026-05-04. Named Ployo + approved 70%+ completion figure, named Greenhouse (neutral, as data source), AU childcare angle. check_facts PASS (advisory no_link). Image: empty-room, IMAGE_N=3, candidate 3 kept. No first comment. Closed on a verdict.
+
+### li-pause-is-thinking | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+An AI interviewer that kicks you out for pausing to think has mistaken speed for rigour.
+
+Giselle Au-Nhien Nguyen wrote in the Guardian this week about her first AI interview, for a preschool educator role. She paused over a hard question. The system booted her out. She clicked the link and started again. At the end, her questions about the job got lines lifted from the job ad, and anything more was for a manager she never met.
+
+She withdrew and told the organisation why. Over a month later, no reply from a human.
+
+Greenhouse reported in May that around 38% of candidates have withdrawn from a hiring process because it included an AI interview. She is one of them, with a name and a reason attached, which is rare. Most people leave silently and your funnel just calls it drop-off.
+
+I build AI video interviewers at Ployo, so I read this the way a mechanic reads a crash report. My read, and I could be wrong: the pause is the most useful thing a candidate does. Someone who stops before a hard question is showing you how they think. A system that treats silence as a fault is grading fluency, and AI-written CVs already made fluency cheap.
+
+Our completion rate sits at 70%+, so most people will do this. It tells me nothing about whether they felt respected, and that is the number I can't measure yet.
+
+An AI interview is a first conversation. Treat the pause like a pause and the candidate like someone who might say yes.
+
+#Hiring #AIRecruiting #CandidateExperience #TalentAcquisition #ResponsibleAI
+
+**Format:** image (empty-room scene)
+**Buffer post id:** 6acd7dbb3d6121df4036edc7
+**dueAt:** 2026-10-13T04:41:00Z
+
+---
 ## 2026-10-12T08:35:00Z
 
 target-met: research_per_day=1, already 1 post today (li-delete-your-age, 00:50Z run, dueAt 2026-10-12T04:49:00Z). Nothing published this run.
