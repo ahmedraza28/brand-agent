@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-14T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. Selected Workday's talent acquisition agent launch (Rising 2026, announced 2026-10-13), verified via HR Dive primary fetch (customers choose which actions run automatically, which need review, when a person makes the final decision; logs agent activity; early access, GA planned early 2027) and corroborated by Workday PR Newswire / CFO Dive / CIO headlines. Named competitor (Workday, neutral, not dunked) per ratios.py; named Ployo + approved 340,000+ answers figure (needed to clear check_facts borrowed_opener). Human-in-the-loop spine. Closed on a verdict. check_facts PASS (advisory no_link). Image: recruiter-desk, IMAGE_N=3, candidate 1 kept. First comment skipped: Buffer plan rejects LinkedIn firstComment (paid feature).
+
+### li-review-button | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Human in the loop is turning into a setting. Someone picks it once, and it applies to every candidate after.
+
+Workday announced a talent acquisition agent on Tuesday. It watches open roles, flags the ones likely to miss their hiring targets, finds candidates, drafts recruiter outreach for approval and coordinates interviews. Customers choose which actions run on their own, which need review, and when a person makes the final call. Early access now, general availability planned for early 2027.
+
+I think that's the right instinct. An agent with no brakes is a non-starter.
+
+But I build AI video interviewers at Ployo, and after 340,000+ candidate answers graded I can tell you the brake was never the hard part. The hard part is what the person sees when they're asked to approve. Picture a recruiter handed a full inbox of drafted messages and a review button. They'll have clicked through the lot by Thursday.
+
+Workday says it logs agent activity, and good. A log tells you what happened. It doesn't mean the reviewer understood any of it.
+
+So the question I'd put to any vendor, mine included: when your agent asks a human to sign off, what does that human actually see? A score? Or the reasons behind it, in plain words, specific enough to disagree with?
+
+Oversight lives in what the reviewer can see, not in what the settings page says.
+
+#Hiring #AIRecruiting #TalentAcquisition #HumanInTheLoop #HRTech
+
+**Format:** image (recruiter-desk scene)
+**Buffer post id:** 6acecf500d20fd15277382ce
+**dueAt:** 2026-10-14T04:32:00Z
+
+---
 ## 2026-10-13T08:35:00Z
 
 target-met: research_per_day=1, already 1 post today (li-pause-is-thinking, 01:05Z run, dueAt 2026-10-13T04:41:00Z). Nothing published this run.

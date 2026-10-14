@@ -1083,6 +1083,15 @@
         "linkedin"
       ],
       "posted_at": "2026-10-13T01:05:00Z"
+    },
+    {
+      "topic_key": "li-review-button",
+      "title": "Workday launched a talent acquisition agent (Rising 2026, 2026-10-13; early access, GA early 2027) with customer-set controls over which actions run automatically vs need review. Builder take: human-in-the-loop becomes a setting; oversight depends on what the reviewer can see (reasons), not a review button. Source: HR Dive.",
+      "url": "https://www.hrdive.com/news/workday-brings-autopilots-finance-autonomous-ai-bet/832890/",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-10-14T00:50:00Z"
     }
   ]
 }
