@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-15T00:58:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected Humanly's acquisition of CareerArc (announced 2026-10-14), verified via PR Newswire primary fetch (Prem Kumar quotes, products, no price) plus TheNextWeb (fifth deal, Sprockets/Qualifi/HourWork/Anthill) and GeekWire/citybiz headlines. Named competitor (Humanly, neutral, not dunked) per ratios.py; named Ployo + approved 340,000+ answers figure. Hypothetical care-provider anchor flagged as 'picture' (no invented number). check_facts PASS (advisory no_link). Image: care-worker, IMAGE_N=3, candidate 1 kept. McKinsey AI client-sim story skipped (no primary source). Closed on a verdict.
+
+### li-funnel-easy-half | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Reaching more candidates earlier only helps if something can read all of them.
+
+Humanly, the AI hiring company, bought CareerArc this week. CareerArc does recruitment marketing, mainly social recruiting and a career-site tool that shows open jobs on a map. Humanly screens and interviews candidates over chat, phone and video for high-volume employers. Its CEO, Prem Kumar, said the point is to "reach candidates earlier" and stop employers piecing together disconnected tools. It's the company's fifth deal since 2025.
+
+The logic holds. One funnel beats five logins.
+
+But I build AI video interviewers at Ployo, and the top of the funnel has never been where high-volume hiring runs short. People turn up. Picture a care provider posting one support worker role on a Monday and holding a few hundred applicants by Wednesday. The marketing worked perfectly. Now every one of them is owed a response, and the bottleneck is whoever has to find the good ones.
+
+After 340,000+ candidate answers graded, I can tell you the answer is where the signal lives. A resume doesn't have it. A click on a map doesn't have it. Someone explaining how they handled a hard shift does.
+
+So the part I'd watch in any consolidated platform is what comes out the other end. Does a recruiter see the reasons behind each ranking, in words they can disagree with? Or just a shorter list?
+
+Filling a funnel is easy to buy. Reading what comes out of it is the part you have to build.
+
+#Hiring #AIRecruiting #TalentAcquisition #HighVolumeHiring #HRTech
+
+**Format:** image (care-worker scene)
+**Buffer post id:** 6ad021115ae624a5afa05039
+**dueAt:** 2026-10-15T04:37:00Z
+
+---
 ## 2026-10-14T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (li-review-button, 00:50Z run, dueAt 2026-10-14T04:32:00Z). Nothing published this run.
