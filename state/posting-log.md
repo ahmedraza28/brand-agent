@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-16T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. Selected Greenhouse's Orchestrated Hiring Ecosystem launch (PR Newswire 2026-10-15, fetched primary; AOL/ADVFN syndication corroborate). Named competitor (Greenhouse, neutral, direction conceded) + bare ployo.ai per ratios.py. Figures: 340,000+ (approved), '<7% get interview' flagged as Greenhouse's own. check_facts PASS. Image: interview-room, IMAGE_N=3, candidate 1 kept (cand 2 showed a laptop logo). Buffer rejected firstComment (paid plan), so no source link; posted without. Closed on a verdict.
+
+### li-checkbox-interview | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+When the ATS vendor ships the interview, AI interviewing stops being a category and becomes a checkbox.
+
+Greenhouse launched what it calls the Orchestrated Hiring Ecosystem yesterday. Sourcing, scheduling, identity checks, the ATS, and a voice AI first interview that gives every applicant the same questions and hands the team transcripts with evaluations they can read. Its CEO, Daniel Chait, says hiring still runs on "artifacts from the paper era."
+
+The release also says fewer than 7% of applicants ever get an interview. That's Greenhouse's own figure, so weigh it like a vendor's number. It's still the one I'd stare at. Most people never reach an interview because nobody has the hours to talk to all of them, not because interviews are hard to design.
+
+I build AI video interviewers at Ployo, so I'm biased. I also think Greenhouse is right about the direction, and a bigger room full of vendors is good for anyone selling to TA leaders.
+
+My bet: by next spring every suite has one, and "do you have AI interviews" stops being a useful question. The useful one is what the recruiter sees afterwards. After 340,000+ candidate answers graded, that's the part I'd pressure test in every demo at HR Tech next week. Can a recruiter read why one person scored higher than another, in plain words, and overrule it?
+
+A bundled interview nobody can argue with is just a faster way to reject people.
+
+Suite or specialist, whoever shows the reasoning wins. ployo.ai
+
+#Hiring #AIRecruiting #TalentAcquisition #HRTech #HighVolumeHiring
+
+**Format:** interview-room photograph
+**Buffer post id:** 6ad172479597cd16625d6a3c
+**dueAt:** 2026-10-16T04:58:00.000Z
+
+---
 ## 2026-10-15T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (li-funnel-easy-half, 00:58Z run, dueAt 2026-10-15T04:37:00Z). Nothing published this run.
