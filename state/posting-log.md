@@ -1,5 +1,35 @@
 # Posting log
 
+## 2026-10-17T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday (not a skip day), target 1, remaining 1. Selected TestGorilla survey via HR Dive (2026-10-16, fetched): 1,400+ US talent pros, 72% faster sourcing, ~third no confidence gain, 18% confidence fell, 2 in 3 spend 1h+ checking credentials. Flagged as vendor survey in the post. Named competitor (TestGorilla) + bare ployo.ai per ratios.py. Figure: 340,000+ (approved). check_facts PASS. Image: hands-detail, IMAGE_N=3, candidate 2 kept. No firstComment (Buffer rejects on current plan).
+
+### li-faster-not-trusted | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Faster sourcing was never the bottleneck. Trust was.
+
+TestGorilla surveyed 1,400+ US talent professionals, and HR Dive covered it today. 72% say AI helps them find candidates faster. About a third of those say it didn't raise their confidence in anyone's qualifications, and 18% say their confidence fell. More than two in three still spend an hour or more checking a single candidate's credentials by hand.
+
+TestGorilla sells assessments, so weigh it like a vendor survey. It still matches what TA leaders tell me. A bigger pile that arrives quicker is still a pile.
+
+I build AI video interviewers at Ployo, and the lesson that cost us the most months is simple. A score nobody trusts just moves the manual work somewhere else. Recruiters re-watch, re-check, re-do.
+
+After 340,000+ candidate answers graded, the grade matters less to me than what sits behind it. Can the recruiter see the actual answer, read the reason in plain words, and overrule the score in ten seconds?
+
+AI that finds people faster but can't show its working hasn't saved anyone time. It moved the hour from the search bar to the verification step.
+
+Speed is cheap now. Evidence is the product. ployo.ai
+
+#Hiring #AIRecruiting #TalentAcquisition #HRTech #Recruiting
+
+**Format:** hands-detail photograph
+**Buffer post id:** 6ad2c386c34368e4b09de5e3
+**dueAt:** 2026-10-17T04:06:00.000Z
+
+---
 ## 2026-10-16T08:36:00Z
 
 target-met: research_per_day=1, already 1 post today (li-checkbox-interview, 00:50Z run, dueAt 2026-10-16T04:58:00Z). Nothing published this run.
