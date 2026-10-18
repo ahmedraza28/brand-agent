@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-10-18T00:30:00Z
+
+skip-day: sun
+
+---
+
 ## 2026-10-17T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (li-faster-not-trusted, 00:55Z run, dueAt 2026-10-17T04:06:00Z). Nothing published this run.
