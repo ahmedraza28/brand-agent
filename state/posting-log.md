@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-10-19T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. Selected Employ's recruiter survey via HR Dive (2026-10-16, fetched primary): 1,200+ US recruiters/HR managers, AI top stressor first time in 19 years, 33% AI-polished resumes, 66% easier, 18% time shifted, satisfaction 82% to 69%. Flagged as vendor survey. Named competitor (Employ) + Ployo + 340,000+ + bare ployo.ai per ratios.py. check_facts PASS. Image: waiting, IMAGE_N=3, candidate 1 kept. No firstComment (Buffer plan rejects). Closed on a verdict.
+
+### li-polished-paper | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The resume stopped working as evidence somewhere in the last couple of years. Recruiters are only now saying which part hurts.
+
+Employ surveyed 1,200+ US recruiters and HR managers, and for the first time in the study's 19 years, AI is the top source of stress. One in three (33%) named AI-polished resumes as the main one, ahead of a shortage of qualified candidates. Employ sells recruiting software, so read it as a vendor survey.
+
+The detail I keep rereading is smaller. Two thirds say AI made their job easier. Only 18% say more than half their time has moved off admin and onto higher-value work. And satisfaction with their main recruiting tech fell from 82% to 69% in a year.
+
+That gap makes sense to me. Every candidate now has a tool that writes a flawless resume in seconds, and the screening step still starts by reading the resume. Nothing upstream changed except how good the paperwork looks.
+
+I build AI video interviewers at Ployo, so I have a horse in this race. What 340,000+ graded candidate answers taught me is narrow. An answer given live, in someone's own words, is harder to polish than a document. Not impossible. Harder. And a recruiter can read it, see the reasons next to the score, and overrule it.
+
+A flood of polished paper doesn't get fixed by a faster paper reader.
+
+ployo.ai
+
+#Hiring #Recruiting #TalentAcquisition #AIRecruiting #HRTech
+
+**Format:** waiting photograph
+**Buffer post id:** 6ad565c3769b457934e6ab14
+**dueAt:** 2026-10-19T04:23:00.000Z
+
+---
+
 ## 2026-10-18T08:31:00Z
 
 skip-day: sun
