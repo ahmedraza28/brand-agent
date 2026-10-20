@@ -1,5 +1,34 @@
 # Posting log
 
+## 2026-10-20T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. Selected iCIMS candidate fraud framework (2026-10-16, fetched primary icims.com newsroom; PR Newswire/Yahoo syndications corroborate). Named competitor (iCIMS, credit given) + Ployo + 340,000+ per ratios.py; no ployo.ai link this run (3 straight linked). Gartner stat omitted (not in the fetched release). 417,000 attributed to iCIMS. check_facts PASS (no_link warning only). Image: recruiter-desk, IMAGE_N=3, candidate 1 kept. No firstComment. Closed on a verdict.
+
+### li-flag-is-a-question | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Fraud gets caught in the conversation, not by a badge in a marketplace.
+
+iCIMS announced a candidate fraud framework on October 16. Native controls like leaked-credential blocking and one-time passcode login, a new Fraud Detection category in its Marketplace with no integration fee, and launch partners Socure for identity checks and ApplicantX for deepfake signals. Flagged candidates go to a recruiter for review. iCIMS says it blocked more than 417,000 breached passwords in 2025, and that is their number from their own release.
+
+The instinct is right and the plumbing is useful. Account takeover and synthetic identities are real, and a TA team shouldn't need a procurement project to get a document check. That is a job for identity vendors and I'm glad it's getting easier to plug in.
+
+What I'd watch is the step after the flag. A flag is a question, not an answer. Somebody still has to decide whether a risk score means a person is lying or just has a weak connection and an accent. In a volume queue that call gets made in seconds, by whoever is least able to explain it later.
+
+I build AI video interviewers at Ployo, and 340,000+ graded candidate answers taught me one unglamorous thing. The cheapest fraud signal is a follow-up question. Ask someone to walk through what they just said, in their own words, and a script or a stand-in runs out fast. The evidence is the answer itself, which a recruiter can read and overrule. We don't replace identity verification and I wouldn't claim we do.
+
+Detection tells you who to doubt. A good interview gives you a reason.
+
+#Hiring #Recruiting #TalentAcquisition #AIRecruiting #HRTech
+
+**Format:** recruiter-desk photograph
+**Buffer post id:** 6ad6b7562d48e20f64be6667
+**dueAt:** 2026-10-20T04:10:00.000Z
+
+---
+
 ## 2026-10-19T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-polished-paper, 00:50Z run, dueAt 2026-10-19T04:23:00Z). Nothing published this run.
