@@ -1,5 +1,38 @@
 # Posting log
 
+## 2026-10-21T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. SLOW DAY: no candidate cleared the grounding bar (Google AI-interview pilot traces only to one Business Insider report and dates from May; Amazon 300,000 holiday jobs and Hunar.AI raise not confirmable; iCIMS covered yesterday). Used bank entry ghosting-is-a-system-output (never used). Named Ployo + 30,000+ + bare ployo.ai; no competitor named (no verified fact to hang one on). check_facts PASS. Image: commute, IMAGE_N=3, candidate 1 kept. Closed on a verdict. No firstComment.
+
+### bank-ghosting-math | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+Most candidate ghosting is a staffing problem that gets described as bad manners.
+
+Picture a recruiter on a Wednesday afternoon with a few hundred applications open and one hiring manager chasing a shortlist by Friday. She isn't choosing to be rude to the people at the bottom of the pile. She physically has no minutes left to write to them. So nobody does, and the candidate reads silence as contempt.
+
+We keep treating this as a character flaw. Run a campaign about respect, train people on empathy, publish a pledge. None of it adds an hour to anyone's week.
+
+I build AI video interviewers at Ployo (ployo.ai), so yes, I have an angle here. After 30,000+ interviews, the question I hear most from candidates is some version of "where do I stand?" I think many would take a clear no over a long maybe. The waiting hurts more than the answer.
+
+The most defensible job for automation in hiring is the dullest one. The rejection nobody has time to send. A clear message, sent fast, with a human still free to override it when the call looks wrong.
+
+Time-to-hire gets all the dashboards. Time-to-no gets none, and it's the number candidates remember about you.
+
+You can keep blaming individuals for a capacity problem. The pile won't get smaller.
+
+#Hiring #Recruiting #TalentAcquisition #CandidateExperience #AIRecruiting
+
+**Format:** commute photograph
+**Buffer post id:** 6ad809159fdbc474fbf2d1a9
+**dueAt:** 2026-10-21T05:00:00.000Z
+
+---
+
 ## 2026-10-20T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-flag-is-a-question, 00:55Z run, dueAt 2026-10-20T04:10:00Z). Nothing published this run.
