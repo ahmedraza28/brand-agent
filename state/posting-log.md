@@ -1,5 +1,32 @@
 # Posting log
 
+## 2026-10-22T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected Hireology AI Hiring Intelligence suite launch (PR Newswire release 2026-10-21, fetched; 614 customers, 15.5 to 12.4 days is vendor-reported, attributed as such). Ratios.py asked for ployo.ai link + competitor: named Hireology (credited, not dunked), bare ployo.ai, 340,000+. Only one primary source (vendor release), claims framed as theirs. check_facts PASS after attribution reword. Image: empty-room, IMAGE_N=3, candidate 1 kept. Closed on a verdict. No firstComment.
+
+### li-faster-is-easy | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A before-and-after time-to-hire number is the easiest metric in recruiting to move and the least useful one to read.
+
+Hireology launched its AI Hiring Intelligence suite on October 21. Hireology published a release saying that across 614 customers, accounts using AI Match went from 15.5 days to hire to 12.4, which they call a 20% reduction. That's Hireology's own figure. The release doesn't say how many of those accounts used the feature, or how the before and after groups were compared. To their credit, it also says AI Interview never auto-advances or declines anyone, and the employer decides who moves on. That's the right line to hold.
+
+Still, 3.1 days faster tells you the pile moved quicker. It says nothing about whether the right people were in it. Faster is easy to buy. It can also just mean you reached a worse decision sooner.
+
+I build AI video interviewers at Ployo (ployo.ai), and the number I'd rather put in front of a TA leader is 340,000+ graded answers, each one open for a recruiter to read and disagree with. Time saved is nice. A reason you can read is what survives the awkward email from a candidate two weeks later.
+
+Any vendor can hand you a good time-to-hire. Ask what a recruiter can see behind a rejection.
+
+#Hiring #Recruiting #TalentAcquisition #AIRecruiting #HRTech
+
+**Format:** empty-room photograph
+**Buffer post id:** 6ad95a15ecaa6cda041dacce
+**dueAt:** 2026-10-22T04:37:00.000Z
+
+---
+
 ## 2026-10-21T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-ghosting-math, 00:50Z run, dueAt 2026-10-21T05:00:00Z). Nothing published this run.
