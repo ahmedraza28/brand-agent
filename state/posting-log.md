@@ -1,5 +1,38 @@
 # Posting log
 
+## 2026-10-23T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. SLOW DAY: no candidate cleared the grounding bar (Draup/HR Dive study on HR archetypes is a vendor job-description analysis about HR roles, not hiring mechanics; Paylocity and Gap AI-hiring items not confirmable from a primary source; Workable 10% mass-apply figure is from January; Hireology covered yesterday). Used bank entry where-ai-screening-fails (never used). Named Ployo, bare ployo.ai, 30,000+; no competitor named (no verified fact to hang one on). check_facts PASS after removing an unapproved number. Image: care-worker, IMAGE_N=3, candidate 1 kept. Closed on a verdict. No firstComment.
+
+### bank-ai-screen-outlier | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+The candidate an AI screen is worst at judging is usually the one you'd most regret missing.
+
+I build AI video interviewers at Ployo (ployo.ai), so I'm not here to bash the category. AI screening is very good at consistency. Same questions, same rubric, same standard at 9am and at 11pm, for the first applicant and the last. A tired human can't do that, and I'll defend it all day.
+
+But consistency leans toward the middle. A system that learns what good answers look like gets very fluent in the shapes it has already seen.
+
+Picture a nurse moving into care coordination who answers every question from a strange angle. The angle turns out to be the better one. A rubric scores her under the line. A person reading the transcript spots it in half a minute.
+
+That's why I stopped thinking of the human override as a compliance feature. It's where the system admits what it can't see: the career-switcher, the unconventional path, the person whose best evidence isn't on paper.
+
+After 30,000+ interviews I trust the scores to sort the pile. I don't trust them to have the last word on anyone unusual.
+
+If your AI screen gives a recruiter no way to rescue the weird-but-brilliant candidate, you've automated mediocrity.
+
+#Hiring #Recruiting #TalentAcquisition #AIRecruiting #HRTech
+
+**Format:** care-worker photograph
+**Buffer post id:** 6adaabda535235087b7361b7
+**dueAt:** 2026-10-23T04:52:00.000Z
+
+---
+
 ## 2026-10-22T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-faster-is-easy, 00:50Z run, dueAt 2026-10-22T04:37:00Z). Nothing published this run.
