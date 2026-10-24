@@ -1,5 +1,34 @@
 # Posting log
 
+## 2026-10-24T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. Selected Dayforce signing an agreement to acquire Ribbon AI (BetaKit 2026-10-23 fetched; GlobeNewswire/Unite.AI/citybiz/MarketScreener headlines agree on the deal; other pages 403/410 so only BetaKit-attributed facts used, Dayforce's customer/interview figures attributed to Dayforce). Ratios asked for a competitor: named Ribbon, credited not dunked; named Ployo, bare ployo.ai, 30,000+. Opinion marked as my read. check_facts PASS. Image: interview-room, IMAGE_N=3, candidate 1 kept. Closed on a verdict. No firstComment.
+
+### li-owns-the-rubric | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+An AI interviewer inside a payroll suite will be convenient, and convenience is how nobody ends up reading the scoring logic.
+
+Dayforce announced it has signed an agreement to acquire Ribbon, a Toronto company that runs AI screening interviews. Dayforce says Ribbon is proven at scale, with hundreds of customers and over one million completed interviews. Terms weren't disclosed. Those are real numbers to have built, and credit to Ribbon for getting there.
+
+I build a competing product at Ployo (ployo.ai), 30,000+ AI interviews so far, so weigh this accordingly. My read, and I could be wrong: interviewing is about to move from a tool somebody chose on purpose to a checkbox inside the system a company already pays for.
+
+That's great for procurement. One contract, one login, one data trail.
+
+It's harder on the question I'd want a TA lead asking in every demo. When a candidate gets a low score, can a recruiter read why in plain words, and overrule it without raising a ticket? A feature bundled into a suite tends to get judged on whether it switches on, not on whether anyone can inspect it.
+
+Whoever owns the rubric owns the hire. Make sure that's still you.
+
+#Hiring #Recruiting #TalentAcquisition #AIRecruiting #HRTech
+
+**Format:** interview-room photograph
+**Buffer post id:** 6adbfd6a0b5343d070595bef
+**dueAt:** 2026-10-24T04:41:00.000Z
+
+---
+
 ## 2026-10-23T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-ai-screen-outlier, 00:40Z run, dueAt 2026-10-23T04:52:00Z). Nothing published this run.
