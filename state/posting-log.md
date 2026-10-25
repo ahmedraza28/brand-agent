@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-10-25T00:32:00Z
+
+skip-day: sun
+
+---
+
 ## 2026-10-24T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (li-owns-the-rubric, 00:50Z run, dueAt 2026-10-24T04:41:00.000Z). Nothing published this run.
