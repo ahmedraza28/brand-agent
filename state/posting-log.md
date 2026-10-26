@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-10-26T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. Selected Greenhouse job-seeker survey (2,800+ seekers, US/UK/IE/DE/AU) via HR Dive 2026-10-23, fetched and figures confirmed. Angle: candidates stuff keywords and hidden text for AI screeners, so a document is the wrong signal; interviews are harder to stuff, only if scoring is readable. Ratios asked for a competitor: named Greenhouse, credited not dunked; named Ployo, bare ployo.ai, 30,000+. Opinion marked as my read. check_facts PASS. Image: recruiter-desk, IMAGE_N=3, candidate 1 kept. Closed on a verdict. No firstComment.
+
+### li-written-for-filter | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+If a third of applicants are hiding text for your AI screener to find, the screener is grading the wrong thing.
+
+Greenhouse surveyed more than 2,800 job seekers across the US, UK, Ireland, Germany and Australia, and HR Dive wrote it up on Friday. 54% said they used AI to work out what automated screening wants. 40% said they added skills or keywords they didn't have. A third said they added hidden text aimed at AI reviewers. And 81% said they'd been rejected in the past year without ever being contacted.
+
+Credit to Greenhouse for publishing numbers that don't flatter the industry.
+
+Read it the way a hiring manager would. Applicants write for the filter, then the filter reads what they wrote for it. Both sides are performing, and nobody learns a thing about the person.
+
+I build AI interviewers at Ployo (ployo.ai), 30,000+ AI interviews so far, so I'm biased toward my own answer. My read, and I could be wrong: a document can be stuffed, a conversation is much harder to stuff. White text in the margin does nothing when a candidate has to explain, out loud, how they handled the last difficult customer.
+
+An interview only beats a resume if someone can read how it was scored. Reasons attached to every score, and a recruiter who can overrule it without a ticket. Otherwise you've swapped one black box for another.
+
+Fix the signal before you tune the filter.
+
+#Hiring #Recruiting #TalentAcquisition #AIRecruiting #HRTech
+
+**Format:** recruiter-desk photograph
+**Buffer post id:** 6adea028e4be8a4d86d57b6a
+**dueAt:** 2026-10-26T05:17:00.000Z
+
+---
+
 ## 2026-10-25T08:31:00Z
 
 skip-day: sun
