@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-10-27T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. Selected Paylocity Recruiting Optimizer launch (2026-10-22; GlobeNewswire release surfaced via search, MarketScreener, Quiver, StockTitan summary agree; Paylocity page itself needs JS so only structural facts used, vendor 25% claim cut by check_facts). Ratios asked for a competitor: named Paylocity, credited not dunked; named Ployo with bare ployo.ai. Angle: SMS/chat screening answers can be pasted from a chatbot, video is harder to outsource (marked as my read). Image: hands-detail, IMAGE_N=3, candidate 1 kept. Closed on a verdict. No firstComment. Note: system PIL was broken, used a venv.
+
+### li-typed-answers-borrowed | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Text-message screening worked when the person typing was the candidate. I'm no longer sure that's a safe bet.
+
+Paylocity launched Recruiting Optimizer on October 22, an AI layer on its recruiting software. One agent talks to applicants over web chat and SMS, handling screening questions and scheduling. Another goes back through past applicants to find people who fit a new opening. Paylocity says recruiters set the criteria and review the output, and people still make the hiring decisions.
+
+Credit to them. For a payroll vendor, putting this where the applicants already are is smart distribution.
+
+My worry is the channel. A typed answer to "tell me about a time you handled a difficult customer" takes a candidate a few seconds to paste from a chatbot. The screener then grades fluent, tidy, borrowed prose. The best writer wins. Not the best carer on the roster.
+
+I build AI video interviews at Ployo (ployo.ai), so I'm biased, and I could be wrong. My read is that it's harder to hand your face and your pauses to a tool in real time. Not impossible. Harder.
+
+Whatever channel you pick, a recruiter should be able to read why each person scored what they did, and overrule it.
+
+If the answer can be pasted, the score means nothing.
+
+#Hiring #Recruiting #TalentAcquisition #AIRecruiting #HRTech
+
+**Format:** hands-detail photograph
+**Buffer post id:** 6adff21ef266a5f7e106c8f7
+**dueAt:** 2026-10-27T04:55:00.000Z
+
+---
+
 ## 2026-10-26T08:33:00Z
 
 target-met: research_per_day=1, already 1 post today (li-written-for-filter, 00:40Z run, dueAt 2026-10-26T05:17:00.000Z). Nothing published this run.
