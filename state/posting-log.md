@@ -1,5 +1,34 @@
 # Posting log
 
+## 2026-10-28T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. Selected JobLeads analysis of nearly 1.4 million US postings (HR Dive 2026-10-26, fetched; single trade source, no developing-story claims, vendor percentages not used). Sirius XM suit already covered 2026-10-08, skipped. Ratios asked for a competitor but no honest competitor hook in this story, so none named (carried forward); named Ployo with ployo.ai and 340,000+. Angle: a job ad is the first rubric you publish, vague personality words can't be graded by human or model. Image: waiting, IMAGE_N=3, candidate 1 kept (system PIL broken, used venv). check_facts PASS. Closed on a verdict. No firstComment.
+
+### li-nobody-applies-to-a-mood | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A job ad that asks for "motivated" and "hardworking" is asking the candidate to grade themselves. Most won't bother.
+
+JobLeads went through nearly 1.4 million US job postings from April to June, and HR Dive wrote it up on Monday. The ads that got clicks but no applications leaned on personality words, things like motivated, hardworking and following directions. Their salaries and skill requirements looked like everyone else's. What they lacked was anything specific and checkable.
+
+That matches how I read ads. A candidate can tell in a few seconds whether a posting describes a job or a mood. Nobody applies to a mood.
+
+The same flaw sits further down the funnel, and I see it from the builder's side. At Ployo (ployo.ai), our AI interviews have graded 340,000+ candidate answers, and the hard part has never been the model. It's the rubric. Before a question can be scored, somebody has to write down what a good answer sounds like. For "tell me about a time you handled a difficult family member" that is doable. For "are you a hard worker" it isn't, and every reviewer, human or model, fills the gap with their own taste.
+
+If you can't write down what good looks like, you can't screen for it. You also can't explain the score to the person who got it.
+
+My bet: the job ad is the first rubric you ever publish. Most teams never notice they wrote a bad one.
+
+#Hiring #Recruiting #TalentAcquisition #JobAds #AIRecruiting
+
+**Format:** waiting photograph
+**Buffer post id:** 6ae14357d689807dda1548ab
+**dueAt:** 2026-10-28T04:08:00.000Z
+
+---
+
 ## 2026-10-27T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-typed-answers-borrowed, 00:55Z run, dueAt 2026-10-27T04:55:00.000Z). Nothing published this run.
