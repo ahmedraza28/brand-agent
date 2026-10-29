@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-10-29T00:50:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected Kakao AI pre-interview + first personality test (BigGo Finance 2026-10-27 fetched; Chosunbiz and Maeil Business headlines corroborate; claims limited to AI pre-interview replacing recruiter-led one, personality test new, recruiters review results as reference). Ratios asked for a competitor: no honest named competitor hook, carried forward. Named Ployo with ployo.ai and 340,000+. Angle: human-in-the-loop lives or dies on what the reviewer is shown. Image: empty-room, IMAGE_N=3, candidate 1 kept (system PIL broken, used venv). check_facts PASS. No firstComment.
+
+### li-screen-decides | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Saying the AI won't decide is easy. Whether a recruiter ever overrules it is the real test.
+
+Kakao is changing how it hires at its headquarters, per Korean press reports this week. An AI pre-interview replaces the recruiter-led online one, for graduates and experienced hires alike, and a personality test goes in for the first time since the company was founded. Kakao says the AI won't pass or fail anyone directly. Recruiters will review the results as reference.
+
+That is the right line to draw. Reference is a slippery word, though.
+
+I see this from the builder's side. When a reviewer opens a shortlist of two hundred people and every name already has a number next to it, the number becomes the decision. Unless they can see why it's there. A score with no reasons gets obeyed. A score with the reasons attached gets argued with, and that's the version you want.
+
+At Ployo (ployo.ai) we run AI video interviews, and after 340,000+ candidate answers graded I'd say the reasons matter more than the model. A recruiter who can read why someone scored low can say "that's wrong" and mean it.
+
+I don't know what Kakao's reviewers actually see. Nobody outside does yet. My bet is the policy sentence matters less than the screen.
+
+Human in the loop lives or dies on what the recruiter is shown.
+
+#Hiring #Recruiting #AIRecruiting #TalentAcquisition #HRTech
+
+**Format:** empty-room photograph
+**Buffer post id:** 6ae294bd7a72c9efac0a9018
+**dueAt:** 2026-10-29T05:12:00.000Z
+
+---
+
 ## 2026-10-28T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-nobody-applies-to-a-mood, 00:40Z run, dueAt 2026-10-28T04:08:00.000Z). Nothing published this run.
