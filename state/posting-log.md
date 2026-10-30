@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-10-30T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. Selected Gap Inc. Bridgette AI career guide for seasonal hiring (announced 2026-10-23; FashionUnited fetched: built with Paradox, Workday Recruiting, nearly 45,000 candidates engaged, 7,000+ interviews scheduled, managers make hiring decisions; Retail Tech Innovation Hub fetched, corroborates 45,000 / 7,000 / CTO quote; HR Dive page 404'd). 200,000-applications figure NOT used (single source). Ratios asked for a competitor: named Paradox factually as the platform, no dunk. Ployo not named this run (already 93%), carried no mention. Angle: a scheduling bot is a screening step when applicants exceed slots; the rule that sorts people before the human is the unreadable part. Image: commute, IMAGE_N=3, candidate 1 kept (system PIL broken, used venv). check_facts PASS. Closed on a verdict. No firstComment.
+
+### li-slot-is-the-decision | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A scheduling bot becomes a screening step the moment there are more applicants than interview slots. Most teams don't call it that.
+
+Gap Inc. announced last week that Bridgette, its AI career guide for seasonal hiring, is scaling across stores and distribution centers. It was built with Paradox and connects to Workday. In the pilot, nearly 45,000 candidates engaged with it and it scheduled more than 7,000 interviews for store leaders. Gap's CTO said managers still run the interviews and make the hiring decisions.
+
+I believe him. It's also the line everyone will quote.
+
+What the coverage doesn't say is how a person got from chatting with the bot to holding an interview slot. Not everyone who chats wants a job, so I won't read much into the gap between 45,000 and 7,000. But somewhere in between, something sorted people. For a store manager with shifts to fill, the slot is the decision. The interview is the formality that follows.
+
+I build AI interviewers, so I'm not arguing against any of this. Volume hiring needs it. Nobody should be ringing candidates back one at a time in November.
+
+My bet is that "a human makes the final call" is true and still tells you very little. The rule that decided who reached the human is the part nobody can read.
+
+The final call is only human for the people who make it to the final call.
+
+#Hiring #Recruiting #AIRecruiting #TalentAcquisition #HRTech
+
+**Format:** commute photograph
+**Buffer post id:** 6ae3e63f56e01b97637a6f65
+**dueAt:** 2026-10-30T04:47:00.000Z
+
+---
+
 ## 2026-10-29T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-screen-decides, 00:50Z run, dueAt 2026-10-29T05:12:00.000Z). Nothing published this run.
