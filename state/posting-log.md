@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-10-31T00:34:49Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. Selected Institute of Student Employers 2026 graduate recruitment survey (resultsense 2026-10-14 fetched; theoutpost/magica corroborate 92% vs 85%, 66% undeclared AI use in interviews). Angle: employer countermeasures make the question harder to look up, none ask if the question was worth asking; human reviews suspicion, readable reason. Ratios asked for a competitor: no honest named hook, carried forward. Ployo not named (90%). Image: interview-room, IMAGE_N=3, candidate 1 kept (venv for PIL). check_facts PASS (advisory warnings only). Closed on a verdict. No firstComment.
+
+### li-weak-question | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Most of what employers call interview cheating is a question that always had an answer you could read off a page.
+
+The Institute of Student Employers published its UK graduate hiring survey this month. 92% of employers reported suspected or confirmed misconduct, up from 85% a year earlier. The most common form, at 66%, was undeclared AI use in interviews. One employer said candidates sounded like they were reading off an Autocue.
+
+I don't doubt it happens. The response is what interests me. Employers are adding time limits, randomised question banks and more personal questions. Some now end the interview the moment they suspect a candidate is using AI.
+
+Look at what those fixes share. Each one makes the question harder to look up. None of them asks whether the question was worth asking.
+
+I build AI interviewers, so I have a stake here, and I'll say where I'm unsure. A follow-up that depends on what the person just said is much harder to fake than the opener. "Tell me about a time you led a team" can be read aloud. "You said the deadline moved twice, what did you drop?" can't, at least not smoothly. Whether that survives the next year of tooling, I don't know.
+
+The other half I am sure about. Ending an interview on a hunch is a decision about a person with nothing written down. If suspicion can cost someone the job, a human should look at why, and the reason should be readable.
+
+You can't catch your way out of a weak question.
+
+#Hiring #Recruiting #AIRecruiting #TalentAcquisition #CandidateExperience
+
+**Format:** interview-room photograph
+**Buffer post id:** 6ae537a1a1145743497a0390
+**dueAt:** 2026-10-31T05:18:00.000Z
+
+---
+
 ## 2026-10-30T08:35:00Z
 
 target-met: research_per_day=1, already 1 post today (li-slot-is-the-decision, 00:40Z run, dueAt 2026-10-30T04:47:00.000Z). Nothing published this run.
