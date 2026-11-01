@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-11-01T00:30:00Z
+
+skip-day: sun
+
+---
+
 ## 2026-10-31T08:32:14Z
 
 target-met: research_per_day=1, already 1 post today (li-weak-question, 00:34Z run, dueAt 2026-10-31T05:18:00.000Z). Nothing published this run.
