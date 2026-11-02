@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-11-02T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. Selected Accenture investor-day AI recruiting agents (The Register 2026-10-30 + letsdatascience corroborate: 28% time-to-hire, 30% quality, human always decides; company claims, no method). Angle: undefined 'quality' metric, human-in-loop only real if reasons are readable; we have no outcome data. Ployo named with 340,000+ answers (approved). Competitor ratio: no honest hook, carried forward. Image: recruiter-desk, IMAGE_N=3, candidate 1. check_facts PASS (warn: no link). No firstComment.
+
+### li-quality-defined | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Ployo has graded 340,000+ candidate answers, and I still wouldn't claim a number for "candidate quality". Accenture just did.
+
+At a recent investor day, Accenture's HR chief Kate Clifford said it now uses agents to screen résumés and schedule interviews, that time to hire fell 28%, and that entry-level hires get productive in six weeks instead of six months. The Register reported it on 30 October and noted these are company figures with no method given. She also said a human always makes the hiring decision.
+
+The human part I believe. The 30% is where I would poke.
+
+A human making the final call sounds like a safeguard. It only is one if that person can see why the agent ranked someone below the line. If the agent hands over a shortlist and nothing else, the human is picking from a list somebody else already cut. Quick, and a bit of a rubber stamp.
+
+And "quality" is a score the system sets for itself. Improved against what? People who did well in the job, or people the screen happened to like more? I can't answer that for my own product, because we have no hiring outcome data. Grading an answer is not the same as knowing who turned out good. I suspect plenty of vendors can't answer it either.
+
+Accenture's careers page tells candidates not to use AI to generate interview answers, while agents screen those same candidates. Both sides automate. Only one side gets disqualified for it.
+
+My bet: the real test of an AI screen will be whether a person can read the reason behind every cut before the cut is final. Speed is the easy part.
+
+#AIHiring #Recruiting #TalentAcquisition #HRTech
+
+**Format:** recruiter-desk photograph
+**Buffer post id:** 6ae7dac348ce42a6b4357030
+**dueAt:** 2026-11-02T04:47:00.000Z
+
+---
+
 ## 2026-11-01T08:31:00Z
 
 skip-day: sun (second run)
