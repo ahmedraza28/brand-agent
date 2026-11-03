@@ -1,5 +1,38 @@
 # Posting log
 
+## 2026-11-03T00:45:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. News pass: NYC LL144 enforcement piece (Law.com) and Fisher Phillips "two federal courts dismiss AI/keyword bias claims" could not be verified from primary text this run, and LL144/Workday already covered in ledger, so slow-day bank-take. Ratios: competitor LOW (no honest hook, carried forward). Image: hands-detail, IMAGE_N=3, candidate 1. check_facts PASS (warn: no link; Buffer firstComment needs paid plan so link omitted).
+
+### bank-resume-bad-sensor | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+The resume is the worst sensor in the hiring pipeline, and it's the one we trust most.
+
+Look at what it actually is. A document the candidate wrote about themselves, reworded for the job ad in front of them, with every gap smoothed over and every verb upgraded. Then a keyword filter goes on top and we call the output a shortlist.
+
+No other function would run on a sensor that reports whatever the machine wants to hear.
+
+I build AI interviewers at Ployo, so yes, I'm biased. But the bias comes from reading answers. We've graded 340,000+ candidate answers from AI video interviews, and an answer has one thing a resume line never has: it can be weak. It can be thin, or sharp, or off the question. "Led a team" just sits there being unfalsifiable.
+
+I'm not claiming answers predict who turns out good at the job. We have no outcome data, and I'd distrust anyone selling you that certainty. My claim is smaller. A signal you can read beats a signal you can only parse.
+
+So improving resume parsing is the wrong project. The better question is what earns the right to be the first thing you look at.
+
+And whatever replaces it, a person should be able to see the reasons behind every score and overrule it.
+
+#Recruiting #TalentAcquisition #AIHiring #HRTech
+
+**Format:** hands-detail photograph
+**Buffer post id:** 6ae92c6a6f053cdb90b24dab
+**dueAt:** 2026-11-03T05:27:00.000Z
+
+---
+
 ## 2026-11-02T08:34:00Z
 
 target-met: research_per_day=1, already 1 post today (li-quality-defined, 00:40Z run, dueAt 2026-11-02T04:47:00.000Z). Nothing published this run.

@@ -187,8 +187,8 @@
       "id": "resume-is-a-bad-sensor",
       "take": "A resume is a self-reported, retro-edited marketing document, and we've built the entire top of the funnel on it. It's the worst sensor in the whole pipeline and somehow the one we trust most.",
       "note": "First-principles: the resume as a low-fidelity signal. The interesting question is what replaces it as the primary signal, not how to parse it better.",
-      "last_used": null,
-      "times_used": 0
+      "last_used": "2026-11-03",
+      "times_used": 1
     },
     {
       "id": "interview-theater",

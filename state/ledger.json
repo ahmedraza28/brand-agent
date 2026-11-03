@@ -1236,6 +1236,15 @@
         "linkedin"
       ],
       "posted_at": "2026-11-02T00:40:00Z"
+    },
+    {
+      "topic_key": "bank-resume-bad-sensor",
+      "title": "Slow-day bank take (resume-is-a-bad-sensor): resume is a self-reported, retro-edited sensor; a readable answer beats a parseable resume line; no outcome data claimed",
+      "url": "",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-11-03T00:45:00Z"
     }
   ]
 }
