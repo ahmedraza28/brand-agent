@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-11-04T00:55:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. Selected Binance disclosure (2026-11-03): fake job interview was one way in to a $6B+ theft; verified via The Hacker News, BleepingComputer/NBC/Register/Japan Times coverage (loss figure varies 6.3-6.43B so stated as "more than $6 billion", no attribution claimed). Angle: interview as attack surface, never run/install anything for an interview. Ployo named with 30,000+ interviews (approved). Competitor ratio LOW: no honest hook, carried forward. Image: empty-room, IMAGE_N=3, candidate 1 (Pillow needed venv). check_facts PASS (warn: no link). No firstComment.
+
+### li-interview-attack-surface | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Hiring teams spend years on what candidates might fake. Almost nobody asks what the interview itself can be used for.
+
+Binance published its account of a theft of more than $6 billion this week, and one way in was a fake job interview. In September an engineer was approached on a legitimate job-hunting platform by someone posing as a project director. Round one was a video call with a fake HR rep. Round two was a chat with someone claiming to be the CEO of a company that does not exist. Near the end came the assignment: a code repository to download onto a work computer. Binance says it ran malicious code on setup. NBC and BleepingComputer both carry the same sequence.
+
+Nobody is filing this under hiring. It belongs there.
+
+Look at why it worked. Two rounds, a friendly HR contact, a CEO call, a take-home at the end. Every beat looked like a real senior hire. Candidates have been trained, by all of us, to hand trust to anyone who plays the part of an employer.
+
+I build AI interviewers at Ployo, which has run 30,000+ of them, so I think a lot about what makes an interview believable. My list is short. You can check who the employer is. And nobody ever asks you to run something on a machine you don't own.
+
+That second rule should be written down for candidates. It should be written into every recruiter's take-home template too.
+
+An interview that needs you to install something is not an interview.
+
+#Recruiting #TalentAcquisition #AIHiring #CyberSecurity
+
+**Format:** empty-room photograph
+**Buffer post id:** 6aea7dddff887f055cdc3c68
+**dueAt:** 2026-11-04T05:11:00.000Z
+
+---
+
 ## 2026-11-03T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-resume-bad-sensor, 00:45Z run, dueAt 2026-11-03T05:27:00.000Z). Nothing published this run.

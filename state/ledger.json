@@ -1245,6 +1245,15 @@
         "linkedin"
       ],
       "posted_at": "2026-11-03T00:45:00Z"
+    },
+    {
+      "topic_key": "li-interview-attack-surface",
+      "title": "Binance disclosure (2026-11-03): fake job interview was one way into a $6B+ theft; take: an interview that needs you to install something is not an interview",
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-11-04T00:55:00Z"
     }
   ]
 }
