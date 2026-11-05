@@ -1,5 +1,34 @@
 # Posting log
 
+## 2026-11-05T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected September JOLTS (BLS release 2026-11-03: 7.5M openings, 5.4M hires, verified on bls.gov; "slowest hiring pace since 2013" attributed to Indeed Hiring Lab, verified on its page). Angle: openings are not hires; slow market means a taller pile, fix the first conversation. Ployo named with 30,000+ (approved). Competitor ratio LOW: no honest hook, carried forward. Image: waiting, IMAGE_N=3, candidate 1 (Pillow needed venv). check_facts PASS (warn: no link). No firstComment.
+
+### li-openings-not-hires | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+An open role and a hire are two different things, and the latest jobs data shows how far apart they have drifted.
+
+US employers had 7.5 million job openings in September and 5.4 million hires, according to the BLS JOLTS release on November 3. Indeed's Hiring Lab says employers are hiring at the slowest pace since 2013. Layoffs are low. Openings are holding. Almost nothing is moving.
+
+My read of what that does to a recruiter's desk: the pile on each role gets taller while the number of hires stays flat. People who have a job wait for something certain. People who don't apply to everything. Both land in the same inbox.
+
+I build AI interviewers at Ployo, which has run 30,000+ of them, and the lesson from volume is simple. Finding people is rarely the hard part. The hard part is how long someone waits before a real conversation happens.
+
+A slow market feels like it gives you time. It gives you a bigger pile and the same hours.
+
+Use the quiet to fix the first conversation.
+
+#Recruiting #TalentAcquisition #AIHiring #LaborMarket
+
+**Format:** waiting photograph
+**Buffer post id:** 6aebcf48f283c8dd45ad7256
+**dueAt:** 2026-11-05T04:26:00.000Z
+
+---
+
 ## 2026-11-04T08:33:00Z
 
 target-met: research_per_day=1, already 1 post today (li-interview-attack-surface, 00:55Z run, dueAt 2026-11-04T05:11:00.000Z). Nothing published this run.
