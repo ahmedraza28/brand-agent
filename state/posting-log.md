@@ -1,5 +1,38 @@
 # Posting log
 
+## 2026-11-06T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. SLOW DAY: no candidate verifiable from a primary source this run (Dayforce-closes-Ribbon is only a HR Brew headline, page 404, and Dayforce/Ribbon was already covered 2026-10-24; Local Law 144 piece is a student op-ed; LSE SME item unfetchable). Used bank entry candidates-screen-you-back (never used), fresh angle. Named Ployo, no link, no numbers; no competitor named (no verified fact to hang one on). check_facts PASS (warn: no link). Image: commute, IMAGE_N=3, candidate 1 kept (Pillow needed venv). Closed on a verdict. No firstComment.
+
+### bank-candidates-screen-back | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+Every hiring process is also a job interview for the company, and most companies fail theirs.
+
+A candidate with options reads your process the way you read their resume. How long did the first reply take? Did the person on the call actually know the role? Did a human ever show up, or did three weeks of silence do the talking? None of that appears on your careers page. All of it is what they tell the next person they talk to.
+
+I build AI interviewers at Ployo, so I watch this from an odd seat. The pattern I keep seeing: people who wait for a real conversation rarely complain. They just stop answering. The strongest ones go first, because they have somewhere else to be.
+
+That's an observation, not a study. But I'd bet most TA leaders have watched the same thing happen to a shortlist.
+
+A sloppy process works as a preview. Candidates assume it's a sample of how you'll treat them in month three, and they're usually right.
+
+So how fast you reply and how honest a "no" sounds aren't candidate experience extras. They are the first thing you ever show someone about how you manage people.
+
+You are being interviewed the whole time. Act like it.
+
+#Recruiting #TalentAcquisition #CandidateExperience #AIHiring
+
+**Format:** commute photograph
+**Buffer post id:** 6aed20b7c1e74b84e5b85b76
+**dueAt:** 2026-11-06T04:45:00.000Z
+
+---
+
 ## 2026-11-05T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (li-openings-not-hires, 00:40Z run, dueAt 2026-11-05T04:26:00.000Z). Nothing published this run.
