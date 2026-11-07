@@ -1,5 +1,34 @@
 # Posting log
 
+## 2026-11-07T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. Selected October 2026 jobs report via Indeed Hiring Lab (165,000 jobs, 4.1%, health care 519,000 of 885,000 net 12-mo, 25%+ of unemployed searching 6+ months, shift to experienced candidates; all verified on hiringlab.indeed.com). Angle: experience is a cheap filter, AU-care/health hook. Ployo named with 30,000+ (approved). No competitor (no honest hook). Image: care-worker, IMAGE_N=3, candidate 1. check_facts PASS (warn: no link). No firstComment.
+
+### li-experience-filter | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A hot jobs number can hide a cold hiring market, and October is a good example.
+
+US employers added 165,000 jobs and unemployment slipped to 4.1%, per the BLS report as read by Indeed's Hiring Lab. Good headline. Then the detail. Health care and social assistance added 519,000 of the 885,000 net jobs over the past year, about 60%. More than a quarter of unemployed people have been searching for six months or longer. Hiring Lab also says employers have shifted toward experienced candidates, which leaves early-career people few ways in.
+
+Read together, that's a market where one sector is desperate and the rest are picky.
+
+The picky part is the one I'd worry about as a hiring leader. "Experienced" is usually a filter on a resume line, because a resume line is the cheapest thing to sort. It's also a bad proxy for whether someone can do the job. Plenty of strong people in care and frontline roles have the ability and no title to prove it.
+
+I build AI interviewers at Ployo, and we've run 30,000+ AI video interviews. What I take from that is simple: give someone a real structured conversation and you can judge what they can do, not just where they've worked. Every answer is scored against criteria a human can read and overrule.
+
+If health care is where the jobs are, screening on years of experience is how you leave good carers in the pile.
+
+#Recruiting #TalentAcquisition #AIHiring #Healthcare #HiringTrends
+
+**Format:** care-worker photograph
+**Buffer post id:** 6aee7214a7751de7c9b85aa1
+**dueAt:** 2026-11-07T04:07:00.000Z
+
+---
+
 ## 2026-11-06T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-candidates-screen-back, 00:40Z run, dueAt 2026-11-06T04:45:00.000Z). Nothing published this run.
