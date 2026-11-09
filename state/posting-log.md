@@ -1,5 +1,38 @@
 # Posting log
 
+## 2026-11-09T00:45:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. SLOW DAY: no candidate verifiable from a primary source (TechRadar/CNBC/Newsweek items unfetchable or already covered, Greenhouse 38% used 2026-10-13). Used bank entry ats-doing-its-job (never used), fresh angle. Named Ployo, no link, no numbers, AU care/frontline anchor generic; no competitor named (no verified fact). check_facts PASS (warn: no link). Image rendered (recruiter-desk) and pushed but GitHub Pages never served it after ~12 min, so published TEXT-ONLY per runbook. Closed on a verdict.
+
+### bank-ats-doing-its-job | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+Your ATS is doing exactly what you asked it to do, and that is the whole problem.
+
+We asked it to count nouns. "Stakeholder management." "Cross-functional." "Person-centred care." If the phrase is on the page, you move forward. If it isn't, you disappear. Then we act surprised that it can't tell a good candidate from a good formatter.
+
+Think about a care or frontline role that draws hundreds of applications. The best carer in that pile may have eight years on the floor and a resume that says "helped residents." The keyword filter reads that as nothing. The person who copied the job ad into their summary reads as a perfect match.
+
+Nobody designed that outcome. It's what you get when the cheapest thing to measure becomes the only thing measured.
+
+I build AI interviewers at Ployo, so I'm biased toward the fix I can see: stop asking the document to be the evidence. Ask the person a real question about the work and read the answer. Every score should come with reasons a recruiter can read and overrule. If the software can't show its reasoning, you've just built a newer, shinier ATS.
+
+Blaming the software is the easy part. Admitting we picked the metric is harder.
+
+A machine built to count words will keep rewarding people who learned which words to use.
+
+#Recruiting #TalentAcquisition #ATS #AIHiring #Healthcare
+
+**Format:** none (text-only; recruiter-desk image not live in time)
+**Buffer post id:** 6af117fd51492b796e6f40d7
+**dueAt:** 2026-11-09T04:15:00.000Z
+
+---
+
 ## 2026-11-08T08:31:00Z
 
 skip-day: sun
