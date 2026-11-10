@@ -229,8 +229,8 @@
    "id": "explainability-as-stance",
    "take": "If your hiring AI can't tell a candidate why they were rejected in plain language, you don't have a product, you have a black box that happens to make decisions about people's livelihoods. Explainability isn't a compliance checkbox. It's the difference between a tool and a verdict machine.",
    "note": "Transparency-as-a-product-stance whitespace. The trust high-ground the black-box vendors can't take. Explainable + bias-aware spine. Stake a flag without naming a competitor.",
-   "last_used": null,
-   "times_used": 0
+   "last_used": "2026-11-10",
+   "times_used": 1
   },
   {
    "id": "ai-scales-the-bias-you-feed-it",

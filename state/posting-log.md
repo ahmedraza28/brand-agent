@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-11-10T00:45:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. SLOW DAY: Levi's AI hiring agent (WWD) not verifiable (article unfetchable; Levi's own page gives no launch date or numbers), other items thin or covered. Used bank entry explainability-as-stance (never used), fresh angle (Brisbane home care hypothetical, generic). Named Ployo, no link, no numbers, no competitor (no verified fact). check_facts PASS (warn: no_link, hypothetical 600/12). Image: empty-room, IMAGE_N=3, candidate 2 kept. Closed on a verdict.
+
+### bank-explainability-as-stance | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+If your hiring software can't tell a rejected candidate why, it isn't a tool. It's a verdict machine.
+
+Picture a home care provider in Brisbane with 600 applications for 12 support worker roles. A system sorts them overnight. Someone gets "not progressed" at 6am, and nobody in the building can say what it was about that person. Not the recruiter, not the vendor's account manager. The score just exists.
+
+That is a decision about someone's rent, and we've gotten comfortable calling it efficiency.
+
+I build AI interviewers at Ployo, so I don't get to wave this off as someone else's problem. Our rule is boring. Every score has to come with reasons in plain language, tied to the answer the person actually gave. A recruiter can read it, disagree with it, and overrule it. If we couldn't do that, I'd rather not ship it.
+
+Explainability is usually pitched as a compliance checkbox. I think it's a product quality test. A system that can't explain a rejection can't be corrected, and a system that can't be corrected will keep making the same mistake at scale, quietly, with nobody positioned to notice.
+
+If the reason can't be said out loud to the candidate, it probably shouldn't have counted.
+
+#Recruiting #TalentAcquisition #AIHiring #ResponsibleAI #Healthcare
+
+**Format:** empty-room photograph
+**Buffer post id:** 6af2682dd35dff5701cc6eb5
+**dueAt:** 2026-11-10T05:44:00.000Z
+
+---
+
 ## 2026-11-09T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-ats-doing-its-job, 00:45Z run, dueAt 2026-11-09T04:15:00.000Z). Nothing published this run.
