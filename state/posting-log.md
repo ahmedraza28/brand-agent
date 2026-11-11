@@ -1,5 +1,38 @@
 # Posting log
 
+## 2026-11-11T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. Selected Workable's AI recruiting agent data (GlobeNewswire 2026-11-10, verified via financialcontent.com mirror of the release: 222 of engaged candidates requested a human handoff, ~0.1%; every engaged candidate offered one; CRO Sarfraz Ali: "This is not saying candidates prefer talking to a machine" / "It was a form, and a wait, and then usually nothing at all"). Angle: a low opt-out rate is not consent; the safeguard is the recruiter reading the reasons. Ratios asked for a competitor: Workable named neutrally, credited, no dunk. Ployo named with 70%+ (approved). check_facts PASS (warn: no ployo.ai link). Image: interview-room, IMAGE_N=3, candidate 1 kept (Pillow needed venv). firstComment with source link REJECTED by Buffer ("LinkedIn first comment requires a paid plan"), so published without the link. Closed on a verdict.
+
+### li-nobody-asked | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Almost nobody asking for a human is not the same as almost nobody wanting one.
+
+Workable reported numbers from its AI recruiting agent this week. Every candidate the agent engaged was offered a handoff to a person. 222 took it, about 0.1%.
+
+The easy read is that candidates are fine with AI. Workable's own CRO, Sarfraz Ali, pushed back on that read himself, which I respect. His point was that the old alternative wasn't a human conversation either. It was a form, then a wait, then usually nothing.
+
+He's right. I'd go one step further.
+
+Think about what asking for a human costs a candidate halfway through a screen. You don't know if it gets logged. You don't know if the recruiter sees "requested escalation" next to your name and reads it as difficult. So you stay in the lane you were given and finish. A low opt-out rate tells you people got through the process. Whether they trusted it is a separate question.
+
+I run into the same trap with my own numbers. At Ployo, 70%+ of candidates complete their AI video interview. I'm proud of that, and I still don't treat it as consent. Completion measures whether the process was tolerable, not whether the scoring was fair.
+
+So I care less about the human a candidate can request and more about the one they never see. The recruiter who reads every score with its reasons attached and can overrule it. That person should be in the loop whether anyone asks or not.
+
+Offer the handoff button, sure. Just don't let it stand in for the recruiter who reads the reasons.
+
+#Recruiting #TalentAcquisition #AIHiring #CandidateExperience #HRTech
+
+**Format:** interview-room photograph
+**Buffer post id:** 6af3b864b1cf2566f7b89fb1
+**dueAt:** 2026-11-11T04:45:00.000Z
+
+---
+
 ## 2026-11-10T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-explainability-as-stance, 00:45Z run, dueAt 2026-11-10T05:44:00.000Z). Nothing published this run.
