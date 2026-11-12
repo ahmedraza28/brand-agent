@@ -1,5 +1,36 @@
 # Posting log
 
+## 2026-11-12T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected Workday's 2026-11-10 motion to decertify the age-discrimination collective in Mobley v. Workday (15,000+ opt-in applicants; argues customers use the software differently and make their own hiring decisions). Verified via MLex (2026-11-10 statement excerpt) and FourWeekMBA's write-up citing Reuters 2026-11-11 + Law360 2026-11-10; Forbes headline corroborates the 15,000 figure. Reuters/Forbes direct fetch blocked. Court has not ruled; post says so. Angle: "the employer decided" only holds if the human could see reasons. Ratios asked for a competitor: Workday named neutrally, no dunk, no liability implied. Ployo deliberately NOT named (ratio at 93% vs 50% target). check_facts PASS (warns: 15,000 surface-form false positive, no Ployo mention, no link). Image: hands-detail, IMAGE_N=3, candidate 1 kept (Pillow via venv). No firstComment (paid-plan only). Closed on a verdict.
+
+### li-human-could-see | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+"The employer made the decision" is the right defense for an AI hiring vendor. It's also a promise most hiring tools can't keep.
+
+This week Workday asked a federal judge to decertify the age discrimination collective in Mobley v. Workday, more than 15,000 applicants. Part of its argument, as reported: customers use the software differently and make their own hiring decisions, so each claim needs individual review.
+
+The court hasn't ruled. Nobody has found Workday liable, and I won't pretend to know how the motion lands.
+
+What I do think is that every vendor in this market, mine included, will end up making some version of that argument. So it's worth asking what has to be true for it to hold.
+
+If the employer decides, the employer has to be able to see what they're deciding on. Hand a recruiter a ranked list with a match score and no reasons, and the human in the loop is mostly there to click approve. Someone clearing a few hundred applications on a Thursday afternoon will take the top of that list every time. I would too.
+
+I build AI interviewers, so I hold myself to the same test. Every score has to carry reasons a recruiter can read, tied to what the candidate actually said, and the recruiter has to be able to overrule it. If I can't show that, "the customer decided" is just a sentence my lawyer likes.
+
+A human in the loop is only a defense if the human could see something.
+
+#AIHiring #TalentAcquisition #Recruiting #ResponsibleAI #HRTech
+
+**Format:** hands-detail photograph
+**Buffer post id:** 6af509e73d8c751bfd044cd6
+**dueAt:** 2026-11-12T04:52:00.000Z
+
+---
+
 ## 2026-11-11T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (li-nobody-asked, 00:40Z run, dueAt 2026-11-11T04:45:00.000Z). Nothing published this run.
