@@ -1,5 +1,40 @@
 # Posting log
 
+## 2026-11-13T00:40:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. Selected the Massachusetts lie detector statute AI-screening litigation update (National Law Review / Pierce Atwood, Melanie A. Conroy, 2026-11-12: four appeals pending incl. Saint Cyr v. JPMorgan at the First Circuit argued 2026-07-28; testing claims turn on whether the tool was used to detect deception or assess honesty; Korn v. Amazon "Workstyle Assessment" survived dismissal). HireVue as the Saint Cyr tool verified via Fisher Phillips (2025-10-27) + search corroboration. Ratios asked for competitor + AU care: HireVue named neutrally as the tool in the case, no dunk; AU aged care/disability anchor, generic. Ployo deliberately NOT named (ratio 90% vs 50% target). check_facts PASS (warns: no Ployo mention, no link). Image: care-worker, IMAGE_N=3, candidate 2 kept (Pillow via venv). No firstComment (paid-plan only). Closed on a dry verdict.
+
+### li-sincerity-score | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+I don't want an AI interviewer anywhere near the question of whether a candidate is lying. Massachusetts is a good reminder why.
+
+The state has a lie detector statute that covers job applicants, and over the past year people have used it to sue employers over AI interview and assessment tools. Melanie Conroy at Pierce Atwood laid out where things stand this week. Four appeals are pending. One is Saint Cyr v. JPMorgan at the First Circuit, argued in July, over a HireVue video interview.
+
+So far the trial courts keep circling one question. Was the tool used to detect deception or assess honesty?
+
+In Saint Cyr the judge said showing that the tool could do that wasn't enough. In Korn v. Amazon, a different judge let a claim over a "Workstyle Assessment" go forward. I'm not a lawyer, and I won't guess how the appeals land.
+
+The builder lesson doesn't wait for them, though.
+
+Honesty is a trait you infer about a person. Whether an answer covers what the job needs is something you can check against what they actually said, and show your working.
+
+A lot of what I build gets used to hire support workers and nurses in Australian aged care and disability services. When a carer explains how they'd handle a resident refusing medication, nobody needs a sincerity score. A recruiter needs to read whether the answer was safe, see why it scored the way it did, and overrule it if the model got it wrong.
+
+That's the line I'd hold even if no court ever asked. Score the answer, with reasons a person can read.
+
+If a vendor tells you their model can tell when a candidate is lying, ask them to put it in writing. In Massachusetts, a plaintiff's lawyer might do it for you.
+
+#AIHiring #TalentAcquisition #Recruiting #ResponsibleAI #HRTech
+
+**Format:** care-worker photograph
+**Buffer post id:** 6af65b79da25c4db3e86bc75
+**dueAt:** 2026-11-13T04:18:00.000Z
+
+---
+
 ## 2026-11-12T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-human-could-see, 00:40Z run, dueAt 2026-11-12T04:52:00.000Z). Nothing published this run.
