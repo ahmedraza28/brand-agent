@@ -1,5 +1,40 @@
 # Posting log
 
+## 2026-11-14T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. Selected Sapia.ai's AI-generated-content detector v3 release (Onrec 2026-11-12, dateline London 9 Nov; same release carried by Yahoo Finance): nearly 97% detection of AI-written answers from the latest LLMs, genuine answers wrongly flagged around 2% of the time, nudge only after three or more flagged answers, Barb Hyman: "The AI detector is there to nudge, never punish. Nobody is rejected automatically because of it." All figures are Sapia.ai's own and the post says so. "About twenty per thousand" is plain arithmetic on their 2%. Angle: publish the false flag rate; a detector may nudge, never reject. Ratios asked for competitor + AU care: Sapia.ai named respectfully (agreeing with their design call), AU aged care/disability anchor framed as a hypothetical ("Picture one of them"). Ployo deliberately NOT named (ratio 87% vs 50% target). check_facts PASS (warns: no Ployo mention, no link, borrowed data only). Image: waiting, IMAGE_N=3, candidate 1 kept (Pillow via venv). No firstComment (paid-plan only). Closed on a verdict. Also considered: Careerminds UK AI-interview survey (opens on borrowed data, saturated), Onrec mirrored-CV test (good, no competitor seat; keep for a later day).
+
+### li-false-flag-rate | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A cheating detector should never be allowed to reject a candidate on its own. I haven't seen an accuracy number that changes my mind.
+
+Sapia.ai put out figures on theirs this week, and they did something I wish more vendors in my market would do. They published the error rate.
+
+By their own account, the new version of their detector catches nearly 97% of answers written by the latest AI models in their chat interviews. It also wrongly flags a real, human-written answer around 2% of the time. Those are their numbers from their own release. Nobody independent has checked them, as far as I can tell.
+
+Two percent sounds small until you run a volume queue. Out of every thousand honest answers, about twenty get read as machine-written.
+
+What I liked is what they do with the flag. A candidate only gets a nudge once three or more answers are flagged, and their CEO, Barb Hyman, said the detector is there "to nudge, never punish." Nobody is rejected automatically because of it.
+
+I compete with Sapia.ai, and I think that's the right call.
+
+A lot of what I build gets used to hire support workers and nurses in Australian aged care and disability services. Some of those candidates are answering in their second or third language. Picture one of them tidying her grammar with a tool before she hits send, and a detector reading the tidy version as fake. The person being doubted is a carer some provider badly needs.
+
+I build AI video interviews, so cheating looks different on my side. The rule I hold is the same. Any signal that can be wrong about an honest person goes to a recruiter with its reasons attached, and the recruiter can ignore it.
+
+Ask your vendor for the false flag rate before you ask for the catch rate. The second number sells the tool. The first one tells you who it hurts.
+
+#AIHiring #TalentAcquisition #Recruiting #CandidateExperience #HRTech
+
+**Format:** waiting photograph
+**Buffer post id:** 6af7ad1c78196a0a972f0e00
+**dueAt:** 2026-11-14T05:19:00.000Z
+
+---
+
 ## 2026-11-13T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-sincerity-score, 00:40Z run, dueAt 2026-11-13T04:18:00.000Z). Nothing published this run.
