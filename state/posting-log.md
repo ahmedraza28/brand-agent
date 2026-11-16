@@ -1,5 +1,40 @@
 # Posting log
 
+## 2026-11-16T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. Selected Indeed Hiring Lab's 2026 Q3 US Healthcare Labor Market Update (Daniel Culbertson, 2026-11-12, fetched and read in raw text): personal care & home health among the categories growing faster than overall postings; posted wage growth for personal care & home health slowed to 2.5% from 3.2% a year earlier, weakest since before the pandemic. Post flags it as US data. Angle: when pay is level, reply speed is the only thing left to compete on. Pillar: state of hiring (the week before ran heavy on AI x hiring / regulation). Ratios asked for competitor + AU care: Paradox named with a concession from config/competitors.md (speed and booking for big frontline employers), AU aged care/disability as the builder anchor, support-worker scene framed as a hypothetical ("Picture"). Ployo deliberately NOT named (ratio 83% vs 50% target). check_facts PASS (warns: no Ployo mention, no link, borrowed data only). Image: commute, IMAGE_N=3, candidate 1 kept (system PIL broken, used a venv). No firstComment. Closed on a verdict. Also considered: Mercor $750M Series D at $20B (SIA 2026-11-13; not in competitors.md, weak hiring angle), Built In survey on candidates using AI to vet employers (HR Dive 2026-11-13; close to the 11-06 candidates-screen-back bank take), UK AI-interview pushback surveys (saturated).
+
+### li-first-reply-wins | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+In care hiring, the provider who replies first is paying the higher wage. Most still think they are competing on the hourly rate.
+
+Picture a support worker applying to four providers from her phone on a Sunday night. The rates sit within a dollar of each other. One provider comes back Monday morning with a real next step. The other three ring on Thursday.
+
+By Thursday she has shifts somewhere else.
+
+I think that scene is about to get more common. Indeed's Hiring Lab published its quarterly healthcare update last week. It's US data, so read it as a signal and nothing more. Postings for personal care and home health jobs are growing faster than postings overall. Advertised pay growth for the same jobs slowed to 2.5%, from 3.2% a year earlier. Indeed calls that the weakest rate since before the pandemic.
+
+So there are more roles to fill and the offers have nearly stopped moving. My read is that providers have run out of room on the rate. A lot of what I build gets used in Australian aged care and disability hiring, and the providers I talk to there describe the same ceiling. Funding sets it, and nobody gets to out-bid the provider down the road by much.
+
+When the pay is level, the wait is the only thing left to compete on.
+
+Paradox understood this early for big frontline employers. Answering applicants and booking interviews fast is most of what they sell, and when the problem is logistics they are very good at it. I build AI video interviews, which is a different job. I'd still tell a care provider to fix the reply time before buying anything that scores a candidate, mine included.
+
+Every day of silence is a day of shifts a carer could have been paid for. From her side of the phone, a slow process looks a lot like a lower rate.
+
+Few providers can move the rate. Any of them can move the reply.
+
+#Recruiting #TalentAcquisition #AgedCare #Healthcare #Hiring
+
+**Format:** commute photograph
+**Buffer post id:** 6afa4fe9a869c35e5ba8cb6c
+**dueAt:** 2026-11-16T04:19:00.000Z
+
+---
+
 ## 2026-11-15T08:31:00Z
 
 skip-day: sun
