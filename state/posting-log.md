@@ -1,5 +1,44 @@
 # Posting log
 
+## 2026-11-17T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. SLOW DAY: nothing cleared the bar. Dayforce closing its Ribbon acquisition (HR Brew 2026-11-05, fetched) is a follow-up to the deal already covered 2026-10-24 and is 12 days old; PwC critical-thinking certificate (HR Dive 2026-11-16) is internal training with no hiring angle; the New World Labs recruiting data leak (2026-10-22) is single-source and would mean naming a small firm; "AI interviews put applicants off" and the AI-hiring-audit op-ed are saturated or opinion pieces; no fresh AU care workforce data found. Used bank entry recruiter-becomes-the-closer (never used), fresh angle: nobody checks where the saved hours go. Ratios asked for AU care: aged care/disability anchor framed as a hypothetical ("take a home that needs night-shift carers"). Ployo named with 15,000+ recruiter hours saved (approved, stats-pack), after three posts without the name. No competitor named (no verified fact to hang one on). No outcome claim: the post says outright that where the hours went is not known. check_facts PASS (warns: 'phone screen' used for human recruiter calls, no link). Image: recruiter-desk, IMAGE_N=3, candidate 1 kept (system PIL broken, used a venv). No firstComment. Closed on a verdict.
+
+### bank-recruiter-closer | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+Saving a recruiter's time is the easy half of what I sell. Where the saved hour goes is the half nobody checks, me included.
+
+Ployo's site says 15,000+ recruiter hours saved. I stand by that figure. I also couldn't tell you where a single one of those hours went.
+
+That bothers me more than it used to.
+
+When an AI interviewer takes the first round, the phone screens go away. So does the scheduling back-and-forth, and the notes typed up after every call. People hear that and assume the recruiter's job gets smaller.
+
+I think the job moves.
+
+A lot of what I build gets used in Australian aged care and disability hiring, so take a home that needs night-shift carers. A carer who interviews well will usually have other providers after her by the end of the week. Whether she joins comes down to a person calling her that afternoon, being straight about the roster, and telling her who she'd be working with. Then that same recruiter has to go and tell a facility manager that his "five years minimum" rule is turning away good people.
+
+None of that reads as activity. A recruiter who made forty screening calls looked busy. One who made six calls that each landed a carer looks idle on the same dashboard.
+
+My worry about my own category is simple. If the saved hours come back as a bigger pile of open roles, the recruiter does more admin across more jobs and the closing calls still don't get made. The tool worked and the hiring didn't change.
+
+Before you accept any vendor's hours-saved number, mine included, ask for the calendar. What did your recruiter do last Tuesday that she had no time for a year ago?
+
+The admin was never the job. It was the part we could count.
+
+#Recruiting #TalentAcquisition #AgedCare #AIHiring #Hiring
+
+**Format:** recruiter-desk photograph
+**Buffer post id:** 6afba17b3e42cd001e3fa9fc
+**dueAt:** 2026-11-17T04:10:00.000Z
+
+---
+
 ## 2026-11-16T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-first-reply-wins, 00:36Z run, dueAt 2026-11-16T04:19:00.000Z). Nothing published this run.
