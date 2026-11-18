@@ -1,5 +1,44 @@
 # Posting log
 
+## 2026-11-18T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. Selected the EDPB's choice of topic for its sixth Coordinated Enforcement Action (EDPB news item 2026-11-11, fetched; IAPP 2026-11-11, fetched, agrees): automated decision-making, including AI-driven ADM, in recruitment; scope is the right not to be subject to decisions based solely on automated processing plus the right of access, for automated candidate screening tools; DPAs join voluntarily; starts during 2027. Angle: "solely" gets tested by a record of what the human did, so the override log matters more than the policy sentence (a different door from the 11-12 and 10-29 posts, which were about what the recruiter is shown). Post says outright that Ahmed is not a lawyer and that this is EU, not AU. Pillar: AI x hiring (Mon was state of hiring, Tue a bank take). Ratios: on target, Ployo deliberately NOT named (80% vs 50% target); recruiter scene framed as a hypothetical ("Picture"). No competitor, no AU care anchor forced. check_facts PASS (warns: no Ployo mention, no link, borrowed numbers only). Image: hands-detail, IMAGE_N=3, candidate 3 kept (system PIL broken, used a venv). firstComment with the EDPB link was REJECTED by Buffer ("LinkedIn first comment requires a paid plan"), so the post went out with no source link. Closed on a verdict. Also considered: Joveo Tandem recruiting agent launch (vendor press release), HR Brew on employers rehiring workers laid off for AI (layoff-adjacent), 36Kr on candidates adapting to AI interviewers (single source).
+
+### li-override-log | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Human in the loop is a claim. The override log is the evidence, and most hiring teams don't keep one.
+
+Last week Europe's privacy regulators picked their shared enforcement topic for 2027. The European Data Protection Board chose automated decision-making in recruitment, AI-driven screening included.
+
+The scope is narrow, and I think it's well chosen. Authorities that sign up will look at two things in automated candidate screening tools. One is the right not to be subject to a decision based solely on automated processing. The other is the candidate's right of access.
+
+Participation is voluntary and the work starts sometime in 2027. Nobody is getting fined next month.
+
+One word in there does most of the work. Solely.
+
+Every vendor in my category says a human makes the call. I say it too. I'm not a lawyer, so take this as a builder's read: a sentence in a policy document doesn't show that a person decided anything. A record of what the person did might. Did they open the candidate's answers, or only the number? How often did they disagree with it?
+
+Picture a recruiter with 300 screened applicants on a Friday afternoon who advances the top 40 exactly as ranked. She does the same thing every week for a year. A human was in the loop on every one of those. I wouldn't want to be the one arguing she decided any of them.
+
+I build AI interviewers, and my category has put far more thought into what the recruiter sees than into recording what the recruiter does next. I include myself in that.
+
+Then there's the access half. A rejected candidate asks what you hold on them, and what comes back is a score, a timestamp and nobody's name. A file like that also tells a regulator how the decision got made.
+
+A lot of what I build gets used in Australia, a long way from this regulator. I'd still treat it as a preview of what buyers will start asking.
+
+A recruiter who never overrules the machine is watching the decision get made.
+
+#AIHiring #TalentAcquisition #Recruiting #GDPR #HRTech
+
+**Format:** hands-detail photograph
+**Buffer post id:** 6afcf31c9f3765f6ab1de052
+**dueAt:** 2026-11-18T04:31:00.000Z
+
+---
+
 ## 2026-11-17T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (bank-recruiter-closer, 00:36Z run, dueAt 2026-11-17T04:10:00.000Z). Nothing published this run.
