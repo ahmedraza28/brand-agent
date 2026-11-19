@@ -1,5 +1,42 @@
 # Posting log
 
+## 2026-11-19T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected JobAssist's survey on near-instant rejections as reported by HR Dive (Lara Ewen, 2026-11-18, fetched): nearly 7,000 adults in the US, UK, Canada and Australia; 46% of those who applied for a job in the past year got at least one rejection within ten minutes; 76% of that group did not believe a person had meaningfully reviewed their CV; 73% would rather get a quick rejection than wait a week or longer; 47% less likely to apply to the same company again. JobAssist's own report page could not be found, so HR Dive is the only source and the post says the numbers are theirs and the method unseen. Angle: a fast no is still the kind one, but it needs its reason attached; a delay timer only changes how the email looks (marked as "my bet"). Opens on Ahmed's own position, not the survey. Pillar: state of hiring (Wed was AI x hiring / regulation). Ratios: on target; Ployo named once, no number, no link (firstComment is paid-plan only). Home care driver's licence line is a generic example, not a customer story. No competitor named. check_facts PASS (warn: no link). Image: empty-room, IMAGE_N=3, candidate 1 kept (Pillow via venv). Closed on a verdict. Also considered: Indeed and Glassdoor's 2027 Hiring and Worklife Trends report (2026-11-18, several chapters, worth a later day), Gartner 2027 talent concerns (HR Dive 2026-11-18), Fountain Orchestra and Eightfold agent launches (vendor releases), Phys.org on gender bias in LLM resume assessment (not fetched).
+
+### li-fast-no-needs-reason | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+I've spent a long time telling hiring teams that a fast no is the kind thing to do. A survey out this week says I had half of it.
+
+JobAssist, a job search platform, asked nearly 7,000 adults in the US, UK, Canada and Australia about getting rejected. HR Dive reported it on Wednesday. The numbers are theirs and I haven't seen the method, so hold them loosely.
+
+Of the people who had applied for a job in the past year, 46% said at least one rejection reached them within ten minutes of applying. About three quarters of that group didn't believe a person had meaningfully looked at their CV.
+
+And yet 73% said they would take a quick rejection over a week or more of silence.
+
+So candidates want the answer fast and don't trust it when it comes fast. I don't think those findings disagree. What stings is the empty envelope. A no in ten minutes with nothing attached reads as proof that nothing you wrote was opened.
+
+Almost half said a rejection that quick made them less likely to apply to the same company again.
+
+My bet is that some teams read this and reach for a delay timer. Hold the email for two days so it looks considered. That changes how the email looks and leaves the screening exactly where it was. The candidate now waits two days for a decision that was made on day one.
+
+I build AI interviewers at Ployo, so I have a stake in this. My category can deliver a no faster than any recruiter could, and speed was the easy part to build. The hard part is a no that carries its reason, the requirement that wasn't met, in a sentence a person could argue with. Then a recruiter who can read that sentence and overrule it.
+
+A knockout question can honestly reject someone in ten minutes. No driver's licence for a home care round that needs one is a real answer. So say that.
+
+I still think a fast no is the kind one. "After careful consideration", sent at minute nine, is a line the candidate can check against a clock.
+
+#Recruiting #TalentAcquisition #CandidateExperience #AIHiring #HRTech
+
+**Format:** empty-room photograph
+**Buffer post id:** 6afe447401ba7c5e79243e80
+**dueAt:** 2026-11-19T05:01:00.000Z
+
+---
+
 ## 2026-11-18T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-override-log, 00:36Z run, dueAt 2026-11-18T04:31:00.000Z). Nothing published this run.
