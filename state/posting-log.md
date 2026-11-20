@@ -1,5 +1,44 @@
 # Posting log
 
+## 2026-11-20T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. Selected the University of Washington accent-bias study "The Cost of Sounding Different: Accent Bias in Audio Language Models" (EMNLP, Budapest, presented 2026-10-25; UW release on EurekAlert 2026-11-03, fetched; StudyFinds 2026-11-16, fetched, agrees; SCMP 2026-11-19 headline only; GeekWire 403): Gemini 2.5 Pro and Flash, GPT-Audio 1.5 and Qwen 3 Omni scored identical job interview scripts read in American, British, Chinese, Indian and Nigerian accents; American and British generally highest, Chinese and Nigerian lowest, Indian in the middle; 52 human speakers showed the pattern too; models transcribed the speech well yet called Chinese and Nigerian speakers mumbled or difficult to understand; content scores slipped at times despite the instruction to judge substance only. The under-4% word error figure appeared in StudyFinds only, so it was left out. Angle: an instruction to ignore the accent is not a fairness control; ask for scores by accent group, keep a recruiter who can play the answer back and overrule. Post says outright that these were general-purpose models and no vendor's hiring product was tested ("my guess" marks the speculation). Pillar: AI x hiring / bias. Ratios: on target. Ployo named with 23 languages (approved, stats-pack) plus the admission that no accent breakdown has been published (true: findings list is empty). AU care anchor is a generic vantage line. No competitor named. check_facts PASS (warn: no link). Image: waiting, IMAGE_N=3, candidate 2 kept (system PIL broken, used a venv). No firstComment (paid-plan only). Closed on a verdict. Also considered: AWS "Inside Amazon Connect Talent: the science of structured AI interviews" (2026-11-19, 89.3% expert-agreement figure seen only in a secondary headline, primary not fetched; worth a later day), HR Dive on candidates' AI use obscuring viability (2026-11-19), Indeed and Glassdoor 2027 trends chapters (2026-11-18), HR Brew on 94% of European employers using AI in HR.
+
+### li-heard-every-word | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+Telling an AI to ignore a candidate's accent does not make it ignore the accent. I'd stop accepting that sentence as a fairness control.
+
+A University of Washington team tested it and presented the paper at EMNLP in Budapest last month. They took audio AI models from Google and OpenAI, plus the open-source Qwen 3 Omni, and had them score job interview answers read word for word in five English accents: American, British, Chinese, Indian and Nigerian.
+
+Same script every time.
+
+American and British voices generally scored highest. Chinese and Nigerian voices scored lowest, with Indian in the middle. The team then recorded 52 real speakers, and the pattern showed up there too.
+
+The detail I keep coming back to is about hearing. The models transcribed the accented speech well. Then they described Chinese and Nigerian speakers as mumbled or difficult to understand anyway.
+
+The models were also told to judge content on substance alone. Content scores for those speakers still slipped at times. So the instruction was in the prompt, and it didn't hold.
+
+A caveat I owe you. These were general-purpose models tested by researchers, and no vendor's hiring product was in the study. A product can put a lot of checks around a model. My guess is that some skip them.
+
+I build AI interviewers at Ployo, which supports 23 languages. I'd love to call that number evidence of fairness. It's a count of languages. I haven't published scores broken down by accent, and until I do, nobody should take my word that the gaps are small.
+
+A lot of what I build gets used in Australian aged care and disability hiring, where plenty of applicants speak English as a second or third language.
+
+The senior author asked developers to publish results by subpopulation and dialect instead of one average. Buyers can ask for the same thing. Then keep a recruiter who can play the answer back and overrule the score.
+
+Understood perfectly and marked down anyway. Hiring had a word for that long before the models did.
+
+#AIHiring #Recruiting #TalentAcquisition #BiasInAI #AgedCare
+
+**Format:** waiting photograph
+**Buffer post id:** 6aff95efca85ebefb0e2b20f
+**dueAt:** 2026-11-20T05:44:00.000Z
+
+---
+
 ## 2026-11-19T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-fast-no-needs-reason, 00:36Z run, dueAt 2026-11-19T05:01:00.000Z). Nothing published this run.

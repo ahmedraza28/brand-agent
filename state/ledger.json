@@ -1371,6 +1371,15 @@
         "linkedin"
       ],
       "posted_at": "2026-11-19T00:36:00Z"
+    },
+    {
+      "topic_key": "li-heard-every-word",
+      "title": "University of Washington EMNLP 2026 study (release 2026-11-03): audio AI models score Chinese and Nigerian accents lowest on identical job interview scripts; take: telling the model to ignore accent is not a fairness control",
+      "url": "https://www.eurekalert.org/news-releases/1150339",
+      "platform": [
+        "linkedin"
+      ],
+      "posted_at": "2026-11-20T00:36:15.533158+00:00"
     }
   ]
 }
