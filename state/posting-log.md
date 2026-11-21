@@ -1,5 +1,44 @@
 # Posting log
 
+## 2026-11-21T00:35:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. Selected the early-career chapter of Indeed & Glassdoor's 2027 U.S. Hiring and Worklife Trends Report, "Experience Wanted. But Where Do You Get It?" (hiringlab.indeed.com, 2026-11-18, primary page fetched and figures grepped from it): as recently as May almost half of applications from job seekers with 10 or more years of work experience went to entry-level roles; senior-level postings up 19.2% since January 2025 while entry- and mid-level each down about 4%; 50.4% of the class of 2025 underemployed a year after graduating vs just under 40% for most of the past decade. Angle: "entry-level" is a label nothing defends at the screen, because a resume sort is a tenure sort; decide who the job is for, score everyone (veterans included) on the same criteria, recruiter reads reasons and overrules. Distinct from li-experience-filter (2026-11-07, October jobs report). Pillar: state of hiring. Ratios: on target, so Ployo not named this post (77% of last 30 already name it); no competitor, no AU care line. check_facts first run FAILED borrowed_opener (source named inside the first 400 chars); restructured so the opinion and mechanism lead and the data follows as evidence, then PASS (warns: no Ployo mention, no link, borrowed data only). Image: commute, IMAGE_N=3, candidate 1 kept (system PIL broken, used a venv). No firstComment (paid-plan only). Closed on a verdict. Also considered: HR Dive on candidates' AI use obscuring viability (2026-11-19, URL 404 this run), HRD "Employers turn to AI interviews" (not found via search), AWS Amazon Connect Talent science post (primary still not located), HR Brew "AI doom loop".
+
+### li-longest-cv | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+"Entry-level" is a label on the job ad. In most hiring processes, nothing defends it once the applications arrive.
+
+Most screens I've seen start by sorting the pile on the resume, and a resume sort is a tenure sort. Put a twelve-year CV next to a graduate's and the graduate loses before anyone has asked either of them a question.
+
+Nobody chose that outcome. The sort did.
+
+It matters more this year than it used to. Indeed's Hiring Lab and Glassdoor published their 2027 trends report this week, and one line in the early-career chapter has stayed with me. As recently as May, almost half of the applications sent by people with 10 or more years of work experience went to entry-level roles.
+
+Almost half.
+
+The same chapter says senior-level postings are up 19.2% since January 2025, while entry-level and mid-level postings are each down about 4%. And 50.4% of the class of 2025 were underemployed a year after graduating, against just under 40% for most of the past decade.
+
+So the first rung is getting scarcer, and plenty of the people reaching for it climbed past it years ago. I don't blame them. A long search makes anyone widen the net.
+
+I build AI interviewers, and when a hiring team sets up a role with me, the question I ask first is who the job is for. It's usually the one that takes them longest to answer.
+
+If the answer is someone starting out, the scoring criteria should say so. Can they learn, will they turn up, how do they handle the situation you'd put in front of them in week one. Score every applicant on those, the veteran included, and give a recruiter the reasons so they can overrule the score.
+
+Sometimes the veteran is the right hire. Fine. Then a person should make that call and write down why.
+
+A first job that goes to whoever has the longest CV was never a first job.
+
+#Hiring #Recruiting #TalentAcquisition #EarlyCareers #EntryLevel
+
+**Format:** commute photograph
+**Buffer post id:** 6b00e7445102766245e4dc33
+**dueAt:** 2026-11-21T04:07:00.000Z
+
+---
+
 ## 2026-11-20T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-heard-every-word, 00:36Z run, dueAt 2026-11-20T05:44:00.000Z). Nothing published this run.
