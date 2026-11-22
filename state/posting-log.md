@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-11-22T00:32:00Z
+
+skip-day: sun
+
+---
+
 ## 2026-11-21T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-longest-cv, 00:35Z run, dueAt 2026-11-21T04:07:00.000Z). Nothing published this run.
