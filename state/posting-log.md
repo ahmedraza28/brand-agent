@@ -1,5 +1,46 @@
 # Posting log
 
+## 2026-11-23T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Monday, target 1, remaining 1. Selected the Greenhouse 2026 Future of Hiring Employer Report (Greenhouse newsroom release 2026-11-19, primary page fetched twice; HR Dive 2026-11-19 fetched, agrees; 1,347 recruiters and hiring managers across US/UK/IE/DE/AU, 568 US, fielded Sept 24 to Oct 12): 90% of U.S. employers believe they've turned away real candidates because applications seemed fake or AI-generated; of the 86% who changed their hiring process, 57% added another human interview; shortlisted candidates wait an average of 19 days for a first interview; of all tasks employers would hand to an AI agent, deciding which candidates to advance came last at 7%. Angle: judging whether a document "looks AI-written" is a guess, and the common fix (a later extra interview) does nothing for the real person already binned; put a conversation at the front, score the answer with readable reasons, a person decides. Distinct from li-false-flag-rate (2026-11-14, detector false flags inside an AI interview). Pillar: AI x hiring / state of hiring. Ratios asked for a ployo.ai link: Ployo named with ployo.ai and 30,000+ AI interviews completed (approved, stats-pack), bias disclosed. Greenhouse named neutrally and credited, with the note that it has its own AI interview product. check_facts PASS first run. Image: recruiter-desk, IMAGE_N=3, candidate 2 kept (system PIL broken, used a venv). No firstComment (paid-plan only). Closed on a verdict. Also considered: HR Dive career-development survey (2026-11-20), Joveo Tandem launch, Archer funding, Amazon AI interview scoring claim (primary not located), HR Brew "AI doom loop".
+
+### li-looks-ai-written | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+"This application looks AI-written" has become a reason to reject someone. It's a guess, and I think it's the worst screening test hiring has come up with in years.
+
+Think about what the guess runs on. Clean sentences. A tidy structure. Phrasing that matches the job ad a little too well.
+
+A careful candidate who rewrote their cover letter four times produces exactly that. So does a chatbot. Nobody can tell the two apart from a document. I build AI interviewers and I can't either.
+
+Greenhouse put a number on the cost last week. In its 2026 Future of Hiring Employer Report, 90% of U.S. employers said they believe they've turned away real candidates because an application seemed fake or AI-generated.
+
+Nine in ten.
+
+The response worries me more than the number. Of the 86% who changed their hiring process over fake or AI-generated applications, 57% added another human interview. The same report says shortlisted candidates already wait an average of 19 days for a first interview.
+
+So the real person who was binned at the pile gets nothing from that fix, and the people who made it through wait longer.
+
+My read is that the check belongs at the front, and that it should be a conversation. Ask every applicant a real question about the job and let them answer it themselves. That's what we do at Ployo (ployo.ai) with AI video interviews, 30,000+ AI interviews completed so far, so yes, I'm biased. Greenhouse has its own AI interview product too. Weigh their survey and my opinion accordingly.
+
+An interview doesn't prove who someone is, and people will try to game it. What it does is give a genuine candidate a chance the resume pile never offered.
+
+One line from that report should stay on the wall. Of all the tasks employers would hand to an AI agent, deciding which candidates to advance came last, at just 7%.
+
+Good instinct. Score the answer and show the recruiter the reasons. The decision stays with a person.
+
+A document can't prove a person wrote it. The person can, if you ask them a question.
+
+#Hiring #Recruiting #TalentAcquisition #AIinHiring #CandidateExperience
+
+**Format:** recruiter-desk photograph
+**Buffer post id:** 6b038a8dd5eabfb8ccf0a548
+**dueAt:** 2026-11-23T05:53:00.000Z
+
+---
+
 ## 2026-11-22T08:32:00Z
 
 skip-day: sun
