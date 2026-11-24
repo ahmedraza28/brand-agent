@@ -1,5 +1,42 @@
 # Posting log
 
+## 2026-11-24T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Tuesday, target 1, remaining 1. Selected the comedians-trolling-AI-interviewers moment (USA Today, 2026-11-23, "Jobs are using AI recruiters for interviews. Comedians are mocking them", seen via Google News only, page not fetchable, so cited only as having run a piece). Facts taken from Upworthy (2026-10-29, fetched: Graham Dot Zip answered an AI job screen with the plot of The Lion King; bot "Max", a "talent partner", replied "I am so sorry to hear that" and "It sounds like it was a really valuable shift in perspective for you"; Lead Stories labelled one video a staged parody; he calls them "staged, but not scripted") and The Register (2026-10-14, fetched, agrees on who he is and the trend). Vendor not identified in any source, so none named for the clip. Angle: an agreeable interviewer that accepts nonsense is a product defect the comedians found for free; the bar is notice, re-ask kindly, record the miss in a readable sentence, person decides; buyers should run the nonsense test themselves. Distinct from li-strict-not-smug (2026-10-09, the opposite failure: a bot showing contempt). Pillar: AI x hiring / founder lens. Ratios asked for a ployo.ai link and a competitor: Ployo named with ployo.ai; Sapia.ai named with a concession from config/competitors.md (independent BLDS disparate-impact report on its chat interview, re-verified this run via PR Newswire/sapia.ai search results; Ployo has not done one). No stats-pack figure used. check_facts PASS first run. Image: hands-detail, IMAGE_N=3, candidate 1 kept (system PIL broken, used a venv). No firstComment (paid-plan only). Closed on a verdict. Also considered: Shazamme 1.86M-application analysis (AI-submitted applications quadrupled; Brainfood 528), Eightfold FCRA suit recirculating (filed January, not new), Joveo Tandem launch, CEOWORLD "AI screens AI" opinion piece.
+
+### li-nods-at-everything | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The comedians trolling AI job interviewers are doing free testing for the industry I work in. We should thank them, then fix what they found.
+
+USA Today ran a piece on the trend this week. The clip I keep coming back to is from Graham Dot Zip, a comedian who sat an AI job screen and answered with the plot of The Lion King. An uncle who pushed him out of the family business. A wildebeest incident. His father's death.
+
+Per Upworthy's write-up, the bot (it introduced itself as Max, a "talent partner") said "I am so sorry to hear that." Then: "It sounds like it was a really valuable shift in perspective for you."
+
+Fair caveat. A fact-checker labelled one of his videos a staged parody, and he calls them "staged, but not scripted". He sets the scene and the bot improvises its side. I'd still read it as a bug report.
+
+I think I know why it happens. I build AI video interviewers at Ployo, and the pull toward agreeable never lets up. A warm bot demos well. Candidates like it. Nobody on a sales call asks what it does with nonsense.
+
+An interviewer that nods at everything hasn't listened to anything. And if it can't tell a cartoon from a work history, I'd want to know what its score on a real answer is made of.
+
+The behaviour I'd hold any of these to, ours first, is plain. Notice the answer didn't address the question and ask once more, kindly. If it still misses, the record says so in a sentence a recruiter can read, and a person decides what happens next.
+
+Buyers can check this in ten minutes. Sit the interview yourself and tell it about Simba.
+
+Vendors should publish more of their own testing too. Sapia.ai commissioned an independent disparate-impact report from BLDS on its chat interview and put the finding out in public. We haven't done that at Ployo (ployo.ai) yet, and I'd tell any buyer so. I don't know of anyone who publishes a nonsense test. Maybe someone does and I've missed it.
+
+A bot that agrees with everything has not interviewed anyone.
+
+#Hiring #AIinHiring #TalentAcquisition #Recruiting #HRTech
+
+**Format:** hands-detail photograph
+**Buffer post id:** 6b04dc0df0d7b1e0de9b7a37
+**dueAt:** 2026-11-24T05:36:00.000Z
+
+---
+
 ## 2026-11-23T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-looks-ai-written, 00:36Z run, dueAt 2026-11-23T05:53:00.000Z). Nothing published this run.
