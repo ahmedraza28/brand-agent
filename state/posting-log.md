@@ -1,5 +1,42 @@
 # Posting log
 
+## 2026-11-25T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Wednesday, target 1, remaining 1. Selected the Victorian Labour Hire Authority's cancellation of an aged care staffing agency's licence (LHA media release 2026-11-19, fetched; ABC News 2026-11-19, fetched; Staffing Industry Analysts 2026-11-23, fetched; all three agree): agency supplied over 200 workers to aged care facilities across Melbourne; nearly 70 per cent of the qualifications the LHA reviewed were invalid, issued by training organisations cancelled by ASQA; ABC reports the LHA found one worker obtained a qualification nine days after arriving in Australia for a course that generally takes at least six months; pay below the Aged Care Award minimum, many workers overseas students (ABC). Cancellation effective 2026-11-30. The agency is deliberately NOT named in the post (in liquidation, no dunk); the regulator is named so the claim is checkable. Angle: a certificate on file gets trusted down the chain and never examined; a document check and a competence check are two different checks; an interview (ours included) cannot verify a certificate, it can only ask the person about the work, with a recruiter reading reasons and deciding. Workers not blamed ("my guess" marks the speculation). Not previously covered (the August suspension was never posted). Pillar: state of hiring, AU care. Ratios: on target; Ployo named with ployo.ai, no stats-pack figure, no competitor. check_facts PASS (warn: '70' surface form is a false positive, it is the regulator's 70 per cent, not our completion rate). Image: night-shift, IMAGE_N=3, candidate 2 kept (system PIL broken, used a venv). No firstComment (paid-plan only). Closed on a verdict. Also considered: Indeed Hiring Lab US Labor Market Snapshot November 2026 (2026-11-24; 27.6% of unemployed out 27+ weeks, worth a later day), Bioengineer.org write-up of a 21-study review of AI recruitment tools and accessibility (primary not located), Chief Talent Officer "AI influence ceiling" opinion piece, HR Brew on fractional work as an interview step (page not found by search).
+
+### li-tick-in-the-file | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+A certificate on file is the most trusted document in care hiring, and I think it's the least examined.
+
+Follow what happens to it. Someone uploads a PDF. A box gets ticked. From then on the file says "qualified", and everybody downstream reads the tick instead of the paper.
+
+The agency trusts the certificate. The home trusts the agency. The family trusts the home.
+
+Trusting the paper is normal practice. That's what bothers me.
+
+Last week Victoria's Labour Hire Authority cancelled the licence of an aged care staffing agency that supplied over 200 workers to facilities across Melbourne. The regulator found nearly 70 per cent of the qualifications it reviewed were invalid. They came from training organisations that ASQA, the national skills regulator, had cancelled. The ABC reported one worker obtained a qualification nine days after arriving in Australia, for a course that generally takes at least six months.
+
+The same investigation found workers paid below the award, many of them overseas students. So I'd be slow to blame the people holding the paper. My guess is some of them paid for a course in good faith.
+
+I build AI video interviewers at Ployo (ployo.ai), and a lot of what I build gets used in Australian aged care and disability hiring. So here is the limit of my own trade. An interview can't tell you whether a certificate is genuine. Ours included. That takes a lookup against the issuer, and somebody has to own it.
+
+What an interview can do is the other half. Ask the person how they'd move a resident who can't bear weight, or what they'd do when someone refuses medication at 2am. A recruiter reads the answer and the reasons behind the score, then makes the call.
+
+Those are two different checks. One asks whether the paper is real. The other asks whether the person can do the work. I think a lot of care hiring runs half of the first and calls it both.
+
+The tick in the file only proves somebody opened a PDF.
+
+#AgedCare #Hiring #Recruiting #TalentAcquisition #HRTech
+
+**Format:** night-shift photograph
+**Buffer post id:** 6b062d78a2fd17422e726678
+**dueAt:** 2026-11-25T05:11:00.000Z
+
+---
+
 ## 2026-11-24T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-nods-at-everything, 00:36Z run, dueAt 2026-11-24T05:36:00.000Z). Nothing published this run.
