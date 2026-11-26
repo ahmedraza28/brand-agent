@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-11-26T08:32:00Z
+
+target-met: research_per_day=1, already 1 post today (li-say-what-the-software-does, 00:38Z run, dueAt 2026-11-26T05:07:00.000Z). Nothing published this run.
+
+---
+
 ## 2026-11-26T00:38:00Z
 
 spotlight: skipped (disabled). takes: skipped (disabled).
