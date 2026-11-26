@@ -1,5 +1,40 @@
 # Posting log
 
+## 2026-11-26T00:38:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Thursday, target 1, remaining 1. Selected the Australian Privacy Act automated decision-making transparency obligation (APP 1.7 to 1.9) commencing 2026-12-10. Sources fetched this run and agreeing: Allens insight (2026-10-02: three APP 1.7 conditions, three APP 1.8 disclosure matters, "Human review doesn't take a tool out of scope", output as "a key factor", obligation sits with the user of the product not the vendor), King & Wood Mallesons insight (2026-10-28: commencement, same APP 1.8 matters, a nominal human in the loop who almost always follows the output is not sufficient, employee records exemption does not apply to recruitment before an applicant becomes an employee, entity has "arranged" a program even when outsourced to a vendor), IT Brief Australia opinion piece (2026-11-26: "a transparency rule, not a ban"). OAIC pages themselves returned 403 to the fetcher, so the post attributes the readings to the two law firms by name and makes no penalty claim (no source fetched gave one). Angle: "a recruiter makes the final call" no longer excuses silence about AI in hiring; the duty lands on the employer, a vendor owes a plain adaptable paragraph, and the hard part is the inventory of tools. Marked "I'm not a lawyer" and "my guess". Distinct from li-override-log (2026-11-18, EDPB, the override log as evidence). Pillar: AI x hiring / regulation, AU. Ratios: on target; Ployo named with ployo.ai, no stats-pack figure, no competitor. check_facts PASS (no warnings after adding the link). Image: interview-room, IMAGE_N=3, candidate 3 kept (candidate 1 showed a laptop brand logo; system PIL broken, used a venv). No firstComment. Closed on a verdict. Also considered: Indeed Hiring Lab US Labor Market Snapshot November 2026 (2026-11-24, fetched: 27.6% of unemployed out 27+ weeks; still worth a later day), Express Employment Professionals-Harris Poll via HR Dive (2026-11-25: 92% call willingness to learn essential; thin), Chipotle four-day hiring (Business Insider 2026-11-25, not fetchable, old news from June), 100Hires acquiring Alooba (IT Brief, not fetched), Victorian election pledge on AI hiring (politics, skipped).
+
+### li-say-what-the-software-does | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+"A recruiter makes the final call" is the stock answer when someone asks about AI in a hiring process. In Australia, from 10 December, it stops being a reason to say nothing.
+
+That's the day new Privacy Act transparency rules begin. If your organisation is covered by the Australian Privacy Principles, and a computer program uses someone's personal information to make a decision that could significantly affect them, your privacy policy has to say so. Same if the program does something substantially and directly related to making that decision. You list the kinds of information the program uses and the kinds of decisions it feeds.
+
+It's a disclosure rule. Nothing gets banned.
+
+I'm not a lawyer, so I've been reading the ones who are. Allens and King & Wood Mallesons both published on the regulator's guidance, and two points in there matter for hiring teams.
+
+Human review doesn't take a tool out of scope. If a score or a ranking is a key input to the recruiter's decision, it counts. KWM's reading is that a reviewer who almost always follows the output doesn't change that.
+
+And the obligation sits with whoever uses the tool. That's the employer. KWM also notes the employee records exemption doesn't reach job applicants.
+
+I build AI video interviewers at Ployo (ployo.ai), which makes me the vendor in that sentence. The duty lands on my customers and I can't write their privacy policy for them. What I can owe them is a plain paragraph they could adapt: what the interview collects, what gets scored, what the recruiter reads before deciding. I think every vendor in my category owes that much.
+
+My guess is the wording won't be the hard part. The inventory will. A screening tool somebody switched on two years ago. A ranking feature that arrived in an ATS update and nobody announced.
+
+If you can't list the software that touches a hiring decision, you can't disclose it. I'd also stop telling candidates a human is in charge of it.
+
+#Hiring #Recruiting #TalentAcquisition #Privacy #HRTech
+
+**Format:** interview-room photograph
+**Buffer post id:** 6b077f5fd4eda4b659c3b02a
+**dueAt:** 2026-11-26T05:07:00.000Z
+
+---
+
 ## 2026-11-25T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-tick-in-the-file, 00:36Z run, dueAt 2026-11-25T05:11:00.000Z). Nothing published this run.
