@@ -1,5 +1,40 @@
 # Posting log
 
+## 2026-11-27T00:35:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Friday, target 1, remaining 1. Selected the CV employment gap as an unwritten screening filter, anchored on Indeed Hiring Lab's US Labor Market Snapshot November 2026 (2026-11-24, fetched: "More than a quarter (27.6%) of unemployed workers have been out of work for 27 weeks or more"; "stable for workers who already have a job and frustrating for those seeking one") and Kroft, Lange and Notowidigdo, NBER Working Paper 18387 (2012, QJE 2013; abstract page fetched: fictitious resumes to real postings in 100 U.S. cities, callbacks fall as unemployment lengthens, majority of the decline in the first eight months). Callback percentages and the resume count were NOT on the fetched page and are not stated. Angle: the gap filter is never written down so nobody defends it; a long gap is mostly a fact about a slow market; a model ranking CVs inherits the penalty from past shortlists; an interview only asks the person about the work and a recruiter still decides; explicit "I don't have that data" on hiring outcomes. Opinion marked ("I doubt"). Pillar: state of hiring. Ratios: on target; Ployo named with ployo.ai, no stats-pack figure, no competitor. check_facts PASS with one advisory warning (borrowed_data_only: both numbers are third-party; no honest place for one of ours). Image: waiting, IMAGE_N=3, candidate 3 kept (all three clean; system PIL broken, used a venv). firstComment with the Indeed link was REJECTED by Buffer ("LinkedIn first comment requires a paid plan"), so the post shipped with no source link. Closed on a verdict. Also considered: Cleveland Fed survey on AI holding back hiring (Crain's 2026-11-25; primary release not found, dropped), EdSource on recent grads and AI hiring (early-career angle used 2026-11-21), Archer $10M raise (Pulse 2.0, thin), Talview Massachusetts lie detector class action (same ground as li-sincerity-score 2026-11-13).
+
+### li-gap-on-the-cv | LinkedIn | LIVE (customScheduled)
+
+**Text:**
+The gap on a CV is the most used screening filter in hiring, and I've never heard anyone defend it out loud.
+
+Nobody writes "reject if out of work for eight months" in a job ad. It happens anyway. A reviewer with a few hundred applications finds the last end date, does the arithmetic, and moves on. No note gets made, so there's nothing to argue with later.
+
+Right now that habit costs more than usual. Indeed Hiring Lab's November snapshot of the US labour market says 27.6% of unemployed workers have been out for 27 weeks or more. More than one in four. The same piece calls the market stable for people who have a job and frustrating for people seeking one.
+
+So a long gap is mostly a fact about the market. People stay out longer because hiring is slow, and then the wait gets read as a verdict on them.
+
+There's old evidence it does get read that way. Kroft, Lange and Notowidigdo sent fictitious resumes to real job ads in 100 US cities. Callbacks fell as the stated spell of unemployment got longer, and most of the drop came inside the first eight months. That experiment is over a decade old, and I doubt the habit has aged out.
+
+I build AI video interviewers at Ployo (ployo.ai), and software doesn't fix this by default. A model that ranks CVs learns from past shortlists. If those shortlists punished gaps, it will too, only faster.
+
+What an interview can do is narrower. It asks the person about the work, then puts the answer and the reasons for the score in front of a recruiter who still decides. I can't tell you those candidates turn out to be better hires. I don't have that data.
+
+My ask is small. If months out of work is a reason you reject people, write it into the criteria and defend it. If you wouldn't write it down, stop letting it decide.
+
+The end date on a CV records when a job stopped. Nobody has asked the person anything yet.
+
+#Hiring #Recruiting #TalentAcquisition #LabourMarket #HRTech
+
+**Format:** waiting photograph
+**Buffer post id:** 6b08d03f7c3f43554e42bec5
+**dueAt:** 2026-11-27T05:28:00.000Z
+
+---
+
 ## 2026-11-26T08:32:00Z
 
 target-met: research_per_day=1, already 1 post today (li-say-what-the-software-does, 00:38Z run, dueAt 2026-11-26T05:07:00.000Z). Nothing published this run.
