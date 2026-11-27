@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-11-27T08:31:00Z
+
+target-met: research_per_day=1, already 1 post today (li-gap-on-the-cv, 00:35Z run, dueAt 2026-11-27T05:28:00.000Z). Nothing published this run.
+
+---
+
 ## 2026-11-27T00:35:00Z
 
 spotlight: skipped (disabled). takes: skipped (disabled).
