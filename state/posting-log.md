@@ -1,5 +1,44 @@
 # Posting log
 
+## 2026-11-28T00:36:00Z
+
+spotlight: skipped (disabled). takes: skipped (disabled).
+
+Gate check: enabled, Saturday, target 1, remaining 1. **Slow day -> bank take.** Research pass: Google News AI x hiring (48h), AU care workforce (3d), HR Dive, Indeed Hiring Lab, Josh Bersin, Recruiting Brainfood feeds plus 2 WebSearch queries (Google News regulation feed 429, r/recruiting 403). Nothing fresh cleared the bar: Indeed/Glassdoor "A Restless Labor Market" (2026-11-18, fetched; quits about 349,000 a month below what dissatisfaction predicts) is ten days old and from the same report series used 2026-11-21 and 2026-11-27; Vancouver art director AI screening protest (HRD 2026-11-27) could not be found or fetched; G2 AI for Recruiting buyer report (404); Archer $10M raise (thin, considered yesterday); Massachusetts lie detector class action (covered 2026-11-13); Regis Aged Care redundancies (layoffs, skipped). Per config/sources.md pulled `hiring-is-a-pipeline` from state/opinion-bank.json (never used). Angle: instrument the pipeline before automating it; the CV stage rejects the most people and keeps the fewest records; automating an unmeasured pipeline gives the same calls faster. No external fact cited. Anchors honest-generic (demos). Ployo named with one stats-pack figure (340,000+ candidate answers graded), explicit "I don't have that data" on hiring outcomes, no link, no competitor. Pillar: state of hiring / founder lens. Ratios: on target. check_facts PASS with one advisory warning (no_link). Image: recruiter-desk, IMAGE_N=3, candidate 1 kept (headline sat closer to the face in 2 and 3; system PIL broken, used a venv). No firstComment. Closed on a verdict.
+
+### bank-hiring-is-a-pipeline | LinkedIn | LIVE (customScheduled)
+
+**Kind:** bank-take
+
+**Text:**
+Hiring is the most automatable white-collar workflow a company has, and it still mostly runs on vibes.
+
+Look at what it is. Applications come in. Someone reads CVs. Some people get a screen, fewer get an interview, somebody scores them, one gets an offer. That is a pipeline with stages, and a pipeline can be instrumented.
+
+Sales worked this out a long time ago. A decent sales lead can tell you how many deals sit at each stage, where they stall, and why the last ten were lost.
+
+Now ask the same of hiring. For the last role you filled, how many applicants were cut at the CV stage? By whom? For what reason?
+
+I've asked versions of that in a lot of demos. The usual answer is a pause, then a spreadsheet nobody in the room trusts.
+
+The stage with the most rejections keeps the fewest records.
+
+I build AI video interviewers at Ployo, so you'd expect me to say automate all of it. My order is different. Measure first. Automate a pipeline nobody has measured and you get the same calls, made faster, with records no better than before.
+
+We've graded 340,000+ candidate answers. The part of that I'd defend hardest is dull: each answer gets a score and a written reason, and a recruiter can read it and overrule it. That says nothing about who turned out to be a good hire. I don't have that data.
+
+I'm not against gut feel either. A hiring manager's instinct is sometimes right. But a gut call nobody wrote down can't be checked, so you never learn which times.
+
+Until you can say where your last hundred applicants dropped out and why, automation only makes the habit faster.
+
+#Hiring #Recruiting #TalentAcquisition #HRTech #FutureOfWork
+
+**Format:** recruiter-desk photograph
+**Buffer post id:** 6b0a21c070e80ae8f1bbbe9a
+**dueAt:** 2026-11-28T04:35:00.000Z
+
+---
+
 ## 2026-11-27T08:31:00Z
 
 target-met: research_per_day=1, already 1 post today (li-gap-on-the-cv, 00:35Z run, dueAt 2026-11-27T05:28:00.000Z). Nothing published this run.
