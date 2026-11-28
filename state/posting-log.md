@@ -1,5 +1,11 @@
 # Posting log
 
+## 2026-11-28T08:31:00Z
+
+target-met: research_per_day=1, already 1 post today (bank-hiring-is-a-pipeline, 00:36Z run, dueAt 2026-11-28T04:35:00.000Z). Nothing published this run.
+
+---
+
 ## 2026-11-28T00:36:00Z
 
 spotlight: skipped (disabled). takes: skipped (disabled).
